@@ -1,0 +1,66 @@
+/**
+ * Site header
+ */
+.site-header
+  padding-top: 70px
+  min-height: 50px
+  width: $full-width
+  margin: 0 auto
+  display: flex
+  position: relative
+
+
+.site-logo img, .eth-logo img
+  width: 156px
+  height: 52px
+
+
+.site-nav
+  flex: 1
+  font-size: 18px
+  margin: 16px $spacing-unit*2 0px
+
+  text-align: left
+
+  .page-link
+    color: $text-color
+    line-height: $base-line-height
+    margin-left: $spacing-unit
+    transition: color $animation-time
+
+    &:hover, &.active
+      color: $color-orange
+    
+
+
+@include media-query($full-width-break)
+  .site-header
+    width: $mobile
+
+    .site-nav
+      margin: 8px $spacing-unit/2
+      .page-link
+        margin-left: $spacing-unit/3 
+
+@include media-query($mobile-break)
+  .site-header
+    width: 100%
+    display: block
+    padding-top: $spacing-unit
+
+    .site-logo
+      margin-left: $spacing-unit
+
+    .site-nav
+      text-align: left
+      margin-left: $spacing-unit*1.5
+      margin-top: $spacing-unit/2
+      .page-link
+        display: block
+
+
+    .eth-logo
+      position: absolute
+      top: $spacing-unit
+      right: $spacing-unit
+

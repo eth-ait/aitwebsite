@@ -1,0 +1,30 @@
+---
+ref: stcn
+title: "STCN:Stochastic Temporal Convolutional Networks"
+authors: Emre Aksan, Otmar Hilliges
+date: 2019-01-01
+venue: "International Conference on Learning Representations (ICLR)"
+image: /assets/projects/2019/stcn/stcn.png
+external_project_page: 
+video: 
+talk: 
+paper: /assets/projects/2019/stcn/downloads/stcn_iclr19.pdf
+poster: 
+data: 
+code: https://github.com/emreaksan/stcn
+conference_url: https://iclr.cc/Conferences/2019/
+equal_contribution: 
+award: 
+bibtex: "@inproceedings{aksan2019stcn,
+  title={STCN:Stochastic Temporal Convolutional Networks},
+  author={Aksan, Emre and Hilliges, Otmar},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2019}
+}
+"
+---
+Convolutional architectures have recently been shown to be competitive on many sequence modelling tasks when compared to the de-facto standard of recurrent neural networks (RNNs), while providing computational and modeling advantages due to inherent parallelism.
+        However, currently there remains a performance gap to more expressive stochastic RNN variants, especially those with several layers of dependent random variables.
+        In this work, we propose stochastic temporal convolutional networks (STCNs), a novel architecture that combines the computational advantages of temporal convolutional networks (TCN) with the representational power and robustness of stochastic latent spaces.
+        In particular, we propose a hierarchy of stochastic latent variables that captures temporal dependencies at different time-scales. The architecture is modular and flexible due to decoupling of deterministic and stochastic layers.
+        We show that the proposed architecture achieves state of the art log-likelihoods across several tasks. Finally, the model is capable of predicting high-quality synthetic samples over a long-range temporal horizon in modeling of handwritten text.

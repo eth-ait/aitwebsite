@@ -1,0 +1,50 @@
+{% if page.external_project_page == nil %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body style="background-image:url('{{ site.baseurl }}/assets/images/bg_header.jpg')">
+
+    {%- include header.html -%}
+
+    <main aria-label="Content">
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+
+</html>
+
+{% if page.usemathjax %}
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+{% endif %}
+
+
+
+{% else %}
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="{{ page.external_project_page }}">
+  <script>location="{{ page.external_project_page }}"</script>
+  <meta http-equiv="refresh" content="0; url={{ page.external_project_page }}">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="{{ page.external_project_page }}">Click here if you are not redirected.</a>
+</html>
+{% endif %}

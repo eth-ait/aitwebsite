@@ -1,0 +1,31 @@
+---
+ref: dextres
+title: "DextrES: Wearable Haptic Feedback for Grasping in VR via a Thin Form-Factor Electrostatic Brake"
+authors: Ronan Hinchet, Velko Vechev, Herbert Shea, Otmar Hilliges
+date: 2018-Oct-01
+venue: "UIST '18"
+image: /assets/projects/2018/dextres/thumbnail.jpg
+external_project_page: 
+video: https://youtu.be/deqn2cYf1EM
+talk: 
+paper: /assets/projects/2018/dextres/downloads/dextrES.pdf
+poster: 
+data: 
+code: 
+conference_url: https://uist.acm.org/uist2018/
+equal_contribution: 
+award: 
+bibtex: "@article{Hinchet:2018,
+	author = {Hinchet, Ronan and Vechev, Velko and Shea, Herbert and Hilliges, Otmar},
+	title = {{DextrES: Wearable Haptic Feedback for Grasping in VR via a Thin Form-Factor Electrostatic Brake}},
+	booktitle = {ACM Symposium on User Interface Software and Technologies (UIST)},
+	series = {UIST '18},
+	month = {Oct},
+	year = {2018},
+	location = {Berlin, Germany},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+}
+"
+---
+We introduce DextrES, a flexible and wearable haptic glove which integrates both kinesthetic and cutaneous feedback in a thin and light form factor (weight is less than 8g). Our approach is based on an electrostatic clutch generating up to 20 N of holding force on each finger by modulating the electro-static attraction between flexible elastic metal strips to generate an electrically-controlled friction force. We harness the resulting braking force to rapidly render on-demand kinesthetic feedback. The electrostatic brake is mounted onto the the index finger and thumb via modular 3D printed articulated guides which allow the metal strips to glide smoothly. Cutaneous feedback is provided via piezo actuators at the fingertips. We demonstrate that our approach can provide rich haptic feedback under dexterous articulation of the user’s hands and provides effective haptic feedback across a variety of different grasps. A controlled experiment indicates that DextrES improves the grasping precision for different types of virtual objects. Finally, we report on results of a psycho-physical study which identifies discrimination thresholds for different levels of holding force.

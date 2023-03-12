@@ -1,0 +1,96 @@
+title: AIT Lab
+email: your-email@domain.com
+google_analytics: UA-27751621-1
+
+# social links
+twitter_username: "ait_eth"
+#github_username:  jekyll
+#rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+url: https://ait.ethz.ch
+
+show_excerpts: false # set to true to show excerpts on the homepage
+future: true
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+
+collections:
+  news:
+    output: false
+  publications:
+    output: true
+    permalink: /projects/:year/:name
+  people:
+    output: true
+    permalink: /:collection/:name
+  teaching:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+  -
+    scope:
+      path: ""
+      type: people
+    values:
+      layout: person
+
+  -
+    scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+  -
+    scope:
+      path: ""
+      type: teaching
+    values:
+      layout: course
+
+  -
+    scope:
+      path: ""
+      type: workshops
+    values:
+      layout: event
+
+
+
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-seo-tag

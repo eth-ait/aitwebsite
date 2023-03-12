@@ -1,0 +1,52 @@
+{% assign url = include.url | relative_url %}
+{% if include.external_url != "" %}
+  {% assign url = include.external_url %}
+{%endif%}
+
+
+{% if include.output == "vertical" %}
+  <div class="card card-vertical">
+    {% if include.image %}<div class="card-img">
+      <a href="{{url}}" alt="{{ include.title }}" {% if include.external_url != "" %} target="_blank"{%endif%}>
+        {% if include.image contains "mp4" %}   
+          <video preload="auto" autoplay="" loop="" muted="">
+            <source src="{{ include.image | relative_url }}" type="video/mp4">
+          </video>
+        {% else %}
+          <img src="{{ include.image | relative_url }}">
+        {%endif %}
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="card-content">
+      <div class="card-title">
+          <a href="{{url}}" {% if include.external_url != "" %} target="_blank"{%endif%}>{{ include.title }}</a>
+        </div>
+      {% if include.description %}<div class="card-subtitle">{{ include.description }}</div>{% endif %}
+      {% if include.extra %}<div class="card-extra">{{ include.extra }}</div>{% endif %}
+      {% if include.buttontext %}<a class="button" href="{{url}}">{{include.buttontext}}</a>{% endif %}
+      </div>
+      {% if include.links != "" %}<div class="card-links">{{ include.links }}</div>{% endif %}
+      <img class="svg-icon card-corner" src="{{ '/assets/icons/corner.svg' | relative_url }}">
+  </div>
+{% endif%}
+
+
+{% if include.output == "horizontal" %}
+  <div class="horizontal-card">
+    {% if include.title %}
+      <div class="card-content">
+        <a class="card-title" href="{{url}}">{{ include.title }}</a>
+        {% if include.description %}
+          <div class="card-subtitle">{{ include.description }}</div>
+        {% endif %}
+        {% if include.extra %}
+          <div class="card-extra">{{ include.extra }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+
+  </div>
+{% endif%}

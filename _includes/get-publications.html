@@ -1,0 +1,59 @@
+{% assign filtered_publications = site.publications %}
+
+{% if include.filter == 'person' %}
+  {% capture query %} item.authors contains '{{ include.key }}'{% endcapture %}
+  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+{% endif %}
+
+{% if include.filter == 'project' %}
+  {% capture query %} item.projects contains '{{ include.key }}'{% endcapture %}
+  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+{% endif %}
+
+{% if include.filter == 'id' %}
+  {% capture query %} item.ref contains '{{ include.key }}'{% endcapture %}
+  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+{% endif %}
+
+
+
+{% assign sorted_publications = filtered_publications | reverse %}
+
+{% for publication in sorted_publications %}
+  {% assign currentdate = publication.date | date: "%Y" %}
+  
+  {% if currentdate != date %}
+    <h3 id="{{year.name}}"><span>{{ currentdate }}</span></h3>
+    {% assign date = currentdate %}
+  {% endif %}
+
+    <!-- Capture sections wholesale to pass to generic 'card' -->
+    {% capture pub-extra %}
+      {{ publication.venue }} 
+      {{ publication.year }} 
+      {% if publication.authors contains "*" %}<span style="font-weight: normal;">* Equal contribution</span>{% endif %}
+      {% if publication.awards %} <span style="margin-left: 4pt;"><img style="height: 18px; width: 18px;" src="/assets/images/award.png" title="CC BY 4.0 by @fontawesome - https://fontawesome.com"></span> <font color="#d74141">{{ publication.awards }}</font> {% endif %}
+    {% endcapture %}
+
+    {% capture pub-links %}
+      {% if publication.video %}<a href="{{ publication.video | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/video.svg' | relative_url }}">Video</a>{% endif %}
+      {% if publication.paper %}<a href="{{ publication.paper | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/paper.svg' | relative_url }}">Paper</a>{% endif %}
+      {% if publication.data %}<a href="{{ publication.data | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/data.svg' | relative_url }}">Data</a>{% endif %}
+      {% if publication.code %}<a href="{{ publication.code | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/code.svg' | relative_url }}">Code</a>{% endif %}
+    {% endcapture %}
+
+    {% assign pub-links = pub-links | strip_newlines | strip %}
+    {% assign pub-ext-url = publication.external_project_page | strip_newlines | strip %}
+
+    {% include card.html
+      output="vertical"
+      title=publication.title
+      image=publication.image
+      url=publication.url
+      external_url=pub-ext-url
+      description=publication.authors
+      extra=pub-extra
+      links=pub-links
+    %}
+
+{% endfor %}

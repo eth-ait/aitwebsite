@@ -1,0 +1,50 @@
+---
+layout: default
+title: News & Media
+permalink: /news/index.html
+---
+
+
+
+<article class="page">
+
+  <header class="page-header container">
+  <div class="row">
+    <div class="column column-66">
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+    </div>
+  </div>
+  </header>
+
+
+  <div class="page-content container">
+    <div class="row">
+      <div class="column column-66">
+
+      	<ul class="news">
+          {%- for newspost in site.news reversed -%}
+          <li>
+            {% if newspost.image %}
+              <div class="newspost-image">
+                {% if newspost.link %}  
+                  <a href="{{ newspost.link }}"  target="_blank">
+                  {% endif %}
+                    <img src="{{ newspost.image | prepend: '/assets/' | relative_url}}"/>
+                  {% if newspost.link %}  
+                  </a>
+                {% endif %}
+              </div>
+            {% endif %}
+            <div class="newspost-content">
+              <div class="newspost-meta">{{ newspost.date | date: "%d.%m.%y" }}</div>
+              {{ newspost.content}}
+            </div>
+          </li>
+          {%- endfor -%}
+        </ul>
+
+      </div>
+    </div>      
+  </div>
+</article>
+

@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+
+<article class="landing">
+
+
+  <header class="landing-header ">
+    <!---<div class="landing-banner" style="background:url('{{ site.baseurl }}/assets/images/group-2018-12-final.jpg') 0 200px no-repeat"></div>-->
+    <div class="landing-header-content container">
+      <div class="row">
+        <div class="column column-60 ">
+          <h2>Research <em>Overview</em></h2>
+          <!-- <h1 class="landing-title">{{ site.title | escape }}</h1> -->
+    			<img src="assets/images/ait_group_2022.jpg">
+          <div class="landing-about">
+            <p>The AIT lab conducts research at the fore-front of human-centric computer vision. 
+            Our core research interests are algorithms and methods for the spatio-temporal understanding of how humans move within and interact with the physical world. 
+            We develop learning-based algorithms, methods and representations for human- and interaction-centric understanding of our world from videos, images and other sensor data. 
+            Application domains of interest include Augmented and Virtual Reality, Human Robot Interaction and more.
+            Please refer to our <a href="/publications/">publications</a> for more information.
+            </p>
+            <p>
+             The AIT Lab, led by <a href="/people/hilliges/" title="Prof. Dr. Otmar Hilliges">Prof. Dr. Otmar Hilliges</a>, 
+             is part of the <a class="a-text-ext" href="http://iis.inf.ethz.ch/" title="Institute for Intelligent Interactive Systems" target="_blank">Institute for Intelligent Interactive Systems (IIS)</a>, 
+             in the <a class="a-text-ext" href="http://www.inf.ethz.ch/" title="Department of Computer Science" target="_blank">Department of Computer Science</a> 
+             at <a class="a-text-ext" href="http://www.ethz.ch/" title="ETH Zurich" target="_blank" style="white-space:nowrap;">ETH Zurich</a>.
+            </p> 
+          </div>
+
+        </div>
+        <div class="column column-33 column-offset-8">
+          <h2>Latest <em>News</em></h2>
+          <ul class="news">
+          {% assign newsposts = site.news | reverse %}
+          {%- for newspost in newsposts limit: 5 -%}
+          <li>
+            {% if newspost.image %}
+              <div class="newspost-image">
+                {% if newspost.link %}  
+                  <a href="{{ newspost.link }}" target="_blank">
+                  {% endif %}
+                    <img src="{{ newspost.image | prepend: '/assets/' | relative_url}}"/>
+                  {% if newspost.link %}  
+                  </a>
+                {% endif %}
+              </div>
+            {% endif %}
+            <div class="newspost-content">
+              <div class="newspost-meta">{{ newspost.date | date: "%d.%m.%y" }}</div>
+              {{ newspost.content}}
+            </div>
+          </li>
+          {%- endfor -%}
+          </ul>
+          <div style="text-align: center;"><a class="button" href="{{"/news" | relative_url }}">See all News</a></div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="landing-content container">
+   <div class="row">
+      <div class="column">
+        <h2>Latest <em>Projects</em></h2>
+        <div class="grid">
+            {% include get-publications.html %}
+       </div>
+
+      </div>
+    </div>
+  </div>
+</article>
+
