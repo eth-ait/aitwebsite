@@ -23,6 +23,13 @@
       display: block
       font-weight: bold
 
+  .grid
+    padding-left: 120px
+    
+  h3 span
+    width: 100px
+    padding: 0
+
 .page-title
   position: relative
   z-index: 1
@@ -59,6 +66,21 @@
     .info-content
       display: block
       flex: 1
+
+.page-meta
+  h4.first
+    margin-top: 0
+
+  .page-links a
+    display: block
+    margin-bottom: 10px
+    font-size: 18px
+    color: $text-color
+    &:hover, &.active
+      color: $color-orange
+    img
+        height: 16px
+        margin-right: 10px
 
 
 @include media-query($full-width-break)

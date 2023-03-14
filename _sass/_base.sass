@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6
 h1
   font-size: 40px
   font-family: $heading-font-family
+  margin-bottom: $spacing-unit
 
 @include media-query($full-width-break)
   h1
@@ -120,14 +121,17 @@ h2
     font-weight: 300
     font-style: normal
 
-
-
 h3
   font-size: $base-font-size
   text-transform: uppercase
   margin-top: $spacing-unit
   font-weight: bold
 
+h4
+  font-size: 12px
+  margin-top: $spacing-unit
+  font-weight: bold
+  
 hr
   margin: $spacing-unit 0
   border-top: 1px solid $color-border

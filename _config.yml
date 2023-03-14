@@ -63,13 +63,6 @@ defaults:
   -
     scope:
       path: ""
-      type: projects
-    values:
-      layout: project
-
-  -
-    scope:
-      path: ""
       type: teaching
     values:
       layout: course

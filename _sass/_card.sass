@@ -16,13 +16,14 @@
 		grid-column: 1/ span 3
 		max-width: 100%
 		margin: 0 0 20px 0
+		line-height: 20px
+		font-size: 13px
 		span
 			position: absolute
 			left: 0
 			margin-top: 51px
 			border-top: 1px solid $color-grey
 			padding-right: 50px
-			padding-top: 10px
 
 .grid-center
 	justify-content: center
@@ -36,26 +37,29 @@
 	background: white
 	// box-shadow: 0 2px 5px rgba(0,0,0,0.1)
 	display: flex
-	flex-direction: column
-	padding: $spacing-unit*2 0
+	flex-direction: row
+	padding: 0
 	border: 1px solid $color-border
 	border-radius: 10px	
-	min-height: 360px
 	position: relative
+	min-height: 200px
 
 	.card-title
 		font-size: 16px
 		line-height: 1.5em
 		margin-bottom: $spacing-unit/3
 
-
 	.card-content
-		margin: 0 $spacing-unit/2
+		flex: 1
+		margin: $spacing-unit/2
 		display: block
-		width: 66%
 
 	.card-subtitle
 		margin-bottom: $spacing-unit/2
+		font-size: 13px
+		font-weight: 600
+
+	.card-info
 		font-size: 13px
 
 	.card-extra
@@ -65,12 +69,12 @@
 	.card-img
 		display: block
 		text-align: center
+		width: 135px
+		overflow: hidden
+
 		img
-			max-height: 200px
-			max-width: 100%
-		video
-			max-height: 200px
-			max-width: 100%
+			object-fit: cover
+			height: 100%
 
 	.card-corner
 		position: absolute
@@ -89,12 +93,18 @@
 		display: flex
 		flex-direction: column
 		justify-content: space-between
+		min-height: 360px
 
 		.card-title
 			margin-top: $spacing-unit
+
 		.card-img
 			margin: 0 auto
 			width: 85%
+			img, video
+				max-height: 200px
+				max-width: 100%
+
 		.card-content
 			flex: 1
 			margin: 0 auto
@@ -105,6 +115,8 @@
 				color: $text-color
 				&:hover, &.active
 					color: $color-orange
+		.card-subtitle		
+			font-weight: 400
 
 		.card-links
 			border-top: 1px solid $color-border
@@ -122,25 +134,6 @@
 				height: 16px
 				margin-right: 5px
 
-
-
-/**
- * Card Horizontal 
- */
-
-
-.horizontal-card
-	padding: $spacing-unit 0
-	border-top: 1px solid $color-border
-	display: flex
-
-	.card-content
-		flex: 1
-
-	.card-title
-		display: block
-		font-weight: bold
-		margin-bottom: $spacing-unit/3
 
 
 
