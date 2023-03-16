@@ -44,7 +44,7 @@ collections:
     permalink: /:collection/:name
   teaching:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/courses/:name
 
 defaults:
   -

@@ -1,0 +1,84 @@
+/**
+ * Search 
+ */
+
+.search
+	margin-top: $spacing-unit/2
+	border-bottom: 1px solid $color-border
+	width: 260px
+	height: 35px
+	display: flex
+
+	div#results-container
+		position: absolute
+		top: 150px
+		right: 0
+		width: 100%
+		background: #FFF
+		border-radius: 10px
+		max-height: 500px
+		overflow: scroll
+		box-shadow: 0 5px 45px rgba(0,0,0,0.1)
+
+		.noresults 
+			padding: 8px $spacing-unit
+
+		a
+			padding: 0
+			font-size: 15px
+			display: flex
+			color: $text-color
+			&:hover, &.active
+				.content
+					background-color: #EEE
+
+			.type
+				width: 80px
+				padding: 10px $spacing-unit
+				text-align: right
+
+			.content
+				padding: 10px $spacing-unit 
+				flex: 1
+				border-left: 1px solid $color-border
+				padding-left: $spacing-unit
+			.title
+				display: block
+			.subtitle
+				display: block
+				font-size: 12px
+
+		a.type-Publications .type
+			visibility: visible
+		a.type-Publications ~ a.type-Publications
+			.type
+				visibility: hidden
+
+
+	.icon-search
+		margin-top: 8px
+		margin-right: 10px
+
+	input
+		border: none
+		flex: 1
+		margin: 0 
+		font-size: $base-font-size
+		color: $text-color
+		min-width: 0
+		background: none
+
+
+		&:focus
+			border: none
+			outline: 0
+
+		&::placeholder
+			color: $color-grey-light
+
+
+@include media-query($mobile-break)
+	.search
+		display: block
+
+	

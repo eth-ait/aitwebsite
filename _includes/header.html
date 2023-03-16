@@ -13,6 +13,12 @@
         <a class="page-link {% if page.url contains 'contact' %}active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
       </nav>
 
+    <div class="search">
+        <img class="svg-icon icon-search" src="{{ '/assets/icons/search.svg' | relative_url }}">
+        <input type="text" id="search-input" placeholder="Search Publications, Teaching, etc" onkeydown="onkeypressed(event, this);">
+        <div id="results-container"></div>
+    </div>
+
     
 
 </header>
