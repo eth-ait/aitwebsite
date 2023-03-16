@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <clipPath id="clip-paper">
+      <rect width="12" height="12"/>
+    </clipPath>
+  </defs>
+  <g id="paper" clip-path="url(#clip-paper)">
+    <path id="Path_980" data-name="Path 980" d="M133.152,0a1.33,1.33,0,0,0-1.333,1.333v9.333A1.33,1.33,0,0,0,133.152,12h6.685a1.33,1.33,0,0,0,1.333-1.334V4.519h-2.738a1.107,1.107,0,0,1-1.1-1.1V0Zm5.17.044V2.867a.542.542,0,0,0,.549.549h2.33Z" transform="translate(-130.51)" fill="#616d74"/>
+  </g>
+</svg>

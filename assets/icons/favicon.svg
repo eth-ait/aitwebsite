@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.924" y1="0.092" x2="0.046" y2="0.954" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#657178"/>
+      <stop offset="1" stop-color="#96a0a7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.068" y1="0.897" x2="0.899" y2="0.138" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffad39"/>
+      <stop offset="1" stop-color="#f15a24"/>
+    </linearGradient>
+    <clipPath id="clip-ait_icon">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="ait_icon" clip-path="url(#clip-ait_icon)">
+    <path id="Path_776" data-name="Path 776" d="M35.06,35.06H18.407V24.542h6.134V18.406H35.06V35.06Zm-18.407,0H0V18.406H10.519v6.135h6.134V35.06ZM35.06,16.654H24.542V10.518H18.407V0H35.06V16.654Zm-24.542,0H0V0H16.653V10.518H10.519v6.136Z" transform="translate(28.94 14.557)" fill="url(#linear-gradient)"/>
+    <path id="Path_772" data-name="Path 772" d="M.019,18.593H11.564a5.091,5.091,0,0,1,5.09,5.092V35.06A17.55,17.55,0,0,1,.019,18.593Zm18.389,5.092A5.091,5.091,0,0,1,23.5,18.593H35.042A17.55,17.55,0,0,1,18.408,35.06ZM23.5,16.838a5.09,5.09,0,0,1-5.089-5.091V0A17.549,17.549,0,0,1,35.061,16.838Zm-23.5,0A17.548,17.548,0,0,1,16.654,0V11.747a5.09,5.09,0,0,1-5.09,5.091Z" transform="translate(0.16 14.383)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

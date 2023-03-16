@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="12" viewBox="0 0 15 12">
+  <defs>
+    <clipPath id="clip-movie">
+      <rect width="15" height="12"/>
+    </clipPath>
+  </defs>
+  <g id="movie" clip-path="url(#clip-movie)">
+    <path id="movie_FILL0_wght400_GRAD0_opsz48" d="M5.125,8l1.388,2.85H8.95L7.563,8H9.231l1.387,2.85h2.438L11.669,8h1.669l1.387,2.85h2.438L15.775,8h2.1A1.153,1.153,0,0,1,19,9.125v9.75A1.153,1.153,0,0,1,17.875,20H5.125A1.153,1.153,0,0,1,4,18.875V9.125A1.153,1.153,0,0,1,5.125,8Zm0,3.975v6.9h12.75v-6.9Zm0,0v0Z" transform="translate(-4 -8)" fill="#616d74"/>
+  </g>
+</svg>

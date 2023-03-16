@@ -1,6 +1,5 @@
 .bundle
 .sass-cache
-Icon?
 Gemfile.lock
 _site
 *.gem
