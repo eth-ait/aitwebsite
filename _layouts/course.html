@@ -72,6 +72,13 @@ layout: default
           </div>  
         {% endif %}
 
+        {% if page.links %} 
+          <div class="info-line">
+            <label>Links + Schedule:</label>
+            <div class="info-content">{{ page.links }}</div>
+          </div>  
+        {% endif %}
+
         {% if page.recordings %} 
           <div class="info-line">
             <label>Recordings:</label>
