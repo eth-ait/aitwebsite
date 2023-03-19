@@ -23,8 +23,11 @@ layout: default
             <div class="info-content">{{ page.semester }}</div>
           </div>  
         {% endif %}
+
         {% if page.number %} <div class="info-line"><label>Number:</label>{{ page.number }}</div>  {% endif %}
+
 		{% if page.lecturer %} <div class="info-line"><label>Lecturer:</label>{% include get-linked-persons.html persons=page.lecturer %}</div>  {% endif %}
+
 		{% if page.head-ta %}
 		<div class="info-line">
 			<label>Head TA:</label>
@@ -36,6 +39,7 @@ layout: default
 			</div>
 		</div> 
 		{% endif %}
+
   		  {% if page.ta %} 
         <div class="info-line">
           <label>TA:</label>
@@ -65,6 +69,20 @@ layout: default
           <div class="info-line">
             <label>Credits:</label>
             <div class="info-content">{{ page.credits }}</div>
+          </div>  
+        {% endif %}
+
+        {% if page.recordings %} 
+          <div class="info-line">
+            <label>Recordings:</label>
+            <div class="info-content">{{ page.recordings }}</div>
+          </div>  
+        {% endif %}
+
+        {% if page.contact %} 
+          <div class="info-line">
+            <label>Contact:</label>
+            <div class="info-content">{{ page.contact }}</div>
           </div>  
         {% endif %}
 
