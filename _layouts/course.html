@@ -86,10 +86,24 @@ layout: default
           </div>  
         {% endif %}
 
+        {% if page.stream %} 
+          <div class="info-line">
+            <label>Live stream:</label>
+            <div class="info-content">{{ page.stream }}</div>
+          </div>  
+        {% endif %}
+
         {% if page.contact %} 
           <div class="info-line">
             <label>Contact:</label>
             <div class="info-content">{{ page.contact }}</div>
+          </div>  
+        {% endif %}
+
+        {% if page.faq %} 
+          <div class="info-line">
+            <label>FAQ:</label>
+            <div class="info-content">{{ page.faq }}</div>
           </div>  
         {% endif %}
 
