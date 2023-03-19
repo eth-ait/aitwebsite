@@ -107,6 +107,34 @@ layout: default
           </div>  
         {% endif %}
 
+        {% if page.zoom %} 
+          <div class="info-line">
+            <label>Lecture Zoom:</label>
+            <div class="info-content">{{ page.zoom }}</div>
+          </div>  
+        {% endif %}
+
+        {% if page.papers %} 
+          <div class="info-line">
+            <label>Papers:</label>
+            <div class="info-content">{{ page.papers }}</div>
+          </div>  
+        {% endif %}
+
+        {% if page.signup %} 
+          <div class="info-line">
+            <label>Paper signup form:</label>
+            <div class="info-content">{{ page.signup }}</div>
+          </div>  
+        {% endif %}
+
+        {% if page.template %} 
+          <div class="info-line">
+            <label>Review template:</label>
+            <div class="info-content">{{ page.template }}</div>
+          </div>  
+        {% endif %}
+
 
         <hr />
       </div>
