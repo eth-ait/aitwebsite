@@ -20,11 +20,137 @@ permalink: /thesis/index.html
     <div class="row">
       <div class="column column-66">
 
+
       	If you are interested in doing a Master's, Bachelor's or Semester's project in the AIT Lab please apply using the Sirop platform via the links provided below. Please include your CV in your application.
 
 				If you wish to propose your own topic, please contact our members directly.
 
-			<!-- Pull in theses from SIROP here -->		
+
+        <h2>Available <em>Theses</em></h2>
+
+        {% for item in site.data.thesis_avail.opportunities %}
+          {% capture extra %}
+            Type: 
+            {% for label in item.labels %}
+                {{label.title}}{% unless forloop.last == true %}, {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          {% capture description %}
+            Supervisors: 
+            {% for label in item.involvedHosts %}
+                {{label.name}}{% unless forloop.last == true %}, {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          {% capture links %}
+            <a class="card-site button" href="{{ item.url}}">Apply on SIROP</a>
+          {% endcapture %}
+          {% include card.html
+            image=item.imageUrl
+            title=item.title
+            description=description
+            extra=extra
+            external_url=item.url
+            links=links
+            type="wide"
+          %}
+        {% endfor %}
+
+        <h2>Taken <em>Theses</em></h2>
+
+        {% for item in site.data.thesis_taken.opportunities %}
+          {% capture extra %}
+            Type: 
+            {% for label in item.labels %}
+                {{label.title}}{% unless forloop.last == true %}, {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          {% capture description %}
+            Supervisors: 
+            {% for label in item.involvedHosts %}
+                {{label.name}}{% unless forloop.last == true %}, {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          {% include card.html
+            image=item.imageUrl
+            title=item.title
+            description=description
+            extra=extra
+            external_url=item.url
+            type="wide"
+          %}
+        {% endfor %}
+
+
+
+
+
+
+
+
+
+<h3>Previous Master Students </h3>
+
+    <dl class="peoplelist">
+  <dt>2018</dt><dd>Andreas Blöchliger
+        <span class="status">Now at <a class="a-text-ext" target="_blank" href="https://www.elca.ch/de">ELCA</a></span></dd>
+    <dt></dt><dd>Amirreza Bahreini</dd>
+  <dt></dt><dd>Luke Taverne
+    <span class="status">Now at <a class="a-text-ext" target="_blank" href="https://www.9tlabs.com/team/">9T Labs</a></span></dd>
+  <dt>2017</dt><dd>Spyridon Angelopoulos</dd>
+  <dt></dt><dd>Silvan Pluess</dd>
+  <dt></dt><dd>Samuel Oberholzer
+    <span class="status">Now at <a class="a-text-ext" target="_blank" hhref="http://tinamu-labs.com/">Tinamu Labs</a></span></dd>
+  <dt></dt><dd>Florian Schmid</dd>
+  <dt></dt><dd>Sephora Madjiheurem
+    <span class="status">Now a PhD at EPFL</span></dd>
+  <dt></dt><dd><a href="/people/kamanuel">Manuel Kaufmann</a>
+    <span class="status">Now a PhD in our group</span></dd>
+  <dt></dt><dd><a class="a-text-ext" target="_blank" href="https://www.vision.ee.ethz.ch/en/members/detail/342/">Simon Hecker</a>
+    <span class="status">Now a PhD at ETH Zurich</span></dd>
+
+  <dt>2016</dt><dd><a href="/people/spurra">Adrian Spurr</a>
+    <span class="status">Now a PhD in our group</span></dd>
+  <dt></dt><dd>Ralph Aeschimann
+    <span class="status">Now at <a class="a-text-ext" href="https://www.vizrt.com">Vizrt</a></span></dd>
+  <dt></dt><dd>Partha Ghosh
+    <span class="status">Now a PhD at <a class="a-text-ext" target="_blank" href="https://ps.is.tuebingen.mpg.de/person/pghosh">MPI-IS</a></span></dd>
+  <dt></dt><dd>Damian Karrer</dd>
+  <dt></dt><dd>Krzystof Lis</dd>
+  <dt></dt><dd>Peter Worsnop</dd>
+  <dt></dt><dd>Schilling Milan</dd>
+  <dt></dt><dd>Lukas Meier
+    <span class="status">Now at <a class="a-text-ext" target="_blank" href="https://www.fixposition.ch/team">Fixposition</a></span></dd>
+  <dt></dt><dd>Saiwen Wang
+    <span class="status">Now at Apple</span></dd>
+  <dt></dt><dd><a class="a-text-ext" target="_blank" href="http://igl.ethz.ch/people/">Yifan Wang</a>
+    <span class="status">Now a PhD at ETH Zurich</span></dd>
+
+  <dt>2015</dt><dd>Nicolas de Palézieux
+    <span class="status">Now at <a class="a-text-ext" target="_blank" href="https://sunflower-labs.com/about/">Sunflower Labs</a></span></dd>
+  <dt></dt><dd>Michael Schaeuble</dd>
+  <dt></dt><dd>Julius Kümmerle
+         <span class="status">Now at <a class="a-text-ext" target="_blank" href="https://www.fzi.de/wir-ueber-uns/organisation/mitarbeiter/address/kuemmerl/">FZI</a></span></dd>
+  <dt></dt><dd>Dario Roethlisberger</dd>
+
+  <dt>2014</dt><dd><a href="/people/song/">Jie Song</a>
+    <span class="status">Now a PhD in our group</span></dd>
+  <dt></dt><dd> Jibin Ou
+    <span class="status">Now at <a class="a-text-ext" target="_blank" href="http://movilizer.com/">Movilizer</a></span></dd>
+    </dl>
+
+    <hr>
+
+    <h3>Previous Bachelor Students </h3>
+
+    <dl class="peoplelist">
+  <dt>2018</dt><dd>Matteo Signer</dd>
+  <dt></dt><dd>Martin Blapp</dd>
+  <dt>2016</dt><dd>Susanne Keller</dd>
+  <dt>2015</dt><dd><a href="/people/spurra">Adrian Spurr</a>
+    <span class="status">Now a PhD in our group</span></dd>
+  <dt>2014</dt><dd>Alexander Cebulla</dd>
+
+
 
       </div>
     </div>      

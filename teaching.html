@@ -21,34 +21,22 @@ permalink: /teaching/index.html
       <div class="column column-66">
 
         
-      <h2>Current <em>Courses</em></h2>
-      {% include get-course.html ref="asch2023"   output="horizontal" %}
-      {% include get-course.html ref="mp2023"   output="horizontal" %}
+              <h2>Current <em>Courses</em></h2>
+      {% include get-course.html ref="asch2023" %}
+      {% include get-course.html ref="mp2023"%}
       
       <h2>Past <em>Courses</em></h2>
-        {% include get-course.html ref="athccv2022"   output="horizontal" %}
-        {% include get-course.html ref="asch2022"   output="horizontal" %}
-        {% include get-course.html ref="mp2022"   output="horizontal" %}
-        {% include get-course.html ref="athccv2021"   output="horizontal" %}
+        {% include get-course.html ref="athccv2022" %}
+        {% include get-course.html ref="asch2022" %}
+        {% include get-course.html ref="mp2022" %}
+        {% include get-course.html ref="athccv2021" %}
 
-
-    		{% include get-course.html ref="pass202"   output="horizontal" %}
-    		{% include get-course.html ref="bigcode21"   output="horizontal" %}
-    		{% include get-course.html ref="ses2021"   output="horizontal" %}
-    		{% include get-course.html ref="riai2020"   output="horizontal" %}
-  	    {% include get-course.html ref="ses2020"   output="horizontal" %}
-        {% include get-course.html ref="bigcode20-fall"   output="horizontal" %}
-        {% include get-course.html ref="pass2020"   output="horizontal" %}
-        {% include get-course.html ref="bigcode20"   output="horizontal" %}
-        <div class="horizontal-card">
-          <div class="card-content">
-            <a class="card-title" href="http://spcl.inf.ethz.ch/Teaching/2020-pp/">Parallel Programming</a>
-            <div class="card-subtitle">Example External Course, co-taught with Prof. Torsten Hoefler.</div>
-            <div class="card-extra">Spring 2020</div>
-          </div>
-        </div>
-        {% include get-course.html ref="riai2019"   output="horizontal" %}
-        
+        {% include card.html
+          title="Parallel Programming"
+          description="Spring 2020"
+          external_url="http://spcl.inf.ethz.ch/Teaching/2020-pp/"
+          type="wide"
+        %}        
 
       </div>
     </div>

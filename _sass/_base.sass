@@ -85,6 +85,17 @@ li
     margin-bottom: 0
   
 
+dl
+  display: block
+  margin-bottom: $spacing-unit
+  dt
+    float: left
+    font-size: 13px
+    font-weight: bold
+    margin-top: 2px
+  dd
+    margin-left: 100px
+    margin-bottom: 5px
 
 
 
@@ -121,8 +132,7 @@ h2
   em
     font-weight: 300
     font-style: normal
-.page-content .column h2:first-of-type
-    margin-top: 0
+
 
 h3
   font-size: $base-font-size
@@ -131,10 +141,15 @@ h3
   font-weight: bold
 
 h4
-  font-size: 12px
+  font-size: 13px
   margin-top: $spacing-unit
   font-weight: bold
   
+h5
+  font-size: 13px
+  line-height: 1.75em
+  margin-bottom: 0
+
 hr
   margin: $spacing-unit 0
   border-top: 1px solid $color-border
@@ -216,13 +231,15 @@ table
     
   
   th, td
-    padding: ($spacing-unit / 3) 
+    padding: 8px
   
   th
     background-color: lighten($color-grey-light, 3%)
   
   td
     border: none
+    font-size: 13px
+    vertical-align: top
   
 
 

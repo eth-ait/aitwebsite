@@ -25,6 +25,9 @@
 			border-top: 1px solid $color-grey
 			padding-right: 50px
 
+	> .card
+		margin-bottom: 0
+
 .grid-center
 	justify-content: center
 
@@ -43,12 +46,29 @@
 	border-radius: 10px	
 	position: relative
 	min-height: 200px
+	margin-bottom: $spacing-unit/2
+
+	&.short
+		min-height: 80px
+
+	&.wide
+		min-height: 60px
+		.card-subtitle
+			margin-bottom: 0
+		.card-img
+			padding: $spacing-unit/2
+			img
+				object-fit: contain
+
 
 	.card-title
 		font-size: 16px
 		line-height: 1.5em
 		margin-bottom: $spacing-unit/3
-
+		a
+			color: $text-color
+			&:hover, &.active
+				color: $color-orange
 	.card-content
 		flex: 1
 		margin: $spacing-unit/2
@@ -75,6 +95,16 @@
 		img
 			object-fit: cover
 			height: 100%
+	.card-icon
+		display: block
+		text-align: center
+		width: 50px
+
+		img
+			width: 24px
+			height: 24px
+			margin-top: 20px
+			margin-left: 15px
 
 	.card-corner
 		position: absolute
@@ -111,10 +141,7 @@
 			width: 85%
 			max-width: none
 			padding-bottom: $spacing-unit/2
-			a
-				color: $text-color
-				&:hover, &.active
-					color: $color-orange
+
 		.card-subtitle		
 			font-weight: 400
 

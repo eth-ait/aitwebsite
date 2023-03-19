@@ -5,8 +5,9 @@
 
 
 {% if include.output == "vertical" %}
-  <div class="card card-vertical">
-    {% if include.image %}<div class="card-img">
+  <div class="card card-vertical {{include.type}}">
+    {% if include.image %}
+      <div class="card-img">
       <a href="{{url}}" alt="{{ include.title }}" {% if include.external_url != "" %} target="_blank"{%endif%}>
         {% if include.image contains "mp4" %}   
           <video preload="auto" autoplay="" loop="" muted="">
@@ -33,19 +34,31 @@
 
 
 {% else %}
-  <div class="horizontal-card">
-    {% if include.title %}
+  <div class="card {{include.type}}">
+    {% if include.image %} 
+      {% if include.image contains "svg" %}   
+        <div class="card-icon"><a href="{{url}}" {% if include.external_url != "" %} target="_blank"{%endif%}><img class="icon" src="{{ include.image | relative_url }}"/></a></div>
+      {% else %}
+        <div class="card-img"><a href="{{url}}" {% if include.external_url != "" %} target="_blank"{%endif%}><img src="{{ include.image | relative_url }}"/> </a></div>
+      {%endif %}
+    </a>
+    {% endif %}
+
       <div class="card-content">
-        <a class="card-title" href="{{url}}">{{ include.title }}</a>
+        <div class="card-title">
+          <a href="{{url}}" {% if include.external_url != "" %} target="_blank"{%endif%}>{{ include.title }}</a>
+        </div>
         {% if include.description %}
           <div class="card-subtitle">{{ include.description }}</div>
         {% endif %}
         {% if include.extra %}
           <div class="card-extra">{{ include.extra }}</div>
         {% endif %}
+
+        {% if include.links != "" %}
+          <div class="card-links">{{ include.links }}</div>
+        {% endif %}
+
       </div>
-    {% endif %}
-
-
   </div>
 {% endif%}

@@ -76,6 +76,13 @@ defaults:
 
 
 
+jekyll_get_json:
+  - data: thesis_avail
+    json: 'https://feeds.sirop.org/16/09/1609bbd1-fa78-45fc-93e5-ab1d9449b621/1609bbd1-fa78-45fc-93e5-ab1d9449b621.json'
+  - data: thesis_taken
+    json: 'https://feeds.sirop.org/6f/96/6f9625bc-7d89-4864-ba59-2d8ffea80493/6f9625bc-7d89-4864-ba59-2d8ffea80493.json'
+
+
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -87,3 +94,4 @@ theme: minima
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-get-json

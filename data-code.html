@@ -13,6 +13,7 @@ permalink: /data-code/index.html
   <div class="row">
     <div class="column ">
       <h1 class="page-title">{{ page.title | escape }}</h1>
+      Dataset access requires filling out a form and is subject to approval. Data is for research purposes only. 
     </div>
   </div>
   </header>
@@ -22,7 +23,34 @@ permalink: /data-code/index.html
     <div class="row">
       <div class="column">
           <div class="grid">
-            {% include get-publications.html %}
+            <h3><span>Data</span></h3>
+            {% assign publications = site.publications | reverse %}
+            {% for publication in publications %}
+              {% if publication.data %}
+                {% include card.html
+                  title=publication.title
+                  url=publication.url
+                  external_url=publication.data
+                  type="short"
+                  image="/assets/icons/data.svg"
+                %}
+              {% endif %}
+            {%- endfor -%}
+
+            <h3><span>Code</span></h3>
+            {% assign publications = site.publications | reverse  %}
+            {% for publication in publications %}
+              {% if publication.code %}
+                {% include card.html
+                  title=publication.title
+                  url=publication.url
+                  external_url=publication.code
+                  type="short"
+                  image="/assets/icons/code.svg"
+                %}
+              {% endif %}
+            {%- endfor -%}
+
           </div>
 
       </div>

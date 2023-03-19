@@ -1,23 +1,34 @@
 {% assign person = site.people | where:"title", include.title  | first %}
 
 
-  <div class="card">
-    
-    <div class="card-img">
-      {% if person.image %} 
-      <a href="{{ person.url | relative_url}}">
-        <img class="page-img" src="{{ person.image | prepend: '/assets/people/' | relative_url}}"/> 
-      </a>
-      {% endif %}
-    </div>
 
-    <div class="card-content">
-      <div class="card-title">{{ person.title }}</div>
-      <div class="card-subtitle">{{ person.position }}</div>
-
-      {% if person.email %} <div class="card-info">Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></div>{% endif %}
+<!-- Capture sections wholesale to pass to generic 'card' -->
+{% capture extra %}
+  {% if person.email %} <div class="card-info">Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></div>{% endif %}
       {% if person.room %} <div class="card-info">Room: {{ person.room }}</div>{% endif %}
-      <a class="card-site button" href="{{ person.url | relative_url}}">Personal Site</a>
-    </div>
+{% endcapture %}
 
-  </div>
+{% capture links %}
+  <a class="card-site button" href="{{ person.url | relative_url}}">Personal Site</a>
+{% endcapture %}
+
+{% assign links = links | strip_newlines | strip %}
+{% assign website = person.website | strip_newlines | strip %}
+
+{% include card.html
+  title=person.title
+  image=person.image
+  description=person.position
+  url=person.url
+  external_url=website
+  extra=extra
+  links=links
+%}
+
+
+
+
+      
+      
+
+
