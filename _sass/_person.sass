@@ -1,0 +1,33 @@
+/**
+ * Person profile page
+ */
+.person-profile
+	display: flex
+	margin-bottom: $spacing-unit*2
+
+	.person-img
+		width: 230px
+		min-height: 230px
+		margin-right: $spacing-unit*2
+		display: block
+		text-align: center
+		overflow: hidden
+		img
+			object-fit: cover
+			height: 100%
+
+	.person-info
+		flex: 1
+
+		.info-block 
+			margin-top: $spacing-unit
+			label
+				width: 70px
+
+@include media-query($mobile-break)
+.person-profile
+
+	.person-img
+		width: 230px
+		max-height: 230px
+

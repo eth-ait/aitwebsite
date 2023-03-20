@@ -29,7 +29,7 @@
       {% if include.buttontext %}<a class="button" href="{{url}}">{{include.buttontext}}</a>{% endif %}
       </div>
       {% if include.links != "" %}<div class="card-links">{{ include.links }}</div>{% endif %}
-      <img class="svg-icon card-corner" src="{{ '/assets/icons/corner.svg' | relative_url }}">
+      {% if include.external_url != "" %}<img class="svg-icon card-corner" src="{{ '/assets/icons/corner.svg' | relative_url }}">{% endif %}
   </div>
 
 
@@ -59,6 +59,8 @@
           <div class="card-links">{{ include.links }}</div>
         {% endif %}
 
+        {% if include.external_url != "" %}<img class="svg-icon card-corner" src="{{ '/assets/icons/corner.svg' | relative_url }}">{% endif %}
+        
       </div>
   </div>
 {% endif%}

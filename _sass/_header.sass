@@ -19,7 +19,6 @@
   flex: 1
   font-size: 17px
   margin: $spacing-unit/2 50px 0px
-
   text-align: left
 
   .page-link
@@ -30,7 +29,18 @@
 
     &:hover, &.active
       color: $color-orange
-    
+
+.mobile-menu-icon
+  display: none
+  position: fixed
+  z-index: 100
+  top: 33px
+  right: $spacing-unit
+  cursor: pointer
+  background: #FFF
+  padding: 10px
+  border: 1px solid $color-border
+  border-radius: 10px
 
 
 @include media-query($full-width-break)
@@ -38,7 +48,9 @@
     width: $mobile
 
     .site-nav
-      margin: 8px $spacing-unit/2
+      margin: 18px $spacing-unit/2
+      font-size: 15px
+
       .page-link
         margin-left: $spacing-unit/3 
 
@@ -48,13 +60,33 @@
     display: block
     padding-top: $spacing-unit
 
+    .mobile-menu-icon
+      display: block
+
     .site-logo
       margin-left: $spacing-unit
+      z-index: 99
+      position: relative
 
     .site-nav
-      text-align: left
-      margin-left: $spacing-unit*1.5
-      margin-top: $spacing-unit/2
+      text-align: right
+      position: fixed
+      transform: translateX(100%)
+      transition: transform 0.2s
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 9
+      background: white
+      margin: 0
+      padding-top: 90px
+      padding-right: 35px
+      font-size: 20px
+
+      &.site-nav-visible
+          transform: translateX(0)
+
       .page-link
         display: block
 
@@ -64,3 +96,16 @@
       top: $spacing-unit
       right: $spacing-unit
 
+
+@media (prefers-color-scheme: dark)
+  .mobile-menu-icon
+    background: $color-bg-dark-lighter
+    border: 1px solid $color-border-dark
+
+  .site-header
+    .site-nav
+      background: $color-bg-dark
+      .page-link
+        color: #84959F
+        &:hover, &.active
+          color: $color-orange

@@ -19,7 +19,7 @@
 
 <!-- Initialize SimpleJekyllSearch Plugin -->
 <script>
-    window.simpleJekyllSearch = new SimpleJekyllSearch({
+    var sjs = window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
@@ -30,11 +30,29 @@
     })
 
     function onkeypressed(evt, input) {
-    var code = evt.charCode || evt.keyCode;
-    if (code == 27) {
-        input.value = '';
+        var code = evt.charCode || evt.keyCode;
+        if (code == 27) {
+            input.value = '';
         }
     }
+
+    function onblursearch(input) {
+        document.getElementById('results-container').innerHTML = ''        
+    }
+
+    const menu = document.querySelector(".site-nav");
+    const menu_icon= document.querySelector(".mobile-menu-icon");
+
+    function toggleMenu() {
+      if (menu.classList.contains("site-nav-visible")) {
+        menu.classList.remove("site-nav-visible");
+      } else {
+        menu.classList.add("site-nav-visible");
+      }
+    }
+
+    menu_icon.addEventListener("click", toggleMenu);
+
 </script>
 
 </footer>

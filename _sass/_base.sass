@@ -15,13 +15,13 @@ body
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family
   color: $text-color
   line-height: $base-line-height
+  background-image: url('images/bg_header.jpg')
   background-color: $color-background
   background-size: 100% auto
   background-repeat: no-repeat
   display: flex
   min-height: 100vh
   flex-direction: column
-
 
 
 
@@ -251,3 +251,25 @@ table
 
     th:empty, td:empty
       padding: 0
+
+
+@media (prefers-color-scheme: dark)
+  body
+    color: #FFF
+    background-image: url('images/bg_header_dark.jpg')
+    background-color: $color-bg-dark
+  h1, h2, h3, h4, h5, h6
+    color: $text-color-light
+
+
+  table
+
+    tr
+      &:nth-child(even)
+        background-color: $color-bg-dark-lighter
+        width: 100%
+    th
+      background-color: lighten($color-bg-dark-lighter, 10%)
+
+  hr
+    border-top: 1px solid $color-border-dark

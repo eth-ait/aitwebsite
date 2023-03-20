@@ -66,9 +66,7 @@ layout: default
    <div class="row">
       <div class="column">
         <h2>Latest <em>Projects</em></h2>
-        <div class="grid">
-            {% include get-publications.html %}
-       </div>
+        {% include get-publications.html limit=30 with-sections=true%}
 
       </div>
     </div>

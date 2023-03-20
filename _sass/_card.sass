@@ -8,8 +8,6 @@
 	grid-template-rows: auto
 	grid-gap: 30px
 	grid-template-columns: 1fr 1fr 1fr
-	padding-left: 100px
-	margin-top: -50px
 
 	> h3
 		display: flex
@@ -23,10 +21,13 @@
 			left: 0
 			margin-top: 51px
 			border-top: 1px solid $color-grey
-			padding-right: 50px
-
+			width: 80px
 	> .card
 		margin-bottom: 0
+
+	&.with-sections
+		margin-top: -50px
+		padding-left: 100px
 
 .grid-center
 	justify-content: center
@@ -112,7 +113,6 @@
 		right: 0
 		height: 12px
 		width: 12px
-		opacity: 0.5
 
 	/**
 	 * Card Vertical 
@@ -163,19 +163,47 @@
 
 
 
-
 @include media-query($mobile-break)
 	.grid
 		display: block
+		
+		&.with-sections
+			margin-top: 0
+			padding-left: 0
 
-	.card
-		max-width: 100%
-		width: 100%
-		padding: $spacing-unit 0
-
-		&.card-vertical
+		> h3
+			display: block
+			grid-column: 1/ span 3
 			max-width: 100%
-			.card-img
-				height: auto
+			margin: 0 0 20px 0
+		
+			span
+				position: relative
+				border-top: none
 
+		.card
+			max-width: 100%
+			width: 100%
+			margin-bottom: $spacing-unit
 
+			&.card-vertical
+				max-width: 100%
+				.card-img
+					height: auto
+
+@media (prefers-color-scheme: dark)
+	.card
+		background: $color-bg-dark-lighter
+		border-color: $color-border-dark
+		.card-title
+			a
+				color: $text-color-light
+				&:hover, &.active
+					color: $color-orange
+		&.card-vertical
+			.card-links
+				border-top: 1px solid $color-border-dark
+				a
+					color: $text-color-light
+					&:hover, &.active
+						color: $color-orange

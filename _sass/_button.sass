@@ -35,3 +35,12 @@ input[type='submit']
 		&:hover
 			background-color: $color-grey
 			border-color: $color-grey
+
+@media (prefers-color-scheme: dark)
+	.button,
+	button,
+	input[type='button'],
+	input[type='reset'],
+	input[type='submit']
+		border: 1px solid $color-border-dark
+		color: $color-grey-light	

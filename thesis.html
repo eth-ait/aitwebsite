@@ -42,7 +42,7 @@ permalink: /thesis/index.html
             {% endfor %}
           {% endcapture %}
           {% capture links %}
-            <a class="card-site button" href="{{ item.url}}">Apply on SIROP</a>
+            <a class="card-site button" href="{{ item.url}}" target="_blank">Apply on SIROP</a>
           {% endcapture %}
           {% include card.html
             image=item.imageUrl

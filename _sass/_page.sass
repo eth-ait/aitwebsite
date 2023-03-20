@@ -23,16 +23,13 @@
       display: block
       font-weight: bold
 
-  .grid
-    padding-left: 120px
-    
-  h3 span
-    width: 100px
-    padding: 0
-
 .page-title
   position: relative
   z-index: 1
+
+.page-subtitle
+  font-size: 18px
+  font-weight: 600
 
 .page-img
   position: relative
@@ -51,8 +48,7 @@
     width: 80%
     max-width: none
 
-.page-info
-  font-size: 16px
+.info-block
   margin-top: $spacing-unit*2
   z-index: 1
   position: relative
@@ -61,6 +57,7 @@
     margin: 5px 0
     display: flex
     label
+      margin-top: 2px
       font-weight: bold
       font-size: 13px
       width: 100px
@@ -107,4 +104,9 @@
         transform: none
 
       
+@media (prefers-color-scheme: dark)
+  .info-block
+    .info-line
+      label
+        color: $text-color-light
 

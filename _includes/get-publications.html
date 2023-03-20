@@ -16,13 +16,23 @@
 {% endif %}
 
 
-
 {% assign sorted_publications = filtered_publications | reverse %}
 
-{% for publication in sorted_publications %}
+{% if include.full-width %}
+  </div></div>
+  <div class="row">
+    <div class="column">
+{% endif %}
+
+<div class="grid {% if include.with-sections %}with-sections{%endif%}">
+  
+{% for publication in sorted_publications limit:include.limit %}
   {% assign currentdate = publication.date | date: "%Y" %}
   
-  {% if currentdate != date %}
+
+
+
+  {% if currentdate != date and include.with-sections %}
     <h3 id="{{year.name}}"><span>{{ currentdate }}</span></h3>
     {% assign date = currentdate %}
   {% endif %}
@@ -45,15 +55,26 @@
     {% assign pub-links = pub-links | strip_newlines | strip %}
     {% assign pub-ext-url = publication.external_project_page | strip_newlines | strip %}
 
+    {% capture pub-linked-authors %}
+      {% include get-linked-persons.html persons=publication.authors %}
+    {% endcapture %}
+    
     {% include card.html
       output="vertical"
       title=publication.title
       image=publication.image
       url=publication.url
       external_url=pub-ext-url
-      description=publication.authors
+      description=pub-linked-authors
       extra=pub-extra
       links=pub-links
     %}
 
 {% endfor %}
+</div>
+
+{% if include.full-width %}
+  </div></div>
+  <div class="row">
+    <div class="column column-66">
+{% endif %}
