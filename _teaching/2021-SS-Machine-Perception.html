@@ -1,0 +1,586 @@
+---
+title: Machine Perception
+ref: mp2021
+description: 
+semester: Spring 2021
+number: 263-3710-00L
+lecturer: Otmar Hilliges, Siyu Tang
+head-ta: 
+ta: Adrian Spurr, Sammy Christen, Zicong Fan, Manuel Kaufmann, Marko Mihajlovic, Shaofei Wang, Yan Zhang
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Wed 13 - 14, live streamed via Zoom. <a href="https://ethz.zoom.us/j/92296525820">Zoom Link Lecture</a>; Thu 12 - 14, live streamed via Zoom.
+exercise-time-place: Thu 14 - 16, live streamed via Zoom. <a href="https://ethz.zoom.us/j/99816130372">Zoom Link Exercise</a>; Fri 14 - 16, live streamed via Zoom.
+image: 
+links: 
+credits: 8
+recordings: The lecture recordings will be made available.
+contact: Please address all questions regarding content, organisation etc. on <a href="https://piazza.com/ethz.ch/spring2021/263371000l/home">Piazza</a>. Please sign up to the forum using <a href="https://piazza.com/ethz.ch/spring2021/263371000l">this link</a>. The forum is closely monitored by us. Due to organisational reasons, we will not be able to respond to direct e-mails.
+---
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+    <dt>01.02.2021</dt><dd> The first lecture will take place on Thursday, 25th of February. The Wednesday lecture starts in the second week of the semester.</dd>
+    <dt>22.02.2021</dt><dd> <b>Both the lecture and the exercise will be held virtually via Zoom for the entirety of the semester. The sessions will be recorded and made available for offline viewing. </b>  </dd>
+    <dt>22.02.2021</dt><dd>Please sign up to <a class="a-text-ext" href="https://piazza.com/ethz.ch/spring2021/263371000l" target="_blank">Piazza</a>.</dd>
+</dl>
+
+<br/><hr/><br/>
+
+<a class="anchor" id="objectives"></a>
+<h3>Learning Objectives</h3>
+<p>Students will learn about fundamental aspects of modern deep learning approaches for perception. Students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in learning-based computer vision, robotics and HCI. The final project assignment will involve training a complex neural network architecture and applying it on a real-world dataset.
+</p>
+<p>The core competency acquired through this course is a solid foundation in deep-learning algorithms to process and interpret human input into computing systems. In particular, students should be able to develop systems that deal with the problem of recognizing people in images, detecting and describing body parts, inferring their spatial configuration, performing action/gesture recognition from still images or image sequences, also considering multi-modal data, among others.</p>
+<br/><hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<p>Subject to change. Materials only available from within ETH network.</p>
+
+<table>
+
+    <tr>
+        <th>Wk.</th><th>Date</th>   <th>Content</th><th>Material</th> <th>Exercise Session</th>
+    </tr>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td> 25.02 </td>
+        <td>
+            <h5>Deep Learning Introduction</h5><p>Class content &amp; admin, <br> Feedforward Networks, <br>  Representation Learning</p>
+        </td>
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l01-Intro.pdf">slides</a><br/>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l01-Intro-annotated.pdf">slides (annotated)</a><br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/cJ8ZlFV78rDG9iQIGxWhFxyu-FjKO3UyXbBVF7DF5M5IyHncQv2LKWmQwtVan2Jz.sbkdm1WGB9lGrCDf">recording</a><br/>
+        <br/>
+        <a class="a-text-ext" href="https://colab.research.google.com/drive/1SrcuVZI-5OS74UrAGHRTeUCXy5XrvlS2?usp=sharing">Perceptron Visualization Notebook</a><br/>
+        </td>
+        <td>
+            <p><b>Tutorial</b> Implement your own MLP</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/MP2021_1.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/rsfx2qQLLcFJoaujbMvJ2lDZTLSo3G8BSnPSMOYTqllxhGFvtISekGW3-x3W9dJR.xzCNqyr3oQb2RJCa">recording</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1VNGz-v-PlzWn2rCTl0f1RLXBQnt5YiWY?usp=sharing" target="_blank">XOR Notebook</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1ZRqmut5tBkTojRt7H6Oe4Q0k9AxOfSND?usp=sharing" target="_blank">XOR Solutions</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1RK4-JzLIB0prSYt_nZGhrXYCWPAXwRWp?usp=sharing" target="_blank">Eye-Gaze Notebook</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1ytIFvWm_sTW5T-GXY3F12NE564hzNpxL?usp=sharing" target="_blank">Eye-Gaze Solutions</a><br/>
+        </td>
+
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>03.03 <br> 04.03</td>
+        <td>
+            <h5>Training Neural Networks</h5><p>Backpropagation</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l02-Function_Approximation_Backpropagation.pdf">slides part I</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/p2fodabW9EuSTdAVQtoXb0xOGb0PWaZT0kbQWZr_-0o_622K9uMbeDZeDpbTpZ15.XepCi2ydOU5mLGSP">recording part I</a><br/>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l02-Function_Approximation_Backpropagation_part_2.pdf">slides part II</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/HkGJYgspQvEVSQ1SvDuzae5PVpnOQZCB8gMyO1aiysmNUE_xSEWt8s0yVpqElOti.saA0w8P8j4rI9G8H">recording part II</a><br/>
+
+        </td>
+        <td>
+            <p><b>Tutorial</b> Linear Regr.</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/MP2021_2.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/3NsofqG0sL2R_vdKazrtYhNK1DmrfWlFE6VgRZGrJVAf1U359YsH0Ia9ucZ931tp.GD5iAXFKsekjzi7d">recording</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1z1zqQV7bhYZLozstrOA8lr7kIjhcP-S1?usp=sharing">Linear Regression Notebook</a><br/>
+            <br/>
+            <p><b>Pen &amp; Paper</b> Backprop.</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex2_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex2_solutions.pdf">exercise solution</a><br/>
+        </td>
+
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>10.03. <br> 11.03.</td>
+        <td>
+            <h5>Convolutional Neural Networks</h5>
+        </td>
+        <td>
+            <p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l03-CNN.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/Q7DtkeHPe07ztOhT7SrpmwptP6EkP6Uk2w8qlnw5PoyKTHSD8LWrFVQXBtT23-KN.XEfySkOg7Z4fYEvR">recording part I</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/G6Ouz2IN83OokZP_xHefR1IHWTQ4ITywsY5Ua2CnU3Rs5s-l7k-sQfUTKWSW6S6e.aujJ5-87JoSRQ5EO">recording part II</a><br/>
+            </p>
+            <p>Additional material:
+            <br/>
+            <a class="a-text-ext" href="/teaching/courses/2021-SS-Machine-Perception/downloads/reading_materials/RSVP.mp4">RSVP</a>
+            <br/>
+            <a class="a-text-ext" href="/teaching/courses/2021-SS-Machine-Perception/downloads/reading_materials/Cortical-Neuron.mp4">Cortical Neuron</a>
+            </p>
+
+        </td>
+        <td>
+            <p><b>Tutorial</b> CNNs in Pytorch</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/MP2021_3.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/0mnR9c3Oc4wz3AgOoLscN8KRgO9CyqU77tonEqlHIckjqwfJT5H5V84eiVg68Ix5.ZURuihM9Ut24_U6C">recording</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1pP0HViCZgQ97d7cKKt4T-sdhh2TudC5R?usp=sharing">CNN Notebook</a><br/><br/>
+
+            <p><b>Pen &amp; Paper</b> CNN</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex3_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex3_solutions.pdf">exercise solution</a><br/>
+        </td>
+
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>17.03.</td>
+        <td>
+            <h5> Fully Convolutional Neural Networks</h5>
+        </td>
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l05b-Fully-CNN.pdf">slides</a>
+        <br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/LBHdVVJyZPNBrJ3n7QIzJX6mnT5crOm8Bad62j-mxMbOQgZv7lxN8sRdfIa_BO6N.d5BMOCRoa6YvqXs4">recording</a>
+        <br/>
+        </p>
+        </td>
+        <td></td>
+    </tr>
+     <tr>
+        <td>4</td>
+        <td>18.03.</td>
+        <td>
+            <h5>Recurrent Neural Networks</h5><p>LSTM, GRU, Backpropagation through time</p>
+        </td>
+        <td>
+        <p>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l04-RNN.pdf">slides</a><br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/oSAu1DF6lPHZy96ylSnhzIFkgGuO_4rSluS20h5ykD4v_61g2IuXpwhYUY-55wD0.qo4CJSih1G8ciMSh">recording</a>
+        <br/>
+        </p>
+        </td>
+        <td>
+            <p><b>Tutorial</b> RNNs in Pytorch</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/MP2021_4.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/G-_DF6nJiC_Cviz_Py6x_j0psIFjEgGU-pkKBIeTvbhPHq8EUL3JboS43VvQhEUF.ZU_UbySRMlNgwrXU">recording</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1DuOMgLOK_c7N2gxntgWYo8ifkvU2jXbr?usp=sharing">RNN Notebook</a><br/>
+            <br/>
+            <p><b>Pen &amp; Paper</b> RNN</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex4_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex4_solutions.pdf">solution</a><br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>24.03. <br> 25.03 </td>
+        <td>
+            <h5>Generative Models Pt. I: Latent Variable Models </h5><p>Variational Autoencoders, etc.</p>
+        </td>
+        <td>
+        <p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l06a-VAE-Pt-I.pdf">slides pt. I</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l06a-VAE-Pt-I-annotated.pdf">slides pt. I (annotated)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/KkIWnVsRUjeOjcST_Sj-9iKk_6fC_0V8vfJOW51n4bn9DzCj_lxbBgDjgmAJfuQx.LuCQWyX429Puwp5P">recording pt. I </a><br/>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l06b-VAE-Pt-II.pdf">slides pt. II</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l06b-VAE-Pt-II-annotated.pdf">slides pt. II (annotated)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/4sNZBBpqq-77b9A9WfNstNs5sUoWM_ThsNtsGUEnGA0KOkEIvV0CyQltDpzM-IKM.rDKpoZNSiwYoV6A1">recording pt. II </a>
+        </p>
+        <p>Additional material:
+            <br/>
+            <a class="a-pdf" href="https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf">Denoising AE</a>
+            <br/>
+            <a class="a-pdf" href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf">Image Super Res.</a>
+            <br/>
+            <a class="a-pdf" href="http://proceedings.mlr.press/v37/regier15.pdf">Celeste</a>
+            <br/>
+            <a class="a-pdf" href="https://ait.ethz.ch/projects/2017/learning-human-motion-models/downloads/3dv_learninghumanmotion.pdf">Ghosh et. al (2017)</a>
+            <br/>
+            <a class="a-vid" href="https://ait.ethz.ch/projects/2017/learning-human-motion-models/downloads/3dv_video.mp4">Ghosh et. al (2017)</a>
+            <br/>
+            <a class="a-text-ext" href="https://pubs.acs.org/doi/abs/10.1021/acscentsci.7b00572">Chemical Design</a>
+            <br/>
+            <a class="a-text-ext" href="https://worldmodels.github.io/">World Models</a>
+        </p>
+        </td>
+
+        <td>
+            <p><b>Class</b> Tips for Training I</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/MP2021_5.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/sXH6AVEaW6RVU7d3BX_Fv8ITClGoNL2mXs1V8nbdwmBzQUr79bbhUu-rJV-fwMu-.gOHjpOYaFaGb5dH5">recording</a>
+            <br/>
+            <p><b>Pen &amp; Paper</b> VAE</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex5_vae_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex5_vae_solutions.pdf">exercise solution</a><br/>
+        </td>
+
+
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td>31.03. <br> 01.04.</td>
+        <td>
+            <h5>Generative Models Pt. II: Autoregressive Models </h5><p>PixelCNN, PixelRNN, WaveNet, Stochastic RNNs</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l07-AR-Pt-I.pdf">slides pt. I</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l07-AR-Pt-I-annotated.pdf">slides pt. I (annotated)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/pxh12ZE6smxMT6iWPon1QVQxBVfyGOSFoit62UIo84E31KUA1IaUSLhuBoyE9Itg.lN79LlDwKx3LU8LZ">recording pt. I </a><br/>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l07-AR-Pt-II.pdf">slides pt. II</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l07-AR-Pt-II-annotated.pdf">slides pt. II (annotated)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/eIJxuW6HtxHezyq3EoVaIdGdCyABQio8-uHGeJaet047otxg5ZlyZ4HC7BCiktYv.sXt8dE9PBsfvd6AQ">recording pt. II </a>
+        </td>
+        <td>
+            <p><b>Class</b> Tips for Training II</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/MP2021_6.pdf">slides</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/z8EWDH08rh1vXQcq2ZOSA4MNug4XQiAsSpmLkHAhV_TOchzIE2BZPggwvmMpdT3G.GGWPnlcPDJhCZ9C4">recording </a>
+            <p><b>Pen &amp; Paper</b> AR</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex7_ar_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex7_ar_solutions.pdf">exercise solution</a><br/>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>7</td>
+        <td>07.04. <br> 08.04.</td>
+        <td>
+            <h5>-- No Class (Easter) --</h5>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+
+
+    <tr>
+        <td>8</td>
+        <td>14.04. <br> 15.04.</td>
+        <td>
+            <h5>Generative Models Pt. III: Normalizing Flows and Invertible Neural Networks </h5><p> </p>
+        </td>
+         <td>
+            <p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l08-NF-Pt-I.pdf">slides NF Pt. I</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l08-NF-Pt-I-annotated.pdf">slides NF Pt. I (anno.)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/UfjqwrKWEcZUwuzCUILCiXjI62w8ARsLwaTfSe5B3Yu_2AOywBNEOOYS5SanHwBe.q90Gw5sCe4dR9IU5">recording pt. I </a><br/>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l08-NF-Pt-II.pdf">slides NF Pt. II</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l08-NF-Pt-II-annotated.pdf">slides NF Pt. II (anno.)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/PZXacYQ0PoHxztbtBQ9nIYqp7dA5GinehE603N_TrefhixP7Z0LOX5gu3UedB0Xc.iWgIrcBBO3qgJC1I">recording pt. II </a><br/>
+            <br/>
+
+            </p>
+            <p>Additional material:
+                <br/>
+                <a class="a-text-ext" href="https://arxiv.org/pdf/1605.08803.pdf">RealNVP</a>
+                <br/>
+                <a class="a-text-ext" href="https://arxiv.org/abs/1410.8516">NICE</a>
+                <br/>
+                <a class="a-text-ext" href="https://arxiv.org/pdf/1807.03039.pdf">GLOW</a>
+                <br/>
+                <a class="a-text-ext" href="https://papers.nips.cc/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf">NeuralODE</a>
+                <br/>
+                <a class="a-text-ext" href="https://arxiv.org/pdf/1810.01367">FFJORD</a>
+                <br/>
+                <a class="a-text-ext" href="http://de.arxiv.org/pdf/2006.14200">SRFlow</a>
+                <br/>
+                <a class="a-text-ext" href="https://arxiv.org/abs/2008.02401 ">StyleFlow</a>
+                <br/>
+                <a class="a-text-ext" href="https://youtu.be/LRAUJUn3EqQw">StyleFlow (video)</a>
+                <br/>
+                <a class="a-text-ext" href="http://arxiv.org/abs/1912.07009">C-Flow</a>
+                <br/>
+                <a class="a-text-ext" href="https://www.youtube.com/watch?v=GkH-Msrhif0">C-Flow (video)</a>
+            </p>
+        </td>
+        <td>
+            <p><b>Pen &amp; Paper</b> NF</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex8_nf_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex8_nf_solutions.pdf">exercise solution</a><br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td>21.04. <br> 22.04.</td>
+        <td>
+          <h5>Generative Models Pt. III: Implicit Models </h5><p>Generative Adversarial Networks &amp; Co</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l09a-GAN-Pt-I.pdf">slides GAN Pt. I</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l09a-GAN-Pt-I-annotated.pdf">slides GAN Pt. I (anno.)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/0GxFkLQ9wm_uuWe2lyj0wCyQDglbJ_fzhtmgxWuJibgkm-i0jigQu88mjzCKDqoE.CoOolOr1jmAnqZf5">recording pt. I </a><br/>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l09b-GAN-Pt-II.pdf">slides GAN Pt. II</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l09b-GAN-Pt-II-annotated.pdf">slides GAN Pt. II (anno.)</a>
+            <br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/Cdn4gsRxF55dNL4FFqzjXbr8czR_lww-3ueCJXBYIZk5Po-pcpJDHNUIlUh9iwM9.BSTRGVKbAxasv1gH">recording pt. II </a><br/>
+            <br/>
+        </td>
+        <td>
+            <p><b>Pen &amp; Paper</b> GAN</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex9_gan_instructions.pdf">exercise</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex9_gan_solutions.pdf">exercise solution</a>
+            <br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td>28.04 <br> 29.04.</td>
+        <td>
+            <h5> Graph Neural Networks </h5><p> </p>
+        </td>
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l10-GNN.pdf">slides GNN</a>
+        <br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/f5xn8UzLGvS72lwlIlSYQ-zs4uNWJGLXr95OM6IlOwTEFy_lLOuRpQr0z_3hsXP6.t0XOJekTwo3cbRT9"> GNN recording pt. I </a><br/>
+        <br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/AdfIQiYDGCpk7MmOCoBUQIco_p_VUqKCsaLRxoyraMZs98QaW6QtMey8ifA__Zk.5qFqZnbF2cCdMfIm"> GNN recording pt. II </a><br/>
+        <br/>
+        </td>
+        <td>
+            <p><b>Pen &amp; Paper</b> GNN</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex10_gnn_instructions.pdf">exercise</a>
+            <br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex10_gnn_solutions.pdf">exercise solutions</a>
+            <br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>11</td>
+        <td>05.05 <br> 06.05.</td>
+        <td>
+            <h5> Parametric Human Body Models </h5><p> </p>
+        </td>
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l11-HumanBodyModel.pdf">slides HBM</a>
+        <br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/bbVtXnpHQ11rcWXNecH66-SCyapkraeoaWflVUcbvxj2yfbtPhoYDEa8qVRk-PrQ.qvsTXlzn_ukCCGIQ"> HBM recording pt. I </a><br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/PY3wSjqQuQSR84VfZO10LmqGuwH8JoBKdrSTXLqRDTFM-sWdZFl5KjlbilUuqfZN.EeU4iwgUGIzeYuqE"> HBM recording pt. II </a><br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/er2-S1GJfslocy2yTSxgTwM6kGNnSFh04rR_yIgIXRKawZVbxSxHq_vxum7ItEAC.Gx5drcyIa8v1OPKr"> HBM recording pt. III </a><br/>
+        <br/>
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>12.05</td>
+        <td>
+            <h5> Human Body Model Application (Optimization-based) </h5><p> </p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l12-HumanBodyModel_full.pdf">slides HBM</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/HALkyvJldD80KuyWOgZ5cpEPOlNbjV8DhPzNgCPAdBudZMfdYLTMykSjIxyMUpVf.UNWxWtxkf6wuVrvn"> recording </a><br/>
+        </td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>13.05.</td>
+        <td>
+            <h5>-- No Class (Ascension Day) --</h5>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>13</td>
+        <td>19.05</td>
+        <td>
+            <h5> Human Body Model Application (Deep Learning-based) </h5><p> </p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l13-HumanBodyPoseEstimation.pdf">slides HBM</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/NQvf5Tl9u7wzEVfNKha0SxP-Bc6L3FYm2knS1rp6V2Zxb6x5sXNyt1oBZdaMhr0D.o76ADpkPlTyO484k"> recording </a><br/>
+        </td>
+        <td>
+            <p><b>Pen &amp; Paper</b> HMB</p>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex11_hmb_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex11_hmb_solutions.pdf">exercise solution</a>
+            <br/>
+        </td>
+    </tr>
+
+     <tr>
+        <td>13</td>
+        <td>20.05</td>
+        <td>
+            <h5> Hand Pose / Eye Gaze Estimation </h5><p> </p>
+        </td>
+        <td>
+        <p>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l14-HandPose.pdf">slides Hand Pose</a><br/>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l14-EyeGaze.pdf">slides Eye Gaze</a><br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/8NpSUAEjJoX6CI35aWMwk2hW3NEfIkG2h9OIm2vzzgxZkbL6um7cYExQbYneDH9z.TVmWlFk3WSjV1iTw"> recording </a><br/>
+        </p>
+        <p>Additional material:
+            <br/>
+            <a class="a-pdf" href="https://files.is.tue.mpg.de/black/papers/SMPL2015.pdf">SMPL</a>
+            <br/>
+            <a class="a-pdf" href="https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/392/Embodied_Hands_SiggraphAsia2017.pdf">Embodied Hands</a>
+            <br/>
+            <a class="a-pdf" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Boukhayma_3D_Hand_Shape_and_Pose_From_Images_in_the_Wild_CVPR_2019_paper.pdf">Boukhayma et. al (2019)</a>
+            <br/>
+            <a class="a-pdf" href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Kulon_Weakly-Supervised_Mesh-Convolutional_Hand_Reconstruction_in_the_Wild_CVPR_2020_paper.pdf">Kulon et. al (2020)</a>
+            <br/>
+            <a class="a-pdf" href="https://arxiv.org/pdf/1804.09534.pdf">Iqbal et. al (2018)</a>
+        </p>
+        </td>
+        <td></td>
+    </tr>
+
+     <tr>
+        <td>14</td>
+        <td>26.05. <br> 27.05.</td>
+        <td>
+          <h5>Reinforcement Learning</h5>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l15-RL-Pt-I.pdf">slides RL pt. I</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/7KZe6BUZMsp4fTjnVE1H-raO5Bdk_SfLJxBy-ES8s66I51oRg1gMl3vwFXTTisdR.lzYvL4feVIi1NVFS"> recording pt. I-a </a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/SYN4CBB8anN-NeRnBsevjys0KKascd5lb-tcLcmSXmFuMda8u07K9B5tyRu8ubVb.y-Qbi2gpaXYOivtW"> recording pt. I-b</a><br/>
+
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l15-RL-Pt-II.pdf">slides RL pt. II</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l15-RL-Pt-II-annotated.pdf">slides RL pt. II (annotated)</a><br/>
+            <a class="a-vid" href="https://ethz.zoom.us/rec/share/oLwU_yuwtWLs14xx7s9hKb19DuL8gy1JPVlq1YwmX66FBcbA58EtLTBDXM2Ctp0r.iQrHfPjYLrdz1iXa"> recording pt. II </a><br/>
+        </td>
+        <td>
+              <p><b>Pen &amp; Paper</b> RL</p>
+                <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex12_rl_instructions.pdf">exercise</a><br/>
+                <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/ex12_rl_solutions.pdf">exercise solutions</a><br/>
+        </td>
+
+    </tr>
+
+
+
+    <tr>
+        <td>15</td>
+        <td>02.06.</td>
+        <td>
+            <h5>Recent Research (VLG)</h5><p></p>
+        </td>
+        <td>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/Ug6EZ4M3kaT_QGNOdLNNP6GnEGyGyMiloKleRMWN1iVHj5G5OgdDbRjvYb1aWZDv.DcOhMQp2poLT91La">recording</a>
+        </td>
+        <td></td>
+        <!--
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2020-SS-Machine-Perception/downloads/lecture_slides/2020-MP-l11-Research-Overview.pdf">slides</a>
+        <br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/xpFSJJTM8TJIbKfgxEr9SPIzRKn9eaa81nJI-fcNnU40hwCHatPmdOsNIxAtHyuv?startTime=1590652353000">recording</a>
+        </td>
+        <td></td> -->
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>03.06.</td>
+        <td>
+            <h5>Recent Research (AIT)</h5><p></p>
+        </td>
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/lectures/2021-MP-l16-Research-Overview-AIT.pdf">slides Research Overview</a><br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/play/ZyHcNBbsxxr0qXyAxLY388QP01_kQ8_Q7bbYJsu-0M5A-XIuXTHK_z1Zuh8stPkVl_LWjYi37BXRiU2l.sFOv_posAQCv-qcr?continueMode=true">recording</a>
+        </td>
+        <td></td>
+        <!--
+        <td>
+        <a class="a-pdf" href="/teaching/courses/2020-SS-Machine-Perception/downloads/lecture_slides/2020-MP-l11-Research-Overview.pdf">slides</a>
+        <br/>
+        <a class="a-vid" href="https://ethz.zoom.us/rec/share/xpFSJJTM8TJIbKfgxEr9SPIzRKn9eaa81nJI-fcNnU40hwCHatPmdOsNIxAtHyuv?startTime=1590652353000">recording</a>
+        </td>
+        -->
+    </tr>
+
+
+</tbody></table>
+
+
+<br/><hr/><br/>
+
+<a class="anchor" id="exercises"></a>
+
+<h3>Exercise Sessions</h3>
+    <p>
+        Please refer to the <a href="#schedule">above schedule once available </a> for an overview of the planned exercise slots. We will have three different types of activities in the exercise sessions:
+        <ol>
+            <li><b>Tutorial:</b> Interactive programming tutorial in Python taught by a TA. Code will be made available.</li>
+            <li><b>Class:</b> Lecture-style class taught by a TA to give you some tips on how to train your neural network in practice.</li>
+            <li><b>Pen &amp; Paper</b>: Pen &amp; paper exercises that are not graded but are helpful to prepare for the written exam. Solutions will be published on the website a week after the release and discussed in the exercise session if desired.</li>
+        </ol>
+    </p>
+
+    <!-- <p>The exercises are meant to help you understand the course's content more in-depth and to prepare you for the <a href="#projects">graded multi-week project</a>. Exercise sessions are primarily scheduled until week 8 so that you have time to work on the project after week 8.</p> -->
+
+
+
+<br><hr><br>
+<a class="anchor" id="projects"></a>
+<h3>Project</h3>
+<h4>Overview</h4>
+<p>
+    There will be a multi-week project that gives you the opportunity to have some hands-on experience with training a neural network for a concrete application. The project is to be completed in groups of three and will be graded. The project grade counts 40 % towards your final grade.
+</p>
+<p>
+    The project grade will be determined by two factors: 1) a competitive part based on how well your model fairs compared to your fellow students' models and 2) the idea/novelty/innovativeness of your approach based on a written report to be handed in by the project deadline. For each project there will be baselines available that guarantee a certain grade for the competitive part if you surpass them. The competition will be hosted on a online platform - more details will be announced here.
+</p>
+
+
+<!--<h4>Descriptions</h4>
+<p>
+    <ol>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2020-SS-Machine-Perception/downloads/projects/dynamic_gesture_recognition.pdf" target="_blank">Dynamic Gesture Recognition</a>
+        </li>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2020-SS-Machine-Perception/downloads/projects/3d_human_pose_estimation.pdf" target="_blank">3D Human Pose Estimation</a>
+        </li>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2020-SS-Machine-Perception/downloads/projects/eye_gaze_estimation.pdf" target="_blank">Eye Gaze Estimation</a>
+        </li>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2020-SS-Machine-Perception/downloads/projects/human_motion_prediction.pdf" target="_blank">Human Motion Prediction</a>
+        </li>
+    </ol>
+</p> -->
+
+<a class="anchor" id="exams"></a>
+<h3>Exam</h3>
+<p>
+To give you a rough idea what to expect for the exam, we release a mock exam which you can download here:
+  <ul>
+    <li>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/exam_mock2021.pdf">Mock exam</a>
+    </li>
+    <li>
+        <a class="a-pdf" href="/teaching/courses/2021-SS-Machine-Perception/downloads/exercises/exam_mock2021_sol.pdf">Mock exam (with solutions)</a>
+    </li>
+  </ul>
+</p>
+
+
+
