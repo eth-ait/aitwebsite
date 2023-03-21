@@ -1,0 +1,366 @@
+---
+title: Machine Perception
+ref: mp2019
+description: 
+semester: Spring 2019
+number: 263-3710-00L
+lecturer: Otmar Hilliges
+head-ta: 
+ta: Emre Aksan, Xu Chen, Manuel Kaufmann, Seonwook Park, Jie Song, Adrian Spurr, Xucong Zhang
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Thu 10:00 - 12:00, <a href="http://www.mapsearch.ethz.ch/map.do?gebaeudeMap=CAB&farbcode=c010&lang=de">CAB</a> <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CAB&geschoss=G&raumNr=61&lang=de">G 61</a>
+exercise-time-place: Thu 13:00 - 15:00, <a href="http://www.mapsearch.ethz.ch/map.do?gebaeudeMap=NO&farbcode=c010&lang=de">NO</a> <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=NO&geschoss=C&raumNr=6&lang=de">C 6</a><br/> Fri 13:00 - 15:00, <a href="http://www.mapsearch.ethz.ch/map.do?gebaeudeMap=NO&farbcode=c010&lang=de">NO</a> <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=NO&geschoss=C&raumNr=6&lang=de">C 6</a>
+image: 
+links: 
+credits: 5
+recordings: The lectures are <a href="https://www.video.ethz.ch/lectures/d-infk/2019/spring/263-3710-00L.html">recorded</a>. Credentials are available in the first week's slides.
+contact: Please address all questions regarding content, organisation etc. on <a href="https://piazza.com/ethz.ch/spring2019/263371000l/home">Piazza</a>. Please sign up to the forum using <a href="https://piazza.com/ethz.ch/spring2019/263371000l">this link</a>. The forum is closely monitored by us. Due to organisational reasons, we will not be able to respond to direct e-mails.
+
+---
+
+<h3>Overview</h3>
+<p>
+    Recent developments in neural network (aka “deep learning”) have drastically advanced the performance of machine perception systems in a variety of areas including drones, self-driving cars and intelligent UIs. This course is a deep dive into details of the deep learning algorithms and architectures for a variety of perceptual tasks.
+</p>
+<br/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+    <dt>16.04.2019</dt><dd>Schedule updated (see below).</dd>
+    <dt>01.04.2019</dt><dd>Pen &amp; Paper Backpropagation: Instructions and solutions updated following Piazza posts <a class="a-text-ext" href="https://piazza.com/class/js0rbdtjltp1nm?cid=26" target="_blank">26</a> and <a class="a-text-ext" href="https://piazza.com/class/js0rbdtjltp1nm?cid=27" target="_blank">27</a></dd>
+    <dt>27.03.2019</dt><dd>Project descriptions online.</dd>
+    <dt>21.02.2019</dt><dd>Added link to lecture <a class="a-text-ext" href="https://www.video.ethz.ch/lectures/d-infk/2019/spring/263-3710-00L.html" target="_blank">recordings</a> (first recording will be available within 1-2 days).</dd>
+    <dt>18.02.2019</dt><dd>Please sign up to <a class="a-text-ext" href="https://piazza.com/ethz.ch/spring2019/263371000l" target="_blank">Piazza</a>.</dd>
+    <dt>22.01.2019</dt><dd>Course website online, more information to follow.</dd>
+</dl>
+
+<br/><hr/><br/>
+
+
+<a class="anchor" id="objectives"></a>
+<h3>Learning Objectives</h3>
+<p>Students will learn about fundamental aspects of modern deep learning approaches for perception. Students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in learning-based computer vision, robotics and HCI. The final project assignment will involve training a complex neural network architecture and applying it on a real-world dataset.
+</p>
+<p>The core competency acquired through this course is a solid foundation in deep-learning algorithms to process and interpret human input into computing systems. In particular, students should be able to develop systems that deal with the problem of recognizing people in images, detecting and describing body parts, inferring their spatial configuration, performing action/gesture recognition from still images or image sequences, also considering multi-modal data, among others.</p>
+<br/><hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<p>Subject to change. Materials only available from within ETH network.</p>
+
+<table>
+    <tbody>
+    <tr>
+        <th>Wk.</th><th>Date</th>   <th>Content</th><th>Material</th> <th>Exercise Session</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>21.02.</td>
+        <td><h5>Introduction</h5><p>Introduction to class contents &amp; admin</p></td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l01-Intro.pdf">slides</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>28.02.</td>
+        <td>
+            <h5>Deep Learning Introduction</h5><p>Feedforward Networks, Representation Learning</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l02-Loss-FF-Networks.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l02-Loss-FF-Networks-annotated.pdf">slides (annotated)</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/lecture_notes.pdf">lecture notes</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1AfVZpBwbOfMqN5wkOmAmhKj3pmLOjPfc" target="_blank">perceptron colab notebook</a>
+        </td>
+        <td>
+            <p><b>Tutorial</b> Implement your own MLP</p>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1fRdurHPZTB8bJShTpN1egxMEeCTdRct8" target="_blank">XOR Colab Notebook</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1N9NHbNBZMuBmpcGBsG2Rq8-kbhm7GvCR" target="_blank">Eye-Gaze Colab Notebook</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/10GQA7mAMuzvWbsza0azLzrhj231-IJjx" target="_blank">Eye-Gaze Solutions Notebook</a>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>07.03.</td>
+        <td>
+            <h5>Training &amp; Classification</h5><p>Backpropagation</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l03-Backpropagation2.pdf">slides (updated)</a>
+        </td>
+        <td>
+            <p><b>Class</b> Tips for Training Part 1</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-exclass1-training-tips1.pdf">slides</a>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>14.03.</td>
+        <td>
+            <h5>-- No Class --</h5><p></p>
+        </td>
+        <td></td>
+        <td>
+            <p><b>Tutorial</b> Linear Regression in TensorFlow</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-tf-tutorial-slides.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1bx2dlJYutNitK-hlhp98OHO-5WZnrNyV" target="_blank">Colab Notebook</a><br/><br/>
+            <p><b>Pen &amp; Paper</b> Backpropagation</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-backprop-instructions.pdf">instructions (updated)</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-backprop-solutions.pdf">solutions (updated)</a>
+        </td>
+    </tr>
+
+     <tr>
+        <td>5</td>
+        <td>21.03.</td>
+        <td>
+            <h5>Convolutional Neural Networks</h5>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l04-CNN.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l04-CNN-annotated.pdf">slides (annotated)</a><br/>
+        </td>
+        <td>
+            <p><b>Tutorial</b> CNNs in TensorFlow</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-cnn-tutorial-slides.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1AQ-Zm084YF_gPLAhU662ts6QQpr_9END" target="_blank">Colab Notebook</a><br/><br/>
+            <p><b>Pen &amp; Paper</b> CNNs</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-cnn-instructions.pdf">instructions</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-cnn-solutions.pdf">solutions (updated)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>28.03.</td>
+        <td>
+            <h5>Fully Convolutional Neural Networks</h5><p>Segmentation</p>
+        </td>
+        <td>
+            <p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l05a-CNN-Pt-II.pdf">CNNs Pt 2 (updated)</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l05a-CNN-Pt-II-annotated.pdf">CNNs Pt 2 (annotated)</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l05b-Fully-CNN.pdf">Fully CNNs</a><br/>
+            </p>
+            <p>Additional Reading Material:</p>
+            <a class="a-pdf" href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank">AlexNet</a><br/>
+            <a class="a-pdf" href="https://arxiv.org/pdf/1409.1556.pdf" target="_blank">VGG</a><br/>
+            <a class="a-pdf" href="https://arxiv.org/pdf/1409.4842.pdf" target="_blank">GoogLeNet</a><br/>
+            <a class="a-pdf" href="https://arxiv.org/pdf/1512.03385.pdf" target="_blank">ResNet</a>
+        </td>
+        <td>
+            <p><b>Class</b> Tips for Training Part 2</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-exclass2-training-tips2.pdf">slides (pdf)</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-exclass2-training-tips2.pptx">slides (pptx for animations) </a>
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>04.04.</td>
+        <td>
+            <h5>Recurrent Neural Networks</h5><p>LSTM, GRU, Backpropagation through time</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l06-RNN.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l06-RNN-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td>
+            <p><b>Tutorial</b> RNNs in TensorFlow</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-rnn-tutorial-slides.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1ruAS43uNfT53mqGNH_h03hdiUnyDXo5d" target="_blank">Colab Notebook</a><br/><br/>
+            <p><b>Pen &amp; Paper</b> RNNs</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-rnn-instructions.pdf">instructions</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-rnn-solutions.pdf">solutions</a>
+        </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>11.04.</td>
+        <td>
+            <h5>Generative Models: Latent Variable Models</h5><p>Sequence Modelling and Autoencoders.</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l08-VAE.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l08-VAE-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>18.04.</td>
+        <td>
+            <h5>Generative Models: Latent Variable Models</h5><p>Variational Autoencoders.</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l09-VAE.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l09-VAE-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>25.04.</td>
+        <td>
+            <h5>-- No Class (Easter) --</h5>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>02.05.</td>
+        <td>
+            <h5>Generative Models: Implicit Models</h5><p>Generative Adversarial Networks &amp; Co</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l10-GAN.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l10-GAN-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>09.05.</td>
+        <td>
+            <h5>Generative Models: Autoregressive Models</h5><p>PixelCNN, PixelRNN, WaveNet, Stochastic RNNs</p>
+        </td>
+        <td>
+            <p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l11-AR.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l11-AR-annotated.pdf">slides (annotated)</a>
+            </p>
+            <p>Additional Reading Material:</p>
+            <a class="a-pdf" href="http://proceedings.mlr.press/v15/larochelle11a/larochelle11a.pdf" target="_blank">NADE</a> <a class="a-pdf" href="https://arxiv.org/pdf/1502.03509.pdf" target="_blank">MADE</a><br/>
+            <a class="a-pdf" href="https://arxiv.org/pdf/1601.06759.pdf" target="_blank">PixelRNN</a> <a class="a-pdf" href="https://arxiv.org/pdf/1606.05328.pdf" target="_blank">PixelCNN</a><br/>
+            <a class="a-pdf" href="https://arxiv.org/pdf/1609.03499.pdf" target="_blank">WaveNet</a> <a class="a-pdf" href="https://arxiv.org/pdf/1506.02216.pdf" target="_blank">VRNN</a><br/>
+            <a class="a-pdf" href="https://ait.ethz.ch/projects/2018/deepwriting/downloads/deepwriting_chi18.pdf" target="_blank">DeepWriting</a> <a class="a-pdf" href="https://ait.ethz.ch/projects/2019/stcn/downloads/stcn_iclr19.pdf" target="_blank">STCN</a><br/>
+            <a class="a-pdf" href="https://www.deeplearningbook.org/contents/generative_models.html" target="_blank">Deep Learning Ch. 20.10.7ff.</a>
+        </td>
+        <td>
+            <p><b>Pen &amp; Paper</b> Generative Models</p>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-generative-instructions.pdf">instructions</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/2019-MP-pp-generative-solutions.pdf">solutions</a>
+      </td>
+        </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>16.05.</td>
+      <td>
+          <h5>Applications: Eyes</h5>
+          <h5>Reinforcement Learning Pt. I</h5>
+      </td>
+      <td>
+          <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l12-Eyes.pdf">Eyes: slides</a><br/>
+          <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l12-RL.pdf">RL: slides</a><br/>
+          <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l12-RL-1-full.pdf">RL: slides (extended)</a>
+      </td>
+      <td>
+
+      </td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>23.05.</td>
+        <td>
+            <h5>Reinforcement Learning Pt. II</h5><p></p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l14-RL-2.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/lecture_slides/2019-MP-l14-RL-2-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>30.05.</td>
+        <td>
+            <h5>-- No Class (Ascension Day) --</h5>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</tbody></table>
+
+<br/><hr/><br/>
+
+<a class="anchor" id="exercises"></a>
+
+<h3>Exercise Sessions</h3>
+    <p>
+        Please refer to the <a href="#schedule">above schedule</a> for an overview of the planned exercise slots. We will have three different types of activities in the exercise sessions:
+        <ol>
+            <li><b>Tutorial:</b> Interactive programming tutorial in Python taught by a TA. Code will be made available.</li>
+            <li><b>Class:</b> Lecture-style class taught by a TA to give you some tips on how to train your neural network in practice.</li>
+            <li><b>Pen &amp; Paper</b>: There will be 4 pen &amp; paper exercises. They are not graded but are helpful to prepare for the written exam. Solutions will be published on the website a week after the release and discussed in the exercise session if desired.</li>
+        </ol>
+    </p>
+
+    <p>The exercises are meant to help you understand the course's content more in-depth and to prepare you for the <a href="#projects">graded multi-week project</a>. Exercise sessions are primarily scheduled until week 8 so that you have time to work on the project after week 8.</p>
+
+
+
+<br><hr><br>
+<a class="anchor" id="projects"></a>
+<h3>Project</h3>
+<h4>Overview</h4>
+<p>
+    There will be a multi-week project that gives you the opportunity to have some hands-on experience with training a neural network for a concrete application. The project is to be completed in groups of two and will be graded. The project grade counts 40 % towards your final grade.
+</p>
+<p>
+    The project grade will be determined by two factors: 1) a competitive part based on how well your model fairs compared to your fellow students' models and 2) the idea/novelty/innovativeness of your approach based on a written report to be handed in after the project deadline. For each project there will be baselines available that guarantee a certain grade for the competitive part if you surpass them. The competition will be hosted on a online platform - more details will be announced here.
+<p>
+    In the beginning of the course we will provide 4 projects from which your group can choose one. You will have to register for a project around week 5. As the various <a href="#exercises">exercises</a> will prepare you for this project, we do not expect you to work on it before week 8. There are no more activities in the exercise slots after week 8, so that you can use them to work on your project. The final project deadline is 2 weeks after the end of the semester (Friday, June 14th).
+</p>
+
+<h4>Descriptions</h4>
+<p>
+    <ol>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/projects/dynamic_gesture_recognition.pdf" target="_blank">Dynamic Gesture Recognition</a>
+        </li>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/projects/3d_human_pose_estimation.pdf" target="_blank">3D Human Pose Estimation</a>
+        </li>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/projects/eye_gaze_estimation.pdf" target="_blank">Eye Gaze Estimation</a>
+        </li>
+        <li>
+            <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/projects/human_motion_prediction.pdf" target="_blank">Human Motion Prediction</a>
+        </li>
+    </ol>
+</p>
+
+<h4>Submission</h4>
+    <p>
+    For the final submission, please write a report (using <a href="https://www.overleaf.com/read/tzvrpffsdrxx" target="_blank">this LaTeX template</a>) and upload your report along with your code. Details about the submission are announced later. We will re-train and re-evaluate your model. Hence, your submission should provide easy-to-follow instructions that let us reproduce your final score on the leaderboard. Please include a readme with the submission with respective instructions how to train and evaluate your model. For submissions for which it is not possible to reproduce the results, grades will be penalized accordingly.
+    </p>
+
+<h4>Grading</h4>
+    <p>
+    This project constitutes 40% of the final course grade. Project grades will be determined by taking the average of public and private scores. We will provide two baselines. Beating the easy baseline guarantees a grade of 4. As we want to encourage novel solutions and ideas, we also ask you to write a short report (3 pages, excluding references) detailing the model you used for the final submission and your contributions. Depending on this, we will weigh the grade determined by your performance w.r.t. the baselines. In other words, the grade computed as mentioned above can go up or down, depending on the contributions of your project. If you passed the easy baseline, your final grade cannot go lower than 4 after the weighting.
+    </p>
+
+
+<br><hr><br>
+
+<a class="anchor" id="exams"></a>
+<h3>Exam</h3>
+<p>The performance assessment is a written exam (2 hours) conducted during the examination session (Jul-Aug). It will constitute 60% of the final grade.</p>
+<p>
+    To give you a rough idea what to expect for the exam, we release a mock exam which you can download here:
+  <ul>
+    <li>
+        <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/exam_mock2019_instructions.pdf">Mock exam</a>
+    </li>
+    <li>
+        <a class="a-pdf" href="/teaching/courses/2019-SS-Machine-Perception/downloads/exercises/exam_mock2019_solutions.pdf">Mock exam (with solutions)</a>
+    </li>
+  </ul>
+</p>
