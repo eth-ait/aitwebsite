@@ -1,0 +1,446 @@
+---
+title: Machine Perception
+ref: mp2018
+description: 
+semester: Spring 2018
+number: 263-3710-00L
+lecturer: Otmar Hilliges
+head-ta: 
+ta: Jie Song, Emre Aksan, Seonwook Park, Adrian Spurr, Manuel Kaufmann
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: TThu 10:00 - 12:00, <a href="http://www.mapsearch.ethz.ch/map.do?gebaeudeMap=CAB&farbcode=c010&lang=de">CAB</a> <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CAB&geschoss=G&raumNr=61&lang=de">G 61</a>
+exercise-time-place: Thu 13:00 - 15:00, <a href="http://www.mapsearch.ethz.ch/map.do?gebaeudeMap=NO&farbcode=c010&lang=de">NO</a> <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=NO&geschoss=C&raumNr=6&lang=de">C 6</a>
+image: 
+links: 
+credits: 5
+contact: Please address all questions (regarding content, organisation etc.) on <a href="https://piazza.com/class/jdbpmonr7fa26b">Piazza</a>. The Piazza forum is closely monitored by us. Due to organisational reasons, we will not be able to respond to direct e-mails. In the beginning of the course you will receive an e-mail with the registration link for Piazza.
+
+
+---
+
+<h3>Overview</h3>
+<p>
+    Recent developments in neural network (aka “deep learning”) have drastically advanced the performance of machine perception systems in a variety of areas including drones, self-driving cars and intelligent UIs. This course is a deep dive into details of the deep learning algorithms and architectures for a variety of perceptual tasks.
+</p>
+<br/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl clas"definitionlist">
+    <dt>27.07.2018</dt><dd>Released mock exam (see below).</dd>
+</dl>
+<dl clas"definitionlist">
+    <dt>07.03.2018</dt><dd>Schedule update: Note that there is <i>no</i> class on March 15th. Also, in contrast to the previous schedule, a lecture will be held on April 26th. Please check the updated schedule below.</dd>
+</dl>
+<dl clas"definitionlist">
+    <dt>21.02.2018</dt><dd>Project description and relevant papers online</dd>
+</dl>
+<dl clas"definitionlist">
+    <dt>15.02.2018</dt><dd>Course website online</dd>
+</dl>
+<br/><hr/><br/>
+
+<a class="anchor" id="objectives"></a>
+<h3>Learning Objectives</h3>
+<p>Students will learn about fundamental aspects of modern deep learning approaches for perception. Students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in learning-based computer vision, robotics and HCI. The final project assignment will involve training a complex neural network architecture and applying it on a real-world dataset.
+</p>
+<p>The core competency acquired through this course is a solid foundation in deep-learning algorithms to process and interpret human input into computing systems. In particular, students should be able to develop systems that deal with the problem of recognizing people in images, detecting and describing body parts, inferring their spatial configuration, performing action/gesture recognition from still images or image sequences, also considering multi-modal data, among others.</p>
+<br/><hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<table>
+    <tbody>
+    <tr>
+        <th>Wk.</th><th>Date</th>   <th>Content</th><th>Slides</th> <th>Extra Material</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>22.02.</td>
+        <td><h5>Introduction &amp; Basic Concepts</h5><p>Introduction to class contents &amp; admin</p></td>
+    <td>
+        <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l01-Intro.pdf">slides</a>
+    </td>
+
+    <td>
+        <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/reading_materials/MP-l01-lecture-notes.pdf">lecture notes</a>
+    </td>
+    </tr>
+       <tr>
+        <td>2</td>
+        <td>01.03.</td>
+        <td>
+            <h5>Image Classification &amp; Input Recognition</h5><p>Support Vector Machines</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l02-Input-Recognition.pdf">slides</a> <br/>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l02-Input-Recognition-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/reading_materials/MP-l02-lecture-notes.pdf">lecture notes</a>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>08.03.</td>
+        <td>
+            <h5>Deep Learning Introduction</h5><p>Feedforward Networks, Representation Learning</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l03-Loss-FF-Networks.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l03-Loss-FF-Networks-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td width="25%">
+            Additional reading material (link to Stanford's course notes): <a class="a-text-ext" href="http://cs231n.github.io/linear-classify/" target="_blank">CNNs for Visual Recognition</a>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>15.03.</td>
+        <td>
+            <h5>No Class</h5><p></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+
+     <tr>
+        <td>5</td>
+        <td>22.03.</td>
+        <td>
+            <h5>Layer Types, Training &amp; Classification</h5><p>Backpropagation</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l04-Backpropagation.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l04-Backpropagation-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>29.03.</td>
+        <td>
+            <h5>Convolutional Neural Networks</h5><p></p>
+        </td>
+        <td>
+         <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l05-CNN.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l05-CNN-annotated.pdf">slides (annotated)</a>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>05.04.</td>
+        <td>
+            <h5>No Class (Easter)</h5><p></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>12.04.</td>
+        <td>
+            <h5>Recurrent Neural Networks</h5><p>LSTM, GRU, Backpropagation through time</p>
+        </td>
+        <td><a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l06-RNN.pdf">slides</a><br/>
+        <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l06-RNN-annotated.pdf">slides (annotated)</a>
+    </td>
+        <td>Additional reading material: <a class="a-text-ext" href="http://www.deeplearningbook.org/contents/rnn.html" target="_blank">Deep Learning Book, chapter on RNNs</a></td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>19.04.</td>
+        <td>
+            <h5>Program Committee</h5><p></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>26.04.</td>
+        <td>
+            <h5>Fully Convolutional CNNs</h5><p>Segmentation</p>
+        </td>
+        <td><a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l07-fully.pdf">slides</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>03.05.</td>
+        <td>
+            <h5>Generative Models Pt 1</h5><p>Variational Autoencoders</p>
+        </td>
+        <td><a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l08-VAE.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l08-VAE-annotated.pdf">slides (annotated)</a></td>
+        <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>10.05.</td>
+      <td>
+          <h5>No class (Ascension Day)</h5>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>17.05.</td>
+        <td>
+            <h5>Generative Models Pt 2</h5><p>Generative Adversarial Networks</p>
+        </td>
+        <td><a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l09-GAN.pdf">slides</a><br/>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l09-GAN-annotated.pdf">slides (annotated)</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>24.05.</td>
+        <td>
+            <h5>Hands &amp; Eyes</h5><p></p>
+        </td>
+        <td><a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l10-Hands-Eyes.pdf">slides</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>31.05.</td>
+        <td>
+            <h5>Reinforcement Learning</h5><p></p>
+        <td><a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/lecture_slides/MP-l11-RL.pdf">slides</a></td>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</tbody></table>
+
+<br/><hr/><br/>
+
+<a class="anchor" id="exercises"></a>
+
+<h3>Exercises</h3>
+<p>There will be 3 exercises (2 pen-and-papers and 1 programming exercise), which are not graded. The exercises will help you understand the course's content more in-depth and will also prepare you for the graded multi-week project (see below). You will have one week to complete each exercise, after that we release the solutions and discuss it in the exercise session. In some of the exercise sessions there are going to be additional tutorials where we will have some demos and Q&amp;A sessions that will be helpful for the completion of the exercises and the multi-week project. Exercise sessions are only scheduled until week 8, after that the TAs will be present to answer questions. Please find a schedule of the exercise sessions below.</p>
+
+<p>Exercise sheets and solutions will only be accessible from within the ETH network.</p>
+
+<table>
+    <tbody>
+    <tr>
+        <th>Wk.</th>
+        <th>Date</th>
+        <th>Content</th>
+        <th>Material</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>22.02.</td>
+        <td><h5>Introduction to Azure and TensorFlow</h5><p>Introduction on how to use Microsoft's Azure GPU cluster and example of how to implement a simple linear regression model in TensorFlow.</p></td>
+        <td><a target="_blank" href="https://notebooks.azure.com/ait-ethz/libraries/machine-perception-18/html/0_tensorflow_tutorial/notebook.ipynb">Tensorflow Tutorial (Azure Notebook)</a></td>
+    </tr>
+       <tr>
+        <td>2</td>
+        <td>01.03.</td>
+        <td>
+            <h5>Exercise 1</h5><p>Release of exercise 1 (Support Vector Machines, pen-and-paper)</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/ex1_instructions.pdf">exercise sheet</a>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/MP-ex01-svm.pdf">slides</a>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/ex1_solutions.pdf">solutions</a>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>08.03.</td>
+        <td>
+            <h5>Exercise 1 solutions and TensorFlow-Tutorial</h5><p>Discussion of exercise 1 and practical tips on how to train your neural network.</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/MP-ex02-nn_part1.pdf">slides</a>
+            <a class="a-ppt" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/MP-ex02-nn_part1.pptx">animations</a>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>15.03.</td>
+        <td>
+            <h5>No class</h5><p></p>
+        </td>
+        <td></td>
+    </tr>
+
+     <tr>
+        <td>5</td>
+        <td>22.03.</td>
+        <td>
+            <h5>Exercise 2 and Regularization</h5><p>Release of exercise 2 (Backpropagation, pen-and-paper) and practical tips on how to improve the generalization performance of your neural network.</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/ex2_instructions.pdf">exercise sheet</a> <br>
+             <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/ex2_solutions.pdf">solutions</a> <br>
+             <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/MP-ex04-slides.pdf">slides</a>
+        </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>29.03.</td>
+        <td>
+            <h5>Exercise 2 solutions</h5><p>Discussion of exercise 2</p>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>05.04.</td>
+        <td>
+            <h5>No class</h5><p></p>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>12.04.</td>
+        <td>
+            <h5>Exercise 3 and TensorFlow-Tutorial 3</h5><p>Practical tutorial on how to train a CNN and RNN model in TensorFlow and some additional (optional) programming exercises.</p>
+        </td>
+    <td><a target="_blank" href="https://notebooks.azure.com/ait-ethz/libraries/machine-perception-18/html/1_cnn_tutorial/tf_tutorial_cnn.ipynb">CNN Azure Notebook</a><br><a target="_blank" href="https://notebooks.azure.com/ait-ethz/libraries/machine-perception-18/html/1_cnn_tutorial/tf_tutorial_rnn.ipynb">RNN Azure Notebook</a>
+        </td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>19.04.</td>
+        <td>
+            <h5>Exercise 3 Q&amp;A and Project Report Guidelines</h5><p>Q&amp;A session for exercise 3 and some help and guidelines for the report to be handed in at the end of the project.</p>
+        </td>
+        <td>
+             <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/writing_the_report.pdf">Report Writing</a>
+    </td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>
+            ...
+        </td>
+        <td></td>
+    </tr>
+</tbody></table>
+
+<br><hr><br>
+<a class="anchor" id="projects"></a>
+<h3>Project</h3>
+<p>
+    There will be a multi-week project that gives you the opportunity to have some hands-on experience with training a neural network for a concrete application. The project is to be completed in groups of two and will be graded. The grade counts 50 % towards your final grade.
+</p>
+<p>
+    There are 4 projects available for which you need to register in the beginning of the course (details are to be announced). As the various exercises will prepare you for this project, we do not expect you to work on it before week 8. There are no more activities in the exercise slots after week 8, so that you can use them to work and/or ask questions about your project.
+
+</p>
+<p>
+    The projects will be hosted on Kaggle, i.e., the grade will be dependent on the performance of your model. There are some baselines available that will guarantee a certain grade if your model outperforms them. You are also asked to hand in a short report (max. 3 pages) describing your best performing model. The report will be considered for your final grade. The final deadline is 2 weeks after the end of the semester (Friday, June 15th). More details will be announced in the lecture and here.
+</p>
+
+<br><hr style="border-top-style: dashed; border-top-width: 1px" />
+
+<h4>1) Gesture Recognition from Videos</h4>
+<p>
+    This project involves classification of dynamic hand gestures from multi-modal data including RGB, depth, segmentation mask and skeletal information for videos.
+</p>
+
+Relevant papers:
+<ol style="list-style: decimal inside none">
+    <li>
+        Pavlo Molchanov et al. (2016) <a class="a-text-ext" href="http://www.kihwan23.com/papers/CVPR16/R3DCNN16.pdf" target="_blank">Online Detection and Classification of Dynamic Hand Gestures with Recurrent 3D Convolutional Neural Networks</a>
+    </li>
+    <li>
+        Lionel Pigou et al. (2018) <a class="a-text-ext" href="https://link.springer.com/content/pdf/10.1007%2Fs11263-016-0957-7.pdf" target="_blank">Beyond Temporal Pooling: Recurrence and Temporal Convolutions for Gesture Recognition in Video</a>
+    </li>
+</ol>
+
+<br><hr style="border-top-style: dashed; border-top-width: 1px" />
+
+<h4>2) Hand Joint Recognition</h4>
+<p>
+    This project tackles the problem of 2D keypoint estimation of human hands. Given an image of a human hand, we would like to infer the 2D location of the joints.
+</p>
+Relevant papers:
+<ol style="list-style: decimal inside none">
+    <li>
+       Shih-En Wei et al. (2016) <a class="a-text-ext" href="https://arxiv.org/abs/1602.00134" target="_blank">Convolutional Pose Machines</a>
+    </li>
+    <li>
+       Alejandro Newell et al. (2016) <a class="a-text-ext" href="https://arxiv.org/abs/1603.06937" target="_blank">Stacked Hourglass Networks for Human Pose Estimation</a>
+    </li>
+</ol>
+
+<br><hr style="border-top-style: dashed; border-top-width: 1px" />
+
+<h4>3) Eye Gaze Estimation</h4>
+<p>
+    This project concerns the estimation of eye gaze direction. In other words, we try to find in which 3D direction a person's eye is looking towards, as seen from the perspective of a webcam. We work with just single eye images as input and regress two angles to represent eyeball yaw and pitch.
+</p>
+
+Relevant papers:
+<ol style="list-style: decimal inside none">
+    <li>
+        Xucong Zhang et al. (2017) <a class="a-text-ext" href="https://perceptual.mpi-inf.mpg.de/files/2017/11/zhang17_pami.pdf" target="_blank">MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation</a>
+    </li>
+    <li>
+        Kyle Krafka et al. (2016) <a class="a-text-ext" href="https://people.csail.mit.edu/khosla/papers/cvpr2016_Khosla.pdf" target="_blank">Eye Tracking for Everyone</a>
+    </li>
+    <li>
+        Ashish Shrivastava et al. (2017) <a class="a-text-ext" href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Shrivastava_Learning_From_Simulated_CVPR_2017_paper.pdf" target="_blank">Learning from Simulated and Unsupervised Images through Adversarial Training</a>
+    </li>
+</ol>
+
+<br><hr style="border-top-style: dashed; border-top-width: 1px" />
+
+<h4>4) Human Motion Prediction</h4>
+<p>
+    In this project you are given a sequence of full-body human poses, represented as 3D skeletal data, and the task is to predict how the motion continues for several frames in the future.
+</p>
+
+Relevant papers:
+<ol style="list-style: decimal inside none">
+    <li>
+        Katerina Fragkiadaki et al. (2015) <a class="a-text-ext" href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Fragkiadaki_Recurrent_Network_Models_ICCV_2015_paper.pdf" target="_blank">Recurrent Network Models for Human Dynamics</a>
+    </li>
+    <li>
+        Julieta Martinez et al. (2017) <a class="a-text-ext" href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Martinez_On_Human_Motion_CVPR_2017_paper.pdf" target="_blank">On Human Motion Prediction Using Recurrent Neural Networks</a>
+    </li>
+    <li>
+        Partha Ghosh et al. (2017) <a class="a-text-ext" href="https://ait.ethz.ch/projects/2017/learning-human-motion-models/downloads/3dv_learninghumanmotion.pdf" target="_blank">Learning Human Motion Models for Long-term Predictions</a>
+    </li>
+</ol>
+
+
+<br><hr><br>
+
+<a class="anchor" id="casestudy"></a>
+<h3>Case Study</h3>
+<p>We will have an in-class case study, where we simulate a program committee meeting. This part of the course is optional and will not be graded. However, you will have the chance to discuss a paper that can be relevant for the project. In order to participate in the case study, you will have to register through a form that will be published here in due time.</p>
+<br>
+
+<br><hr><br>
+
+<a class="anchor" id="exams"></a>
+<h3>Exam</h3>
+<p>The performance assessment is a written exam (2 hours) conducted during the examination session (Jul-Aug). It will constitute 50 % of the final grade.</p>
+<p>
+    To give you a rough idea what to expect for the exam, we release a mock exam which you can download here:
+  <ul>
+    <li>
+        <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/mock_exam_18.pdf">Mock exam</a>
+    </li>
+    <li>
+        <a class="a-pdf" href="/teaching/courses/2018-SS-Machine-Perception/downloads/exercises/mock_exam_sol_18.pdf">Mock exam (with solutions)</a>
+    </li>
+  </ul>
+</p>
+<br>
