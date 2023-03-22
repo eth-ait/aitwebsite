@@ -1,0 +1,281 @@
+---
+title: User Interface Engineering
+ref: uie2015
+description: 
+semester: Spring 2015
+number: 263-3700-00L
+lecturer: Otmar Hilliges
+head-ta: 
+ta: Jie Song, Fabrizio Pece
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Wed 13:15 - 15:00, ML F 40
+exercise-time-place: Wed 15:15 - 16:00, ML F 38
+image: 
+links: 
+credits: 4
+office: coordinate via e-mail&#58; otmar.hilliges@inf.ethz.ch
+---
+
+<h3>Overview</h3>
+<p>
+    An in-depth introduction to the core concepts of post-desktop user interface engineering. Current topics in UI research, in particular non-desktop based interaction, mobile device interaction, augmented and mixed reality, and advanced sensor and output technologies.
+</p>
+<br/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+    <dt>22.05.2015</dt><dd>Final projects reviewers assignment now online. See <a href="#projects">projects</a> section.</dd>
+    <dt>13.05.2015</dt><dd>Info on midterm review and final project presentations now online. See <a href="#exams">exams</a> and <a href="#projects">projects</a> section.</dd>
+    <dt>06.05.2015</dt><dd>Midterm grades are now online. See <a href="#exams">exams section</a>.</dd>
+    <dt>14.04.2015</dt><dd>Room change: the location for the midterm is <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=HG&geschoss=D&raumNr=5.2&lang=EN" target="_blank">HG D5.2</a>.</dd>
+    <dt>14.04.2015</dt><dd>Reminder: the project phase now begins. Don't forget the one-minute madness will happen during the exercise session on 15.4.2015.</dd>
+    <dt>02.04.2015</dt><dd>Solution for Homework 1 is now online.</dd>
+    <dt>25.03.2015</dt><dd>We had accidentally removed links to lecture slides. They are now back online again (up to Lec 6).</dd>
+        <dt>25.03.2015</dt><dd>Homework assignement Nr. 2 is now online.</dd>
+    <dt>24.03.2015</dt><dd>Solution for Homework 0 is now online.</dd>
+    <!--
+    <dt>04.10.2013</dt><dd>The midterm exam will be on <em>Nov 6<sup>th</sup></em> during the first hour of the class.</dd>
+    <dt>29.09.2013</dt><dd>Anonymous Feedback form is now <a href="feedback.php" target="_blank" title="Feedback Form">online</a>.</dd> 
+    <dt>19.09.2013</dt><dd>Please contact the TA's for administrative or organisational questions.</dd>
+    <dt>05.09.2013</dt><dd>Note new location for the Exercises CNB D101 (Pervasive Lab)</dd>
+    <dt>05.09.2013</dt><dd>The exercises (with presence) will only start in the second week of the term on 25.9.2013. However there will be a reading assignment in Week 1.</dd> 
+    -->
+</dl>
+<br/><hr/><br/>
+
+<a class="anchor" id="objectives"></a>
+<h3>Learning Objectives</h3>
+<p>Students will learn about fundamental aspects pertaining to the design and implementation of modern (non-desktop) user interfaces. Students will understand the basics of human cognition and capabilities as well as gain an overview of technologies for input and output of data. The core competency acquired through this course is a solid foundation in data-driven algorithms to process and interpret human input into computing systems. </p>
+<p>At the end of the course students should be able to understand and apply advanced hardware and software technologies to sense and interpret user input. Students will be able to develop systems that incorporate non-standard sensor and display technologies and will be able to apply data-driven algorithms in order to extract semantic meaning from raw sensor data.</p>
+<br/><hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<table>
+    <tbody>
+    <tr>
+        <th>Wk.</th><th>Date</th>   <th>Content</th><th>Slides</th> <!--<th>Reading</th>-->
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>18.02.</td> 
+        <td><h5>Introduction</h5><p>Course contents &amp; Basics of perception</p></td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l01-Intro-the-user.pdf">slides</a> 
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l01-Intro-the-user_annotated.pdf">slides(annotated)</a><br>
+        </td>
+    </tr>   
+    <tr>
+        <td>2</td>  
+        <td>25.02.</td> 
+        <td>
+            <h5>Human Capabilities</h5><p>Human Vision &amp; Motor System</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l02-Motor-System.pdf">slides</a> 
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l02-Motor-System_annotated.pdf">slides(annotated)</a><br>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>  
+        <td>04.03.</td> 
+        <td>
+            <h5>Post-Desktop UIs</h5><p>Touch Sensing Technologies &amp; Touch UIs</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l03-Touch.pdf">slides</a><br>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>  
+        <td>11.03.</td> 
+        <td>
+            <h5>Optimizing Text Input &amp; 2D stroke recognition</h5><p>Algorithms for layout optimization and recognize 2D stroke input.</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l04-2D-Recognition.pdf">slides</a>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l04-2D-Recognition_(final).pdf">slides (final)</a><br>
+        </td>
+    </tr> 
+    <tr>
+        <td>5</td>  
+        <td>18.03.</td> 
+        <td>
+            <h5>ML for HCI Pt. I</h5><p>Classification / regression. SVMs</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l05-Gesture-Recognition.pdf">slides</a>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l05-Gesture-Recognition_annotated.pdf">slides (annotated)</a><br>
+        </td>
+    </tr> 
+    <tr>
+        <td>6</td>  
+        <td>25.03.</td> 
+        <td>
+            <h5>ML for HCI Pt. II</h5><p>Non-linear SVMs & Case studies</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l06-Gesture-Recognition_Case_Studies.pdf">slides</a>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l06-Gesture-Recognition_Case_Studies_annotated.pdf">slides (annotated)</a><br>
+        </td>
+    </tr> 
+    <tr>
+        <td>7</td>  
+        <td>01.04.</td> 
+        <td>
+            <h5>ML for HCI Pt. III</h5><p>Introduction to Random Forests</p>
+        </td>
+        <td>
+             <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l07-RandomForests.pdf">slides</a>
+             <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l07-RandomForests_annotated_split.pdf">slides (annotated)</a>
+             <a class="a-ppt" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l07-RandomForests-Videos.pptx">pptx (wth videos)</a><br>
+        </td>
+    </tr>   
+    <tr>
+        <td>8</td>  
+        <td>15.04.</td> 
+        <td>
+            <h5>!Midterm!</h5>
+        </td>
+        <td>
+            No slides
+        </td>
+    </tr> 
+    <tr>
+        <td>9</td>  
+        <td>22.04.</td> 
+        <td>
+            <h5>!No-Class (ACM CHI)!</h5>
+        </td>
+        <td>
+                    </td>
+    </tr> 
+        <tr>
+        <td>10</td> 
+        <td>29.04.</td> 
+        <td>
+            <h5>ML for HCI Pt. IV</h5><p>RF based gesture recognition &amp; hand pose estimation</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l08-RandomForests-UseCases-Split.pdf">slides (wth video-links)</a>
+            <a class="a-ppt" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l08-RF-UseCases-Video.pptx">videos (pptx)</a><br>
+        </td>
+    </tr> 
+    </tr> 
+        <tr>
+        <td>11</td> 
+        <td>06.05.</td> 
+        <td>
+            <h5>Camera based input</h5><p>Techniques &amp; algorithms for the analysis of motion and shape</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l09-Motion-Analysis.pdf">slides</a>
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l09-Motion-Analysis-Split.pdf">slides (split)</a>
+            <a class="a-ppt" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l09-Videos.pptx">videos (pptx)</a>
+        </td>
+    </tr>  
+    </tr> 
+    <tr>
+        <td>12</td> 
+        <td>13.05.</td> 
+        <td>
+            <h5>Augmented Reality I</h5><p>Systems, Tracking and Display technologies.</p>
+        </td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l10-ARpt1.pdf">slides</a>
+        </td>
+    </tr> 
+    <tr>
+        <td>13</td> 
+        <td>20.05.</td> 
+        <td>
+            <h5>Augmented Reality II</h5><p>Camera tracking, scene reconstruction.</p>
+        </td>
+         <td> 
+            <a class="a-pdf" href="/legacy/2015-SS-UIE/LectureSlides/UIE-l11-ARpt2.pdf">slides</a>
+        </td>
+    </tr>
+    <tr>
+        <td>14</td> 
+        <td>27.05.</td> 
+        <td>
+            <h5>Project Presentations &amp; Demos</h5>
+        </td>
+        <td>
+            No slides
+        </td>
+    </tr>                          
+</tbody></table>
+
+<br/><hr/><br/>
+
+<a class="anchor" id="exercises"></a>
+<h3>Exercises</h3>
+<p>There will be 2 programming assignments. The exercises will not constitute any part of the final grade, but you will still receive feedbacks on them. Assignments have to be completed individually. It is ok to discuss with your team members but you have to write your own code. <b>Submissions via SVN</b> (please refer to the <a class=" " href="/legacy/2015-SS-UIE/Exercises/UIE-exe00-Intro.pdf">Exercise0 slides</a> for instructions on how to setup the SVN).</p>
+<p>Exercise sheets and solutions will only be accessible from within the ETH network.</p>
+
+<table>
+    <tbody><tr><th>Exercise</th>    <th>Assignment</th> <th>Solution</th>   <th>Due date</th>   </tr>
+    <tr>
+        <td>Exercise 0</td> 
+        <td> <a class="a-pdf" href="/legacy/2015-SS-UIE/Exercises/UIE-exe00-Intro.pdf">Homework0</a> </td>
+        <td> <a class="a-zip" href="/legacy/2015-SS-UIE/Exercises/exercise0.zip">Solution code</a></td>             
+        <td> NA </td>           
+    </tr>
+    
+    <tr>
+        <td>Exercise 1 </td>    
+        <td> <a class="a-zip" href="/legacy/2015-SS-UIE/Exercises/exercise1.zip">Homework1</a> </td>
+        <td> <a class="a-zip" href="/legacy/2015-SS-UIE/Exercises/exercise1-solution.zip">Solution code</a> </td>       
+        <td> 25.03.2015 </td>           
+    </tr>
+
+
+    <tr>
+        <td>Exercise 2 </td>    
+        <td> <a class="a-zip" href="/legacy/2015-SS-UIE/Exercises/exercise2.zip">Homework2</a> </td>
+        <td> <a class="a-zip" href="/legacy/2015-SS-UIE/Exercises/exercise2-solution.zip">Solution code</a> </td>   
+       
+       <!--<td> <a class="a-zip" href="/legacy/2015-SS-UIE/Exercises/exercise0.zip">Solution code</a></td>-->           
+        <td> 22.04.2015 </td>           
+    </tr>
+        <!--
+    <tr><td>Exercise 2</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/hw2.pdf">Homework2</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise2_Skeleton.7z">Skeleton code</a>                    <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise2_Solution.zip">Solution code</a> </td>               <td> 17/10/2013</td>            </tr>
+    <tr><td>Exercise 3</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/ex3.pdf">Homework3</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise3_Skeleton_Video.7z">Skeleton code(hardwr) </a> <a class="a-vid" href="https://ait.ethz.ch/legacy/Exercise3_Skeleton_Camera.7z">Skeleton code(vid)</a>  <a class="a-pdf" href="https://ait.ethz.ch/legacy/Exercise_Solutions/ex3_Solution.pdf">Solution PDF</a></td>                <td>25/10/2013 </td>            </tr>
+    <tr><td>Exercise 4</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/ex4.pdf">Homework4</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise4_Projector_Calibration.7z">Skeleton code</a>   <a class="a-pdf" href="https://ait.ethz.ch/legacy/hw4solution.pdf">Solution</a>                             <a class="a-zip" href="https://ait.ethz.ch/legacy/hw4soln.7z">Solution code</a> </td>           <td> 13/11/2013</td>    </tr>
+        -->
+    </tbody></table>
+        
+<br><hr><br>
+
+        
+<a class="anchor" id="exams"></a>
+<h3>Exams</h3>
+    <h4><b>Midterm Exam</b></h4>
+<p>The midterm pen-and-paper exam which makes up 20% of your final grade will take place on Wednesday 15.4.2015 (during lecture hours).</p>
+<p>The midterm will take place in <a href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=HG&geschoss=D&raumNr=5.2&lang=EN" target="_blank">HG D5.2</a></p>
+    <h4><b>Midterm Grades</b></h4>
+<p><em>New: </em>The midterm grades are available <a class="a-pdf" href="/legacy/2015-SS-UIE/MiscMaterials/grades_legi.pdf">here</a>. </p>    
+<p><em>New: </em>Grade distribution is <a class="a-pdf" href="/legacy/2015-SS-UIE/MiscMaterials/grade_distribution.pdf">here</a>. </p>    
+<p><em>New: </em>Grading scheme is here <a class="a-pdf" href="/legacy/2015-SS-UIE/MiscMaterials/grading_scheme.pdf">here</a>. </p>    
+<h4><b>Midterm Review</b></h4>
+<p>
+You can review the midterm exam starting this week (May 12th) every <b>Tuesday and Wednesday from 2pm to 4pm</b> until the end of the semester.
+<ul>
+    <li>Location: <b>CAB H82.2</b></li>
+    <li>Person of contact: <b>Franziska Maeder</b></li>
+    <li>No appointment necessary; note that time for the individual exam review may be limited in case of high level of visitation on certain date/times.</li>
+</ul>
+</p>
+<br>
+
+<br><hr><br>
+
+<a class="anchor" id="projects"></a>
+<h3>Projects</h3>
+<p> Final project presentations are due in the last week of the term  <b>Wednesday 27.5.2015</b> </p>
+<p> You can find the projects reviewers assignment <a class="a-pdf" href="/legacy/2015-SS-UIE/MiscMaterials/associations-full.pdf">here</a>. For the final presentation, each group is assigned 2 other "reviewing" groups which will be responsible for asking questions.</p>
