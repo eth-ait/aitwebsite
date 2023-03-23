@@ -1,0 +1,125 @@
+---
+title: User Interface Engineering
+ref: uie2013
+description: 
+semester: Fall 2013
+number: 263-3700-00L
+lecturer: Otmar Hilliges
+head-ta: 
+ta: Tobias Nägeli, Karthik Sheshadri, and Liu Zhiyong
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Wed 13:15 - 15:00, HG E 33.3
+exercise-time-place: Wed 15:15 - 16:00, CNB D101
+image: 
+links: 
+credits: 4
+office: coordinate via e-mail&#58; otmar.hilliges@inf.ethz.ch
+---
+
+<h3>Overview</h3>
+<p>
+    This course provides an in-depth introduction to the core concepts of user interface engineering such as user interface technologies, input/output devices, and algorithms to process human input into computing systems. The course focuses on current topics in UI design, in particular post-desktop interaction, mobile device interaction, augmented and mixed reality, and advanced sensor and output technologies.
+</p>
+<br/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+    <dt>30.10.2013</dt><dd>The catalogue of potential topics for the midterm is now <a href="https://ait.ethz.ch/legacy/Midterm_Topics_UIE_HS13.pdf" target="_blank" title="Midterm topics">online</a>.</dd>
+    <dt>04.10.2013</dt><dd>The midterm exam will be on <em>Nov 6<sup>th</sup></em> during the first hour of the class.</dd>
+    <dt>29.09.2013</dt><dd>Anonymous Feedback form is now <a href="feedback.php" target="_blank" title="Feedback Form">online</a>.</dd> 
+    <dt>19.09.2013</dt><dd>Please contact the TA's for administrative or organisational questions.</dd>
+    <dt>05.09.2013</dt><dd>Note new location for the Exercises CNB D101 (Pervasive Lab)</dd>
+    <dt>05.09.2013</dt><dd>The exercises (with presence) will only start in the second week of the term on 25.9.2013. However there will be a reading assignment in Week 1.</dd> 
+</dl>
+<br/><hr/><br/>
+
+<a class="anchor" id="objectives"></a>
+<h3>Learning Objectives and Course Content</h3>
+<p>By the end of the course students will be able to design and implement functional interactive systems, that sense user input and extract semantic meaning from low-level sensor data, and respond to the sensed input with synthesized output (e.g., graphics, audio). Throughout the course students will master the following constituting elements:</p>
+<ol class="roman">
+    <li>Predict which sensor is best suited to implement a given design.
+        <ol class="letters">
+            <li>Describe working principles of various sensor technologies.</li>
+            <li>Analyze the advantages and disadvantages of different sensors in respect to the intended use.</li>
+        </ol>
+    </li>
+    <li>Compare, choose and implement different algorithms for user input recognition (i.e., gesture recognition, stroke recognition)</li>
+    <li>Decide how to map user input to the manipulation of digital information and on-screen output.</li>
+    <li>Read and critique descriptions of interactive systems in research papers.</li>
+    <li>Present and reason about design choices made during the implementation of an interactive system.</li>
+</ol>
+<br/><hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+<table><tbody>
+    <tr><th>Wk.</th><th>Date</th>   <th>Content</th>                                                                                                                                                                    <th>Slides</th>                                                                                                                                                                                                                                                         <th>Reading</th></tr>
+    <tr><td>1</td>  <td>18.09.</td> <td><h5>Introduction</h5>                                   <p>Introduction to class contents, HCI research field, admin</p></td>                                                   <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_I_Introduction_Overview.pdf">slides1</a><br>   <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_II_Motivation.pdf">slides2</a><br>  <a class="a-ppt" href="/legacy/LectureSlides/2013-FS-UIE/ex1.pptx">ex1</a></td> <td><a class="a-pdf" href="/legacy/course materials/Homework materials/p115-han.pdf">Han(req)</a><br>   <a class="a-pdf" href="/legacy/course materials/Homework materials/p209-matsushita.pdf">Mat(op)</a><br> <a class="a-pdf" href="/legacy/course materials/Homework materials/p289-malik.pdf">Malik(op)</a><br>    <a class="a-pdf" href="/legacy/course materials/Homework materials/schoening2008multitouch.pdf">Sch(req)</a></td></tr>  
+    <tr><td>2</td>  <td>25.09.</td> <td><h5>Input Fundamentals I</h5>                           <p>Buttons, switches, sliders. Keyboards &amp; Mice, Textinput</p></td>                                                 <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_III_Input_Fundamentals.pdf">slides_short</a>       <br><a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_III_Input_Fundamentals_long.pdf">slides_long</a>    <br><a class="a-ppt" href="/legacy/LectureSlides/2013-FS-UIE/ex2.pptx">ex2</a> </td> <td> </td></tr>
+    <tr><td>3</td>  <td>02.10.</td> <td><h5>Interactive Surfaces &amp; Gestural Interfaces</h5> <p>Overview of post-WIMP Interfaces and Interaction Techniques (image processing for vision based touch screens)</p></td><td><a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_IV_Interactive_Surfaces.pdf">slides</a>    </td></tr>
+    <tr><td>4</td>  <td>09.10.</td> <td><h5>No Class (ACM UIST)</h5>                            <p>Work on homework assignments / Project ideas</p></td>                                                                <td> <em>No Slides</em> </td> <td> </td></tr>
+    <tr><td>5</td>  <td>16.10.</td> <td><h5>Camera based input I</h5>                           <p>Techniques &amp; algorithms for touch detection on interactive surfaces (tracking, filtering etc.)</p></td>          <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_V_Tracking_Filtering.pdf">slides</a>       </td> <td><a class="a-pdf" href="http://www.cs.unc.edu/~welch/kalman/media/pdf/maybeck_ch1.pdf" target="_blank">KF_intro</a> <br><a class="a-pdf" href="http://www.cs.unc.edu/~tracker/media/pdf/SIGGRAPH2001_CoursePack_08.pdf" target="_blank">KF_tutorial</a> </td></tr>
+    <tr><td>6</td>  <td>23.10.</td> <td><h5>Advanced Input Devices &amp; Techniques</h5>        <p>Touchscreen technologies. Resistive / Capacitive</p></td>                                                            <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_VI_Embedded_Sensing.pdf">slides</a>    <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_VI_Embedded_Sensing_ClassRoomResults.pdf">slides_interactive_seq</a>  </td> <td> </td></tr>
+    <tr><td>7</td>  <td>30.10.</td> <td><h5>Camera based input II</h5>                          <p>Techniques &amp; algorithms for the analysis of motion and shape based interaction (mostly Optical Flow)</p></td>    <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_VII_MotionAnalysis_OpticalFlow.pdf">slides</a></td> <td> </td></tr>
+    <tr><td>8</td>  <td>06.11.</td> <td><h5>Midterm &amp; Presentation of Project Ideas</h5>    <p>Attendance required!</p></td>                                                                                        <td> <em>No Slides</em></td> <td> </td></tr>
+    <tr><td>9</td>  <td>13.11.</td> <td><h5>Gesture recognition I</h5>                          <p>2D Gesture and stroke recognition.</p></td>                                                                          <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_VIII_Gesture_Recognition_Basics.pdf">slides</a></td> <td> </td></tr>
+    <tr><td>10</td> <td>20.11.</td> <td><h5>Gesture recognition II</h5>                         <p>Advanced techniques for gesture recognition.</p></td>                                                                <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_IX_Gesture_Recognition_Advanced.pdf">slides</a></td> <td> </td></tr>
+    <tr><td>11</td> <td>27.11.</td> <td><h5>Intro to body and hand pose estimation</h5>         <p>Basic introduction to body (and particularly hand) pose estimation. Random Forests.</p></td>                         <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_X_Gesture_Recognition_RandomForests.pdf">slides</a></td> <td> <a class="a-ppt" href="/legacy/LectureSlides/2013-FS-UIE/RandomForests_Embedded_Videos.pptx">PPT with embedded videos</a> </td></tr>
+    <tr><td>12</td> <td>04.12.</td> <td><h5>Hand pose estimation & HMMs</h5>                    <p>Advanced algorithms for hand pose estimation. HMMs for gesture recognition.</p></td>                                 <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_XI_HandPoseEstimation_HMMs.pdf">slides</a></td> <td> </td></tr>
+    <tr><td>13</td> <td>11.12.</td> <td><h5>Augmented Reality</h5>                              <p>Overview of Augmented Reality research field. Camera tracking, scene reconstruction.</p></td>                        <td> <a class="a-pdf" href="/legacy/LectureSlides/2013-FS-UIE/Pt_XII_AugmentedReality_Intro.pdf">slides</a></td> <td> </td></tr>
+    <tr><td>14</td> <td>18.12.</td> <td><h5>Review &amp; Project presentations</h5>             <p>Exercise groups present their projects prototypes</p></td>                                                           <td> <em>No Slides</em></td> <td> </td></tr>
+</tbody></table>
+<br/><hr/><br/>
+
+<a class="anchor" id="exercises"></a>
+<h3>Exercises</h3>
+<p>There will be 5 programming (and some hardware building) assignments. The homework constitutes 40% of the final grade. Assignments have to be completed individually. It is ok to discuss with your team members but you have to write your own code. You will have to be able to explain your implementation line-by-line.</p>
+<p>The assignment sheets will be available on Monday before each weeks Exercise slot (Wed 15-16). Please read these before you come to the Exercise and ask questions if something is unclear. Exercise sheets and solutions will only be accessible from within the ETH network.</p>
+
+<table>
+    <tbody><tr><th>Exercise</th>    <th>Assignment</th>     <th>Due date</th>   </tr>
+    <tr><td>Exercise 1</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/hw1.pdf">Homework1</a> <a class="a-pdf" href="https://ait.ethz.ch/legacy/UIE_Excercise_1_supplement.pdf">Homework_supp</a>       <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise1_calibration.7z">Skel_calib</a>              <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise1_Skeleton.7z">Skel_img</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise1_Solution.7z">Solution code</a></td>               <td> 03/10/2013</td>            </tr>
+    <tr><td>Exercise 2</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/hw2.pdf">Homework2</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise2_Skeleton.7z">Skeleton code</a>                    <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise2_Solution.zip">Solution code</a> </td>               <td> 17/10/2013</td>            </tr>
+    <tr><td>Exercise 3</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/ex3.pdf">Homework3</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise3_Skeleton_Video.7z">Skeleton code(hardwr) </a> <a class="a-vid" href="https://ait.ethz.ch/legacy/Exercise3_Skeleton_Camera.7z">Skeleton code(vid)</a>  <a class="a-pdf" href="https://ait.ethz.ch/legacy/Exercise_Solutions/ex3_Solution.pdf">Solution PDF</a></td>                <td>25/10/2013 </td>            </tr>
+    <tr><td>Exercise 4</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/ex4.pdf">Homework4</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/Exercise4_Projector_Calibration.7z">Skeleton code</a>   <a class="a-pdf" href="https://ait.ethz.ch/legacy/hw4solution.pdf">Solution</a>                             <a class="a-zip" href="https://ait.ethz.ch/legacy/hw4soln.7z">Solution code</a> </td>           <td> 13/11/2013</td>    </tr>
+    </tbody></table>
+<br><hr><br>
+
+<a class="anchor" id="exams"></a>
+<h3>Exams</h3>
+<p>There will be a midterm pen-and-paper exam which makes up 20% of your final grade. There is no final exam but you will have to present your project results.</p>
+<p><em>New: </em> The midterm will take place on Nov 6th 2013 during the first hour of the lecture in HG E 33.3</p>
+<p><em>New: </em> Mid term topic catalogue is now <a class="a-pdf" href="/legacy/Midterm_Topics_UIE_HS13.pdf" target="_blank" title="Midterm topics">online</a>. 
+    <br>
+<!--</p><p>An example solution to the midterm questions is <a class="a-pdf" href="/legacy/Midterm/Midterm_Example_Solution.pdf">here</a>. Please note that for some of the questions other answers might be correct as well (hence the name example solution).</p> 
+-->
+<p>The midterm points are available <a class="a-pdf" href="/legacy/midtermpoints.pdf">here</a>. </p>    
+<br>
+
+<a class="anchor" id="projects"></a>
+<h3>Projects</h3>
+<p>In lieu of a final exam, students will complete a course project. The project is an opportunity to participate in the conceptualization, design and actual implementation of an interactive HCI system. Ideally, your project will advance the state of the art in a particular area of HCI. 
+Office hours with the instructor/TAs are according to the usual schedule, or by email.</p>
+<h3><font size="4">Deliverables:</font></h3>
+<p>At the end of the semester (Dec 18th), project groups will present their prototypes during the lecture. Each group must also submit a written report describing their work. For your report, please follow the template <a href="http://www.sigchi.org/publications/chipubform">here</a>. Please adhere to a page limit of 6 pages in SIGCHI two column format. You must also submit your source code together with the report. All deliverables are due on Dec 18th.
+Your report should address the following points about your project:</p>
+
+<ul>    
+<li>•   What is the problem?</li>
+<li>•   Why is it relevant?</li>
+<li>•   Why is it hard?</li>
+<li>•   What have others done?</li>
+<li>•   What is your key insight</li>
+<li>•   Where does it do well/poorly</li>
+<li>•   Future directions.</li>
+</ul>
+
+<h3><font size="4">Groups:</font></h3>
+<table>
+    <tr><th>Group Members</th>  <th>Project</th>        <th>Description</th> <th>Final Presentation</th>    </tr>
+    <tr><td>Oliver Voggenreiter, Roland Meyer</td>   <td>Uberpong</td> <td><a class="a-pdf" href="https://ait.ethz.ch/legacy/oliver.pdf">pdf</a></td>   <td></td>       </tr>
+    <tr><td>Stefan Messmer, Julia Strasser, Mauro Bieg</td>   <td>Combining Touch and Depth Input for new User Control</td> <td><a class="a-pdf" href="https://ait.ethz.ch/legacy/s.pdf">pdf</a></td>   <td></td>       </tr>
+</table>
