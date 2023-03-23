@@ -1,0 +1,584 @@
+---
+title: Parallel Programming
+ref: pp2016
+description: 
+semester: Spring 2016
+number: 252-0024-00L
+lecturer: Otmar Hilliges, Felix Friedrich
+head-ta: 
+ta: Aristeidis Mastoras, Roni Häcki, Tobias Nägeli, Benjamin Hepp, Stefan Stevsic, Jie Song, Kaan Kara, Mohsen Ewaida, Renato Marroquin, Alexander Pilz, Marc Fischer, Dimitri Stanojevic, Noah Hollmann, Lukas Rahmann, Timon Blattner
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Mon 10-12&#58; <a href="http://www.rauminfo.ethz.ch/RauminfoPre.do?region=Z&areal=Z&gebaeude=HG&geschoss=E&raumNr=7">HG E 7</a><br/> Tue 10-12&#58; <a href="http://www.rauminfo.ethz.ch/RauminfoPre.do?region=Z&areal=Z&gebaeude=ETF&geschoss=E&raumNr=1">ETF E 1</a>
+exercise-time-place: Mon 16-18&#58; <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CAB&geschoss=G&raumNr=52&lang=de">CAB G 52</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=HG&geschoss=F&raumNr=26.5&lang=de">HG F 26.5</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=H&raumNr=43&lang=de">ML H 43</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=J&raumNr=37.1&lang=de">ML J 37.1</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=D&raumNr=11&lang=de">NO D 11</a> and <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=E&raumNr=11&lang=de">NO E 11</a><br/> Thu 13-15&#58; <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CAB&geschoss=G&raumNr=57&lang=de">CAB G 57</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CHN&geschoss=D&raumNr=46&lang=de">CHN D 46</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CHN&geschoss=D&raumNr=48&lang=de">CHN D 48</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=HG&geschoss=E&raumNr=33.5&lang=de">HG E 33.5</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=F&raumNr=40&lang=de">ML F 40</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=H&raumNr=43&lang=de">ML H 43</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=E&raumNr=11&lang=de">NO E 11</a> and <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=E&raumNr=39&lang=de">NO E 39</a><br/> Fri 13-15&#58; <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=J&raumNr=34.1&lang=de">ML J 34.1</a> and <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=J&raumNr=34.3&lang=de">ML J 34.3</a>
+image: 
+links: 
+credits: 7
+office: coordinate via e-mail&#58; otmar.hilliges@inf.ethz.ch
+---
+
+<h3>Overview</h3>
+<p>
+The purpose of this course is to introduce students to parallel programming. By the end of the course students will be able to design and implement working parallel programs in traditional (e.g., Java Threads) and emerging parallel programming models. Moreover, students will master fundamental concepts in parallelism and be able to reason about the correctness, performance, and the construction of parallel programs using different parallel programming paradigms (e.g., task parallelism, data parallelism) and mechanisms (e.g., threads, tasks, locks, communication channels). Finally, the course will examine how parallel programming methodologies can be applied in different algorithmic domains by investigating parallelization of algorithms.
+</p>
+<p>
+<h5>Topics include:</h5>
+<il>
+<li>Basic parallel programming concepts</li>
+<li>Parallel programming using Java</li>
+<li>Synchronization techniques</li>
+<li>Case studies of building parallel programs starting from sequential algorithms</li>
+</il>
+</p>
+<br/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+        <dt>10.02.2016</dt><dd>Course Website for Spring 2016 online.</dd>
+</dl>
+
+<h3>Course Content</h3>
+<p>
+<h5>Main text and reference book</h5>
+<il>
+<li>Introduction to Java Programming, 2014. Daniel Liang. ISBN-13: 9780133813463</li>
+<li>Java Concurrency in Practice, 2006. Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea. ISBN-13: 9780321349606</li>
+<li>The Art of Multiprocessor Programming, 2011. Maurice Herlihy, Nir Shavit. Morgan Kaufmann.
+Also available <a href="http://proquest.safaribooksonline.com/9780123705914">online</a> in the ETH network.
+</il>
+</p>
+<p>
+<h5>Related resources, text and reference books</h5>
+<il>
+<li><a class="a-pdf" href="http://homes.cs.washington.edu/~djg/teachingMaterials/spac/sophomoricParallelismAndConcurrency.pdf">Sophomoric Parallelism and Concurrency</a> (from: <a href="http://homes.cs.washington.edu/~djg/teachingMaterials/spac/">spac</a>)</li>
+<li><a href="http://greenteapress.com/semaphores/">The Little Book of Semaphores</a></li>
+<li>Programming concurrency on the JVM, 2011. Venkat Subramaniam</li>
+<li>Structured Parallel Programming: Patterns for Efficient Computation, 2012. Michael McCool, Arch Robison, James Reinders.</li>
+<li>Patterns for Parallel Programming, 2004. Timothy G. Mattson, Beverly A. Sanders, Berna L. Massingill.</li>
+<li><a class="a-pdf" href="http://supertech.csail.mit.edu/cilk/minicourse.ps.gz">A minicourse on multithreaded programming. Charles E. Leiserson, Harald Prokop.</a></li>
+</il>
+</p>
+<p>
+<h5>Introduction to Java books (freely available)</h5>
+<il>
+<li><a href="http://www.greenteapress.com/thinkapjava/">How to Think Like a Computer Scientist</a>, 2012. Allen B. Downey.</li>
+<li><a href="http://math.hws.edu/javanotes/">Introduction to Programming Using Java</a>, 2011. David J. Eck.</li>
+</il>
+</p>
+<hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <th>Wk.</th>
+            <th>Date</th>
+            <th>Content</th>
+            <th>Slides</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>22.02.2016</td>
+            <td><h5>Course Introduction</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l01-Introduction_Course_Overview.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l01-Intro_Annotated.pdf">Slides (annotated)</a>
+            </td/>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>23.02.2016</td>
+            <td><h5>Introduction to Programming</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l02-IntroductionToProgramming.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l02-IntroductionToProgramming-Annotated.pdf">Slides (annotated)</a>
+                <a class="a-zip" href="./downloads/sample_code/PP-l02-Code.zip">Code</a>
+            </td/>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>29.02.2016</td>
+            <td><h5>Java Basics</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l03-JavaBasics.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l03-JavaBasics-Annotated.pdf">Slides (annotated)</a>
+                <a class="a-zip" href="./downloads/sample_code/PP-l03-Code.zip">Code</a>
+            </td/>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>01.03.2016</td>
+            <td><h5>Java Basics</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l04-JavaBasics-II.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/sample_code/PP-l04-Code.zip">Code</a>
+            
+            </td/>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>07.03.2016</td>
+            <td><h5>Object Orientated Programming</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l05-Java-ObjectOriented.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l05-Java-ObjectOriented-Annotated.pdf">Slides (annotated)</a>
+                <a class="a-zip" href="./downloads/sample_code/PP-l05-Code.zip">Code</a>
+            </td/>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>08.03.2016</td>
+            <td><h5>Java Multi-Threading</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l06-Java-Threads.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l06-Java-Threads-Annotated.pdf">Slides (annotated)</a>
+                <a class="a-zip" href="./downloads/sample_code/PP-l06-Code.zip">Code</a>
+            </td/>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>14.03.2016</td>
+            <td><h5>Parallel Architectures</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l07-ParallelArchitectures.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l07-ParallelArchitectures-Annotated.pdf">Slides (annotated)</a>
+            </td/>
+        </tr>       
+         <tr>
+            <td>4</td>
+            <td>15.03.2016</td>
+            <td><h5>Parallel Programming Concepts</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l08-BasicParallelConcepts.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l08-BasicParallelConcepts-Annotated.pdf">Slides (annotated)</a>
+            </td/>
+        </tr>
+         <tr>
+            <td>5</td>
+            <td>21.03.2016</td>
+            <td><h5>Parallel Programming Models</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l09-ParallelModels.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l09-ParallelModels-Annotated.pdf">Slides (annotated)</a>
+            </td/>
+        </tr>
+         <tr>
+            <td>5</td>
+            <td>22.03.2016</td>
+            <td><h5>Task Parallelism in Java</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l10-TaskParallism-ForkJoin.pdf">Slides</a>
+                <!--<a class="a-pdf" href="./downloads/lecture_slides/PP-l10-TaskParallism-ForkJoin-Annotated.pdf">Slides (annotated)</a>-->
+                <a class="a-zip" href="./downloads/sample_code/PP-l10-Code.zip">Code</a>
+                <a class="a-zip" href="./downloads/sample_code/pp2015_utils.zip">Utils</a>
+            </td/>
+        </tr>
+         <tr>
+            <td>6</td>
+            <td>28.03.2016</td>
+            <td><h5>Easter break</h5></td>
+            <td>
+                No slides
+            </td/>
+        </tr>
+         <tr>
+            <td>6</td>
+            <td>29.03.2016</td>
+            <td><h5>Easter break</h5></td>
+            <td>
+                No slides
+            </td/>
+        </tr>
+         <tr>
+            <td>7</td>
+            <td>04.04.2016</td>
+            <td><h5>Fork/Join Framework &amp; Algorithms</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l11-Advanced-ForkJoin.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l11-Advanced-ForkJoin-Annotated.pdf">Slides (annotated)</a>
+                <a class="a-zip" href="./downloads/sample_code/PP-l11-Code.zip">Code</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>7</td>
+            <td>05.04.2016</td>
+            <td><h5>Transition to Concurrency</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l12-SharedMemoryConcurrency.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l12-SharedMemoryConcurrency-Annotated.pdf">Slides (annotated)</a>
+                
+            </td/>
+        </tr>
+
+    <tr>
+            <td>8</td>
+            <td>11.04.2016</td>
+            <td><h5>Shared Memory Concurrency, Locks and Races</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l13-Races.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l13-Races-Annotated.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l13-Code.zip">Code</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>8</td>
+            <td>12.04.2016</td>
+            <td><h5>Midterm (Mock) Exam</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP2016_midterm.pdf">Midterm</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP2016_midterm_solution.pdf">Solution</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>9</td>
+            <td>18.04.2016</td>
+            <td><h5>Behind Locks: More about Data Races, <br>Solving Mutual Exclusion with Atomic Registers</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l14-DataRacesAndBehindLocks.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l14-DataRacesAndBehindLocks-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l14-Code.zip">Code</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>9</td>
+            <td>19.04.2016</td>
+            <td><h5>Behind Locks II: Mutual Exclusion for more than two processes, <br>Hardware Primitives for mutual exclusion.</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l15-BehindLocksII.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l15-BehindLocksII-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l15-Code.zip">Code</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>10</td>
+            <td>25.04.2016</td>
+            <td><h5>Beyond Locks: Deadlocks, Semaphores and Barriers</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l16-BeyondLocks.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l16-BeyondLocks-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l16-Code.zip">Code</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>10</td>
+            <td>26.04.2016</td>
+            <td><h5>Beyond Locks II: Producer/Consumer, Monitors </h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l17-BeyondLocksII.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l17-BeyondLocksII-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l17-Code.zip">Code</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>11</td>
+            <td>02.05.2016</td>
+            <td><h5>Beyond Locks III: Readers/Writers, Lock Granularity</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l18-BeyondLocksIII.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l18-BeyondLocksIII-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l18-Code.zip">Code</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardKomparator.pdf">Flashcard</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>11</td>
+            <td>03.05.2016</td>
+            <td><h5>Without Locks I: Lock-free programming </h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l19-WithoutLocksI.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l19-WithoutLocksI-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l19-Code.zip">Code</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardSpinlock.pdf">Flashcard</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardNonblockingStack.pdf">Flashcard</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>12</td>
+            <td>09.05.2016</td>
+            <td><h5>Without Locks II: Lock-free programming</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l20-WithoutLocksII.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l20-WithoutLocksII_Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l20-Code.zip">Code</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardPairs.pdf">Flashcard</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardEnqueue.pdf">Flashcard</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>12</td>
+            <td>10.05.2016</td>
+            <td><h5>Theory of Concurrency</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l21-ConcurrencyTheory.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l21-ConcurrencyTheory_Final.pdf">Slides (final)</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>13</td>
+            <td>16.05.2016</td>
+            <td><h5>--- Pfingstmontag ---</h5></td>
+            <td>
+            </td/>
+        </tr>
+    <tr>
+            <td>13</td>
+            <td>17.5.2016</td>
+            <td><h5>Transactional Memory</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l22-TransactionalMemory.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l22-TransactionalMemory-Final.pdf">Slides (final)</a>
+        <a class="a-zip" href="./downloads/sample_code/PP-l22-Code.zip">Code</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardTheory.pdf">Flashcard</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>14</td>
+            <td>23.05.2016</td>
+            <td><h5>Parallel Algorithms</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l23-ParallelAlgorithms.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l23-ParallelAlgorithms-final.pdf">Slides (final)</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardSorting.pdf">Flashcard</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>14</td>
+            <td>24.5.2016</td>
+            <td><h5>Message Passing</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l24-MessagePassing.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l24-MessagePassing-final.pdf">Slides (final)</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardSortingNetworks.pdf">Flashcard</a>
+            </td/>
+        </tr>
+
+    <tr>
+            <td>15</td>
+            <td>30.05.2016</td>
+            <td><h5>Message Passing ctd</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l25-MessagePassingII.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l25-MessagePassingII-final.pdf">Slides (final)</a>
+            </td/>
+        </tr>
+    <tr>
+            <td>15</td>
+            <td>31.5.2016</td>
+            <td><h5>Consensus and Conclusion</h5></td>
+            <td>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l26-ConsensusAndConclusion.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/lecture_slides/PP-l26-ConsensusAndConclusion-final.pdf">Slides (final)</a>
+        <a class="a-pdf" href="./downloads/lecture_slides/FlashcardTheoryII.pdf">Flashcard</a>
+            </td/>
+        </tr>
+
+    </tbody>
+</table>
+<br/><hr/><br/>
+<a class="anchor" id="exercises"></a>
+<h3>Exercises</h3>
+<table>
+    <tbody>
+        <tr>
+            <th>Exercise</th>
+            <th>Assignment</th>
+            <th>Due date</th>
+        </tr>
+    
+        <tr>
+            <td>Exercise 1</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise1.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise1_slides.pdf">Slides</a>
+<!--
+-->
+            </td>
+            <td>2.3.2016</td>
+        </tr>
+        <tr>
+            <td>Exercise 2</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise2.pdf">Handout</a>
+                <a class="a-zip" href="./downloads/exercises/assignment2.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise2_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/solution2.zip">Solution</a>
+            </td>
+            <td>9.3.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 3</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise3.pdf">Handout</a>
+                <a class="a-zip" href="./downloads/exercises/assignment3.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise3_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/solution3.zip">Solution</a>
+            </td>
+            <td>16.3.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 4</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise4.pdf">Handout</a>
+                <a class="a-zip" href="./downloads/exercises/assignment4.zip">Code</a>
+                <a class="a-zip" href="./downloads/exercises/exercise4_code.zip">Code Examples</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise4_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/solution4.zip">Solution</a>
+                <a class="a-pdf" href="./downloads/exercises/solution4.pdf">Solution</a>
+            </td>
+            <td>23.3.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 5</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise5.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise5_slides.pdf">Slides</a>
+                <a class="a-pdf" href="./downloads/exercises/solution5.pdf">Solution</a>
+            </td>
+            <td>6.4.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 6</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise6.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise6_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment6.zip">Code</a>
+                <a class="a-zip" href="./downloads/exercises/exercise6_code.zip">Code Examples</a>
+                <a class="a-zip" href="./downloads/exercises/solution6.zip">Solution</a>
+            </td>
+            <td>13.4.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 7</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise7.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise7_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment7.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/solution7.pdf">Solution</a>
+                <a class="a-zip" href="./downloads/exercises/solution7.zip">Solution</a>
+            </td>
+            <td>20.4.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 8</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise8.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise8_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment8.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/solution8.pdf">Solution</a>
+                <a class="a-zip" href="./downloads/exercises/solution8.zip">Solution</a>
+            </td>
+            <td>27.4.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 9</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise9.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise9_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment9.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/solution9.pdf">Solution</a>
+                <a class="a-zip" href="./downloads/exercises/solution9.zip">Solution</a>
+            </td>
+            <td>4.5.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 10</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise10.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise10_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment10.zip">Code</a>
+                <a class="a-zip" href="./downloads/exercises/solution10.zip">Solution</a>
+            </td>
+            <td>11.5.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 11</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise11.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise11_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment11.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/solution11.pdf">Solution</a>
+                <a class="a-zip" href="./downloads/exercises/solution11.zip">Solution</a>
+            </td>
+            <td>18.5.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 12</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise12.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise12_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment12.zip">Code</a>
+                <a class="a-zip" href="./downloads/exercises/solution12.zip">Solution</a>                
+            </td>
+            <td>25.5.2016</td>
+        </tr>
+
+        <tr>
+            <td>Exercise 13</td>
+            <td>
+                <a class="a-pdf" href="./downloads/exercises/exercise13.pdf">Handout</a>
+                <a class="a-pdf" href="./downloads/exercises/exercise13_slides.pdf">Slides</a>
+                <a class="a-zip" href="./downloads/exercises/assignment13.zip">Code</a>
+                <a class="a-pdf" href="./downloads/exercises/solution13.pdf">Solution</a>
+                <a class="a-zip" href="./downloads/exercises/solution13.zip">Solution</a>                
+            </td>
+            <td>1.6.2016</td>
+        </tr>
+
+
+    </tbody>
+</table>
+<br><hr><br>
+
+
+<a class="anchor" id="exams"></a>
+
+<h3>Exams and Grading</h3>
+<p>
+Class is part of Basispr&uuml;fung. There is a written, centralized exam after the end of the semester.
+<il>
+<li>100% of grade made up from written exam</li>
+</il>
+<br/>
+Exercise sessions are not graded, however they are considered essential!
+</p>
+<h4><b>Mock Exam (12.04.2016)</b></h4>
+<p>
+There will be one non-graded mock exam on the 12.04.2016. The mock exam is for you to practice and get a preview of what to expect in the Basispr&uuml;fung.
+<br />
+<h4><b>Old exams</b></h4>
+<p>
+<a class="a-pdf" href="./downloads/exams/bp_2014_s/bp-english.pdf">BP_2014_Summer (English)</a>
+<a class="a-pdf" href="./downloads/exams/bp_2014_s/bp-german.pdf">BP_2014_Summer (German)</a>
+<a class="a-pdf" href="./downloads/exams/bp_2014_s/bp-solution.pdf">(Solution)</a> <br>
+<a class="a-pdf" href="./downloads/exams/bp_2014_w/bp-english.pdf">BP_2014_Winter (English)</a>
+<a class="a-pdf" href="./downloads/exams/bp_2014_w/bp-german.pdf">BP_2014_Winter (German)</a>
+<a class="a-pdf" href="./downloads/exams/bp_2014_w/bp-solution.pdf">(Solution)</a><br>
+<a class="a-pdf" href="./downloads/exams/bp_2015_s/bp-questions.pdf">BP_2015_Summer</a>
+<a class="a-pdf" href="./downloads/exams/bp_2015_s/bp-solution.pdf">(Solution)</a> <br>
+<a class="a-pdf" href="./downloads/exams/bp_2015_w/bp-questions.pdf">BP_2015_Winter</a>
+<a class="a-pdf" href="./downloads/exams/bp_2015_w/bp-solution.pdf">(Solution)</a> <br>
+<a class="a-pdf" href="./downloads/exams/bp_2016_s/bp-questions.pdf">BP_2016_Summer</a>
+<a class="a-pdf" href="./downloads/exams/bp_2016_s/bp-solution.pdf">(Solution)</a> <br>
+<br />
+</p>
