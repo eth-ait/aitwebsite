@@ -4,7 +4,7 @@ title: "Fast-SNARF}: {A} Fast Deformer for Articulated Neural Fields"
 authors: Xu Chen, Tianjian Jiang, Jie Song, Max Rietmann, Andreas Geiger, Michael Black, Otmar Hilliges
 date: 2022-01-01
 venue: "arXiv"
-image: /assets/projects/2022/fast_snarf/teaser.png
+image: /assets/projects/fast_snarf/teaser.png
 external_project_page: 
 video: 
 talk: 

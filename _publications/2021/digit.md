@@ -4,7 +4,7 @@ title: "Learning to Disambiguate Strongly Interacting Hands via Probabilistic Pe
 authors: Zicong Fan, Adrian Spurr, Muhammed Kocabas, Siyu Tang, Michael Black, Otmar Hilliges
 date: 2021-01-01
 venue: "International Conference on 3D Vision (3DV)"
-image: /assets/projects/2021/digit/thumbnail.jpg
+image: /assets/projects/digit/thumbnail.jpg
 external_project_page: https://zc-alexfan.github.io/digit
 video: 
 talk: 

@@ -4,7 +4,7 @@ title: "EyeNeRF: A Hybrid Representation for Photorealistic Synthesis, Animation
 authors: Gengyan Li, Abhimitra Meka, Franziska Mueller, Marcel Buehler, Otmar Hilliges, Thabo Beeler
 date: 2022-jul-01
 venue: "ACM Trans. Graph."
-image: /assets/projects/2022/EyeNeRF/teaser.png
+image: /assets/projects/EyeNeRF/teaser.png
 external_project_page: https://ligethz.github.io/eyenerf_website/
 video: https://www.youtube.com/watch?v=l2ckMZsYXU0
 talk: 

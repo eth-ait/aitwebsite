@@ -34,6 +34,7 @@
       padding: $spacing-unit 0
       // line-height: 2em
       font-size: 16px
+      line-height: 2em
       // color: darken($text-color, 15%)
 
 
@@ -42,6 +43,19 @@
     width: $full-width
     margin: 0 auto
 
+
+  .social-section
+    position: relative
+    margin-top: 45px
+    h2
+      margin-bottom: 0
+    .social-links
+      position: absolute
+      top: 0
+      left: 130px
+
+      img
+        margin-right: $spacing-unit/2
 
 @include media-query($mobile-break)
   .landing

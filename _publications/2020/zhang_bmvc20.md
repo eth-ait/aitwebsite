@@ -4,7 +4,7 @@ title: "Learning-based Region Selection for End-to-End Gaze Estimation"
 authors: Xucong Zhang, Yusuke Sugano, Andreas Bulling, Otmar Hilliges
 date: 2020-01-01
 venue: "British Machine Vision Virtual Conference (BMVC)"
-image: /assets/projects/2020/zhang_bmvc20/zhang_bmvc20.PNG
+image: /assets/projects/zhang_bmvc20/zhang_bmvc20.PNG
 external_project_page: 
 video: 
 talk: 

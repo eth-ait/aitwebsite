@@ -4,7 +4,7 @@ title: "Optimal Control to Support High-Level User Goals in Human-Computer Inter
 authors: Christoph Gebhardt, Otmar Hilliges
 date: 2021-01-01
 venue: "Artificial Intelligence for Human Computer Interaction: A Modern Approach"
-image: /assets/projects/2021/optimal-control/hci.png
+image: /assets/projects/optimal-control/hci.png
 external_project_page: 
 video: 
 talk: 

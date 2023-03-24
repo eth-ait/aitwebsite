@@ -4,7 +4,7 @@ title: "Reconstructing Action-Conditioned Human-Object Interactions Using Common
 authors: Xi Wang, Gen Li, Yen-Ling Kuo, Muhammed Kocabas, Emre Aksan, Otmar Hilliges
 date: 2022-01-01
 venue: "International Conference on 3D Vision (3DV)"
-image: /assets/projects/2022/rhoi/rhoi-overview.jpg
+image: /assets/projects/rhoi/rhoi-overview.jpg
 external_project_page: https://eth-ait.github.io/rhoi/
 video: https://www.youtube.com/watch?v=YB1_xKlueUI&feature=youtu.be
 talk: 

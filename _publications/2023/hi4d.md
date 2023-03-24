@@ -4,7 +4,7 @@ title: "Hi4D: 4D Instance Segmentation of Close Human Interaction"
 authors: Yifei Yin, Chen Guo, Manuel Kaufmann, Juan Zarate, Jie Song, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/2023/hi4d/teaser.gif
+image: /assets/projects/hi4d/teaser.gif
 external_project_page: https://yifeiyin04.github.io/Hi4D/
 video: https://www.youtube.com/watch?v=DrvL2XkW7rw&ab_channel=AITETH
 talk: 

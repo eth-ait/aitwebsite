@@ -4,7 +4,7 @@ title: "DINER: (D)epth-aware (I)mage-based (Ne)ural (R)adiance Fields"
 authors: Malte Prinzler, Otmar Hilliges, Justus Thies
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/2023/diner/teaser.gif
+image: /assets/projects/diner/teaser.gif
 external_project_page: https://malteprinzler.github.io/projects/diner/diner.html
 video: https://www.youtube.com/watch?v=G4WsEsEROMQ
 talk: 

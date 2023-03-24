@@ -4,11 +4,11 @@ title: "Omni: Volumetric Sensing and Actuation of Passive Magnetic Tools for Dyn
 authors: Thomas Langerak, Juan Zarate, David Lindlbauer, Christian Holz, Otmar Hilliges
 date: 2020-01-01
 venue: "UIST '20"
-image: /assets/projects/2020/omni/teaser_figure_projectpage.png
+image: /assets/projects/omni/teaser_figure_projectpage.png
 external_project_page: 
 video: https://www.youtube.com/watch?v=N9RPUSfnBac
 talk: 
-paper: /assets/projects/2020/omni/downloads/omni.pdf
+paper: https://files.ait.ethz.ch/projects/omni/omni.pdf
 poster: 
 data: 
 code: 
@@ -33,6 +33,82 @@ location = {Virtual Event, USA},
 series = {UIST '20}
 }"
 ---
+
+<h6>Omni: Volumetric Sensing and Actuation of Passive Magnetic Tools for Dynamic Haptic Feedback </h6>
+<hr />
+
+<div class="fullcol">
+    <div class="teaser-info-projectpage">
+            <span class="normalcap">authors:</span>
+            <span class="authorcap">
+                <nobr><a href="/people/tlangerak/" title="Thomas Langerak">Thomas Langerak</a>, </nobr>
+                <nobr><a href="/people/jzarate/" title="Juan Jose Zarate">Juan Jose Zarate </a>, </nobr>
+                <nobr><a href="/people/lindlbaur/" title="David Lindlbauer">David Lindlbauer </a>, </nobr>
+                <nobr>Christian Holz, </nobr>
+                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">Otmar Hilliges</a> </nobr>
+            </span>
+            <br/>
+            <span class="normalcap"><nobr>publication: </nobr></span>
+            <span class="authorcap">
+                <a class="a-text-ext" href="https://dl.acm.org/doi/10.1145/3379337.3415589" title="2020 IEEE Haptics Symposium (HAPTICS)">UIST '20: Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology</a> (2020)
+            </span>
+        <hr />
+    </div>
+</div>
+
+<div class="fullcol">
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2020/omni/teaser_figure.png" alt="Teaser-Picture"/>
+    <div class="fullcol">
+        <p align="justify">
+            <span class="figurecap">
+We present Omni, a device that can simultaneously actuate and sense the position of a passive handheld tool. This is enabled through integrated hall effect sensors and our novel gradient-based optimization scheme. Omni can for example be used in 3D applications such as MR sculpting.
+           </span>
+        </p>
+        <hr />
+        <br/>
+        <br/>
+    </div>
+</div>
+
+<div class="fullcol">
+    <h3>Abstract</h3>
+    <p align="justify">
 We present Omni, a self-contained 3D haptic feedback system that is capable of sensing and actuating an untethered, passive tool containing only a small embedded permanent magnet. Omni enriches AR, VR and desktop applications by providing an active haptic experience using a simple apparatus centered around an electromagnetic base. 
 The spatial haptic capabilities of Omni are enabled by a novel gradient-based method to reconstruct the 3D position of the permanent magnet in midair using the measurements from eight off-the-shelf hall sensors that are integrated into the base. Omni's 3 DoF spherical electromagnet simultaneously exerts dynamic and precise radial and tangential forces in a volumetric space around the device. Since our system is fully integrated, contains no moving parts and requires no external tracking, it is easy and affordable to fabricate. 
 We describe Omni’s hardware implementation, the 3D reconstruction algorithm, and evaluate the tracking and actuation performance in depth. Finally, we demonstrate its capabilities via a set of interactive usage scenarios.
+    </p>
+    <hr />
+    <br/>
+    <br/>
+</div>
+
+<div class="fullcol">
+<h3>Accompanying Video</h3>
+    <div class="video" align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N9RPUSfnBac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="fullcol">
+ <h3>Downloads</h3>
+    <ul class="linklist">
+         <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2020/omni/downloads/omni_3min.mp4">3-Minute Video</a></li>
+         <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2020/omni/downloads/omni_5min.mp4">5-Minute Video</a></li>
+         <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2020/omni/downloads/omni_10min.mp4">10-Minute Video</a></li>
+         <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2020/omni/downloads/omni.pdf">PDF</a></li>
+         <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2020/omni/langerak2020omni.bib">BibTeX</a></li>
+    </ul>
+    <br/>
+</div>
+
+
+<div class="fullcol">
+ <h3>Hardware and Software coming soon.</h3>
+<!--     <ul class="linklist">
+         <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2020/magnipulator/downloads/magnipulator.mp4">Video</a></li>
+         <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2020/magnipulator/downloads/magnipulator.pdf">PDF</a></li>
+ 	     <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2020/magnipulator/zarate2020mag.bib">BibTeX</a></li>
+    </ul>
+    <br/> -->
+</div>
+

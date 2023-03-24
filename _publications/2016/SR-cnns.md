@@ -4,11 +4,11 @@ title: "Two-Stream SR-CNNs for Action Recognition in Videos."
 authors: Yifan Wang, Jie Song, Limin Wang, Luc VanGool, Otmar Hilliges
 date: 2016-01-01
 venue: "BMVC"
-image: /assets/projects/2016/SR-CNNs_action/icon_teaser.jpg
+image: /assets/projects/SR-cnns/icon_teaser.jpg
 external_project_page: 
 video: 
 talk: 
-paper: /assets/projects/2016/SR_CNNs_action/downloads/SR_cnns.pdf
+paper: https://files.ait.ethz.ch/projects/SR-cnns/SR_cnns.pdf
 poster: 
 data: 
 code: 

@@ -104,8 +104,12 @@
 
   .site-header
     .site-nav
-      background: $color-bg-dark
       .page-link
         color: #84959F
         &:hover, &.active
           color: $color-orange
+
+@media screen and (max-width: $mobile-break) and (prefers-color-scheme: dark)
+  .site-header
+    .site-nav
+      background: $color-bg-dark

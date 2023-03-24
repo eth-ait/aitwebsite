@@ -4,11 +4,11 @@ title: "Accurate Real-time 3D Gaze Tracking Using a Lightweight Eyeball Calibrat
 authors: Quan Wen, Derek Bradley, Thabo Beeler, Seonwook Park, Otmar Hilliges, Jun-Hai Yong, Feng Xu
 date: 2020-01-01
 venue: "Computer Graphics Forum (Proceedings of EUROGRAPHICS)"
-image: /assets/projects/2020/gaze-tracking-3d/thumbnail.jpg
+image: /assets/projects/gaze-tracking-3d/thumbnail.jpg
 external_project_page: 
 video: 
 talk: 
-paper: /assets/projects/2020/gaze-tracking-3d/downloads/wen2020eurographics.pdf
+paper: https://files.ait.ethz.ch/projects/gaze-tracking-3d/wen2020eurographics.pdf
 poster: 
 data: 
 code: 

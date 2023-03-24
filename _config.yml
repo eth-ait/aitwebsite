@@ -38,7 +38,7 @@ collections:
     output: false
   publications:
     output: true
-    permalink: /projects/:year/:name
+    permalink: /:name
   people:
     output: true
     permalink: /:collection/:name

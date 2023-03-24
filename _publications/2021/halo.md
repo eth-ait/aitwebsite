@@ -4,7 +4,7 @@ title: "A Skeleton-Driven Neural Occupancy Representation for Articulated Hands"
 authors: Korrawe Karunratanakul, Adrian Spurr, Zicong Fan, Otmar Hilliges, Siyu Tang
 date: 2021-01-01
 venue: "International Conference on 3D Vision (3DV)"
-image: /assets/projects/2021/halo/thumbnail.jpg
+image: /assets/projects/halo/thumbnail.jpg
 external_project_page: https://korrawe.github.io/halo/
 video: 
 talk: 

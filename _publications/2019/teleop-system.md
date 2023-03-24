@@ -4,7 +4,7 @@ title: "High-Level Teleoperation System For Aerial Exploration Of Indoor Environ
 authors: Werner Isop, Christoph Gebhardt, Tobias Nägeli, Friedrich Fraundorfer, Otmar Hilliges, Dieter Schmalstieg
 date: 2019-01-01
 venue: "Frontiers in Robotics and AI"
-image: /assets/projects/2019/teleop-system/thumbnail.png
+image: /assets/projects/teleop-system/thumbnail.png
 external_project_page: 
 video: https://youtu.be/1vXYoes1-lY
 talk: 

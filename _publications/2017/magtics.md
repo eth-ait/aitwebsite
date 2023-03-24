@@ -4,11 +4,11 @@ title: "MagTics: Flexible and Thin Form Factor Magnetic Actuators for Dynamic an
 authors: Fabrizio Pece, Juan Zarate, Velko Vechev, Nadine Besse, Olexandr Gudozhnik, Herbert Shea, Otmar Hilliges
 date: 2017-Oct-01
 venue: "UIST '17"
-image: /assets/projects/2017/magtics/teaser-squared.jpg
+image: /assets/projects/magtics/teaser-squared.jpg
 external_project_page: 
 video: /projects/2017/magtics/downloads/magtics-uist17.mp4
 talk: 
-paper: /assets/projects/2017/magtics/downloads/mag-tics-uist.pdf
+paper: https://files.ait.ethz.ch/projects/magtics/mag-tics-uist.pdf
 poster: 
 data: 
 code: 
@@ -28,4 +28,129 @@ bibtex: "@inproceedings{Pece:2017:MagTics,
 }
 "
 ---
-We present MagTics, a novel flexible and wearable haptic interface based on magnetically actuated bidirectional tactile pixels (taxels). MagTics' thin form factor and flexibility allows for rich haptic feedback in mobile settings. We propose a novel actuation mechanism based on bistable electromagnetic latching that combines high frame rate and holding force with low energy consumption and a soft and flexible form factor. We overcome limitations of traditional soft actuators by placing several hard actuation cells, driven by flexible printed electronics, in a soft 3D printed case. A novel EM-shielding prevents magnet-magnet interactions and allows for high actuator densities. A prototypical implementation comprising of 4 actuated pins on a 1.7 cm pitch, with 2 mm travel, and generating 160 mN to 200 mN of latching force is used to implement a number of compelling application scenarios including adding haptic and tactile display capabilities to wearable devices, to existing input devices and to provide localized haptic feedback in virtual reality. Finally, we report results of a psychophysical study, conducted to inform future developments and to identify possible application domains.
+
+<h6> MagTics: Flexible and Thin Form Factor Magnetic Actuators for Dynamic and Wearable Haptic Feedback </h6>
+<hr />
+
+<div class="fullcol">
+    <div class="teaser-info-projectpage">
+            <span class="normalcap">Authors:</span>
+            <span class="authorcap">
+            <nobr><a href="<?php ait_root_dir();?>people/pece/" title="Fabrizio Pece">F. Pece*</a>, </nobr>
+            <nobr>J. Zarate*, </nobr>
+            <nobr>V. Vechev, </nobr>
+            <nobr>N. Besse, </nobr>
+            <nobr>O. Gudozhnik, </nobr>
+            <nobr>H. Shea, </nobr>
+            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
+            </span>
+            <br/>
+            <span class="normalcap"><nobr>publication: </nobr></span>
+            <span class="authorcap">
+                <nobr>In Proceedings</nobr> <a class="a-text-ext" href="https://uist.acm.org/uist2017/" title="UIST">UIST 2017</a>, October 22–25, 2017, Quebec City, QC, Canada</a><br/>
+            </span>
+            <br/>
+            <br/>
+            <p> <font size="4"> This work receveid a <b>Honourable Mention Award</b> at ACM UIST 2017</font>
+                <br/>
+                <font size="3">*Authors contributed equally to this work.</font>
+            </p>
+        <hr />
+    </div>
+</div>
+
+<div class="fullcol">
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2017/magtics/teaser.jpg" alt="Teaser-Picture" />
+    <div class="fullcol">
+        <p align="justify">
+            <span class="figurecap">
+                (A) MagTics is a flexible and wearable haptic interface that allows for localized haptic and tactile feedback. 
+                (B) We solve the problem of actuation in soft materials by presenting a new fabrication technique that integrates 
+                hard electromagnetic actuators in a soft holder, and by introducing a novel fast, but yet power efficient actuation technique. 
+                Inside each actuator unit, a laterally shielded magnet (green) equipped with a pin on each extremity (blue and red) moves 
+                vertically between two stable positions. MagTics can be worn on body (C-D) or attached to existing objects (E).
+        </p>
+        <hr />
+        <br/>
+    </div>
+</div>
+
+<div class="fullcol">
+    <h3>Abstract</h3>
+    <p align="justify">
+      We present MagTics, a novel flexible and wearable haptic interface based on magnetically actuated bidirectional tactile pixels (taxels). MagTics' thin form factor and flexibility allows for rich haptic feedback in mobile settings. We propose a novel actuation mechanism based on bistable electromagnetic latching that combines high frame rate and holding force with low energy consumption and a soft and flexible form factor. We overcome limitations of traditional soft actuators by placing several hard actuation cells, driven by flexible printed electronics, in a soft 3D printed case. A novel EM-shielding prevents magnet-magnet interactions and allows for high actuator densities. A prototypical implementation comprising of 4 actuated pins on a 1.7 cm pitch, with 2 mm travel, and generating 160 mN to 200 mN of latching force is used to implement a number of compelling application scenarios including adding haptic and tactile display capabilities to wearable devices, to existing input devices and to provide localized haptic feedback in virtual reality. Finally, we report results of a psychophysical study, conducted to inform future developments and to identify possible application domains.
+    </p>
+    <hr />
+    <br/>
+</div>
+
+<div class="fullcol">
+<h3>Video</h3>
+    <div class="video">
+        <iframe width="840" height="474" src="https://www.youtube.com/embed/EpfS5NblQQA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <hr />
+    <br/>
+</div>
+
+<!-- <div class="fullcol">
+    <h3>System overview</h3>
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/repesentative_img_final.png" alt="Sys-Overview-Picture" />
+    <div class="fullcol">
+        <p align="left">
+            <span class="figurecap">
+                 Illustration of our pipeline from input character to fluid tangible animation using an optimized device configuration. The horse has 29 bones, controlled by 8 joints.
+            </span>
+        </p>
+        <hr />
+        <br/>
+    </div>
+</div>-->
+
+
+<div class="fullcol">
+ <h3>Downloads</h3>
+    <ul class="linklist">
+            <li class="a-pdf"><a target="_blank" title="PDF (High-res, ca. 25MB)" href="<?php ait_root_dir();?>projects/2017/magtics/downloads/mag-tics-uist.pdf">PDF (High-res, ca. 25MB)</a></li>
+            <li class="a-pdf"><a target="_blank" title="PDF (Low-res)" href="<?php ait_root_dir();?>projects/2017/magtics/downloads/mag-tics-uist-lowres.pdf">PDF (Low-res)</a></li>
+            <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2017/magtics/downloads/mag-tics-uist.mp4">Video</a></li>
+            <!-- <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/thin-slicing-network/downloads/song2017cvpr.bib">BibTeX</a></li> -->
+    </ul>
+    <hr />
+    <br/>
+<!-- <br/> TBA <br/> -->
+</div>
+
+<!--<div class="fullcol">
+    <h3>Gallery</h3>
+    <br/>
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/gallery.png" alt="Gallery-Picture" />
+    <p align="justify">
+        <span class="figurecap">
+            Depending on the available kit, device build instruction plans with different complexity are generated by our algorithm. Note that
+the models have much higher degrees of freedom than the generated control structures. The inputs were (nr. bones/nr. sample poses): Horse:
+(29/25 galloping, going up) – Dragon: (110/12 flying, some walking); Scorpion (62/20 walking, attacking); Dancer (22/6). Note that the
+device for the Dancer is asymmetric due to the asymmetry in the input poses: the left arm of the character moves almost rigidly with the torso
+and it is thus not necessary to have any joint controlling the left arm.
+        </span>
+    </p>
+    <hr />
+</div>
+
+<div class="fullcol">
+    <h3>Acknowledgments</h3>
+    <p align="justify">
+We are grateful to C&eacute;dric Pradalier and Evgeni Sorkine for invalu-
+able discussions and engineering support, to Sebastian Schoellham-
+mer for his assistance on 3D modeling and rigging in Maya, to
+Olga Diamanti for composing the accompanying video, to C&eacute;cile Edwards-Rietmann for narrating it and to Jeannine Wymann for her
+help in assembling the prototypes. We also thank our
+user study participants. This work was supported in part by the SNF grant
+200021_162958 and the ERC grant iModel (StG-2012-306877). Alec Jacobson
+is funded in part by NSF grants IIS-14-09286 and IIS-17257.
+    </p>
+    <hr />
+    <br/>
+    <br/>
+</div> -->
+

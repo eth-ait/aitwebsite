@@ -4,7 +4,7 @@ title: "Hierarchical Reinforcement Learning as a Model of Human Task Interleavin
 authors: Christoph Gebhardt, Antti Oulasvirta, Otmar Hilliges
 date: 2020-01-01
 venue: "arXiv:2001.02122"
-image: /assets/projects/2020/modeling-interleaving/thumbnail.png
+image: /assets/projects/modeling-interleaving/thumbnail.png
 external_project_page: 
 video: 
 talk: 

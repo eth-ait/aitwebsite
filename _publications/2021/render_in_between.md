@@ -4,7 +4,7 @@ title: "Render In-between: Motion Guided Video Synthesis for Action Interpolatio
 authors: Hsuan-I Ho, Xu Chen, Jie Song, Otmar Hilliges
 date: 2021-01-01
 venue: "British Machine Vision Conference (BMVC)"
-image: /assets/projects/2021/render_in_between/teaser.gif
+image: /assets/projects/render_in_between/teaser.gif
 external_project_page: 
 video: https://www.bmvc2021-virtualconference.com/conference/papers/paper_0327.html
 talk: 

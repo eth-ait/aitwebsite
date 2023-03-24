@@ -4,11 +4,11 @@ title: "Fast Blur Removal for Wearable QR Code Scanners"
 authors: Gábor Sörös, Stephan Semmler, Luc Humair, Otmar Hilliges
 date: 2015-September-01
 venue: "ACM International Symposium on Wearable Computers (ISWC)"
-image: /assets/projects/2015/QuickQR/quickQR.jpg
+image: /assets/projects/quick-qr/quickQR.jpg
 external_project_page: 
 video: 
 talk: 
-paper: /assets/projects/2015/QuickQR/downloads/quickQR.pdf
+paper: https://files.ait.ethz.ch/projects/quick-qr/quickQR.pdf
 poster: 
 data: 
 code: 

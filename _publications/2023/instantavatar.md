@@ -4,7 +4,7 @@ title: "InstantAvatar: Learning Avatars from Monocular Video in 60 Seconds"
 authors: Tianjian Jiang, Xu Chen, Jie Song, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/2023/instantavatar/teaser.gif
+image: /assets/projects/instantavatar/teaser.gif
 external_project_page: https://tijiang13.github.io/InstantAvatar/
 video: https://www.youtube.com/watch?v=413yuZEPjuc
 talk: 

@@ -4,11 +4,11 @@ title: "HuggieBot: A Human-Sized Haptic Interface"
 authors: Alexis Block, Hasti Seifi, Sammy Christen, Bernard Javot, Katherine Kuchenbecker
 date: 2022-01-01
 venue: "EuroHaptics Demo"
-image: /assets/projects/2022/huggiebot_demo/downloads/huggiebot.png
+image: /assets/projects/huggiebot_demo/huggiebot.png
 external_project_page: 
 video: 
 talk: 
-paper: /assets/projects/2022/huggiebot_demo/downloads/huggiebot_demo.pdf
+paper: https://files.ait.ethz.ch/projects/huggiebot_demo/huggiebot_demo.pdf
 poster: 
 data: 
 code: 

@@ -4,11 +4,11 @@ title: "Semi-Direct EKF-based Monocular Visual-Inertial Odometry"
 authors: Petri Tanskanen, Tobias Nägeli, Marc Pollefeys, Otmar Hilliges
 date: 2015-Sep-01
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
-image: /assets/projects/2015/PhotometricEKF/teaser.png
+image: /assets/projects/photometric-ekf/teaser.png
 external_project_page: 
 video: /projects/2015/PhotometricEKF/downloads/iros2015photometric.mp4
 talk: 
-paper: /assets/projects/2015/PhotometricEKF/downloads/iros2015photometric.pdf
+paper: https://files.ait.ethz.ch/projects/photometric-ekf/iros2015photometric.pdf
 poster: 
 data: 
 code: 

@@ -1,7 +1,13 @@
 <header class="site-header" role="banner">
 
 
-    <a href="{{ "/" | relative_url }}" class="site-logo"><img src="{{ '/assets/images/ait_logo.svg' | relative_url }}" alt="{{ site.title | escape }}"></a>
+    <a href="{{ "/" | relative_url }}" class="site-logo">
+      <picture>
+        <source srcset="{{ '/assets/images/ait_logo_light.svg' | relative_url }}" media="(prefers-color-scheme:dark)">
+        <img src="{{ '/assets/images/ait_logo.svg' | relative_url }}" alt="{{ site.title | escape }}">
+      </picture>
+
+    </a>
 
       <img class="svg-icon mobile-menu-icon" src="{{ '/assets/icons/menu.svg' | relative_url }}">
 

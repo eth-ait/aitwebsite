@@ -4,11 +4,11 @@ title: "Type--Hover--Swipe in 96 Bytes: A Motion Sensing Mechanical Keyboard"
 authors: Stuart Taylor, Cem Keskin, Otmar Hilliges, Shahram Izadi, John Helmes
 date: 2014-01-01
 venue: "CHI '14"
-image: /assets/projects/2014/96Bytes/Teaser_Narrow.png
+image: /assets/projects/type-hover-swipe/Teaser_Narrow.png
 external_project_page: 
 video: /projects/2014/96Bytes/downloads/MotionKeyboard_CHI_2014.mp4
 talk: 
-paper: /assets/projects/2014/96Bytes/downloads/p1695-taylor(MotionKeyboard).pdf
+paper: https://files.ait.ethz.ch/projects/type-hover-swipe/p1695-taylor(MotionKeyboard).pdf
 poster: 
 data: 
 code: 
@@ -33,8 +33,47 @@ bibtex: "@inproceedings{Taylor:2014:MoKeyCHI,
  keywords = {gesture recognition, input devices, keyboard},
 }"
 ---
-We present a new type of augmented mechanical keyboard, capable of sensing rich and expressive<em>motion gestures</em>performed both<em>on</em>and directly<em>above</em>the device. 
-        Our hardware comprises of low-resolution matrix of infrared (IR) proximity sensors interspersed between the keys of a regular mechanical keyboard. This results in coarse but high frame-rate motion data.
-We extend a machine learning algorithm, traditionally used for static classification only, to robustly support dynamic, temporal gestures. We propose the use of<em>motion signatures</em>a technique that utilizes pairs of motion history images and a random forest based classifier to robustly recognize a large set of motion gestures on and directly above the keyboard. 
-        Our technique achieves a mean per-frame classification accuracy of 75.6% in leave--one--subject--out and 89.9% in half-test/half-training cross-validation.
-We detail our hardware and gesture recognition algorithm, provide performance and accuracy numbers, and demonstrate a large set of gestures designed to be performed with our device. We conclude with qualitative feedback from users, discussion of limitations and areas for future work.
+
+<h2>Type-Hover-Swipe in 96 Bytes: A Motion Sensing Mechanical Keyboard</h2>
+    
+<div class="halfcol">
+    <h3>Abstract</h3>
+    <p>We present a new type of augmented mechanical keyboard, capable of sensing rich and expressive <em>motion gestures</em> performed both <em>on</em> and directly <em>above</em> the device. 
+        Our hardware comprises of low-resolution matrix of infrared (IR) proximity sensors interspersed between the keys of a regular mechanical keyboard. This results in coarse but high frame-rate motion data.</p> 
+    <p>We extend a machine learning algorithm, traditionally used for static classification only, to robustly support dynamic, temporal gestures. We propose the use of <em>motion signatures</em> a technique that utilizes pairs of motion history images and a random forest based classifier to robustly recognize a large set of motion gestures on and directly above the keyboard. 
+        Our technique achieves a mean per-frame classification accuracy of 75.6% in leave--one--subject--out and 89.9% in half-test/half-training cross-validation.</p>
+    <p>We detail our hardware and gesture recognition algorithm, provide performance and accuracy numbers, and demonstrate a large set of gestures designed to be performed with our device. We conclude with qualitative feedback from users, discussion of limitations and areas for future work.</p>
+</div>    
+ 
+<img class="halfcol" src="Teaser.png" alt="Teaser-Picture" />
+   
+<div class="halfcol">
+
+ 
+
+    <h3>Accompanying Video</h3>
+    <div class="video">
+        <iframe width="420" height="237" src="//www.youtube.com/embed/Y3dUeGNIX4M?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>   
+        
+    <h3>Downloads</h3>
+    <ul class="linklist">
+		<li class="a-pdf"><a target="_blank" href="downloads/p1695-taylor(MotionKeyboard).pdf" title="Download Paper">Paper</a></li>
+        <li class="a-vid"><a target="_blank" href="downloads/MotionKeyboard_CHI_2014.mp4" title="Download Video">Video (90.5 MB)</a></li>
+        <li class="a-bib"><a target="_blank" href="downloads/Taylor2014.bib" title="BibTex entry">BibTex entry</a></li>
+    </ul> 
+       
+    <h3>ACM Digital Library</h3>
+    <div class="acm_dl">
+ <!-- ACM DL Article: Type-hover-swipe in 96 bytes: a motion sensing mechanical keyboard -->
+<div class="acmdlitem" id="item2557030">
+    <img src="http://dl.acm.org/images/oa.gif" width="25" height="25" border="0" alt="ACM DL Author-ize service" style="vertical-align:middle"/>
+    <a href="http://dl.acm.org/authorize?N88549" title="Type-hover-swipe in 96 bytes: a motion sensing mechanical keyboard">Type-hover-swipe in 96 bytes: a motion sensing mechanical keyboard</a><div style="margin-left:25px">
+    <a href="http://dl.acm.org/author_page.cfm?id=81381590706" >Stuart Taylor</a>, <a href="http://dl.acm.org/author_page.cfm?id=81438593393" >Cem Keskin</a>, 
+    <a href="http://dl.acm.org/author_page.cfm?id=81309495440" >Otmar Hilliges</a>, <a href="http://dl.acm.org/author_page.cfm?id=81328488768" >Shahram Izadi</a>, 
+    <a href="http://dl.acm.org/author_page.cfm?id=81414621181" >John Helmes</a>
+    <br />CHI '14 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems,&nbsp;2014. Best Paper Award.
+</div>
+</div>
+</div>
+</br>

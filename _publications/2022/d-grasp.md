@@ -4,7 +4,7 @@ title: "D-Grasp: Physically Plausible Dynamic Grasp Synthesis for Hand-Object In
 authors: Sammy Christen, Muhammed Kocabas, Emre Aksan, Jemin Hwangbo, Jie Song, Otmar Hilliges
 date: 2022-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/2022/d-grasp/drill.gif
+image: /assets/projects/d-grasp/drill.gif
 external_project_page: https://eth-ait.github.io/d-grasp/
 video: https://youtu.be/5OqbDq-pgLc
 talk: 

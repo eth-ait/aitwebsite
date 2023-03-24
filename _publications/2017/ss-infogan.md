@@ -4,11 +4,11 @@ title: "Guiding InfoGAN with Semi-Supervision"
 authors: Adrian Spurr, Emre Aksan, Otmar Hilliges
 date: 2017-01-01
 venue: "ECML PKDD"
-image: /assets/projects/2017/ss-infogan/teaser.png
+image: /assets/projects/ss-infogan/teaser.png
 external_project_page: 
 video: 
 talk: 
-paper: /assets/projects/2017/ss-infogan/spurr2017ecml.pdf
+paper: https://files.ait.ethz.ch/projects/ss-infogan/spurr2017ecml.pdf
 poster: 
 data: 
 code: https://github.com/spurra/ss-infogan
@@ -25,4 +25,115 @@ bibtex: "@inproceedings{spurr2017ecml,
 }
 "
 ---
-In this paper we propose a new semi-supervised GAN architecture (ss-InfoGAN) for image synthesis that leverages information from few labels (as little as 0.22%, max. 10% of the dataset) to learn semantically meaningful and controllable data representations where latent variables correspond to label categories. The architecture builds on Information Maximizing Generative Adversarial Networks (InfoGAN) and is shown to learn both continuous and categorical codes and achieves higher quality of synthetic samples compared to fully unsupervised settings. Furthermore, we show that using small amounts of labeled data speeds-up training convergence. The architecture maintains the ability to disentangle latent variables for which no labels are available. Finally, we contribute an information-theoretic reasoning on how introducing semi-supervision increases mutual information between synthetic and real data.
+
+<h6> Guiding InfoGAN with Semi-Supervision </h6>
+<hr />
+
+<div class="fullcol">
+    <div class="teaser-info-projectpage">
+            <span class="normalcap">Authors:</span>
+            <span class="authorcap">
+            <nobr><a href="<?php ait_root_dir();?>people/spurra/" title="Adrian Spurr">A. Spurr</a>, </nobr>
+            <nobr><a href="<?php ait_root_dir();?>people/eaksan/" title="Emre Aksan">E. Aksan</a>, </nobr>
+            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
+            </span>
+            <br/>
+            <span class="normalcap"><nobr>publication: </nobr></span>
+            <span class="authorcap">
+                <nobr>Published in </nobr> <a class="a-text-ext" href="http://ecmlpkdd2017.ijs.si/" title="ECML">ECML</a>, Skopje, Macedonia, 2017</a><br/>
+            </span>
+        <hr />
+    </div>
+</div>
+
+<div class="fullcol">
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2017/ss-infogan/teaser-2.png" alt="Teaser-Picture" />
+    <div class="fullcol">
+        <p align="justify">
+            <span class="figurecap">
+       We present a new semi-supervised generative architecture that requires only few labels to provide control over which factors are identified.
+Our approach can exploit already existing labels or use datasets that are augmented
+with easily collectible labels. The pre-print can be found on <a href="https://arxiv.org/abs/1707.04487" title="arXiv">arXiv</a>.
+        </p>
+        <hr />
+        <br/>
+    </div>
+</div>
+
+<div class="fullcol">
+    <h3>Abstract</h3>
+    <p align="justify">
+      In this paper we propose a new semi-supervised GAN architecture (ss-InfoGAN) for image synthesis that leverages information from few labels (as little as 0.22%, max. 10% of the dataset) to learn semantically meaningful and controllable data representations where latent variables correspond to label categories. The architecture builds on Information Maximizing Generative Adversarial Networks (InfoGAN) and is shown to learn both continuous and categorical codes and achieves higher quality of synthetic samples compared to fully unsupervised settings. Furthermore, we show that using small amounts of labeled data speeds-up training convergence. The architecture maintains the ability to disentangle latent variables for which no labels are available. Finally, we contribute an information-theoretic reasoning on how introducing semi-supervision increases mutual information between synthetic and real data.
+    </p>
+    <hr />
+    <br/>
+</div>
+
+<!--<div class="fullcol">
+<h3>Video</h3>
+    <div class="video">
+       <iframe width="840" height="474" src="https://www.youtube.com/embed/3x6fT-CENcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <hr />
+    <br/>
+</div>
+-->
+
+<!-- <div class="fullcol">
+    <h3>System overview</h3>
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/repesentative_img_final.png" alt="Sys-Overview-Picture" />
+    <div class="fullcol">
+        <p align="left">
+            <span class="figurecap">
+                 Illustration of our pipeline from input character to fluid tangible animation using an optimized device configuration. The horse has 29 bones, controlled by 8 joints.
+            </span>
+        </p>
+        <hr />
+        <br/>
+    </div>
+</div>-->
+
+
+<div class="fullcol">
+ <h3>Downloads</h3>
+    <ul class="linklist">
+            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2017/ss-infogan/spurr2017ecml.pdf">PDF</a></li>
+            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/ss-infogan/spurr2017ecml.bib">BibTeX</a></li>
+    </ul>
+    <hr />
+    <br/>
+</div>
+
+<!--<div class="fullcol">
+    <h3>Gallery</h3>
+    <br/>
+    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/gallery.png" alt="Gallery-Picture" />
+    <p align="justify">
+        <span class="figurecap">
+            Depending on the available kit, device build instruction plans with different complexity are generated by our algorithm. Note that
+the models have much higher degrees of freedom than the generated control structures. The inputs were (nr. bones/nr. sample poses): Horse:
+(29/25 galloping, going up) – Dragon: (110/12 flying, some walking); Scorpion (62/20 walking, attacking); Dancer (22/6). Note that the
+device for the Dancer is asymmetric due to the asymmetry in the input poses: the left arm of the character moves almost rigidly with the torso
+and it is thus not necessary to have any joint controlling the left arm.
+        </span>
+    </p>
+    <hr />
+</div>
+
+<div class="fullcol">
+    <h3>Acknowledgments</h3>
+    <p align="justify">
+We are grateful to C&eacute;dric Pradalier and Evgeni Sorkine for invalu-
+able discussions and engineering support, to Sebastian Schoellham-
+mer for his assistance on 3D modeling and rigging in Maya, to
+Olga Diamanti for composing the accompanying video, to C&eacute;cile Edwards-Rietmann for narrating it and to Jeannine Wymann for her
+help in assembling the prototypes. We also thank our
+user study participants. This work was supported in part by the SNF grant
+200021_162958 and the ERC grant iModel (StG-2012-306877). Alec Jacobson
+is funded in part by NSF grants IIS-14-09286 and IIS-17257.
+    </p>
+    <hr />
+    <br/>
+    <br/>
+</div> -->
+
