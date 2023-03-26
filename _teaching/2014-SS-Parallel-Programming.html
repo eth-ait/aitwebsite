@@ -1,0 +1,608 @@
+---
+title: Parallel Programming
+ref: pp2014
+description: 
+semester: Spring 2014
+number: <a href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheitPre.do?lerneinheitId=89978&semkez=2014S&lang=en">252-0024-00L</a>
+lecturer: Otmar Hilliges, Kornilios Kourtis
+head-ta: 
+ta: Gerd Zellweger, Simon Gerber, Georgios Giannikis, Chothia Zaheer, Daniela Dorneanu, Jana Giceva, Georg Ofenbeck, Shinde Pravin, Jascha Grübel, Simon Peyer, Sebastian Wicki, Lukas Vogel
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Mon 10-12&#58; <a href="http://www.rauminfo.ethz.ch/RauminfoPre.do?region=Z&areal=Z&gebaeude=HG&geschoss=E&raumNr=7">HG E7</a><br/> Tue 10-12&#58; <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=HG&geschoss=G&raumNr=5">HG G5</a>
+exercise-time-place: Mon 16-18&#58; <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CAB&geschoss=G&raumNr=52&lang=de">CAB G 52</a>, and <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CAB&geschoss=G&raumNr=57&lang=de">CAB G 57</a><br/> Thu 13-15&#58; <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CAB&geschoss=G&raumNr=57&lang=de">CAB G 57</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=CHN&geschoss=D&raumNr=48&lang=de">CHN D 48</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=HG&geschoss=E&raumNr=33.5&lang=de">HG E 33.5</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=F&raumNr=40&lang=de">ML F 40</a>, <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=ML&geschoss=H&raumNr=43&lang=de">ML H 43</a>, and <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=E&raumNr=11&lang=de">NO E 11</a><br/> Fri 13-15&#58; <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=E&raumNr=11&lang=de">NO E 11</a> and <a href="http://www.rauminfo.ethz.ch/Rauminfo/RauminfoPre.do?gebaeude=NO&geschoss=E&raumNr=39&lang=de">NO E 39</a>
+image: 
+links: 
+credits: 7
+office: coordinate via e-mail&#58; <a href="mailto&#58;otmar.hilliges@inf.ethz.ch">otmar.hilliges@inf.ethz.ch</a>
+---
+
+<h3>Overview</h3>
+<p>
+The purpose of this course is to introduce students to parallel programming. By the end of the course students will be able to design and implement working parallel programs in traditional (e.g., Java Threads) and emerging (e.g., GPUs) parallel programming models. Moreover, students will master fundamental concepts in parallelism and be able to reason about the correctness, performance, and the construction of parallel programs using different parallel programming paradigms (e.g., task parallelism, data parallelism) and mechanisms (e.g., threads, tasks, locks, communication channels). Finally, the course will examine how parallel programming methodologies can be applied in different algorithmic domains by investigating parallelization of algorithms.
+</p>
+<p>
+<h5>Topics include:</h5>
+<il>
+<li>Basic parallel programming concepts</li>
+<li>Parallel programming using Java</li>
+<li>Synchronization techniques</li>
+<li>Emerging parallel programming models (e.g., GPUs)</li>
+<li>Case studies of building parallel programs starting from sequential algorithms</li>
+</il>
+</p>
+<br/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+    <!--<dt>DD.MM.YYYY</dt><dd>This is an Announcement.</dd>-->
+    <dt>13.02.2014</dt><dd>Course Website for Spring 2014 online.</dd>
+    <dt>23.02.2014</dt><dd>Students to groups assignment is now online.</dd>
+    <dt>23.02.2014</dt><dd>Exercise 1 is now online.</dd>
+    <dt>02.03.2014</dt><dd>Exercise 2 is now online.</dd>
+    <dt>09.03.2014</dt><dd>Exercise 3 is now online.</dd>
+    <dt>10.03.2014</dt><dd>Information about mid-term exams is now available.</dd>
+    <dt>11.03.2014</dt><dd>Additional information about mid-term exams is now available.</dd>
+    <dt>17.03.2014</dt><dd>Exercise 4 is now online.</dd>
+    <dt>21.03.2014</dt><dd>Exercise 5 is now online.</dd>
+    <dt>31.03.2014</dt><dd>Exercise 6 is now online. Notice the deadline extension.</dd>
+    <dt>01.04.2014</dt><dd>The grades of the first mid-term are now available.</dd>
+    <dt>14.04.2014</dt><dd>Exercise 7 is now online. Notice the deadline extension.</dd>
+    <dt>28.04.2014</dt><dd>Additional information about the second mid-term exam is now available.</dd>
+    <dt>28.04.2014</dt><dd>Exercise 8 is now online.</dd>
+    <dt>06.05.2014</dt><dd>Exercise 9 is now online.</dd>
+    <dt>14.05.2014</dt><dd>Exercise 10 is now online.</dd>
+    <dt>21.05.2014</dt><dd>The grades of the second mid-term are now available.</dd>
+    <dt>28.05.2014</dt><dd>A correction of "OpenCL Case Studies (Annotated version)" is now online.</dd>
+</dl> 
+
+
+<!--<h3>Learning Objectives and Course Content</h3>-->
+<h3>Course Content</h3>
+
+<!-- <p>
+The goal of this course is to introduce students to parallel programming: deterministic and non-deterministic programs, models for parallel computation, synchronization, communication, and fairness. Labs provide an opportunity to gain experience with threads, libraries for thread management in modern programming lanugages (e.g., Java, C#) and with the execution of parallel programs on multi-processor/multi-core computers.
+</p> -->
+
+<p>
+  <h5>Main text and reference book</h5>
+  <il>
+    <li>Java Concurrency in Practice, 2006. Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea. ISBN-13: 9780321349606</li>
+    <li>Introduction to Java Programming, 2014. Daniel Liang. ISBN-13: 9780133813463</li>
+  </il>
+</p>
+
+<p>
+  <h5>Related resources, text and reference books</h5>
+  <il>
+    <li><a class="a-pdf" href="http://homes.cs.washington.edu/~djg/teachingMaterials/spac/sophomoricParallelismAndConcurrency.pdf">Sophomoric Parallelism and Concurrency</a> (from: <a href="http://homes.cs.washington.edu/~djg/teachingMaterials/spac/">spac</a>)</li>
+    <li><a href="http://greenteapress.com/semaphores/">The Little Book of Semaphores</a></li>
+    <li>Programming concurrency on the JVM, 2011. Venkat Subramaniam</li>
+    <li>Structured Parallel Programming: Patterns for Efficient Computation, 2012. Michael McCool, Arch Robison, James Reinders.</li>
+    <li>Patterns for Parallel Programming, 2004. Timothy G. Mattson, Beverly A. Sanders, Berna L. Massingill.</li>
+  </il>
+</p>
+
+<p>
+  <h5>Introduction to Java books (freely available)</h5>
+  <il>
+    <li><a href="http://www.greenteapress.com/thinkapjava/">How to Think Like a Computer Scientist</a>, 2012. Allen B. Downey.</li>
+    <li><a href="http://math.hws.edu/javanotes/">Introduction to Programming Using Java</a>, 2011. David J. Eck.</li>
+  </il>
+</p>
+
+<p>
+  <h5>OpenCL</h5>
+  <il>
+    <li><a href="http://sfx.ethz.ch/sfx_locater?sid=ALEPH:EBI01&genre=book&isbn=9781617290176">OpenCL in Action</a>, available via the ETH Library</li>
+  </il>
+</p> 
+
+<!--By the end of the course students will be able to ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.:
+</p>
+<ol class="roman">
+    <li>What you will learn, listed with roman letters.
+        <ol class="letters">
+            <li>Subitem, listed with small latin letters.</li>
+            <li>Subitem, listed with small latin letters.</li>
+        </ol>
+    </li>
+    <li>What you will learn, listed with roman letters.</li>
+    <li>What you will learn, listed with roman letters.</li>
+    <li>What you will learn, listed with roman letters.</li>
+    <li>What you will learn, listed with roman letters.</li>
+</ol>
+<br/>
+-->
+<hr/><br/>
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<!-- possible link-icon-classes: 
+            .a-ext (Link to external Website)
+            .a-pdf (PDF)
+            .a-cod (Code)
+            .a-bib (BibTeX)
+            .a-vid (Video)
+            .a-dem (Demo)
+            .a-ppt (Powerpoint-Presentaion)
+            .a-zip (Zipped Files)
+            -->
+            
+<table>
+<tbody>
+    <tr>
+        <th>Wk.</th>
+        <th>Date</th>
+        <th>Content</th>
+        <th>Slides</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>17.02.2014</td>
+        <td><h5>Course Introduction</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l01-course-overview.pdf">Slides1</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l01-course-overview_annotated.pdf">Slides1(annotated)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l01-course-overview-PartII.pdf">Slides2</a>
+        </td/>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>18.02.2014</td>
+        <td><h5>Parallel Architectures</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l02-ParallelArchitectures.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l02-ParallelArchitectures-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>24.02.2014</td>
+        <td><h5>Basic Concepts</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l03-BasicConcepts.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l03-BasicConcepts-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>25.02.2014</td>
+        <td><h5>Parallel Models</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l04-ParallelModels.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l04-ParallelModels-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>03.03.2014</td>
+        <td><h5>Introduction to Programming</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l05-IntroductionToProgramming.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l05-IntroductionToProgramming_annotated.pdf">Slides(annotated)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l05-IntroductionToProgramming-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>04.03.2014</td>
+        <td><h5>Java Basics</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l06-JavaBasics.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l06-JavaBasics_annotated.pdf">Slides(annotated)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l06-JavaBasics-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>10.03.2014</td>
+        <td><h5>Java Loops / Objects / Classes</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l07-LoopsObjectsClasses.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l07-LoopsObjectsClasses-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>11.03.2014</td>
+        <td><h5>Threads</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l08-Threads.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l08-Threads_annotated.pdf">(annotated)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l08-Threads-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>17.03.2014</td>
+        <td><h5>Synchronization: Introduction to locks</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l09-Synchronization.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l09-Synchronization-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>18.03.2014</td>
+        <td><h5>Synchronization: Using locks and building thread-safe classes</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l10-Synchronization.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l10-Synchronization-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>24.03.2014</td>
+        <td><h5>(previous lecture continued)</h5></td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>25.03.2014</td>
+        <td><h5>midterm exam, no lecture</h5></td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>31.03.2014</td>
+        <td><h5>Synchronization: Beyond locks</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l11-Synchronization.pdf">Slides (v0.2)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l11-Synchronization-2x2.pdf">Handout (v0.2)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>1.04.2014</td>
+        <td><h5>Synchronization: Advanced (and other) topics</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l12-Synchronization.pdf">Slides (v0.2)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l12-Synchronization-2x2.pdf">Handout (v0.2)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>7.04.2014</td>
+        <td><h5>Task Parallelism</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l13-ParallelTasks.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l13-ParallelTasks-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>8.04.2014</td>
+        <td><h5>Transactional Memory</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l14-TransactionalMemory.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l14-TransactionalMemory-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>14.04.2014</td>
+        <td><h5>Designing Parallel Algorithms</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l15-DesigningParallelAlgorithms.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l15-DesigningParallelAlgorithms_annotated.pdf">(annotated)</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l15-DesigningParallelAlgorithms-2x2.pdf">Handout</a>
+
+        </td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>15.04.2014</td>
+        <td><h5>GUIs MVC</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l16-Java-GUIs-MVC.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l16-Java-GUIs-MVC-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>28.04.2014</td>
+        <td><h5>Concurrent message passing</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l17-ConcurrentMessagePassing.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l17-ConcurrentMessagePassing-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>29.04.2014</td>
+        <td><h5>Data parallel programming</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l18-DataParallelism.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l18-DataParallelism-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>12.05.2014</td>
+        <td><h5>Intro to Massively Parallel Programming</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l19-IntroGPGPU.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l19-IntroGPGPU-2x2.pdf">Handout</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l19-IntroGPGPU_annotated.pdf">(annotated)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>13.05.2014</td>
+        <td><h5>OpenCL</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l20-OpenCL-Basics.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l20-OpenCL-Basics-2x2.pdf">Handout</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l20-OpenCL-Basics_annotated.pdf">(annotated)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>20.05.2014</td>
+        <td><h5>Guest Talk</h5></td>
+        <td><b>Talk will be at 11:00-12:00</b></td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>21.05.2014</td>
+        <td><h5>OpenCL Memory Model</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l21-OpenCL-MemoryModel-Synchronization.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l21-OpenCL-MemoryModel-Synchronization-2x2.pdf">Handout</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l21-OpenCL-MemoryModel-Synchronization_annotated.pdf">(annotated)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>26.05.2014</td>
+        <td><h5>OpenCL Case Studies</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l22-OpenCL-CaseStudies.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l22-OpenCL-CaseStudies-2x2.pdf">Handout</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l22-OpenCL-CaseStudies_annotated_correction.pdf">(annotated)</a>
+        </td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>27.05.2014</td>
+        <td><h5>Recap / Q & A Session</h5></td>
+        <td>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l23-QnA-Corrections.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/LectureSlides/PP-l23-QnA-Corrections-2x2.pdf">Handout</a>
+        </td>
+    </tr>
+
+    <!--
+        
+    <tr>
+        <td></td>
+        <td>18.02.2014</td>
+        <td>
+            <h5>Course Introduction</h5>
+            <p>Short Description. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides1</a><br/>
+            <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides2</a><br/>
+            <a class="a-ppt" href="/legacy/LectureSlides/somefile.pptx">slides3</a>
+        </td/>
+        <td>
+            <a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource1</a><br/>
+            <a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource2</a><br/>
+        </td>
+    </tr>
+    -->
+<!--
+    <tr><td>2</td>  <td>DD.MM.</td> <td><h5>Topic</h5>                                  <p>Short Description. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></td>                             <td> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides1</a><br> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides2</a><br>  <a class="a-ppt" href="/legacy/LectureSlides/somefile.pptx">slides3</a></td>            <td><a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource1</a><br>   <a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource2</a><br>   </td></tr>  
+    <tr><td>3</td>  <td>DD.MM.</td> <td><h5>Topic</h5>                                  <p>Short Description. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></td>                             <td> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides1</a><br> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides2</a><br>  <a class="a-ppt" href="/legacy/LectureSlides/somefile.pptx">slides3</a></td>            <td><a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource1</a><br>   <a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource2</a><br>   </td></tr>  
+    <tr><td>4</td>  <td>DD.MM.</td> <td><h5>Topic</h5>                                  <p>Short Description. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></td>                             <td> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides1</a><br> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides2</a><br>  <a class="a-ppt" href="/legacy/LectureSlides/somefile.pptx">slides3</a></td>            <td><a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource1</a><br>   <a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource2</a><br>   </td></tr>  
+    <tr><td>5</td>  <td>DD.MM.</td> <td><h5>to be continued...</h5>                     <p>Short Description. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></td>                             <td> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides1</a><br> <a class="a-pdf" href="/legacy/LectureSlides/somefile.pdf">slides2</a><br>  <a class="a-ppt" href="/legacy/LectureSlides/somefile.pptx">slides3</a></td>            <td><a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource1</a><br>   <a class="a-pdf" href="/legacy/course materials/Homework materials/somefile.pdf">OtherSource2</a><br>   </td></tr>-->
+</tbody>
+</table>
+<br/><hr/><br/>
+
+<a class="anchor" id="exercises"></a>
+<h3>Exercises</h3>
+
+<p>
+The assignment of teaching assistants to rooms and time slots can be found <a class="a-cod" href="helpFiles/exercise_tas.txt">here</a>.
+The assignment of students to teaching assistants can be found <a class="a-cod" href="helpFiles/exercise_students.txt">here</a>.
+
+<!--The assignment of students to groups, and groups to teaching assistants and rooms can be found <a class="a-pdf" href="downloads/organization/ta_assignment.pdf">here</a>.-->
+</p>
+
+<table>
+    <tbody>
+    <tr>
+        <th>Exercise</th>
+        <th>Assignment</th>
+        <th>Due date</th>
+    </tr>
+    <tr>
+        <td>Exercise 1</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex01/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex01/exercise01.jar">Bakery Simulator</a>
+      <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex01/slides.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex01/solution.pdf">Solution</a>
+        </td>
+        <td>03.03.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 2</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex02/exercise.pdf">Handout</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex02/slides.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex02/solution.pdf">Solution</a>
+        </td>
+        <td>10.03.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 3</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex03/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex03/assignment3.zip">Assignment3.zip</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex03/slides.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex03/solution.pdf">Solution</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex03/solution.zip">Solution</a>
+        </td>
+        <td>17.03.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 4</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex04/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex04/assignment4.zip">Assignment4.zip</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex04/slides.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex04/solution.pdf">Solution</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex04/solution.zip">Solution</a>
+        </td>
+        <td>26.03.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 5</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex05/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex05/assignment5.zip">Assignment5.zip</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex05/slides.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex05/solution.pdf">Solution</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex05/solution.zip">Solution</a>
+        </td>
+        <td>31.03.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 6</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex06/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex06/assignment6.zip">Assignment6.zip</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex06/slides.pdf">Slides</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex06/solution.pdf">Solution</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex06/solution.zip">Solution</a>
+        </td>
+        <td>14.04.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 7</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex07/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex07/assignment7.zip">Assignment7.zip</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex07/slides.pdf">Slides</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex07/solution.zip">Solution</a>
+        </td>
+        <td>28.04.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 8</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex08/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex08/assignment8.zip">Assignment8.zip</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex08/solution.zip">Solution</a>
+        </td>
+        <td>07.05.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 9</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex09/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex09/assignment9.zip">Assignment9.zip</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex09/slides.pdf">Slides</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex09/solution.zip">Solution</a>
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex09/solution.pdf">Solution</a>
+        </td>
+        <td>12.05.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 10</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex10/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex10/assignment10.zip">Assignment10.zip [Fixed for Mac OS]</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex10/solution10.zip">Solution</a>
+        </td>
+        <td>21.05.2014</td>
+    </tr>
+    <tr>
+        <td>Exercise 11</td>
+        <td> 
+            <a class="a-pdf" href="/legacy/2014-SS-PP/Exercises/ex11/exercise.pdf">Handout</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex11/assignment11.zip">Assignment11.zip</a>
+            <a class="a-zip" href="/legacy/2014-SS-PP/Exercises/ex11/solution11.zip">Solution</a>
+        </td>
+        <td>31.05.2014</td>
+    </tr>
+<!--        <tr><td>Exercise 2</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/somefile.pdf">Homework2</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/somefile.7z">SomeFiles</a>     <a class="a-zip" href="https://ait.ethz.ch/legacy/somefile.zip">SomeFiles</a>   </td>       <td> DD/MM/YYYY</td>    </tr>
+        <tr><td>Exercise 3</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/somefile.pdf">Homework3</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/somefile.7z">SomeFiles</a> <a class="a-vid" href="https://ait.ethz.ch/legacy/somefile.7z">SomeVideo</a>    </td>       <td> DD/MM/YYYY</td>    </tr>
+        <tr><td>Exercise 4</td> <td> <a class="a-pdf" href="https://ait.ethz.ch/legacy/somefile.pdf">Homework4</a> <a class="a-zip" href="https://ait.ethz.ch/legacy/somefile.7z">SomeFiles</a>     <a class="a-pdf" href="https://ait.ethz.ch/legacy/somefile.pdf">SomeFile</a>    </td>       <td> DD/MM/YYYY</td>    </tr>-->
+    </tbody>
+</table>
+
+<br><hr><br>
+
+<a class="anchor" id="exams"></a>
+<h3>Exams and Grading</h3>
+<p>
+  Class is part of Basisprüfung. There is a written, centralized exam after the end of the semester.
+  <il>
+     <li>70% of grade made-up from written exam</li>
+     <li>30% of grade made-up from two Midterm exams</li>
+  </il>
+  <br/>
+  Exercise sessions are not graded, however they are considered essential!
+</p>
+
+<h4><b>Midterm Exams</b></h4>
+<p>
+There will be two midterms on the 25.03.14 and 06.05.14. The midterms are during the lecture hours and are closed book. No additional material is allowed.
+</P>
+
+<h4>First Midterm</h4>
+<p>
+The first midterm on Tuesday, 25.03.14. This will be happening in three rooms:
+<il>
+  <li><b>Lastnames A - D:</b> Room: <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=HG&geschoss=E&raumNr=1.1">HG E 1.1</a></li>
+  <li><b>Lastnames E - M:</b> Room: <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=ML&geschoss=D&raumNr=28">ML D 28</a></li>
+  <li><b>Lastnames N - Z:</b> Room: <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=HG&geschoss=G&raumNr=5">HG G 5</a></li>
+</il>
+<br/>
+Topics include everything in the lecture up to and including week 5.<br/>
+Topics from the Exercise include everything up-to and including exercise 4.<br/>
+<br/>
+<p>The grades are available <a class="a-pdf" href="/legacy/2014-SS-PP/Misc/grades_midterm1.pdf">here</a>.</p>
+</p>
+
+</p>
+<h4>Second Midterm</h4>
+<p>
+The second midterm on Tuesday, 06.05.14. This will be happening in three rooms:
+<il>
+  <li><b>Lastnames A - D:</b> Room: <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=HG&geschoss=E&raumNr=1.1">HG E 1.1</a></li>
+  <li><b>Lastnames E - M:</b> Room: <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=ML&geschoss=D&raumNr=28">ML D 28</a></li>
+  <li><b>Lastnames N - Z:</b> Room: <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=HG&geschoss=G&raumNr=5">HG G 5</a></li>
+</il>
+<br/>
+Topics include everything in the lecture from and including week 5, up-to and including week 10.<br/>
+Topics from the Exercise include everything from and including exercise 5, up-to and including exercise 8.<br/>
+More specifically, you should study solutions for exercises 5-7 and just have a look at assignment 8.<br/>
+<br/>
+
+<p>The grades are available <a class="a-pdf" href="/legacy/2014-SS-PP/Misc/grades_midterm2.pdf">here</a>.</p>
+You can review the exam this Friday, 23.05.2014 from 10:00 to 14:00 in room <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=CNB&geschoss=H&raumNr=100.5">CNB H 100.5</a>.
+
+</p>
+
+  <h4>Final Exam (Basisprüfung)</h4>
+  <p>
+  The final exam takes place on Saturday, 09.08.14 from 11:00 until 13:00 (120 minutes).<br/>
+  This will be held in a single room for everyone: HIL G 41
+  <a href="http://www.mapsearch.ethz.ch/map.do?gebaeudeMap=HIL&farbcode=c070&lang=de">(building map)</a>
+  <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=H&gebaeude=HIL&geschoss=G&raumNr=41">(floor plan)</a>
+  </p>
+  <p>
+  Topics include everything covered in the lectures (see annotated slides) and all the exercise material.
+  The only written aids allowed are 4 sides (2 A4 pages) of handwritten notes.  You may not use your books, additional notes, or any calculator on this exam.
+  </p>
