@@ -22,7 +22,7 @@ permalink: /data-code/index.html
   <div class="page-content container">
     <div class="row">
       <div class="column">
-          <div class="grid">
+          <div class="grid with-sections">
             <h3><span>Data</span></h3>
             {% assign publications = site.publications | reverse %}
             {% for publication in publications %}
@@ -32,7 +32,7 @@ permalink: /data-code/index.html
                   url=publication.url
                   external_url=publication.data
                   type="short"
-                  image="/assets/icons/data.svg"
+                  image=publication.image
                 %}
               {% endif %}
             {%- endfor -%}
@@ -46,7 +46,7 @@ permalink: /data-code/index.html
                   url=publication.url
                   external_url=publication.code
                   type="short"
-                  image="/assets/icons/code.svg"
+                  image=publication.image
                 %}
               {% endif %}
             {%- endfor -%}

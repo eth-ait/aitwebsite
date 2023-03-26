@@ -26,6 +26,7 @@
         fuzzy: false
     })
 
+    // Search esq
     function onkeypressed(evt, input) {
         var code = evt.charCode || evt.keyCode;
         if (code == 27) {
@@ -33,10 +34,22 @@
         }
     }
 
+    // Search click outside searchbar
+    let resultsBox = document.getElementById("results-container");
     function onblursearch(input) {
-        document.getElementById('results-container').innerHTML = ''        
-    }
+        if (!isMouseOverResults){resultsBox.innerHTML = '';}}
 
+    let isMouseOverResults = false
+    resultsBox.addEventListener("mouseleave", function (event) {
+      isMouseOverResults = false
+    }, false);
+    resultsBox.addEventListener("mouseover", function (event) {
+      isMouseOverResults = true
+    }, false);
+
+
+
+    // Mobile menu
     const menu = document.querySelector(".site-nav");
     const menu_icon= document.querySelector(".mobile-menu-icon");
 

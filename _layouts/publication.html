@@ -45,10 +45,9 @@ layout: default
       <div class="column column-offset-8 column-25 page-meta">
           <h4 class='first'>Published at</h4>
           {{ page.venue }} {{ page.year }}
-          {% if page.awards %}
-              <br/>
-              <span><img style="height: 18px; width: 18px;" src="/assets/images/award.png" title="CC BY 4.0 by @fontawesome - https://fontawesome.com"></span> <font color="#d74141">{{ page.awards }}</font>
-              <br/>      
+          {% if page.award %}
+            <br /><br />
+            <img style="height: 18px; width: 18px;" src="/assets/icons/award.svg" /> {{ page.award }}     
           {% endif %}
 
           <h4>Project Links</h4>

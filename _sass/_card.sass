@@ -50,7 +50,11 @@
 	margin-bottom: $spacing-unit/2
 
 	&.short
-		min-height: 80px
+		min-height: 160px
+		img, video
+			padding: $spacing-unit/3
+			max-height: 135px
+			border-radius: 0 !important
 
 	&.wide
 		min-height: 60px
@@ -93,7 +97,7 @@
 		width: 135px
 		overflow: hidden
 
-		img
+		img, video
 			object-fit: cover
 			height: 100%
 			border-top-left-radius: 10px
@@ -110,12 +114,16 @@
 			margin-top: 20px
 			margin-left: 15px
 
-	.card-corner
-		position: absolute
-		top: 0
-		right: 0
-		height: 12px
-		width: 12px
+	// &:after
+	// 	content: ""
+	// 	position: absolute
+	// 	top: 0
+	// 	right: -10px
+	// 	width: 30px
+	// 	border-bottom: 1px solid $color-border
+	// 	transform: rotate(45deg)
+	// 	transform-origin: left
+
 
 	/**
 	 * Card Vertical 
