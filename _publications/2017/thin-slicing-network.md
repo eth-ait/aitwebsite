@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://cvpr2017.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: "Accepted as oral presentation"
 bibtex: "@inproceedings{song2017thin,
   title={Thin-slicing network: A deep structured model for pose estimation in videos},

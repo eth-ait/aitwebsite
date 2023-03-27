@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/sfp
 conference_url: https://jmlr.org/tmlr
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{bagatella2022sfp,
 title={SFP: State-free Priors for Exploration in Off-Policy Reinforcement Learning},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/stevsics/attention_6d_pose
 conference_url: http://3dv2020.dgcv.nii.ac.jp/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{stevsic20203dv,
   title={Spatial Attention Improves Iterative 6D Object Pose Estimation},

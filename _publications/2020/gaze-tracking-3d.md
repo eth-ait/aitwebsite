@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://conferences.eg.org/egev20/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{Wen2020Eurographics,
 author = {Wen, Quan and Bradley, Derek and Beeler, Thabo and Park, Seonwook and Hilliges, Otmar and Yong, Jun-Hai and Xu, Feng},

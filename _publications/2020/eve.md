@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/swook/EVE
 conference_url: https://eccv2020.eu/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Park2020ECCV,
   author    = {Seonwook Park and Emre Aksan and Xucong Zhang and Otmar Hilliges},

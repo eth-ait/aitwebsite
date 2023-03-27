@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://www.iros2016.org
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{heppnaegeli2016uwbtracker,
   title={{Omni-directional person tracking on a flying robot using occlusion-robust ultra-wideband signals}},

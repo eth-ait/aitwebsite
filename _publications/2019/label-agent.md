@@ -3,7 +3,7 @@ ref: label-agent
 title: "Learning Cooperative Personalized Policies from Gaze Data"
 authors: Christoph Gebhardt, Brian Hecox, Bas Opheusden, Daniel Wigdor, James Hillis, Otmar Hilliges, Hrvoje Benko
 date: 2019-01-01
-venue: "UIST '19"
+venue: "Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology"
 image: /assets/projects/label-agent/thumbnail.png
 external_project_page: 
 video: https://youtu.be/nbb-GEwMUnI
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://uist.acm.org/uist2019
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Gebhardt:2019,  
 author = {Gebhardt, Christoph and Hecox, Brian and van Opheusden, Bas and Wigdor, Daniel and Hillis, James and Hilliges, Otmar and Benko, Hrvoje},  

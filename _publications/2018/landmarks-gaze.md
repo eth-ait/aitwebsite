@@ -3,7 +3,7 @@ ref: landmarks-gaze
 title: "Learning to Find Eye Region Landmarks for Remote Gaze Estimation in Unconstrained Settings"
 authors: Seonwook Park, Xucong Zhang, Andreas Bulling, Otmar Hilliges
 date: 2018-01-01
-venue: "ETRA '18"
+venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA)"
 image: /assets/projects/landmarks-gaze/teaser.mp4
 external_project_page: 
 video: /projects/2018/landmarks-gaze/downloads/park2018etra.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/swook/GazeML
 conference_url: https://etra.acm.org/2018
-equal_contribution: 
+equal_contributions: 
 award: "Best Presentation Award"
 bibtex: "@inproceedings{Park2018ETRA,
 	author = {Park, Seonwook and Zhang, Xucong and Bulling, Andreas and Hilliges, Otmar},

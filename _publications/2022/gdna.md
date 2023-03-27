@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/xuchen-ethz/gdna
 conference_url: https://cvpr2022.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{chen2022gdna,
   title={gDNA: Towards Generative Detailed Neural Avatars},

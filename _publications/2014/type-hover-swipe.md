@@ -3,7 +3,7 @@ ref: type-hover-swipe
 title: "Type--Hover--Swipe in 96 Bytes: A Motion Sensing Mechanical Keyboard"
 authors: Stuart Taylor, Cem Keskin, Otmar Hilliges, Shahram Izadi, John Helmes
 date: 2014-01-01
-venue: "CHI '14"
+venue: "Proceedings of the 32Nd Annual ACM Conference on Human Factors in Computing Systems"
 image: /assets/projects/type-hover-swipe/Teaser_Narrow.png
 external_project_page: 
 video: /projects/2014/96Bytes/downloads/MotionKeyboard_CHI_2014.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://chi2014.acm.org/
-equal_contribution: 
+equal_contributions: 
 award: "Best Paper Award"
 bibtex: "@inproceedings{Taylor:2014:MoKeyCHI,
  author = {Taylor, Stuart and Keskin, Cem and Hilliges, Otmar and Izadi, Shahram and Helmes, John},

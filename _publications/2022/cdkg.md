@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://eg2022.univ-reims.fr/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{vechev2022cdkg,
   title={Computational Design of Kinesthetic Garments},

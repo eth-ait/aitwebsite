@@ -3,7 +3,7 @@ ref: computationalMR
 title: "Context-Aware Online Adaptation of Mixed Reality Interfaces"
 authors: David Lindlbauer, Anna Feit, Otmar Hilliges
 date: 2019-01-01
-venue: "UIST '19"
+venue: "Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology"
 image: /assets/projects/computationalMR/compMR-thumbnail.jpg
 external_project_page: 
 video: https://www.youtube.com/watch?v=heAGuCsWs9o
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://uist.acm.org/uist2019
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Lindlbauer:2019,
 author = {Lindlbauer, David and Feit, Anna Maria and Hilliges, Otmar},

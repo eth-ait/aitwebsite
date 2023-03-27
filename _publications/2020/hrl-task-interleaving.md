@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/christophgebhardt/task-interleaving
 conference_url: https://www.springer.com/journal/42113
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{Gebhardt:2020:HRL,  
 author = {Gebhardt, Christoph and Oulasvirta, Antti and Hilliges, Otmar},  

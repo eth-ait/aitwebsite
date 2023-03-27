@@ -3,7 +3,7 @@ ref: hide-rl
 title: "Learning Functionally Decomposed Hierarchies for Continuous Control Tasks With Path Planning"
 authors: Sammy Christen, Lukas Jendele, Emre Aksan, Otmar Hilliges
 date: 2021-01-01
-venue: "IEEE Robotics and Automation Letters"
+venue: "IEEE Robotics and Automation Letters (Volume: 6, Issue: 2)"
 image: /assets/projects/hide-rl/teaser.mp4
 external_project_page: 
 video: https://youtu.be/vBMQRUtSBC0
@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/christsa/hide-rl
 conference_url: https://www.ieee-ras.org/publications/ra-l
-equal_contribution: 
+equal_contributions: 0, 1
 award: "Accepted as Oral Presentation at the Deep RL Workshop at NeurIPS"
 bibtex: "@ARTICLE{christen2020hide,
   author={{Christen}, Sammy and {Jendele}, Lukas and {Aksan}, Emre and {Hilliges}, Otmar},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://3dvconf.github.io/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{wang2022reconstruction,
       title={Reconstructing Action-Conditioned Human-Object Interactions Using Commonsense Knowledge Priors},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://eccv2022.ecva.net/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{aksan2022lip,
       title={LiP-Flow: Learning Inference-time Priors for Codec Avatars via Normalizing Flows in Latent Space},

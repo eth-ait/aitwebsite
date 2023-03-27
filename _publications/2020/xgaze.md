@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/xucong-zhang/ETH-XGaze
 conference_url: https://eccv2020.eu/
-equal_contribution: 
+equal_contributions: 
 award: "Accepted as Spotlight Presentation"
 bibtex: "@inproceedings{Zhang2020ETHXGaze,
   author    = {Xucong Zhang and Seonwook Park and Thabo Beeler and Derek Bradley and Siyu Tang and Otmar Hilliges},

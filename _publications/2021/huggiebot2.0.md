@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://humanrobotinteraction.org/2021/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{block2021hri,
   author    = {Alexis Block and Sammy Christen and Roger Gassert and Otmar Hilliges and Katherine J. Kuchenbecker},

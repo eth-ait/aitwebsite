@@ -3,7 +3,7 @@ ref: pictorial-gaze
 title: "Deep Pictorial Gaze Estimation"
 authors: Seonwook Park, Adrian Spurr, Otmar Hilliges
 date: 2018-01-01
-venue: "ECCV '18"
+venue: "European Conference on Computer Vision (ECCV)"
 image: /assets/projects/pictorial-gaze/teaser.jpg
 external_project_page: 
 video: 
@@ -13,7 +13,7 @@ poster: /assets/projects/2018/pictorial-gaze/downloads/park2018eccv_poster.pdf
 data: 
 code: 
 conference_url: https://eccv2018.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Park2018ECCV,
 	author = {Park, Seonwook and Spurr, Adrian and Hilliges, Otmar},

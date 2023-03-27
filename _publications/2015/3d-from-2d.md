@@ -3,7 +3,7 @@ ref: 3d-from-2d
 title: "Joint Estimation of 3D Hand Position and Gestures from Monocular Video for Mobile Interaction"
 authors: Jie Song, Fabrizio Pece, Gábor Sörös, Marion Koelle, Otmar Hilliges
 date: 2015-01-01
-venue: "CHI '15"
+venue: "ACM Conference on Human Factors in Computing Systems (CHI)"
 image: /assets/projects/3d-from-2d/teaser.jpg
 external_project_page: 
 video: /projects/2015/3Dfrom2D/downloads/camera_ready_dubbed-compressed.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://chi2015.acm.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Song:2015,
  author = {Song, Jie and Pece, Fabrizio and Sörös, Gábor and Koelle, Marion and Hilliges, Otmar},

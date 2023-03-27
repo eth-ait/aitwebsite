@@ -3,7 +3,7 @@ ref: gaze_redirection
 title: "Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks"
 authors: Zhe He, Adrian Spurr, Xucong Zhang, Otmar Hilliges
 date: 2019-01-01
-venue: "{IEEE} International Conference on Computer Vision ({ICCV})"
+venue: "IEEE International Conference on Computer Vision (ICCV)"
 image: /assets/projects/gaze_redirection/teaser.png
 external_project_page: 
 video: 
@@ -13,12 +13,12 @@ poster:
 data: 
 code: https://github.com/HzDmS/gaze_redirection
 conference_url: http://iccv2019.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{he2019gazeredirection,
   title = {Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks},
   author = {He, Zhe and Spurr, Adrian and Zhang, Xucong and Hilliges, Otmar},
-  booktitle = {{IEEE} International Conference on Computer Vision ({ICCV})},
+  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
   organization = {{IEEE}},
   year = {2019},
   location  = {Seoul, Korea}

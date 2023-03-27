@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/MoyGcc/vid2avatar
 conference_url: https://cvpr2023.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{guo2023vid2avatar,
 author = {Guo, Chen and Jiang, Tianjian and Chen, Xu and Song, Jie and Hilliges, Otmar}, 

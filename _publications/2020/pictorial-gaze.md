@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Park2020notes,
 	author = {Park, Seonwook and Spurr, Adrian and Hilliges, Otmar},

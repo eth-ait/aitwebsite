@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://cvpr2023.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{prinzler2023diner,
   title={DINER: (D)epth-aware (I)mage-based (Ne)ural (R)adiance Fields},

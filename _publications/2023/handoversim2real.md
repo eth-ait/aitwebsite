@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://cvpr2023.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{christen2023handoversim2real,
   title = {Learning Human-to-Robot Handovers from Point Clouds},

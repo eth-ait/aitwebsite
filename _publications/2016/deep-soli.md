@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://uist.acm.org/uist2016/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{wang2016interacting,
   title={Interacting with soli: Exploring fine-grained dynamic gesture recognition in the radio-frequency spectrum},

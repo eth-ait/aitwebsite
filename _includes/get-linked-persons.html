@@ -3,14 +3,15 @@
   {% capture query %} item.title contains '{{ person | remove: 'Dr.' | remove: 'Prof.' | remove: '*' | escape | strip }}'{% endcapture %}
   {% assign found_person = site.people | where_exp:"item", query | first %}
   {% if found_person != nil %}
-    <a href="{{ found_person.url | relative_url}}">{{person}}</a>{% unless forloop.last %},&nbsp;{% endunless %}
+    <a href="{{ found_person.url | relative_url}}">{{person}}</a>{% if include.contribs contains forloop.index0 %}*{% endif %}{% unless forloop.last %},{% endunless %}
   {% else %}
     {% capture query %} item.name contains '{{ person | remove: 'Dr.' | remove: 'Prof.' | remove: '*' | escape | strip }}'{% endcapture %}
     {% assign found_person = site.data.externals | where_exp:"item", query | first %}
     {% if found_person != nil %}
-      <a href="{{ found_person.url}}">{{person}}</a>{% unless forloop.last %},&nbsp;{% endunless %}
+      <a href="{{ found_person.url}}">{{person}}</a>{% if include.contribs contains forloop.index0 %}*{% endif %}{% unless forloop.last %},{% endunless %}
     {% else %}
-      {{person}}{% unless forloop.last %},&nbsp;{% endunless %}
+      {{person}}{% if include.contribs contains forloop.index0 %}*{% endif %}{% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endif %}
 {% endfor %}
+{% if include.contribs != nil %}<span class="equal-contrib">* Equal contribution</span>{% endif %}

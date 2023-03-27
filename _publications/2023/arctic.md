@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/zc-alexfan/arctic-toolkits
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{fan2023arctic,
   title = {ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation},

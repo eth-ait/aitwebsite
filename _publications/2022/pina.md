@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://iccv2021.thecvf.com/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{dong2022pina,
   title={PINA: Learning a Personalized Implicit Neural Avatar from a Single RGB-D Video Sequence},

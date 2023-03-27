@@ -3,7 +3,7 @@ ref: dextres
 title: "DextrES: Wearable Haptic Feedback for Grasping in VR via a Thin Form-Factor Electrostatic Brake"
 authors: Ronan Hinchet, Velko Vechev, Herbert Shea, Otmar Hilliges
 date: 2018-Oct-01
-venue: "UIST '18"
+venue: "ACM Symposium on User Interface Software and Technologies (UIST)"
 image: /assets/projects/dextres/thumbnail.jpg
 external_project_page: 
 video: https://youtu.be/deqn2cYf1EM
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://uist.acm.org/uist2018/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{Hinchet:2018,
 	author = {Hinchet, Ronan and Vechev, Velko and Shea, Herbert and Hilliges, Otmar},

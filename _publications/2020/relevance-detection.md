@@ -3,7 +3,7 @@ ref: relevance-detection
 title: "Detecting Relevance during Decision-Making from Eye Movements for UI Adaptation"
 authors: Anna Feit, Lukas Vordemann, Seonwook Park, Caterina Bérubé, Otmar Hilliges
 date: 2020-01-01
-venue: "ETRA '20"
+venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA)"
 image: /assets/projects/relevance-detection/thumbnail.jpg
 external_project_page: 
 video: 
@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/vordemann/relevance-detection-etra2020
 conference_url: https://etra.acm.org/2020/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{Feit2020ETRA,
 	author = {Feit, Anna and Vordemann, Lukas and Park, Seonwook and Bérubé, Caterina and Hilliges, Otmar},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/zj-dong/Multi-Person-Pose-Estimation
 conference_url: http://iccv2021.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{dong2021shape,
   title={Shape-aware Multi-Person Pose Estimation from Multi-view Images},

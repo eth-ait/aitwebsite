@@ -1,9 +1,9 @@
 ---
 ref: airways
 title: "Airways: Optimization-based Planning of Quadrotor Trajectories according to High-Level User Goals"
-authors: Christoph Gebhardt, Benjamin Hepp, Tobias N{\"a}geli, Stefan Stevsic, Otmar Hilliges
+authors: Christoph Gebhardt, Benjamin Hepp, Tobias Nägeli, Stefan Stevsic, Otmar Hilliges
 date: 2016-01-01
-venue: "CHI '16"
+venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/airways/airways_icon.png
 external_project_page: 
 video: /projects/2016/airways/downloads/airways-final.mp4
@@ -13,10 +13,10 @@ poster:
 data: 
 code: 
 conference_url: https://chi2016.acm.org/wp/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{Gebhardt:2016:Airways,
-	author = {Gebhardt, Christoph and Hepp, Benjamin and N{\a}geli, Tobias and Stevsic, Stefan and Hilliges, Otmar},
+	author = {Gebhardt, Christoph and Hepp, Benjamin and Nägeli, Tobias and Stevsic, Stefan and Hilliges, Otmar},
 	title = {{Airways: Optimization-based Planning of Quadrotor Trajectories according to High-Level User Goals}},
 	booktitle = {SIGCHI Conference on Human Factors in Computing Systems},
 	series = {CHI '16},

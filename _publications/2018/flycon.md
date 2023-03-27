@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://sa2018.siggraph.org/en
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Naegeli:2018:flycon,
 	author = {Nägeli, Tobias and Oberholzer, Samuel and Plüss, Silvan and Alonso-Mora, Javier and Hilliges, Otmar},

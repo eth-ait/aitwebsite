@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/MoyGcc/hpcwild
 conference_url: https://3dv2021.surrey.ac.uk/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{guo2021human,
   title={Human Performance Capture from Monocular Video in the Wild},

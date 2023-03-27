@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/xuchen-ethz/snarf
 conference_url: http://iccv2021.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{chen2021snarf,
   title={SNARF: Differentiable Forward Skinning for Animating Non-Rigid Neural Implicit Shapes},

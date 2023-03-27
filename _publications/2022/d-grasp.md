@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/christsa/dgrasp
 conference_url: https://cvpr2022.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{christen2022dgrasp,
   title={D-Grasp: Physically Plausible Dynamic Grasp Synthesis for Hand-Object Interactions},

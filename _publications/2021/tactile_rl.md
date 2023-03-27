@@ -2,8 +2,8 @@
 ref: tactile_rl
 title: "Improved Learning of Robot Manipulation Tasks via Tactile Intrinsic Motivation"
 authors: Nikola Vulin, Sammy Christen, Stefan Stevšić, Otmar Hilliges
-date: 2021-01-01
-venue: ""
+date: 2021-April-01
+venue: "IEEE Robotics and Automation Letters (Volume: 6, Issue: 2)"
 image: /assets/projects/tactile_rl/teaser.png
 external_project_page: 
 video: https://youtu.be/T5M_6g7DL1M
@@ -13,16 +13,16 @@ poster:
 data: 
 code: https://github.com/nikolavulin/tactile_intrinsic_motivation
 conference_url: https://www.ieee-ras.org/publications/ra-l
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{vulin2021,
-  author    = {Nikola Vulin and Sammy Christen and Stefan {Stevšić} and Otmar Hilliges},
+  author    = {Nikola Vulin and Sammy Christen and Stefan Stevšić and Otmar Hilliges},
   title     = {Improved Learning of Robot Manipulation Tasks via Tactile Intrinsic Motivation},
   year={2021},
   volume={6},
   number={2},
   pages={2194 - 2201},
-  doi={10.1109/LRA.2021.3061308}}
+  doi={10.1109/LRA.2021.3061308},
   month={April},
   journal={IEEE Robotics and Automation Letters}
 }

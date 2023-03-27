@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://www.iros2015.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{heppnaegeli2016uwbtracker,
   title={Semi-Direct EKF-based Monocular Visual-Inertial Odometry},

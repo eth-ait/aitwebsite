@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Zhang2020BMVC,
   author    = {Xucong Zhang and Yusuke Sugano and Andreas Bulling and Otmar Hilliges},

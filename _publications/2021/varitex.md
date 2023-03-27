@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://mcbuehler.github.io/VariTex
 conference_url: http://iccv2021.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{buehler2021varitex,
   title={VariTex: Variational Neural Face Textures},

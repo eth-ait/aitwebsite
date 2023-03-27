@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://www.bmva.org/bmvc/2016/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{wang2016two,
   title={Two-Stream SR-CNNs for Action Recognition in Videos.},

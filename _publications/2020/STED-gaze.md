@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/zhengyuf/STED-gaze
 conference_url: https://nips.cc/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Zheng2020NeurIPS,
   author    = {Yufeng Zheng and Seonwook Park and Xucong Zhang and Shalini De Mello and Otmar Hilliges},

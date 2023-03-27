@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://www.eurohaptics2022.org/
-equal_contribution: 
+equal_contributions: 
 award: "Best Demo Award"
 bibtex: "@inproceedings{block2022huggiebot,
   author    = {Alexis Block and Hasti Seifi and Sammy Christen and Bernard Javot and Katherine J. Kuchenbecker},

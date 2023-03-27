@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/zhengyuf/IMavatar
 conference_url: https://cvpr2022.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: "Accepted as Oral Presentation"
 bibtex: "@InProceedings{zheng2022IMavatar,
   title={IM Avatar: Implicit Morphable Head Avatars from Videos},

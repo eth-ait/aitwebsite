@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://2021.worldhaptics.org/
-equal_contribution: 
+equal_contributions: 
 award: "Honorable Mention - Best Paper Award"
 bibtex: "@inproceedings{abler2021a,
 author = {Ablerm Aline and Zarate, Juan and Langerak, Thomas and Vechev, Velko and Hilliges, Otmar},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://www.icra2019.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{christen2019drlhs,
   title={Demonstration-Guided Deep Reinforcement Learning of Control Policies for Dexterous Human-Robot Interaction},

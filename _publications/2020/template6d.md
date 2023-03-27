@@ -3,7 +3,7 @@ ref: template6d
 title: "Learning to Assemble: Estimating 6D Poses for Robotic Object-Object Manipulation"
 authors: Stefan Stevšić, Sammy Christen, Otmar Hilliges
 date: 2020-April-01
-venue: "IEEE Robotics and Automation Letters"
+venue: "IEEE Robotics and Automation Letters (Volume: 5, Issue: 2)"
 image: /assets/projects/template6d/teaser_figure.png
 external_project_page: 
 video: https://youtu.be/hUyjFG7W5hM
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://www.ieee-ras.org/publications/ra-l
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@ARTICLE{8962164,
 author={Stevšić, Stefan and Christen, Sammy and Hilliges, Otmar},

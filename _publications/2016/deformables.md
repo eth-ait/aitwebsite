@@ -3,7 +3,7 @@ ref: deformables
 title: "DefSense: Computational Design of Customized Deformable Input Devices"
 authors: Moritz Bächer, Benjamin Hepp, Fabrizio Pece, Paul Kry, Bernd Bickel, Bernhard Thomaszewski, Otmar Hilliges
 date: 2016-01-01
-venue: "CHI '16"
+venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/deformables/sheet_squared_teaser.png
 external_project_page: 
 video: /projects/2016/deformables/downloads/Deformables_final.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://chi2016.acm.org/
-equal_contribution: 
+equal_contributions: 1, 2
 award: 
 bibtex: "@inproceedings{Baecher:2016:DefSense,
 	author = {Bächer, Moritz and Hepp, Benjamin and Pece, Fabrizio and Kry, Paul G. and Bickel, Bernd and Thomaszewski, Bernhard and Hilliges, Otmar },

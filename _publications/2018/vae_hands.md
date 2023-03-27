@@ -13,7 +13,7 @@ poster:
 data: /projects/2018/vae_hands/downloads/models.zip
 code: https://github.com/spurra/vae-hands-3d
 conference_url: http://cvpr2018.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: "Accepted as Spotlight Presentation"
 bibtex: "@inproceedings{spurr2018cross,
   title={Cross-modal deep variational hand pose estimation},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/dip18
 conference_url: https://sa2018.siggraph.org/en/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{DIP:SIGGRAPHAsia:2018,
 	title = {Deep Inertial Poser: Learning to Reconstruct Human Pose from Sparse Inertial Measurements in Real Time},

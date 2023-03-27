@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://cvpr2023.thecvf.com/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{jiang2023instantavatar,
 author = {Jiang, Tianjian and Chen, Xu and Song, Jie and Hilliges, Otmar}, 

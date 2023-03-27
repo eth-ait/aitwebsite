@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{isop2019high,
   title={High-Level Teleoperation System For Aerial Exploration Of Indoor Environments},

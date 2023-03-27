@@ -3,7 +3,7 @@ ref: magpen
 title: "Optimal Control for Electromagnetic Haptic Guidance Systems"
 authors: Thomas Langerak, Juan Zarate, Velko Vechev, David Lindlbauer, Daniele Panozzo, Otmar Hilliges
 date: 2020-01-01
-venue: "UIST '20"
+venue: "Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology"
 image: /assets/projects/magpen/teaser_figure.png
 external_project_page: 
 video: https://www.youtube.com/watch?v=kWug-YdLwwc
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://uist.acm.org/uist2020/index.html
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{langerak2020magpen,
   author={Langerak, Thomas and Zarate, Juan and Vechev, Velko and Lindlbauer, David and Panozzo, Daniele and Hilliges, Otmar},

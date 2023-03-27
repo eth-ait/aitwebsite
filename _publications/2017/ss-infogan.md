@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/spurra/ss-infogan
 conference_url: http://ecmlpkdd2017.ijs.si/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{spurr2017ecml,
   title={Guiding InfoGAN with Semi-Supervision},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://3dv2021.surrey.ac.uk/
-equal_contribution: 
+equal_contributions: 
 award: "Accepted as Oral Presentation"
 bibtex: "@inProceedings{karunratanakul2021halo,
   title={A Skeleton-Driven Neural Occupancy Representation for Articulated Hands},

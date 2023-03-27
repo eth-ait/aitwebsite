@@ -3,7 +3,7 @@ ref: ral_learn_quad
 title: "Sample Efficient Learning of Path Following and Obstacle Avoidance Behavior for Quadrotors"
 authors: Stefan Stevšić, Tobias Nägeli, Javier Alonso-Mora, Otmar Hilliges
 date: 2018-Oct-01
-venue: "IEEE Robotics and Automation Letters"
+venue: "IEEE Robotics and Automation Letters (Volume: 3, Issue: 4)"
 image: /assets/projects/ral_learn_quad/ral_stefan.gif
 external_project_page: 
 video: /projects/2018/ral_learn_quad/downloads/ral_video_quadrotor_policies.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://ieeexplore.ieee.org/document/8412596/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@ARTICLE{stevsic2018ral,
 author={Stevšić, Stefan and Nägeli, Tobias and Alonso-Mora, Javier and Hilliges, Otmar},

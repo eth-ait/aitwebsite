@@ -3,7 +3,7 @@ ref: learn-to-score
 title: "Learn-to-Score: Efficient 3D Scene Exploration by Predicting View Utility"
 authors: Benjamin Hepp, Debadeepta Dey, Sudipta Sinha, Ashish Kapoor, Neel Joshi, Otmar Hilliges
 date: 2018-01-01
-venue: "ECCV '18"
+venue: "European Conference on Computer Vision (ECCV)"
 image: /assets/projects/learn-to-score/teaser.jpg
 external_project_page: 
 video: /projects/2018/learn-to-score/downloads/learn-to-score.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://eccv2018.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Hepp2018ECCV,
 	author = {Hepp, Benjamin and Dey, Debadeepta and Sinha, Sudipta N. and Kapoor, Ashish and Joshi, Neel and Hilliges, Otmar},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://cvpr2023.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{yin2023hi4d,
 author = {Yin, Yifei and Guo, Chen and Kaufmann, Manuel and Zarate, Juan and Song, Jie and Hilliges, Otmar},

@@ -13,7 +13,7 @@ poster:
 data: /projects/2016/duo-vio/downloads/DUOVioData.zip
 code: 
 conference_url: http://www.iros2016.org
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{depalezieuxnaegeli2016duovio,
   title={Duo-VIO: Fast, Light-weight, Stereo Inertial Odometry},

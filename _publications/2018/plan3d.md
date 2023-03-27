@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/bennihepp/Quad3DR
 conference_url: https://tog.acm.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{hepp2018plan3d,
   author = {Hepp, Benjamin and Niessner, Matthias and Hilliges, Otmar},

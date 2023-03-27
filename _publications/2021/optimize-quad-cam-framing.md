@@ -3,7 +3,7 @@ ref: optimize-quad-cam-framing
 title: "Optimization-based User Support for Cinematographic Quadrotor Camera Target Framing"
 authors: Christoph Gebhardt, Otmar Hilliges
 date: 2021-01-01
-venue: "CHI '21"
+venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/optimize-quad-cam-framing/teaser.mp4
 external_project_page: 
 video: https://youtu.be/OP9aYLxqRBQ
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://chi2021.acm.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Gebhardt:2021,
 	author = {Gebhardt, Christoph and Hilliges, Otmar},

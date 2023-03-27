@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://eccv2020.eu/
-equal_contribution: 
+equal_contributions: 
 award: "Winner of HANDS2019 challenge: RGB-based 3D Hand Pose Estimation while Interacting with Objects"
 bibtex: "@inproceedings{spurr2020eccv,
   author    = {Adrian Spurr and Umar Iqbal and Pavlo Molchanov and Otmar Hilliges and Jan Kautz},

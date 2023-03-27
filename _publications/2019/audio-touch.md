@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://mobilehci.acm.org/2019/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@InProceedings{Kubo:MobileHCI2019,
 author = {Kubo, Yuki and Koguchi, Yuto and Shizuki, Buntarou and Takahashi, Shin and Hilliges, Otmar},

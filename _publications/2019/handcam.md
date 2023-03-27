@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/luketaverne/handcam
 conference_url: https://www.icra2019.org/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{TaverneCognolato2019handcam,
   title={Video-based Prediction of Hand-grasp Preshaping with Application to Prosthesis Control},

@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/facebookresearch/em-pose
 conference_url: http://iccv2021.thecvf.com/home
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inProceedings{kaufmann2021empose,
   title={EM-POSE: 3D Human Pose Estimation from Sparse Electromagnetic Trackers},

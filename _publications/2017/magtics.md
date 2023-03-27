@@ -3,7 +3,7 @@ ref: magtics
 title: "MagTics: Flexible and Thin Form Factor Magnetic Actuators for Dynamic and Wearable Haptic Feedback"
 authors: Fabrizio Pece, Juan Zarate, Velko Vechev, Nadine Besse, Olexandr Gudozhnik, Herbert Shea, Otmar Hilliges
 date: 2017-Oct-01
-venue: "UIST '17"
+venue: "ACM Symposium on User Interface Software and Technologies (UIST)"
 image: /assets/projects/magtics/teaser-squared.jpg
 external_project_page: 
 video: /projects/2017/magtics/downloads/magtics-uist17.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://uist.acm.org/uist2017
-equal_contribution: 
+equal_contributions: 0, 1
 award: "Honorable Mention Best Paper Award"
 bibtex: "@inproceedings{Pece:2017:MagTics,
 	author = {Pece, Fabrizio and Zarate, Juan and Vechev, Velko and Besse, Nadine and Gudozhnik, Olexandr and Shea, Herbert and Hilliges, Otmar},

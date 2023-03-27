@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/tempclr
 conference_url: https://3dvconf.github.io/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inProceedings{ziani2022tempclr,
   title={TempCLR: Reconstructing Hands via Time-Coherent Contrastive Learning},

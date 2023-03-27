@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/NVLabs/few_shot_gaze
 conference_url: http://iccv2019.thecvf.com/
-equal_contribution: 
+equal_contributions: 0, 1
 award: "Accepted as Oral Presentation"
 bibtex: "@inproceedings{Park2019ICCV,
   author    = {Seonwook Park and Shalini De Mello and Pavlo Molchanov and Umar Iqbal and Otmar Hilliges and Jan Kautz},

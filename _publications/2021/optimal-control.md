@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://www.springer.com/series/6033
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@incollection{gebhardt2021optimal,
   title={Optimal Control to Support High-Level User Goals in Human-Computer Interaction},

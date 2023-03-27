@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://www.icra2017.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@InProceedings{park2017icra,
 	author = {Seonwook Park and Thomas Schöps and Marc Pollefeys},

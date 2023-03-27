@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/motion-transformer
 conference_url: https://3dv2021.surrey.ac.uk/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{aksan2020motiontransformer,
   title={A Spatio-temporal Transformer for 3D Human Motion Prediction},

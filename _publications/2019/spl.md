@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/spl
 conference_url: http://iccv2019.thecvf.com/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{Aksan_2019_ICCV,
   title={Structured Prediction Helps 3D Human Motion Modelling},

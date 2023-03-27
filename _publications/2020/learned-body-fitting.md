@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/InpatientJam/Learned-Gradient-Descent
 conference_url: https://eccv2020.eu/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{song2020lgd,
   title={Human Body Model Fitting by Learned Gradient Descent},

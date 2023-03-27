@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/zhengyuf/pointavatar
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{zheng2023pointavatar,
 author = {Zheng, Yufeng and Yifan, Wang and Wetzstein, Gordon and Black, Michael J. and Hilliges, Otmar}, 

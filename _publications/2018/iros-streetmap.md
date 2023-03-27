@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://www.iros2018.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{chen2018iros, 
 author={Xu {Chen} and Anurag Sai {Vempati} and Paul {Beardsley}}, 

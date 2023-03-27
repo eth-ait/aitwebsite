@@ -1,7 +1,7 @@
 ---
 ref: multi-view-drone
 title: "Real-time Planning for Automated Multi-View Drone Cinematography"
-authors: Tobias N{\"a}geli, Lukas Meier, Alexander Domahidi, Javier Alonso-Mora, Otmar Hilliges
+authors: Tobias Nägeli, Lukas Meier, Alexander Domahidi, Javier Alonso-Mora, Otmar Hilliges
 date: 2017-01-01
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH)"
 image: /assets/projects/multi-view-drone/teaser.jpg
@@ -13,10 +13,10 @@ poster:
 data: 
 code: 
 conference_url: http://s2017.siggraph.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Naegeli:2017:MultiDroneCine,
-	author = {N{\a}geli, Tobias and Meier, Lukas and Domahidi, Alexander and Alonso-Mora, Javier and Hilliges, Otmar},
+	author = {Nägeli, Tobias and Meier, Lukas and Domahidi, Alexander and Alonso-Mora, Javier and Hilliges, Otmar},
 	title = {Real-time Planning for Automated Multi-View Drone Cinematography},
 	journal = {ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH)},
 	year = {2017},

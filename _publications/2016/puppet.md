@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://s2016.siggraph.org/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{Glauser:2016:ATMID,
 	author = {Glauser, Oliver and Ma, Wan-Chun and Panozzo, Daniele and Jacobson, Alec and Hilliges, Otmar and Sorkine-Hornung, Olga},

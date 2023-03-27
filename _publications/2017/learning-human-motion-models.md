@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://bitbucket.org/parthaEth/humanposeprediction/overview
 conference_url: http://3dv2017.science/3dv/
-equal_contribution: 
+equal_contributions: 
 award: "Best Paper Award"
 bibtex: "@inproceedings{ghosh2017learning,
   title={Learning human motion models for long-term predictions},

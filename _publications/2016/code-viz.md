@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://chi2016.acm.org
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{AsenovHilligesMueller16,
  author = {Asenov, Dimitar and Hilliges, Otmar and Müller, Peter},

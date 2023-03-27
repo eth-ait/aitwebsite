@@ -50,11 +50,14 @@
 	margin-bottom: $spacing-unit/2
 
 	&.short
-		min-height: 160px
+		min-height: 0
 		img, video
 			padding: $spacing-unit/3
 			max-height: 135px
 			border-radius: 0 !important
+			object-fit: contain !important
+			width: 120px
+			padding: 0 0 0 5px
 
 	&.wide
 		min-height: 60px
@@ -90,6 +93,12 @@
 	.card-extra
 		font-weight: bold
 		font-size: 12px
+
+	.equal-contrib
+		font-size: 11px
+		display: block
+	.award
+		margin-top: $spacing-unit/2
 
 	.card-img
 		display: block

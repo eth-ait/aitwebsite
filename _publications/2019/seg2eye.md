@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/mcbuehler/Seg2Eye
 conference_url: https://research.fb.com/programs/the-2019-openeds-workshop-eye-tracking-for-vr-and-ar/
-equal_contribution: 
+equal_contributions: 
 award: "OpenEDS Image Generation Challenge Winner"
 bibtex: "@inproceedings{Buehler2019ICCVW,
   author    = {Marcel C. Buehler and Seonwook Park and Shalini De Mello and Xucong Zhang and Otmar Hilliges},

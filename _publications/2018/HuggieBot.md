@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://link.springer.com/article/10.1007/s12369-018-0495-2
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@Article{HuggieBot2018,
 	author=Block, Alexis E. and Kuchenbecker, Katherine J.,

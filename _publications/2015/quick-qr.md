@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://iswc.net/iswc15/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{soeroesg:iswc2015:2015,
     author = Sörös, Gábor and Stephan Semmler and Luc Humair and Otmar Hilliges,

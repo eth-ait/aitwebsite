@@ -39,10 +39,8 @@
 
     <!-- Capture sections wholesale to pass to generic 'card' -->
     {% capture pub-extra %}
-      {{ publication.venue }} 
-      {{ publication.year }} 
-      {% if publication.authors contains "*" %}<span style="font-weight: normal;">* Equal contribution</span>{% endif %}
-      {% if publication.awards %} <span style="margin-left: 4pt;"><img style="height: 18px; width: 18px;" src="/assets/images/award.png" title="CC BY 4.0 by @fontawesome - https://fontawesome.com"></span> <font color="#d74141">{{ publication.awards }}</font> {% endif %}
+      {{ publication.venue }}, {{ currentdate }} 
+      {% if publication.award %}<div class='award'><img style="height: 18px; width: 18px;" src="/assets/icons/award.svg" /> {{ publication.award }}</div>{% endif %}
     {% endcapture %}
 
     {% capture pub-links %}
@@ -56,7 +54,7 @@
     {% assign pub-ext-url = publication.external_project_page | strip_newlines | strip %}
 
     {% capture pub-linked-authors %}
-      {% include get-linked-persons.html persons=publication.authors %}
+      {% include get-linked-persons.html persons=publication.authors contribs=publication.equal_contributions%}
     {% endcapture %}
     
     {% include card.html

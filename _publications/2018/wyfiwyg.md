@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{Gebhardt:2017:WYFIWYG,
   author = {Gebhardt, Christoph and Hilliges, Otmar},

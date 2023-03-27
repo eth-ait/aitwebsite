@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/azuxmioy/Render-In-Between
 conference_url: https://www.bmvc2021-virtualconference.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{ho2021render,
     title = {Render In-between: Motion Guided Video Synthesis for Action Interpolation},

@@ -3,7 +3,7 @@ ref: deepwriting
 title: "DeepWriting: Making Digital Ink Editable via Deep Generative Modeling"
 authors: Emre Aksan, Fabrizio Pece, Otmar Hilliges
 date: 2018-01-01
-venue: "CHI '18"
+venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/deepwriting/animated_title.gif
 external_project_page: 
 video: /projects/2018/deepwriting/downloads/deepwriting_chi18.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/emreaksan/deepwriting
 conference_url: https://chi2018.acm.org
-equal_contribution: 
+equal_contributions: 
 award: "Honorable Mention Best Paper Award"
 bibtex: "@inproceedings{Aksan:2018:DeepWriting,
 	author = {Aksan, Emre and Pece, Fabrizio and Hilliges, Otmar},

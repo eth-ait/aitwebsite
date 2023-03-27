@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/dahiyaaneesh/peclr
 conference_url: http://iccv2021.thecvf.com/home
-equal_contribution: 
+equal_contributions: 0, 1
 award: "Accepted as Oral Presentation"
 bibtex: "@inProceedings{spurr2021peclr,
   title={PeCLR: Self-Supervised 3D Hand Pose Estimation from monocular RGB via Equivariant Contrastive Learning},

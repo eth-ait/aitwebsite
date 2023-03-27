@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/emreaksan/stcn
 conference_url: https://iclr.cc/Conferences/2019/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{aksan2019stcn,
   title={STCN:Stochastic Temporal Convolutional Networks},

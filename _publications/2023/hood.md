@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/dolorousrtur/hood
 conference_url: https://cvpr2023.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{grigorev2022hood,
 author = {Grigorev, Artur and Thomaszewski, Bernhard and Black, Michael J and Hilliges, Otmar}, 

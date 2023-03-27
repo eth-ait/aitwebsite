@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://eth-ait.github.io/cose/
 conference_url: https://nips.cc/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{aksan2020cose,
   title={CoSE: Compositional Stroke Embeddings},

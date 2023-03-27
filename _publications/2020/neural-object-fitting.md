@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/xuchen-ethz/neural_object_fitting
 conference_url: https://eccv2020.eu/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{chen2020category,
   title={Category Level Object Pose Estimation via Neural Analysis-by-Synthesis},

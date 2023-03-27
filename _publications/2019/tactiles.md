@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://www.ieeevr.org/2019/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{vechev2019tactiles,
   title={TacTiles: Dual-mode Low-power Electromagnetic Actuators for Rendering Continuous Contact and Spatial Haptic Patterns in VR},

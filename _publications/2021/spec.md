@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://iccv2021.thecvf.com/home
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@conference{Kocabas_SPEC_2021,
   title = {SPEC: Seeing People in the wild with an Estimated Camera},

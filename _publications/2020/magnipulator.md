@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://2020.hapticssymposium.org/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@INPROCEEDINGS{9086320,  
 author={Zarate, Juan and Langerak, Thomas and Thomaszewski, Bernhard and Hilliges, Otmar},  

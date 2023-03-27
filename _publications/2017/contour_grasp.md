@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{christen2017contour,
   author    = {Sammy Christen and Martin Wermelinger and Dario Bellicoso and Marco Hutter},

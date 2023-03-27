@@ -3,7 +3,7 @@ ref: video-mpc
 title: "Real-time Motion Planning for Aerial Videography with Dynamic Obstacle Avoidance and Viewpoint Optimization"
 authors: Tobias Nägeli, Javier Alonso-Mora, Alexander Domahidi, Daniela Rus, Otmar Hilliges
 date: 2017-July-01
-venue: "IEEE Robotics and Automation Letters"
+venue: "IEEE Robotics and Automation Letters (Volume: 2, Issue: 3)"
 image: /assets/projects/video-mpc/teaser.JPG
 external_project_page: 
 video: /projects/2017/video-mpc/downloads/RAL4.mp4
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://www.ieee-ras.org/publications/ra-l
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@ARTICLE{7847361,
 author={Nägeli, Tobias and Alonso-Mora, Javier and Domahidi, Alexander and Rus, Daniela and Hilliges, Otmar},

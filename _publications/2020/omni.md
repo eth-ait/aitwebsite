@@ -3,7 +3,7 @@ ref: omni
 title: "Omni: Volumetric Sensing and Actuation of Passive Magnetic Tools for Dynamic Haptic Feedback"
 authors: Thomas Langerak, Juan Zarate, David Lindlbauer, Christian Holz, Otmar Hilliges
 date: 2020-01-01
-venue: "UIST '20"
+venue: "Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology"
 image: /assets/projects/omni/teaser_figure_projectpage.png
 external_project_page: 
 video: https://www.youtube.com/watch?v=N9RPUSfnBac
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://uist.acm.org/uist2020/index.html
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{10.1145/3379337.3415589,
 author = {Langerak, Thomas and Zarate, Juan and Lindlbauer, David and Holz, Christian and Hilliges, Otmar},

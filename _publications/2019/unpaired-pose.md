@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/xuchen-ethz/UPG-GAN
 conference_url: http://cvpr2019.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@InProceedings{Chen_2019_CVPR_Workshops,
 author = {Chen, Xu and Song, Jie and Hilliges, Otmar},

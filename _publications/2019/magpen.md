@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://arxiv.org/abs/1906.11753
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{langerak2019magpen
   author    = {Langerak, Thomas and Zarate, Juan and Vechev, Velko and Panozzo, Daniele and Hilliges, Otmar},

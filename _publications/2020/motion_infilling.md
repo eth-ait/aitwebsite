@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/motion-infilling
 conference_url: http://3dv2020.dgcv.nii.ac.jp/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{MotionInfilling,
   author={Manuel {Kaufmann} and Emre {Aksan} and Jie {Song} and Fabrizio {Pece} and Remo {Ziegler} and Otmar {Hilliges}},

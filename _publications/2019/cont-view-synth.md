@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/xuchen-ethz/continuous_view_synthesis
 conference_url: http://iccv2019.thecvf.com/
-equal_contribution: 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{chen2019mono,
   title={Monocular Neural Image Based Rendering with Continuous View Control},

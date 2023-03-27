@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://iccv2019.thecvf.com/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@article{song2018end,
   title={End-to-end Learning for Graph Decomposition},

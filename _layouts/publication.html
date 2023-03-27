@@ -7,20 +7,8 @@ layout: default
 	<div class="row">
 		<div class="column column-66">
 			<h1 class="page-title">{{ page.title | escape }}</h1>
-      <div class="page-subtitle">{% include get-linked-persons.html persons=page.authors %} </div>
-
-      
-	  {% if page.authors contains "*" %}
-		<br/>
-		<div class="page-subtitle">* Equal contribution</div>
-	  {% endif %}
-
-    
+      <div class="page-subtitle">{% include get-linked-persons.html persons=page.authors contribs=page.equal_contributions %} </div>
 		</div>
-
-    <div class="column column-33 ">
-
-    </div>
 
 	</div>
   </header>
@@ -44,10 +32,13 @@ layout: default
       </div>
       <div class="column column-offset-8 column-25 page-meta">
           <h4 class='first'>Published at</h4>
-          {{ page.venue }} {{ page.year }}
+          {%if page.conference_url != "" %}<a href="{{page.conference_url}}" target="_blank">{%endif%}
+          {{ page.venue }}, {{ page.date | date: "%Y" }} 
+          {%if page.conference_url != "" %}</a>{%endif%}
+
           {% if page.award %}
             <br /><br />
-            <img style="height: 18px; width: 18px;" src="/assets/icons/award.svg" /> {{ page.award }}     
+            <img src="/assets/icons/award.svg" /> {{ page.award }}     
           {% endif %}
 
           <h4>Project Links</h4>

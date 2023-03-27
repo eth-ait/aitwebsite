@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: https://mobilehci.acm.org/2019/
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{palin2019people,
 title={How do People Type on Mobile Devices?: Observations from a Study with 37,000 Volunteers},

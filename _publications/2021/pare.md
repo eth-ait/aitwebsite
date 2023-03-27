@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: http://iccv2021.thecvf.com/home
-equal_contribution: 
+equal_contributions: 
 award: 
 bibtex: "@inproceedings{Kocabas_PARE_2021,
   title = {PARE: Part Attention Regressor for 3D Human Body Estimation},
