@@ -2,7 +2,7 @@
 ref: tempclr
 title: "TempCLR: Reconstructing Hands via Time-Coherent Contrastive Learning"
 authors: Andrea Ziani, Zicong Fan, Muhammed Kocabas, Sammy Christen, Otmar Hilliges
-date: 2022-01-01
+date: 2022-09-12
 venue: "International Conference on 3D Vision (3DV)"
 image: /assets/projects/tempclr/thumbnail.jpg
 external_project_page: https://eth-ait.github.io/tempclr

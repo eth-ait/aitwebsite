@@ -2,7 +2,7 @@
 ref: rhoi
 title: "Reconstructing Action-Conditioned Human-Object Interactions Using Commonsense Knowledge Priors"
 authors: Xi Wang, Gen Li, Yen-Ling Kuo, Muhammed Kocabas, Emre Aksan, Otmar Hilliges
-date: 2022-01-01
+date: 2022-09-12
 venue: "International Conference on 3D Vision (3DV)"
 image: /assets/projects/rhoi/rhoi-overview.jpg
 external_project_page: https://eth-ait.github.io/rhoi/

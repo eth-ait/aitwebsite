@@ -2,7 +2,7 @@
 ref: cdakg
 title: "Computational Design of Active Kinesthetic Garments"
 authors: Velko Vechev, Ronan Hinchet, Stelian Coros, Bernhard Thomaszewski, Otmar Hilliges
-date: 2022-Oct-01
+date: 2022-10-01
 venue: "ACM Symposium on User Interface Software and Technologies (UIST)"
 image: /assets/projects/cdakg/teaser.gif
 external_project_page: 

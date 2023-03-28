@@ -2,7 +2,7 @@
 ref: gdna
 title: "gDNA: Towards Generative Detailed Neural Avatars"
 authors: Xu Chen, Tianjian Jiang, Jie Song, Jinlong Yang, Michael Black, Andreas Geiger, Otmar Hilliges
-date: 2022-01-01
+date: 2022-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: /assets/projects/gdna/teaser.gif
 external_project_page: https://xuchen-ethz.github.io/gdna/

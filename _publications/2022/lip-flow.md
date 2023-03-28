@@ -2,7 +2,7 @@
 ref: lip-flow
 title: "LiP-Flow: Learning Inference-time Priors for Codec Avatars via Normalizing Flows in Latent Space"
 authors: Emre Aksan, Shugao Ma, Akin Caliskan, Stanislav Pidhorskyi, Alexander Richard, Shih-En Wei, Jason Saragih, Otmar Hilliges
-date: 2022-01-01
+date: 2022-10-23
 venue: "European Conference on Computer Vision (ECCV)"
 image: /assets/projects/lip-flow/lip-flow.gif
 external_project_page: https://emreaksan.github.io/lip-flow/
