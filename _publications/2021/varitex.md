@@ -2,7 +2,7 @@
 ref: varitex
 title: "VariTex: Variational Neural Face Textures"
 authors: Marcel Buehler, Abhimitra Meka, Gengyan Li, Thabo Beeler, Otmar Hilliges
-date: 2021-01-01
+date: 2021-10-11
 venue: "International Conference on Computer Vision (ICCV)"
 image: https://ait.ethz.ch/people/buehler/public/varitex/interpolations.mp4
 external_project_page: https://mcbuehler.github.io/VariTex/

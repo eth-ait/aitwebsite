@@ -2,7 +2,7 @@
 ref: spec
 title: "SPEC: Seeing People in the wild with an Estimated Camera"
 authors: Muhammed Kocabas, Chun-Hao Huang, Joachim Tesch, Lea Müller, Otmar Hilliges, Michael Black
-date: 2021-October-01
+date: 2021-10-11
 venue: "Proceedings of the International Conference on Computer Vision 2021"
 image: https://ps.is.tuebingen.mpg.de/uploads/publication/image/24866/webpage_teaser.png
 external_project_page: https://spec.is.tue.mpg.de/

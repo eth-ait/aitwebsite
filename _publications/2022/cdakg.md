@@ -28,9 +28,6 @@ bibtex: "@inproceedings{vechev2022cdakg,
 }"
 ---
 
-
-
-
 <img src="/assets/projects/cdakg/teaser.png" alt="Teaser-Picture"/>
 
 <div class="fullcol">

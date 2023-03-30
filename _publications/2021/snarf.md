@@ -2,7 +2,7 @@
 ref: snarf
 title: "SNARF: Differentiable Forward Skinning for Animating Non-Rigid Neural Implicit Shapes"
 authors: Xu Chen, Yufeng Zheng, Michael Black, Otmar Hilliges, Andreas Geiger
-date: 2021-01-01
+date: 2021-10-11
 venue: "International Conference on Computer Vision (ICCV)"
 image: /assets/projects/snarf/snarf_teaser.gif
 external_project_page: https://xuchen-ethz.github.io/snarf/

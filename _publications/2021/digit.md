@@ -2,7 +2,7 @@
 ref: digit
 title: "Learning to Disambiguate Strongly Interacting Hands via Probabilistic Per-pixel Part Segmentation"
 authors: Zicong Fan, Adrian Spurr, Muhammed Kocabas, Siyu Tang, Michael Black, Otmar Hilliges
-date: 2021-01-01
+date: 2021-12-01
 venue: "International Conference on 3D Vision (3DV)"
 image: /assets/projects/digit/thumbnail.jpg
 external_project_page: https://zc-alexfan.github.io/digit
