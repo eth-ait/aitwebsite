@@ -45,6 +45,7 @@ layout: default
           <div class="page-links">
             {% if page.video %}<a href="{{ page.video | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/video.svg' | relative_url }}">Video</a>{% endif %}
             {% if page.paper %}<a href="{{ page.paper | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/paper.svg' | relative_url }}">Paper</a>{% endif %}
+            {% if page.poster %}<a href="{{ page.poster | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/poster.svg' | relative_url }}">Poster</a>{% endif %}
             {% if page.data %}<a href="{{ page.data | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/data.svg' | relative_url }}">Data</a>{% endif %}
             {% if page.code %}<a href="{{ page.code | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/code.svg' | relative_url }}">Code</a>{% endif %}
           </div>
