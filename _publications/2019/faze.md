@@ -2,14 +2,14 @@
 ref: faze
 title: "Few-Shot Adaptive Gaze Estimation"
 authors: Seonwook Park, Shalini Mello, Pavlo Molchanov, Umar Iqbal, Otmar Hilliges, Jan Kautz
-date: 2019-01-01
+date: 2019-10-27
 venue: "International Conference on Computer Vision (ICCV)"
 image: /assets/projects/faze/teaser.mp4
-external_project_page: 
+external_project_page: https://research.nvidia.com/publication/2019-10_Few-Shot-Adaptive-Gaze
 video: 
 talk: https://www.youtube.com/watch?v=ByfFufRhuRc&t=668
 paper: https://arxiv.org/abs/1905.01941
-poster: 
+poster: https://files.ait.ethz.ch/projects/faze/downloads/park2019iccv_poster.pdf
 data: 
 code: https://github.com/NVLabs/few_shot_gaze
 conference_url: http://iccv2019.thecvf.com/
@@ -25,69 +25,23 @@ bibtex: "@inproceedings{Park2019ICCV,
 "
 ---
 
-<h6> Few-Shot Adaptive Gaze Estimation </h6>
+
+<img class="fullcol" src="/assets/projects/faze/banner.jpg" alt="Teaser-Picture" />
+
+<p align="justify">
+    <span class="figurecap">
+Overview of the FAZE framework. Given a set of training images with ground-truth gaze direction information, we first learn a latent feature representation, which is tailored specifically for the task of gaze estimation. Given the features, we then learn an adaptable gaze estimation network, AdaGEN, using meta-learning which can be adapted easily to a robust person-specific gaze estimation network (PS-GEN) with very little calibration data.
+    </span>
+</p>
+<hr />
+        
+
+<h3>Abstract</h3>
+<p align="justify">
+Inter-personal anatomical differences limit the accuracy of person-independent gaze estimation networks. Yet there is a need to lower gaze errors further to enable applications requiring higher quality. Further gains can be achieved by personalizing gaze networks, ideally with few calibration samples. However, over-parameterized neural networks are not amenable to learning from few examples as they can quickly over-fit. We embrace these challenges and propose a novel framework for Few-shot Adaptive GaZE Estimation (FAZE) for learning person-specific gaze networks with very few (less than or equal to 9) calibration samples. FAZE learns a rotation-aware latent representation of gaze via a disentangling encoder-decoder architecture along with a highly adaptable gaze estimator trained using meta-learning. It is capable of adapting to any new person to yield significant performance gains with as few as 3 samples, yielding state-of-the-art performance of 3.18 degrees on GazeCapture, a 19% improvement over prior art. We open-source our code at <a href="https://github.com/NVlabs/few_shot_gaze" target="_blank">https://github.com/NVlabs/few_shot_gaze</a>.
+</p>
 <hr />
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">authors:</span>
-            <span class="authorcap">
-                <nobr><a href="/people/spark/" title="Seonwook Park">Seonwook Park</a>*, </nobr>
-                <a class="a-text-ext" href="https://research.nvidia.com/person/shalini-gupta">Shalini De Mello</a>*, </nobr>
-                <a class="a-text-ext" href="https://research.nvidia.com/person/pavlo-molchanov">Pavlo Molchanov</a>, </nobr>
-				<a class="a-text-ext" href="http://www.umariqbal.info">Umar Iqbal</a>, </nobr>
-                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">Otmar Hilliges</a>, </nobr>
-				and
-				<a class="a-text-ext" href="http://jankautz.com/">Jan Kautz</a></nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <a class="a-text-ext" href="http://iccv2019.thecvf.com" title="ICCV">ICCV</a>, Seoul, South Korea, October 2019
-            </span>
-		<br/>
-        <p><font size="3">*The first two authors contributed equally to this work.</font></p>
-
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2019/faze/banner.jpg" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-Overview of the FAZE framework. Given a set of training images with ground-truth gaze direction information, we first learn a latent feature representation, which is tailored specifically for the task of gaze estimation. Given the features, we then learn an adaptable gaze estimation network, AdaGEN, using meta-learning which can be adapted easily to a robust person-specific gaze estimation network (PS-GEN) with very little calibration data.
-            </span>
-        </p>
-        <hr />
-        <br/>
-        <br/>
-    </div>
-</div>
-
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-Inter-personal anatomical differences limit the accuracy of person-independent gaze estimation networks. Yet there is a need to lower gaze errors further to enable applications requiring higher quality. Further gains can be achieved by personalizing gaze networks, ideally with few calibration samples. However, over-parameterized neural networks are not amenable to learning from few examples as they can quickly over-fit. We embrace these challenges and propose a novel framework for Few-shot Adaptive GaZE Estimation (FAZE) for learning person-specific gaze networks with very few (less than or equal to 9) calibration samples. FAZE learns a rotation-aware latent representation of gaze via a disentangling encoder-decoder architecture along with a highly adaptable gaze estimator trained using meta-learning. It is capable of adapting to any new person to yield significant performance gains with as few as 3 samples, yielding state-of-the-art performance of 3.18 degrees on GazeCapture, a 19% improvement over prior art. We open-source our code at <a href="https://github.com/NVlabs/few_shot_gaze" target="_blank">https://github.com/NVlabs/few_shot_gaze</a>.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
-
-<div class="fullcol">
-<h3>Oral Presentation</h3>
-	Presented on 2nd November at ICCV 2019 in Seoul, Korea.
-	<br/>
-	<br/>
-    <div class="video" align="center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/ByfFufRhuRc?start=668&end=970" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
-    <br/>
-</div>
 
 <!--
 <div class="fullcol">
@@ -173,29 +127,7 @@ Inter-personal anatomical differences limit the accuracy of person-independent g
 </div>
 -->
 
-<div class="fullcol">
-    <h3>Acknowledgments</h3>
-    <p align="justify">
+<h3>Acknowledgments</h3>
+<p align="justify">
 Seonwook Park carried out this work during his internship at Nvidia. This work was supported in part by the ERC Grant OPTINT (StG-2016-717054).
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-        <li class="a-ext"><a class="a-text-ext" title="Nvidia Project Page" href="https://research.nvidia.com/publication/2019-10_Few-Shot-Adaptive-Gaze">Project Page at Nvidia Research</a></li>
-        <li class="a-pdf"><a class="a-text-ext" title="Paper PDF" href="https://arxiv.org/abs/1905.01941">Paper PDF</a></li>
-
-		<li class="a-vid"><a class="a-text-ext" title="Talk Video" href="https://www.youtube.com/watch?v=ByfFufRhuRc&t=668">Video of Oral Presentation</a></li>
-        <li class="a-pdf"><a class="a-text" title="Poster PDF" href="<?php ait_root_dir();?>projects/2019/faze/downloads/park2019iccv_poster.pdf">Poster</a></li>
-        <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2019/faze/park2019iccv.bib">BibTeX</a></li>
-        <!--<li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/downloads/park2018eccv.mp4">Video</a></li>-->
-        <li class="a-cod"><a class="a-text-ext" title="Code" href="https://github.com/NVLabs/few_shot_gaze">GitHub</a></li>
-    </ul>
-    <br/>
-</div>
-
-
+</p>

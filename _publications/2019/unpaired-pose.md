@@ -2,7 +2,7 @@
 ref: unpaired-pose
 title: "Unpaired Pose Guided Human Image Generation"
 authors: Xu Chen, Jie Song, Otmar Hilliges
-date: 2019-June-01
+date: 2019-06-16
 venue: "The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops"
 image: /assets/projects/unpaired-pose/teaser.png
 external_project_page: 

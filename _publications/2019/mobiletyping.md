@@ -2,7 +2,7 @@
 ref: mobiletyping
 title: "How do People Type on Mobile Devices?: Observations from a Study with 37,000 Volunteers"
 authors: Kseniia Palin, Anna Feit, Sunjun Kim, Per Kristensson, Antti Oulasvirta
-date: 2019-01-01
+date: 2019-10-01
 venue: "Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services"
 image: https://userinterfaces.aalto.fi/typing37k/images/typing_screen.png
 external_project_page: https://userinterfaces.aalto.fi/typing37k/

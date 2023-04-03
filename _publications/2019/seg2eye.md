@@ -2,7 +2,7 @@
 ref: seg2eye
 title: "Content-Consistent Generation of Realistic Eyes with Style"
 authors: Marcel Buehler, Seonwook Park, Shalini Mello, Xucong Zhang, Otmar Hilliges
-date: 2019-01-01
+date: 2019-11-02
 venue: "International Conference on Computer Vision Workshops (ICCVW)"
 image: /assets/projects/seg2eye/teaser.mp4
 external_project_page: 
@@ -25,66 +25,33 @@ bibtex: "@inproceedings{Buehler2019ICCVW,
 "
 ---
 
-<h6>Content-Consistent Generation of Realistic Eyes with Style</h6>
-<hr />
+<img class="fullcol" src="/assets/projects/seg2eye/style_walk.png" alt="Teaser-Picture" />
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">authors:</span>
-            <span class="authorcap">
-                <nobr><a class="a-text-ext" href="http://mcbuehler.ch">Marcel C. Bühler</a>, </nobr>
-                <nobr><a href="/people/spark/" title="Seonwook Park">Seonwook Park</a>, </nobr>
-                <nobr><a class="a-text-ext" href="https://research.nvidia.com/person/shalini-gupta">Shalini De Mello</a>, </nobr>
-                <nobr><a href="/people/zhang/" title="Xucong Zhang">Xucong Zhang</a>, </nobr>
-				and
-                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">Otmar Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <a class="a-text-ext" href="http://iccv2019.thecvf.com" title="ICCV">ICCV Workshops</a> (<a class="a-text-ext" href="https://research.fb.com/programs/the-2019-openeds-workshop-eye-tracking-for-vr-and-ar/" title="VR and AR Workshop">VR and AR Workshop</a>), Seoul, South Korea, October 2019
-            </span>
-			<br/>
-			<span class="normalcap"><nobr>Winner:</nobr></span>
-			<span class="authorcap">
-				<a class="a-text-ext" href="https://research.fb.com/programs/openeds-challenge" title="OpenEDS Challenge">OpenEDS Synthetic Eye Generation Challenge</a>
-			</span>
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2019/seg2eye/style_walk.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
+<p align="justify">
+    <span class="figurecap">
 Walking  the  style  latent  space  in  our  proposed method, Seg2Eye.  We extract latent style codes from two people and show the decodings of their linear interpolation.
-            </span>
-        </p>
-        <hr />
-        <br/>
-        <br/>
-    </div>
-</div>
+    </span>
+</p>
+<hr />
+        
 
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-  Accurately labeled real-world training data can be scarce, and hence recent works adapt, modify or generate images
-    to boost target datasets. However, retaining relevant details from input data in the generated images is challenging
-    and failure could be critical to the performance on the final task. In this work, we synthesize person-specific eye
-    images that satisfy a given semantic segmentation mask (content), while following the style of a specified person
-    from only a few reference images. We introduce two approaches, (a) one used to win the
-    <a href="https://research.fb.com/programs/openeds-challenge" title="OpenEDS Challenge Page" target="_blank">OpenEDS Synthetic Eye
-      Generation Challenge</a> at <a href="http://iccv2019.thecvf.com/" title="ICCV 2019" target="_blank">ICCVW 2019</a>, and (b) a principled approach to solving the problem involving simultaneous
-    injection of style and content information at multiple scales. Our implementation is available on <a
-      href="https://github.com/mcbuehler/Seg2Eye" title="GitHub Repository" target="_blank">GitHub</a>.
 
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
+<h3>Abstract</h3>
+<p align="justify">
+Accurately labeled real-world training data can be scarce, and hence recent works adapt, modify or generate images
+to boost target datasets. However, retaining relevant details from input data in the generated images is challenging
+and failure could be critical to the performance on the final task. In this work, we synthesize person-specific eye
+images that satisfy a given semantic segmentation mask (content), while following the style of a specified person
+from only a few reference images. We introduce two approaches, (a) one used to win the
+<a href="https://research.fb.com/programs/openeds-challenge" title="OpenEDS Challenge Page" target="_blank">OpenEDS Synthetic Eye
+  Generation Challenge</a> at <a href="http://iccv2019.thecvf.com/" title="ICCV 2019" target="_blank">ICCVW 2019</a>, and (b) a principled approach to solving the problem involving simultaneous
+injection of style and content information at multiple scales. Our implementation is available on <a
+  href="https://github.com/mcbuehler/Seg2Eye" title="GitHub Repository" target="_blank">GitHub</a>.
+
+</p>
+<hr />
+    
+
 
 <!--
 <div class="fullcol">
@@ -172,27 +139,16 @@ Walking  the  style  latent  space  in  our  proposed method, Seg2Eye.  We extra
 </div>
 -->
 
-<div class="fullcol">
-    <h3>Acknowledgments</h3>
-    <p align="justify">
+<h3>Acknowledgments</h3>
+<p align="justify">
 This work was supported in part by the ERC Grant OPTINT (StG-2016-717054).
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
+</p>
+<hr />
+    
 
 
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-	<li class="a-pdf"><a class="a-text-ext" title="PDF" href="<?php ait_root_dir();?>projects/2019/seg2eye/downloads/buehler2019iccvw.pdf">PDF (Paper)</a></li>
-	<li class="a-pdf"><a class="a-text-ext" title="PDF" href="<?php ait_root_dir();?>projects/2019/seg2eye/downloads/buehler2019iccvw_supplementary.pdf">PDF (Supplementary)</a></li>
-        <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2019/seg2eye/buehler2019iccvw.bib">BibTeX</a></li>
-        <!--<li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/downloads/park2018eccv.mp4">Video</a></li>-->
-        <li class="a-cod"><a class="a-text-ext" title="Code" href="https://github.com/mcbuehler/Seg2Eye">GitHub</a></li>
-    </ul>
-    <br/>
-</div>
-
-
+<h3>Downloads</h3>
+<ul class="linklist">
+    <li class="a-pdf"><a class="a-text-ext" title="PDF" href="<?php ait_root_dir();?>projects/2019/seg2eye/downloads/buehler2019iccvw_supplementary.pdf">PDF (Supplementary)</a></li>
+    <!--<li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/downloads/park2018eccv.mp4">Video</a></li>-->
+</ul>

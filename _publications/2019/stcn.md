@@ -1,8 +1,8 @@
 ---
 ref: stcn
-title: "STCN:Stochastic Temporal Convolutional Networks"
+title: "STCN: Stochastic Temporal Convolutional Networks"
 authors: Emre Aksan, Otmar Hilliges
-date: 2019-01-01
+date: 2019-05-06
 venue: "International Conference on Learning Representations (ICLR)"
 image: /assets/projects/stcn/stcn.png
 external_project_page: 
@@ -24,66 +24,33 @@ bibtex: "@inproceedings{aksan2019stcn,
 "
 ---
 
-<h6> STCN: Stochastic Temporal Convolutional Networks </h6>
+<img class="fullcol" src="/assets/projects/stcn/teaser.png" alt="Teaser-Picture" />
+
+<p align="justify">
+    <span class="figurecap">
+        In STCN, the latent random variables are arranged in correspondence to the temporal hierarchy of the temporal convolutional network (TCN) blocks which
+        effectively distributes the random variables over the various timescales. Crucially, our hierarchical latent structure is designed to be a modular add-on
+        for any temporal convolutional network architecture. Separating the deterministic and stochastic layers allows us to build STCNs without requiring
+        modifications to the base TCN architecture, and hence retains the scalability of TCNs with respect to the receptive field.
+    </span>
+</p>
 <hr />
+        
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">authors:</span>
-            <span class="authorcap">
-                <nobr><a href="/people/eaksan" title="Emre Aksan">E. Aksan</a>, </nobr>
-                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">O. Hilliges</a> </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <a class="a-text-ext" href="https://iclr.cc/Conferences/2019/" title="ICLR">International Conference on Learning Representations (ICLR)</a>, New Orleans, USA, May 2019
-            </span>
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2019/stcn/teaser.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-                In STCN, the latent random variables are arranged in correspondence to the temporal hierarchy of the temporal convolutional network (TCN) blocks which
-                effectively distributes the random variables over the various timescales. Crucially, our hierarchical latent structure is designed to be a modular add-on
-                for any temporal convolutional network architecture. Separating the deterministic and stochastic layers allows us to build STCNs without requiring
-                modifications to the base TCN architecture, and hence retains the scalability of TCNs with respect to the receptive field.
-            </span>
-        </p>
-        <hr />
-        <br/>
-        <br/>
-    </div>
-</div>
-
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-        Convolutional architectures have recently been shown to be competitive on many sequence modelling tasks when compared to the de-facto standard of recurrent neural networks (RNNs), while providing computational and modeling advantages due to inherent parallelism.
-        However, currently there remains a performance gap to more expressive stochastic RNN variants, especially those with several layers of dependent random variables.
-        In this work, we propose stochastic temporal convolutional networks (STCNs), a novel architecture that combines the computational advantages of temporal convolutional networks (TCN) with the representational power and robustness of stochastic latent spaces.
-        In particular, we propose a hierarchy of stochastic latent variables that captures temporal dependencies at different time-scales. The architecture is modular and flexible due to decoupling of deterministic and stochastic layers.
-        We show that the proposed architecture achieves state of the art log-likelihoods across several tasks. Finally, the model is capable of predicting high-quality synthetic samples over a long-range temporal horizon in modeling of handwritten text.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
+<h3>Abstract</h3>
+<p align="justify">
+    Convolutional architectures have recently been shown to be competitive on many sequence modelling tasks when compared to the de-facto standard of recurrent neural networks (RNNs), while providing computational and modeling advantages due to inherent parallelism.
+    However, currently there remains a performance gap to more expressive stochastic RNN variants, especially those with several layers of dependent random variables.
+    In this work, we propose stochastic temporal convolutional networks (STCNs), a novel architecture that combines the computational advantages of temporal convolutional networks (TCN) with the representational power and robustness of stochastic latent spaces.
+    In particular, we propose a hierarchy of stochastic latent variables that captures temporal dependencies at different time-scales. The architecture is modular and flexible due to decoupling of deterministic and stochastic layers.
+    We show that the proposed architecture achieves state of the art log-likelihoods across several tasks. Finally, the model is capable of predicting high-quality synthetic samples over a long-range temporal horizon in modeling of handwritten text.
+</p>
+<hr />
+    
 
 
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-        <li class="a-cod"><a target="_blank" title="BibTex" href="https://github.com/emreaksan/stcn">GitHub</a></li>
-        <li class="a-zip"><a target="_blank" title="Models" href="<?php ait_root_dir();?>projects/2019/stcn/downloads/stcn_sota_models.tar.gz">SoTA Model</a></li>
-        <li class="a-zip"><a target="_blank" title="Dataset" href="<?php ait_root_dir();?>projects/2019/stcn/downloads/deepwriting_dataset.tar.gz">Deepwriting Dataset</a></li>
-        <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2019/stcn/downloads/stcn_iclr19.pdf">PDF</a></li>
-        <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2019/stcn/downloads/aksan2019iclr.bib">BibTeX</a></li>
-    </ul>
-    <br/>
-</div>
-
+<h3>Downloads</h3>
+<ul class="linklist">
+    <li class="a-zip"><a target="_blank" title="Models" href="https://files.ait.ethz.ch/projects/stcn/downloads/stcn_sota_models.tar.gz">SoTA Model</a></li>
+    <li class="a-zip"><a target="_blank" title="Dataset" href="https://files.ait.ethz.ch/projects/stcn/downloads/deepwriting_dataset.tar.gz">Deepwriting Dataset</a></li>
+</ul>

@@ -2,7 +2,7 @@
 ref: graph-learning
 title: "End-to-end Learning for Graph Decomposition"
 authors: Jie Song, Bjoern Andres, Michael Black, Otmar Hilliges, Siyu Tang
-date: 2019-Oct-01
+date: 2019-10-27
 venue: "International Conference on Computer Vision (ICCV)"
 image: /assets/projects/graph-learning/PF_com.png
 external_project_page: 
@@ -26,44 +26,15 @@ bibtex: "@article{song2018end,
 "
 ---
 
-<h6> End-to-end Learning for Graph Decomposition </h6>
+
+<img class="fullcol" src="/assets/projects/graph-learning/pose-graph-new.png" alt="Teaser-Picture" />
+
 <hr />
+        
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-            <nobr><a href="<?php ait_root_dir();?>people/jsong/" title="Jie Song">J. Song</a>, </nobr>
-            <nobr>B. Andres, </nobr>
-            <nobr>M. Black, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            <nobr>S. Tang, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>In Proceedings</nobr> <a class="a-text-ext" href="http://iccv2019.thecvf.com//" title="ICCV">ICCV</a>, Seoul, Korea, 2019</a><br/>
-            </span>
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2019/graph-learning/pose-graph-new.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-      
-        </p>
-        <hr />
-        <br/>
-    </div>
-</div>
-
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-      We propose a novel end-to-end trainable framework for
+<h3>Abstract</h3>
+<p align="justify">
+  We propose a novel end-to-end trainable framework for
 the graph decomposition problem. The minimum cost multicut problem is first converted to an unconstrained binary
 cubic formulation where cycle consistency constraints are
 incorporated into the objective function. The new optimization problem can be viewed as a Conditional Random Field
@@ -79,19 +50,15 @@ impact of the joint training, on the task of clustering images
 of MNIST. We also validate the effectiveness of our approach
 both for the feature learning and the final clustering on the
 challenging task of real-world multi-person pose estimation.
-    </p>
-    <hr />
-    <br/>
-</div>
+</p>
+<hr />
+    
 
-<div class="fullcol">
 <h3>Video</h3>
-    <div class="video">
-       <iframe width="840" height="474" src="https://www.youtube.com/embed/hCX3DyRt3Cg" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
-</div>
+<div class="video">
+   <iframe width="840" height="474" src="https://www.youtube.com/embed/hCX3DyRt3Cg" frameborder="0" allowfullscreen></iframe>
+</div>    
+
 
 <!-- <div class="fullcol">
     <h3>System overview</h3>
@@ -107,18 +74,6 @@ challenging task of real-world multi-person pose estimation.
     </div>
 </div>-->
 
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <!-- <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2019/graph-learning/downloads/cvpr17CR.pdf">PDF</a></li> -->
-            <!-- <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2019/graph-learning/downloads/CVPRsupli.mp4">Video</a></li> -->
-            <li class="a-pdf"><a title="PDF" href="https://arxiv.org/pdf/1812.09737.pdf">PDF</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2019/graph-learning/graph_arxiv.bib">BibTeX</a></li>
-    </ul>
-    <hr />
-    <br/>
-</div>
 
 <!--<div class="fullcol">
     <h3>Gallery</h3>

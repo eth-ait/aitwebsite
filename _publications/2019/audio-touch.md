@@ -2,7 +2,7 @@
 ref: audio-touch
 title: "AudioTouch: Minimally Invasive Sensing of Micro-Gestures via Active Bio-Acoustic Sensing"
 authors: Yuki Kubo, Yuto Koguchi, Buntarou Shizuki, Shin Takahashi, Otmar Hilliges
-date: 2019-01-01
+date: 2019-10-01
 venue: "Proceedings of the 21th International Conference on Human-Computer Interaction with Mobile Devices and Services"
 image: /assets/projects/audio-touch/at_teaser.jpg
 external_project_page: http://yukikubo.net/project/AudioTouch/

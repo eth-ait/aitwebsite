@@ -2,7 +2,7 @@
 ref: stretch-glove
 title: "Interactive Hand Pose Estimation using a Stretch-Sensing Soft Glove"
 authors: Oliver Glauser, Shihao Wu, Daniele Panozzo, Otmar Hilliges, Olga Sorkine-Hornung
-date: 2019-01-01
+date: 2019-07-28
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH) (Volume: 38, Issue: 4)"
 image: https://igl.ethz.ch/publications/2019-stretch-glove.jpg
 external_project_page: https://igl.ethz.ch/projects/stretch-glove/
