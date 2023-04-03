@@ -9,9 +9,9 @@ external_project_page:
 video: 
 talk: 
 paper: https://arxiv.org/pdf/1807.10002.pdf
-poster: 
+poster: https://files.ait.ethz.ch/projects/pictorial-gaze/downloads/park2018eccv_poster.pdf
 data: 
-code: 
+code: https://github.com/swook/GazeML
 conference_url: 
 equal_contributions: 
 award: 
@@ -25,49 +25,24 @@ bibtex: "@inproceedings{Park2020notes,
 "
 ---
 
-<h6> Deep Pictorial Gaze Estimation </h6>
-<hr />
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">authors:</span>
-            <span class="authorcap">
-                <nobr><a href="/people/spark/" title="Seonwook Park">Seonwook Park</a>, </nobr>
-                <nobr><a href="/people/spurra/" title="Adrian Spurr">Adrian Spurr</a>, </nobr>
-                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">Otmar Hilliges</a> </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                Lecture Notes in Computer Science, Springer, 2020
-            </span>
-        <hr />
-    </div>
-</div>
+<img class="fullcol" src="/assets/projects/pictorial-gaze/teaser_full.jpg" alt="Teaser-Picture" />
 
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2018/pictorial-gaze/teaser_full.jpg" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
+<p align="justify">
+    <span class="figurecap">
 Our sequential neural network architecture first estimates a novel pictorial representation of 3D gaze direction, then performs gaze estimation from the minimal image representation to yield improved performance on MPIIGaze, Columbia and EYEDIAP.
-            </span>
-        </p>
-        <hr />
-        <br/>
-        <br/>
-    </div>
-</div>
+    </span>
+</p>
+<hr />
+        
 
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
+
+<h3>Abstract</h3>
+<p align="justify">
 Estimating human gaze from natural eye images only is a challenging task. Gaze direction can be defined by the pupil- and the eyeball center where the latter is unobservable in 2D images. Hence, achieving highly accurate gaze estimates is an ill-posed problem. In this paper, we introduce a novel deep neural network architecture specifically designed for the task of gaze estimation from single eye input. Instead of directly regressing two angles for the pitch and yaw of the eyeball, we regress to an intermediate pictorial representation which in turn simplifies the task of 3D gaze direction estimation. Our quantitative and qualitative results show that our approach achieves higher accuracies than the state-of-the-art and is robust to variation in gaze, head pose and image quality.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
+</p>
+<hr />
+    
 
 <!--
 <div class="fullcol">
@@ -166,26 +141,8 @@ Estimating human gaze from natural eye images only is a challenging task. Gaze d
 </div>
 -->
 
-<div class="fullcol">
-    <h3>Acknowledgments</h3>
-    <p align="justify">
+<h3>Acknowledgments</h3>
+<p align="justify">
 This work was supported in part by ERC Grant OPTINT (StG-2016-717054).
 We thank the NVIDIA Corporation for the donation of GPUs used in this work.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-        <li class="a-pdf"><a title="PDF" href="https://arxiv.org/pdf/1807.10002.pdf">PDF</a></li>
-        <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/park2018eccv.bib">BibTeX</a></li>
-        <li class="a-talk"><a title="Poster" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/downloads/park2018eccv_poster.pdf">Poster</a></li>
-        <li class="a-cod"><a title="Code" href="https://github.com/swook/GazeML">Reference Implementation on GitHub</a></li>
-    </ul>
-    <br/>
-</div>
-
-
+</p>

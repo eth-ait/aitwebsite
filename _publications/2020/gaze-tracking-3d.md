@@ -2,7 +2,7 @@
 ref: gaze-tracking-3d
 title: "Accurate Real-time 3D Gaze Tracking Using a Lightweight Eyeball Calibration"
 authors: Quan Wen, Derek Bradley, Thabo Beeler, Seonwook Park, Otmar Hilliges, Jun-Hai Yong, Feng Xu
-date: 2020-01-01
+date: 2020-05-25
 venue: "Computer Graphics Forum (Proceedings of EUROGRAPHICS)"
 image: /assets/projects/gaze-tracking-3d/thumbnail.jpg
 external_project_page: 

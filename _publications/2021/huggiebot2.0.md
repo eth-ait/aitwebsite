@@ -5,10 +5,10 @@ authors: Alexis Block, Sammy Christen, Roger Gassert, Otmar Hilliges, Katherine 
 date: 2021-03-09
 venue: "ACM/IEEE International Conference on Human-Robot Interaction"
 image: /assets/projects/huggiebot2.0/teaser.mp4
-external_project_page: 
+external_project_page: https://hi.is.mpg.de/research_projects/huggiebot-2-0-a-more-huggable-robot
 video: 
 talk: 
-paper: https://arxiv.org/abs/2002.05954
+paper: https://files.ait.ethz.ch/projects/huggiebot2.0/downloads/Block21-HRI-Commandments.pdf
 poster: 
 data: 
 code: 
@@ -62,11 +62,3 @@ Receiving a hug is one of the best ways to feel socially supported, and the lack
 <p align="justify">
 This work is partially supported by the Max Planck ETH Center for Learning Systems and the IEEE Technical Committee on Haptics. The authors thank Bernard Javot, Michaela Wieland, Hasti Seifi, Felix Grüninger, Joey Burns, Ilona Jacobi, Ravali Gourishetti, Ben Richardson, Meike Pech, Nati Egana, Mayumi Mohan, and Kinova Robotics for supporting various aspects of this research project.
 </p>
-<hr />
-    
-
-<h3>Downloads</h3>
-<ul class="linklist">
-    <li class="a-pdf"><a title="Paper PDF" href="https://files.ait.ethz.ch/projects/huggiebot2.0/downloads/Block21-HRI-Commandments.pdf">Paper PDF</a></li>
-    <li class="a-cod"><a title="Project Page" href="https://hi.is.mpg.de/research_projects/huggiebot-2-0-a-more-huggable-robot">Project Page</a></li>
-</ul>

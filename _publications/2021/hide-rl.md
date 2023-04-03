@@ -5,7 +5,7 @@ authors: Sammy Christen, Lukas Jendele, Emre Aksan, Otmar Hilliges
 date: 2021-04-01
 venue: "IEEE Robotics and Automation Letters (Volume: 6, Issue: 2)"
 image: /assets/projects/hide-rl/teaser.mp4
-external_project_page: 
+external_project_page: https://sites.google.com/view/hide-rl
 video: https://youtu.be/vBMQRUtSBC0
 talk: 
 paper: https://arxiv.org/abs/2002.05954
@@ -66,7 +66,6 @@ This project has received funding from the European Research Council (ERC) under
     <li class="a-pdf"><a title="Paper PDF" href="https://files.ait.ethz.ch/projects/hide-rl/downloads/christen2021hide_ral.pdf">RA-L Paper</a></li>
     <li class="a-pdf"><a title="Paper PDF" href="https://files.ait.ethz.ch/projects/hide-rl/downloads/christen2020hide.pdf">NeurIPS Workshop Paper</a></li>
     <li class="a-pdf"><a title="Paper PDF" href="https://files.ait.ethz.ch/projects/hide-rl/downloads/hide_supplementary.pdf">Supplementary</a></li>
-    <li class="a-cod"><a title="Project Page" href="https://sites.google.com/view/hide-rl">Project Page</a></li>
 </ul>
 
 
