@@ -2,7 +2,7 @@
 ref: flycon
 title: "Real-time Environment-independent Multi-view Human Pose Estimation with Aerial Vehicles"
 authors: Tobias Nägeli, Samuel Oberholzer, Silvan Plüss, Javier Alonso-Mora, Otmar Hilliges
-date: 2018-01-01
+date: 2018-12-04
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH ASIA)"
 image: /assets/projects/flycon/teaser.jpg
 external_project_page: 
@@ -25,32 +25,9 @@ bibtex: "@inproceedings{Naegeli:2018:flycon,
 "
 ---
 
-<h6> Real-time Environment-independent Multi-view Human Pose Estimation with Aerial Vehicles </h6>
-<hr />
-
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-             <nobr><a href="<?php ait_root_dir();?>people/naegelit/" title="Tobias Nägeli">T. Nägeli</a>, </nobr>
-            <nobr>Samuel Oberholzer, </nobr>
-            <nobr>Silvan Pl&uuml;ss, </nobr>
-            <nobr>Alexander Domahidi, </nobr>
-            <nobr>Javier Alonso-Mora, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>To appear in </nobr> <a class="a-text-ext" href="https://sa2018.siggraph.org/en" title="ACM SIGGRAPH Asia">ACM SIGGRAPH</a><br/>
-            </span>
-        <hr />
-    </div>
-</div>
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-        We propose a real-time method for the infrastructure-free estimation of
+<h3>Abstract</h3>
+<p align="justify">
+    We propose a real-time method for the infrastructure-free estimation of
 articulated human motion. The approach leverages a swarm of camera equipped
 flying robots and jointly optimizes the swarm’s and skeletal states,
 which include the 3D joint positions and a set of bones. Our method allows
@@ -68,22 +45,19 @@ fast motion such as jumping or jogging. We demonstrate our method in a
 number of difficult scenarios including capture of long locomotion sequences
 at the scale of a triplex gym, in non-planar terrain, while climbing and in
 outdoor scenarios.
-    </p>
-    <hr />
-    <br/>
-</div>
-    <div class="fullcol">
+</p>
+<hr />
+
+
 <h3>Video</h3>
-    <div class="video">
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/F4kuBw5kKpI" frameborder="0" allowfullscreen></iframe>
-    </div>
-        <h3>Short Teaser Video</h3>
-    <div class="video">
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/addpKVBt8Do" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
+<div class="video" align="center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/F4kuBw5kKpI" frameborder="0" allowfullscreen></iframe>
 </div>
+<h3>Short Teaser Video</h3>
+<div class="video" align="center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/addpKVBt8Do" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 <!--
 <div class="fullcol">
@@ -149,18 +123,6 @@ We propose a novel approach to digital character animation, combining the benefi
 </div>
 -->
 
-
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2018/flycon/downloads/flycon.pdf">PDF</a> (Official Version at <a href="http://dx.doi.org/10.1145/3072959.3073712" target="_blank">ACM Digital Library</a>)</li>
-           <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2018/flycon/downloads/flycon.mp4">Video</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2018/flycon/naegeli2018siggraphAsia.bib">BibTeX</a></li>
-    </ul>
-    <hr />
-    <br/>
-</div>
 
 <!--
 <div class="fullcol">

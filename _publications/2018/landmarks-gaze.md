@@ -2,7 +2,7 @@
 ref: landmarks-gaze
 title: "Learning to Find Eye Region Landmarks for Remote Gaze Estimation in Unconstrained Settings"
 authors: Seonwook Park, Xucong Zhang, Andreas Bulling, Otmar Hilliges
-date: 2018-01-01
+date: 2018-06-14
 venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA)"
 image: /assets/projects/landmarks-gaze/teaser.mp4
 external_project_page: 
@@ -28,61 +28,31 @@ bibtex: "@inproceedings{Park2018ETRA,
 "
 ---
 
-<h6> Learning to Find Eye Region Landmarks for Remote Gaze Estimation in Unconstrained Settings </h6>
+<img class="fullcol" src="/assets/projects/landmarks-gaze/teaser_full.png" alt="Teaser-Picture" />
+
+<p align="justify">
+    <span class="figurecap">
+Our architecture estimates eye region landmarks with a stacked-hourglass network trained on synthetic data (UnityEyes), evaluating directly on eye images taken in unconstrained real-world settings. The landmark coordinates can directly be used for model or feature-based gaze estimation.
+    </span>
+</p>
 <hr />
+        
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">authors:</span>
-            <span class="authorcap">
-                <nobr><a href="/people/spark/" title="Seonwook Park">Seonwook Park</a>, </nobr>
-                <nobr>Xucong Zhang,</nobr>
-                <nobr>Andreas Bulling,</nobr>
-                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">Otmar Hilliges</a> </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <a class="a-text-ext" href="http://etra.acm.org/2018/" title="ACM ETRA">ACM ETRA</a>, Warsaw, Poland, June 2018
-            </span>
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2018/landmarks-gaze/teaser_full.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-		Our architecture estimates eye region landmarks with a stacked-hourglass network trained on synthetic data (UnityEyes), evaluating directly on eye images taken in unconstrained real-world settings. The landmark coordinates can directly be used for model or feature-based gaze estimation.
-            </span>
-        </p>
-        <hr />
-        <br/>
-        <br/>
-    </div>
-</div>
-
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
+<h3>Abstract</h3>
+<p align="justify">
 Conventional feature-based and model-based gaze estimation methods have proven to perform well in settings with controlled illumination and specialized cameras. In unconstrained real-world settings, however, such methods are surpassed by recent appearance-based methods due to difficulties in modeling factors such as illumination changes and other visual artifacts. We present a novel learning-based method for eye region landmark localization that enables conventional methods to be competitive to latest appearance-based methods. Despite having been trained exclusively on synthetic data, our method exceeds the state of the art for iris localization and eye shape registration on real-world imagery. We then use the detected landmarks as input to iterative model-fitting and lightweight learning-based gaze estimation methods. Our approach outperforms existing model-fitting and appearance-based methods in the context of person-independent and personalized gaze estimation.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
+</p>
+<hr />
+    
 
-<div class="fullcol">
+
 <h3>Accompanying Video</h3>
-    <br />
-    <div class="video" align="center">
-	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cLUHKYfZN5s?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
-    <br/>
+<br />
+<div class="video" align="center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cLUHKYfZN5s?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+<hr />
+    
 
 <!--
 <div class="fullcol">
@@ -168,25 +138,7 @@ Conventional feature-based and model-based gaze estimation methods have proven t
 </div>
 -->
 
-<div class="fullcol">
-    <h3>Acknowledgments</h3>
-    <p align="justify">
-	We would like to thank Erroll Wood, Tadas Baltrusaitis, and Wolfgang Fuhl for their help. This work was supported in part by ERC Grant OPTINT (StG-2016-717054), the Cluster of Excellence on Multimodal Computing and Interaction at Saarland University, Germany, and a JST CREST research grant (JPMJCR14E1), Japan.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-        <li class="a-pdf"><a title="PDF" href="<?php ait_root_dir();?>projects/2018/landmarks-gaze/downloads/park2018etra.pdf">PDF</a></li>
-        <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2018/landmarks-gaze/park2018etra.bib">BibTeX</a></li>
-        <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2018/landmarks-gaze/downloads/park2018etra.mp4">Video</a></li>
-        <li class="a-cod"><a title="Code" href="https://github.com/swook/GazeML">GitHub</a></li>
-    </ul>
-    <br/>
-</div>
-
-
+<h3>Acknowledgments</h3>
+<p align="justify">
+We would like to thank Erroll Wood, Tadas Baltrusaitis, and Wolfgang Fuhl for their help. This work was supported in part by ERC Grant OPTINT (StG-2016-717054), the Cluster of Excellence on Multimodal Computing and Interaction at Saarland University, Germany, and a JST CREST research grant (JPMJCR14E1), Japan.
+</p>

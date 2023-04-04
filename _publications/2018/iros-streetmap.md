@@ -2,7 +2,7 @@
 ref: iros-streetmap
 title: "StreetMap - Mapping and Localization on Ground Planes using a Downward Facing Camera"
 authors: Xu Chen, Anurag Vempati, Paul Beardsley
-date: 2018-Oct-01
+date: 2018-10-01
 venue: "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 image: https://s3-us-west-1.amazonaws.com/disneyresearch/wp-content/uploads/20181001075737/StreetMap-Mapping-and-Localization-on-Ground-Planes-using-a-Downward-Facing-Camera-Image.jpg
 external_project_page: https://la.disneyresearch.com/publication/streetmap-mapping-and-localization-on-ground-planes-using-a-downward-facing-camera/

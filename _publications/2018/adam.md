@@ -2,7 +2,7 @@
 ref: adam
 title: "AdaM: Adapting Multi-User Interfaces for Collaborative Environments in Real-Time"
 authors: Seonwook Park, Christoph Gebhardt, Roman Rädle, Anna Feit, Hana Vrzakova, Niraj Dayama, Hui-Shyong Yeo, Clemens Klokmose, Aaron Quigley, Antti Oulasvirta, Otmar Hilliges
-date: 2018-01-01
+date: 2018-04-21
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/adam/teaser.jpg
 external_project_page: 
@@ -28,75 +28,41 @@ bibtex: "@inproceedings{Park:2018:AdaM,
 "
 ---
 
-<h6> AdaM: Adapting Multi-User Interfaces for Collaborative Environments in Real-Time </h6>
+
+<img class="fullcol" src="/assets/projects/adam/teaser_full.jpg" alt="Teaser-Picture" />
+
+<p align="justify">
+    <span class="figurecap">
+Given a graphical user interface (left), AdaM automatically decides which UI elements should be displayed on each device in real-time.
+Our optimization is designed for multi-user scenarios and considers user roles and preferences, device access restrictions and device characteristics.
+    </span>
+</p>
 <hr />
+        
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">authors:</span>
-            <span class="authorcap">
-                <nobr><a href="/people/spark/" title="Seonwook Park">Seonwook Park</a>, </nobr>
-                <nobr><a href="/people/gebhardt/" title="Christoph Gebhardt">Christoph Gebhardt</a>, </nobr>
-                <nobr>Roman Rädle,</nobr>
-                <nobr>Anna Feit,</nobr>
-                <nobr>Hana Vrzakova,</nobr>
-                <nobr>Niraj Dayama,</nobr>
-                <nobr>Hui-Shyong Yeo,</nobr>
-                <nobr>Clemens Klokmose,</nobr>
-                <nobr>Aaron Quigley,</nobr>
-                <nobr>Antti Oulasvirta,</nobr>
-                <nobr><a href="/people/hilliges/" title="Otmar Hilliges">Otmar Hilliges</a> </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <a class="a-text-ext" href="http://chi2018.acm.org/" title="ACM SIGCHI">ACM SIGCHI</a>, Montréal, Canada, April 2018
-            </span>
-        <hr />
-    </div>
-</div>
 
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2018/adam/teaser_full.jpg" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-		Given a graphical user interface (left), AdaM automatically decides which UI elements should be displayed on each device in real-time.
-		Our optimization is designed for multi-user scenarios and considers user roles and preferences, device access restrictions and device characteristics.
-            </span>
-        </p>
-        <hr />
-        <br/>
-        <br/>
-    </div>
-</div>
+<h3>Abstract</h3>
+<p align="justify">
+Developing cross-device multi-user interfaces (UIs) is a challenging problem.
+There are numerous ways in which content and interactivity can be distributed. However, good solutions must consider multiple users, their roles, their preferences and access rights, as well as device capabilities.
+Manual and rule-based solutions are tedious to create and do not scale to larger problems nor do they adapt to dynamic changes, such as users leaving or joining an activity.
+In this paper, we cast the problem of UI distribution as an assignment problem and propose to solve it using combinatorial optimization.
+We present a mixed integer programming formulation which allows real-time applications in dynamically changing collaborative settings.
+It optimizes the allocation of UI elements based on device capabilities, user roles, preferences, and access rights.
+We present a proof-of-concept designer-in-the-loop tool, allowing for quick solution exploration.
+Finally, we compare our approach to traditional paper prototyping in a lab study.
+</p>
+<hr />
+    
 
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-	Developing cross-device multi-user interfaces (UIs) is a challenging problem.
-	There are numerous ways in which content and interactivity can be distributed. However, good solutions must consider multiple users, their roles, their preferences and access rights, as well as device capabilities.
-	Manual and rule-based solutions are tedious to create and do not scale to larger problems nor do they adapt to dynamic changes, such as users leaving or joining an activity.
-	In this paper, we cast the problem of UI distribution as an assignment problem and propose to solve it using combinatorial optimization.
-	We present a mixed integer programming formulation which allows real-time applications in dynamically changing collaborative settings.
-	It optimizes the allocation of UI elements based on device capabilities, user roles, preferences, and access rights.
-	We present a proof-of-concept designer-in-the-loop tool, allowing for quick solution exploration.
-	Finally, we compare our approach to traditional paper prototyping in a lab study.
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
 
-<div class="fullcol">
 <h3>Accompanying Video</h3>
-    <div class="video" align="center">
-	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/we3THlGJ39Y?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
-    <br/>
+<div class="video" align="center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/we3THlGJ39Y?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+<hr />
+    
+
 
 <!--
 <div class="fullcol">
@@ -182,25 +148,8 @@ bibtex: "@inproceedings{Park:2018:AdaM,
 </div>
 -->
 
-<div class="fullcol">
-    <h3>Acknowledgments</h3>
-    <p align="justify">
-	We thank the ACM SIGCHI Summer School on Computational Interaction 2017 for bringing the authors together along with our study participants and the reviewers of this work.
-	This work was supported in part by ERC Grants OPTINT (StG-2016-717054) and Computed (StG-2014-637991), SNF Grant (200021L 153644), the Aarhus University Research Foundation, the Innovation Fund Denmark (CIBIS 1311-00001B), and the Scottish Informatics and Computer Science Alliance (SICSA).
-    </p>
-    <hr />
-    <br/>
-    <br/>
-</div>
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-        <li class="a-pdf"><a title="PDF" href="<?php ait_root_dir();?>projects/2018/adam/downloads/park2018chi.pdf">PDF</a></li>
-        <li class="a-bib"><a title="BibTex" href="<?php ait_root_dir();?>projects/2018/adam/park2018chi.bib">BibTeX</a></li>
-        <li class="a-cod"><a title="Github" href="https://github.com/swook/adam-dui">Github</a></li>
-    </ul>
-    <br/>
-</div>
-
-
+<h3>Acknowledgments</h3>
+<p align="justify">
+We thank the ACM SIGCHI Summer School on Computational Interaction 2017 for bringing the authors together along with our study participants and the reviewers of this work.
+This work was supported in part by ERC Grants OPTINT (StG-2016-717054) and Computed (StG-2014-637991), SNF Grant (200021L 153644), the Aarhus University Research Foundation, the Innovation Fund Denmark (CIBIS 1311-00001B), and the Scottish Informatics and Computer Science Alliance (SICSA).
+</p>
