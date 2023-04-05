@@ -2,7 +2,7 @@
 ref: thin-slicing-network
 title: "Thin-slicing network: A deep structured model for pose estimation in videos"
 authors: Jie Song, Limin Wang, Luc VanGool, Otmar Hilliges
-date: 2017-01-01
+date: 2017-07-21
 venue: "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
 image: /assets/projects/thin-slicing-network/teaser.jpg
 external_project_page: 
@@ -24,51 +24,27 @@ bibtex: "@inproceedings{song2017thin,
 }"
 ---
 
-<h6> Thin-Slicing Network: A Deep Structured Model for Pose Estimation in Videos </h6>
-<hr />
+<img class="fullcol" src="https://files.ait.ethz.ch/projects/thin-slicing-network/downloads/teaser.png" alt="Teaser-Picture" />
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-            <nobr><a href="<?php ait_root_dir();?>people/jsong/" title="Jie Song">J. Song</a>, </nobr>
-            <nobr>L. Wang, </nobr>
-            <nobr>L. Van Gool, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>In Proceedings</nobr> <a class="a-text-ext" href="http://cvpr2017.thecvf.com/" title="CVPR">CVPR</a>, Hawaii, USA, 2017</a><br/>
-            </span>
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2017/thin-slicing-network/downloads/teaser.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-       In summary our main contributions are: (A). a structured
+<p align="justify">
+    <span class="figurecap">
+In summary our main contributions are: (A). a structured
 model captures the inherent consistency of human poses in video sequences based on a loopy spatio-temporal graph.
- (B). An efficient and flexible infer-
+(B). An efficient and flexible infer-
 ence layer performs message passing along the spatial and
 temporal graph edges and significantly reduces joint posi-
 tion uncertainty (C). The entire architecture integrates a
 ConvNet-based joint regressors and a high-level structured
 inference model in a unified framework which can be op-
 timized in an end-to-end manner.
-        </p>
-        <hr />
-        <br/>
-    </div>
-</div>
+</p>
+<hr />
+        
 
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-      Deep ConvNets have been shown to be effective for the
+
+<h3>Abstract</h3>
+<p align="justify">
+  Deep ConvNets have been shown to be effective for the
 task of human pose estimation from single images. However, several challenging issues arise in the video-based
 case such as self-occlusion, motion blur, and uncommon
 poses with few or no examples in the training data. Temporal information can provide additional cues about the
@@ -79,19 +55,17 @@ joints and their spatio-temporal relationships simultaneously. Domain knowledge 
 to regularize the skeletal structure and to enforce temporal
 consistency. The proposed end-to-end architecture is evaluated on two widely used benchmarks for video-based pose
 estimation (Penn Action and JHMDB datasets). Our approach outperforms several state-of-the-art methods.
-    </p>
-    <hr />
-    <br/>
-</div>
+</p>
+<hr />
+    
 
-<div class="fullcol">
+
 <h3>Video</h3>
-    <div class="video">
-       <iframe width="840" height="474" src="https://www.youtube.com/embed/3x6fT-CENcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
+<div class="video" align="center">
+   <iframe width="840" height="474" src="https://www.youtube.com/embed/3x6fT-CENcQ" frameborder="0" allowfullscreen></iframe>
 </div>
+    
+
 
 <!-- <div class="fullcol">
     <h3>System overview</h3>
@@ -107,17 +81,6 @@ estimation (Penn Action and JHMDB datasets). Our approach outperforms several st
     </div>
 </div>-->
 
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2017/thin-slicing-network/downloads/cvpr17CR.pdf">PDF</a></li>
-            <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2017/thin-slicing-network/downloads/CVPRsupli.mp4">Video</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/thin-slicing-network/downloads/song2017cvpr.bib">BibTeX</a></li>
-    </ul>
-    <hr />
-    <br/>
-</div>
 
 <!--<div class="fullcol">
     <h3>Gallery</h3>

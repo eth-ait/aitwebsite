@@ -2,7 +2,7 @@
 ref: learning-human-motion-models
 title: "Learning human motion models for long-term predictions"
 authors: Partha Ghosh, Jie Song, Emre Aksan, Otmar Hilliges
-date: 2017-01-01
+date: 2017-10-10
 venue: "2017 International Conference on 3D Vision (3DV)"
 image: /assets/projects/learning-human-motion-models/teaser.png
 external_project_page: 
@@ -25,90 +25,62 @@ bibtex: "@inproceedings{ghosh2017learning,
 }"
 ---
 
-<h6> Learning Human Motion Models for Long-term Predictions </h6>
+
+<img class="fullcol" src="/assets/projects/learning-human-motion-models/teaser_model.png" alt="Teaser-Picture" />
+
+<p align="justify">
+    <span class="figurecap">
+        Schematic overview over the proposed method. (1) A variant of de-noising autoencoders learns the spatial configuration of the
+        human skeleton via training with dropouts, removing entire joints at random which have to be reconstructed by the network. (2) We train
+        a 3-layer LSTM recurrent neural network to predict skeletal configurations over time. (3) At inference time both components are stacked
+        and the dropout autoencoder filters the noisy predictions of the LSTM layers, preventing accumulation of error and hence pose drift over
+        time.
+</p>
 <hr />
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-            <nobr>P. Ghosh, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/jsong/" title="Jie Song">J. Song</a>, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/eaksan/" title="Jie Song">E. Aksan</a>, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>In Proceedings</nobr> <a class="a-text-ext" href="http://3dv2017.science/3dv/index.html" title="3DV">International Conference on 3D Vision</a>, Qingdao, China, 2017</a><br/>
-            </span>
-            <br/>
-            <p>
-                <font size="4"> This work receveid a <b>Best Paper Award</b> at 3DV 2017.</font>
-            </p>
-        <hr />
-    </div>
-</div>
 
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2017/learning-human-motion-models/teaser_model.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-                Schematic overview over the proposed method. (1) A variant of de-noising autoencoders learns the spatial configuration of the
-                human skeleton via training with dropouts, removing entire joints at random which have to be reconstructed by the network. (2) We train
-                a 3-layer LSTM recurrent neural network to predict skeletal configurations over time. (3) At inference time both components are stacked
-                and the dropout autoencoder filters the noisy predictions of the LSTM layers, preventing accumulation of error and hence pose drift over
-                time.
-        </p>
-        <hr />
-        <br/>
-    </div>
-</div>
 
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-        We propose a new architecture for the learning of predictive
-        spatio-temporal motion models from data alone. Our
-        approach, dubbed the Dropout Autoencoder LSTM (DAE-LSTM),
-        is capable of synthesizing natural looking motion
-        sequences over long-time horizons<sup>1</sup> without catastrophic
-        drift or motion degradation. The model consists of two components,
-        a 3-layer recurrent neural network to model temporal
-        aspects and a novel autoencoder that is trained to
-        implicitly recover the spatial structure of the human skeleton
-        via randomly removing information about joints during
-        training. This Dropout Autoencoder (DAE) is then used
-        to filter each predicted pose by a 3-layer LSTM network,
-        reducing accumulation of correlated error and hence drift
-        over time. Furthermore to alleviate insufficiency of commonly
-        used quality metric, we propose a new evaluation
-        protocol using action classifiers to assess the quality of synthetic
-        motion sequences. The proposed protocol can be used
-        to assess quality of generated sequences of arbitrary length.
-        Finally, we evaluate our proposed method on two of the
-        largest motion-capture datasets available and show that our
-        model outperforms the state-of-the-art techniques on a variety
-        of actions, including cyclic and acyclic motion, and
-        that it can produce natural looking sequences over longer
-        time horizons than previous methods.
-    </p>
-    <p>
-        <sup>1</sup> > 10s for periodic motions, e.g. walking, > 2s for aperiodic motion, e.g. eating
-    </p>
-    <hr />
-    <br/>
-</div>
+<h3>Abstract</h3>
+<p align="justify">
+    We propose a new architecture for the learning of predictive
+    spatio-temporal motion models from data alone. Our
+    approach, dubbed the Dropout Autoencoder LSTM (DAE-LSTM),
+    is capable of synthesizing natural looking motion
+    sequences over long-time horizons<sup>1</sup> without catastrophic
+    drift or motion degradation. The model consists of two components,
+    a 3-layer recurrent neural network to model temporal
+    aspects and a novel autoencoder that is trained to
+    implicitly recover the spatial structure of the human skeleton
+    via randomly removing information about joints during
+    training. This Dropout Autoencoder (DAE) is then used
+    to filter each predicted pose by a 3-layer LSTM network,
+    reducing accumulation of correlated error and hence drift
+    over time. Furthermore to alleviate insufficiency of commonly
+    used quality metric, we propose a new evaluation
+    protocol using action classifiers to assess the quality of synthetic
+    motion sequences. The proposed protocol can be used
+    to assess quality of generated sequences of arbitrary length.
+    Finally, we evaluate our proposed method on two of the
+    largest motion-capture datasets available and show that our
+    model outperforms the state-of-the-art techniques on a variety
+    of actions, including cyclic and acyclic motion, and
+    that it can produce natural looking sequences over longer
+    time horizons than previous methods.
+</p>
+<p>
+    <sup>1</sup> > 10s for periodic motions, e.g. walking, > 2s for aperiodic motion, e.g. eating
+</p>
+<hr />
+    
 
-<div class="fullcol">
+
 <h3>Video</h3>
-    <div class="video">
-       <iframe width="864" height="486" src="https://www.youtube.com/embed/PgJ2kZR9V5w" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
+<div class="video">
+   <iframe width="864" height="486" src="https://www.youtube.com/embed/PgJ2kZR9V5w" frameborder="0" allowfullscreen></iframe>
 </div>
+
+    
+
 
 <!-- <div class="fullcol">
     <h3>System overview</h3>
@@ -124,17 +96,6 @@ bibtex: "@inproceedings{ghosh2017learning,
     </div>
 </div>-->
 
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-        <li class="a-cod"><a target="_blank" title="Code" href="https://bitbucket.org/parthaEth/humanposeprediction/overview">Code</a></li>
-        <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2017/learning-human-motion-models/downloads/3dv_learninghumanmotion.pdf">PDF</a></li>
-        <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2017/learning-human-motion-models/downloads/3dv_video.mp4">Video</a></li>
-        <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/learning-human-motion-models/downloads/3dv_ghosh2017learning.bib">BibTeX</a></li>
-    </ul>
-    <br/>
-</div>
 
 <!--<div class="fullcol">
     <h3>Gallery</h3>

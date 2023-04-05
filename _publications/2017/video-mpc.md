@@ -2,7 +2,7 @@
 ref: video-mpc
 title: "Real-time Motion Planning for Aerial Videography with Dynamic Obstacle Avoidance and Viewpoint Optimization"
 authors: Tobias Nägeli, Javier Alonso-Mora, Alexander Domahidi, Daniela Rus, Otmar Hilliges
-date: 2017-July-01
+date: 2017-07-01
 venue: "IEEE Robotics and Automation Letters (Volume: 2, Issue: 3)"
 image: /assets/projects/video-mpc/teaser.JPG
 external_project_page: 
@@ -30,50 +30,27 @@ month={July},}
 "
 ---
 
-<h6> Real-time Motion Planning for Aerial Videography with Dynamic Obstacle Avoidance and Viewpoint Optimization </h6>
+<h3>Abstract</h3>
+<p align="justify">
+    We propose a method for real-time motion planning with applications in aerial videography.
+    Taking framing objectives, such as position of targets in the image plane as input, our method solves for robot trajectories and gimbal controls automatically and adapts plans
+    in real-time due to changes in the environment. We contribute a real-time receding horizon planner that autonomously records scenes with moving targets, while optimizing for
+    visibility to targets and ensuring collision-free trajectories. A modular cost function, based on the re-projection error of targets is proposed that allows for flexibility
+    and artistic freedom and is well behaved under numerical optimization. We formulate the minimization problem under constraints as a finite horizon optimal control problem
+    that fulfills aesthetic objectives, adheres to non-linear model constraints of the filming robot and collision constraints with static and dynamic obstacles and can be
+    solved in real-time. We demonstrate the robustness and efficiency of the method with a number of challenging shots filmed in dynamic environments including those with
+    moving obstacles and shots with multiple targets to be filmed simultaneously.
+</p>
 <hr />
+    
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-             <nobr><a href="<?php ait_root_dir();?>people/naegelit/" title="Tobias Nägeli">T. Nägeli</a>, </nobr>
-            <nobr>J. Alonso-Mora, </nobr>
-            <nobr>A. Domahidi, </nobr>
-            <nobr>D. Rus, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>To appear in </nobr> <a class="a-text-ext" href="http://www.ieee-ras.org/publications/ra-l" title="IEEE RA-L">IEEE ROBOTICS AND AUTOMATION LETTERS</a><br/>
-            </span>
-        <hr />
-    </div>
-</div>
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-        We propose a method for real-time motion planning with applications in aerial videography.
-        Taking framing objectives, such as position of targets in the image plane as input, our method solves for robot trajectories and gimbal controls automatically and adapts plans
-        in real-time due to changes in the environment. We contribute a real-time receding horizon planner that autonomously records scenes with moving targets, while optimizing for
-        visibility to targets and ensuring collision-free trajectories. A modular cost function, based on the re-projection error of targets is proposed that allows for flexibility
-        and artistic freedom and is well behaved under numerical optimization. We formulate the minimization problem under constraints as a finite horizon optimal control problem
-        that fulfills aesthetic objectives, adheres to non-linear model constraints of the filming robot and collision constraints with static and dynamic obstacles and can be
-        solved in real-time. We demonstrate the robustness and efficiency of the method with a number of challenging shots filmed in dynamic environments including those with
-        moving obstacles and shots with multiple targets to be filmed simultaneously.
-    </p>
-    <hr />
-    <br/>
-</div>
-    <div class="fullcol">
+
 <h3>Video</h3>
-    <div class="video">
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/te12_chaoOE" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
+<div class="video" align="center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/te12_chaoOE" frameborder="0" allowfullscreen></iframe>
 </div>
+    
+
 <!--
 <div class="fullcol">
     <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/teaser.png" alt="Teaser-Picture" />
@@ -138,18 +115,6 @@ We propose a novel approach to digital character animation, combining the benefi
 </div>
 -->
 
-
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2017/video-mpc/downloads/Naegeli2017RA-L.pdf">PDF</a> (Official Version at <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7847361" target="_blank">IEEE Xplore</a>)</li>
-           <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2017/video-mpc/downloads/RAL4.mp4">Video</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/video-mpc/downloads/Naegeli2017RA-L.bib">BibTeX</a></li>
-    </ul>
-    <hr />
-    <br/>
-</div>
 
 <!--
 <div class="fullcol">

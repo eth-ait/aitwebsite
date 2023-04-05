@@ -2,7 +2,7 @@
 ref: multi-view-drone
 title: "Real-time Planning for Automated Multi-View Drone Cinematography"
 authors: Tobias Nägeli, Lukas Meier, Alexander Domahidi, Javier Alonso-Mora, Otmar Hilliges
-date: 2017-01-01
+date: 2017-07-30
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH)"
 image: /assets/projects/multi-view-drone/teaser.jpg
 external_project_page: 
@@ -25,31 +25,9 @@ bibtex: "@inproceedings{Naegeli:2017:MultiDroneCine,
 "
 ---
 
-<h6> Real-time Planning for Automated Multi-View Drone Cinematography </h6>
-<hr />
-
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-             <nobr><a href="<?php ait_root_dir();?>people/naegelit/" title="Tobias Nägeli">T. Nägeli</a>, </nobr>
-            <nobr>Lukas Meier, </nobr>
-            <nobr>Alexander Domahidi, </nobr>
-            <nobr>Javier Alonso-Mora, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>To appear in </nobr> <a class="a-text-ext" href="http://s2017.siggraph.org/" title="ACM SIGGRAPH">ACM SIGGRAPH</a><br/>
-            </span>
-        <hr />
-    </div>
-</div>
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-        We propose a method for automated aerial videography in dynamic and cluttered
+<h3>Abstract</h3>
+<p align="justify">
+    We propose a method for automated aerial videography in dynamic and cluttered
 environments. An online receding horizon optimization formulation
 facilitates the planning process for novices and experts alike. The algorithm
 takes high-level plans as input, which we dub virtual rails, alongside interactively
@@ -69,18 +47,15 @@ plans for several drones in the order of milliseconds. Finally, we evaluate
 the approach qualitatively with a number of challenging shots, involving
 multiple drones and actors and qualitatively characterize the computational
 performance experimentally.
-    </p>
-    <hr />
-    <br/>
-</div>
-    <div class="fullcol">
+</p>
+<hr />
+    
+
 <h3>Video</h3>
-    <div class="video">
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/0tXxxomJ4FE" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <hr />
-    <br/>
+<div class="video" align="center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/0tXxxomJ4FE" frameborder="0" allowfullscreen></iframe>
 </div>
+
 <!--
 <div class="fullcol">
     <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/teaser.png" alt="Teaser-Picture" />
@@ -145,18 +120,6 @@ We propose a novel approach to digital character animation, combining the benefi
 </div>
 -->
 
-
-
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2017/multi-drone-video/multi-drone-video.pdf">PDF</a> (Official Version at <a href="http://dx.doi.org/10.1145/3072959.3073712" target="_blank">ACM Digital Library</a>)</li>
-           <li class="a-vid"><a target="_blank" title="Video" href="<?php ait_root_dir();?>projects/2017/multi-drone-video/downloads/VirtualRails.mp4">Video</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/multi-drone-video/naegeli2017siggraph.bib">BibTeX</a></li>
-    </ul>
-    <hr />
-    <br/>
-</div>
 
 <!--
 <div class="fullcol">

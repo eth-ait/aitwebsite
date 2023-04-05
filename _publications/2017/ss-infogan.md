@@ -2,7 +2,7 @@
 ref: ss-infogan
 title: "Guiding InfoGAN with Semi-Supervision"
 authors: Adrian Spurr, Emre Aksan, Otmar Hilliges
-date: 2017-01-01
+date: 2017-09-18
 venue: "ECML PKDD"
 image: /assets/projects/ss-infogan/teaser.png
 external_project_page: 
@@ -26,48 +26,22 @@ bibtex: "@inproceedings{spurr2017ecml,
 "
 ---
 
-<h6> Guiding InfoGAN with Semi-Supervision </h6>
-<hr />
+<img class="fullcol" src="/assets/projects/ss-infogan/teaser-2.png" alt="Teaser-Picture" />
 
-<div class="fullcol">
-    <div class="teaser-info-projectpage">
-            <span class="normalcap">Authors:</span>
-            <span class="authorcap">
-            <nobr><a href="<?php ait_root_dir();?>people/spurra/" title="Adrian Spurr">A. Spurr</a>, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/eaksan/" title="Emre Aksan">E. Aksan</a>, </nobr>
-            <nobr><a href="<?php ait_root_dir();?>people/hilliges/" title="Otmar Hilliges">O. Hilliges</a>, </nobr>
-            </span>
-            <br/>
-            <span class="normalcap"><nobr>publication: </nobr></span>
-            <span class="authorcap">
-                <nobr>Published in </nobr> <a class="a-text-ext" href="http://ecmlpkdd2017.ijs.si/" title="ECML">ECML</a>, Skopje, Macedonia, 2017</a><br/>
-            </span>
-        <hr />
-    </div>
-</div>
-
-<div class="fullcol">
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2017/ss-infogan/teaser-2.png" alt="Teaser-Picture" />
-    <div class="fullcol">
-        <p align="justify">
-            <span class="figurecap">
-       We present a new semi-supervised generative architecture that requires only few labels to provide control over which factors are identified.
+<p align="justify">
+    <span class="figurecap">
+We present a new semi-supervised generative architecture that requires only few labels to provide control over which factors are identified.
 Our approach can exploit already existing labels or use datasets that are augmented
 with easily collectible labels. The pre-print can be found on <a href="https://arxiv.org/abs/1707.04487" title="arXiv">arXiv</a>.
-        </p>
-        <hr />
-        <br/>
-    </div>
-</div>
+</p>
+<hr />
+        
 
-<div class="fullcol">
-    <h3>Abstract</h3>
-    <p align="justify">
-      In this paper we propose a new semi-supervised GAN architecture (ss-InfoGAN) for image synthesis that leverages information from few labels (as little as 0.22%, max. 10% of the dataset) to learn semantically meaningful and controllable data representations where latent variables correspond to label categories. The architecture builds on Information Maximizing Generative Adversarial Networks (InfoGAN) and is shown to learn both continuous and categorical codes and achieves higher quality of synthetic samples compared to fully unsupervised settings. Furthermore, we show that using small amounts of labeled data speeds-up training convergence. The architecture maintains the ability to disentangle latent variables for which no labels are available. Finally, we contribute an information-theoretic reasoning on how introducing semi-supervision increases mutual information between synthetic and real data.
-    </p>
-    <hr />
-    <br/>
-</div>
+<h3>Abstract</h3>
+<p align="justify">
+  In this paper we propose a new semi-supervised GAN architecture (ss-InfoGAN) for image synthesis that leverages information from few labels (as little as 0.22%, max. 10% of the dataset) to learn semantically meaningful and controllable data representations where latent variables correspond to label categories. The architecture builds on Information Maximizing Generative Adversarial Networks (InfoGAN) and is shown to learn both continuous and categorical codes and achieves higher quality of synthetic samples compared to fully unsupervised settings. Furthermore, we show that using small amounts of labeled data speeds-up training convergence. The architecture maintains the ability to disentangle latent variables for which no labels are available. Finally, we contribute an information-theoretic reasoning on how introducing semi-supervision increases mutual information between synthetic and real data.
+</p>
+    
 
 <!--<div class="fullcol">
 <h3>Video</h3>
@@ -94,15 +68,6 @@ with easily collectible labels. The pre-print can be found on <a href="https://a
 </div>-->
 
 
-<div class="fullcol">
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2017/ss-infogan/spurr2017ecml.pdf">PDF</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2017/ss-infogan/spurr2017ecml.bib">BibTeX</a></li>
-    </ul>
-    <hr />
-    <br/>
-</div>
 
 <!--<div class="fullcol">
     <h3>Gallery</h3>

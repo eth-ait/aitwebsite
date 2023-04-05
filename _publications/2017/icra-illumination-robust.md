@@ -2,7 +2,7 @@
 ref: icra-illumination-robust
 title: "Illumination Change Robustness in Direct Visual SLAM"
 authors: Seonwook Park, Thomas Schöps, Marc Pollefeys
-date: 2017-May-01
+date: 2017-05-01
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 image: /assets/projects/icra-illumination-robust/park2017icra.mp4
 external_project_page: http://cvg.ethz.ch/research/illumination-change-robust-dslam/
