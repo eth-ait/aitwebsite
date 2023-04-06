@@ -2,7 +2,7 @@
 ref: code-viz
 title: "The Effect of Richer Visualizations on Code Comprehension"
 authors: Dimitar Asenov, Otmar Hilliges, Peter Müller
-date: 2016-May-01
+date: 2016-05-01
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: 
 external_project_page: 
