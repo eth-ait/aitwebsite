@@ -2,7 +2,7 @@
 ref: 3d-from-2d
 title: "Joint Estimation of 3D Hand Position and Gestures from Monocular Video for Mobile Interaction"
 authors: Jie Song, Fabrizio Pece, Gábor Sörös, Marion Koelle, Otmar Hilliges
-date: 2015-01-01
+date: 2015-04-18
 venue: "ACM Conference on Human Factors in Computing Systems (CHI)"
 image: /assets/projects/3d-from-2d/teaser.jpg
 external_project_page: 
@@ -34,31 +34,18 @@ bibtex: "@inproceedings{Song:2015,
 }
 "
 ---
-
-<h2>Joint Estimation of 3D Hand Position and Gestures from Monocular Video for Mobile Interaction</h2>
     
-<div class="halfcol">
-    <h3>Abstract</h3>
-    <p>
-        We present a machine learning technique to recognize gestures and estimate metric depth of hands for 3D interaction, relying only on monocular RGB video input. We aim to enable spatial interaction with small, body-worn devices where rich 3D input is desired but the usage of conventional depth sensors is prohibitive due to their power consumption and size. We propose a hybrid classification-regression approach to learn and predict a mapping of RGB colors to absolute, metric depth in real time. We also classify distinct hand gestures, allowing for a variety of 3D interactions. We demonstrate our technique with three mobile interaction scenarios and evaluate the method quantitatively and qualitatively.
-    </p>
-</div>    
+<h3>Abstract</h3>
+<p>
+    We present a machine learning technique to recognize gestures and estimate metric depth of hands for 3D interaction, relying only on monocular RGB video input. We aim to enable spatial interaction with small, body-worn devices where rich 3D input is desired but the usage of conventional depth sensors is prohibitive due to their power consumption and size. We propose a hybrid classification-regression approach to learn and predict a mapping of RGB colors to absolute, metric depth in real time. We also classify distinct hand gestures, allowing for a variety of 3D interactions. We demonstrate our technique with three mobile interaction scenarios and evaluate the method quantitatively and qualitatively.
+</p> 
+
  
-<br><br><br> <img class="halfcol" src="<?php ait_root_dir();?>projects/2015/3Dfrom2D/teaser.jpg" alt="Teaser-Picture" />
-   
-<div class="halfcol">
+<br><br> <img class="halfcol" src="/assets/projects/3d-from-2d/teaser.jpg" alt="Teaser-Picture" />
+<hr />
 
 
 <h3>Accompanying Video</h3>
-    <div class="video">
-        <iframe width="420" height="237" src="https://www.youtube.com/embed/47i1WffNS-g" frameborder="0" allowfullscreen></iframe>
-    </div>
-
- <h3>Downloads</h3>
-    <ul class="linklist">
-            <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2015/3Dfrom2D/downloads/pn2607-songA.pdf">PDF</a></li>
-            <li class="a-vid"><a target="_blank" href="<?php ait_root_dir();?>projects/2015/3Dfrom2D/downloads/camera_ready_dubbed-compressed.mp4" title="Download Video">Video (45 MB)</a></li>
-            <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2015/3Dfrom2D/downloads/song2015.bib">BibTeX</a></li>  
-    </ul>
-     
-<
+<div class="video" align="center">
+    <iframe width="420" height="237" src="https://www.youtube.com/embed/47i1WffNS-g" frameborder="0" allowfullscreen></iframe>
+</div>
