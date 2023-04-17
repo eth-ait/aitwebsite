@@ -48,7 +48,7 @@ bibtex: "@inproceedings{Taylor:2014:MoKeyCHI,
 
 <h3>Accompanying Video</h3>
 <div class="video" align="center">
-    <iframe width="420" height="237" src="//www.youtube.com/embed/Y3dUeGNIX4M?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="420" height="237" src="https://www.youtube.com/embed/Y3dUeGNIX4M?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>   
 <hr />
 
