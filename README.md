@@ -206,3 +206,10 @@ layout: page
 ```
 
 Finally, the content goes *below* the front matter. You can write any valid HTML or Markdown after the front matter, but you cannot mix the two in the same file. You can insert tables, images, etc. Avoid writing custom CSS; try to re-use CSS classes and images from other finished content. Keep in mind of the fields available in the front matter (like paper link, youtube link, code, etc), there is no need to put these in the content manually. This will allow for better metadata organization and search.
+
+## Access Restrictions on the Files Server
+By default the subfolders `/projects` and `/downloads` on the files server are accessible without restriction. Use `/projects` for large publication-related data. You can use `/downloads` for anything else you might want to serve without any restriction.
+
+The `/teaching` folder is only accessible with a valid ETH user.
+
+Access is configured via `.htaccess` files. If you have a specific requirement, please ask an ITC.
