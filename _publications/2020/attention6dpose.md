@@ -4,7 +4,7 @@ title: "Spatial Attention Improves Iterative 6D Object Pose Estimation"
 authors: Stefan Stevšić, Otmar Hilliges
 date: 2020-11-25
 venue: "2020 International Conference on 3D Vision (3DV)"
-image: /assets/projects/attention6dpose/teaser_gif.gif
+image: https://files.ait.ethz.ch/projects/attention6dpose/teaser_gif.gif
 external_project_page: 
 video: https://youtu.be/VQ5O4C6ogeM
 talk: 

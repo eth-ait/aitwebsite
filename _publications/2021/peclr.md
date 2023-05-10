@@ -4,7 +4,7 @@ title: "PeCLR: Self-Supervised 3D Hand Pose Estimation from monocular RGB via Eq
 authors: Adrian Spurr, Aneesh Dahiya, Xi Wang, Xucong Zhang, Otmar Hilliges
 date: 2021-10-11
 venue: "International Conference on Computer Vision (ICCV)"
-image: /assets/projects/peclr/peclr.gif
+image: https://files.ait.ethz.ch/projects/peclr/peclr.gif
 external_project_page: 
 video: https://youtu.be/DQtWIGrL54g
 talk: 

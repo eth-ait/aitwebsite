@@ -28,7 +28,6 @@ bibtex: "@inproceedings{he2019gazeredirection,
 
 
 <img class="fullcol" src="/assets/projects/gaze_redirection/teaser.png" alt="Teaser-Picture" />
-<!-- <img class="fullcol" src="<?php ait_root_dir();?>projects/2019/NVS-machines/teaser_pipeline.png" alt="Teaser-Picture" /> -->
 
 <p align="justify">
     <span class="figurecap">

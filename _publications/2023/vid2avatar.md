@@ -4,7 +4,7 @@ title: "Vid2Avatar: 3D Avatar Reconstruction from Videos in the Wild via Self-su
 authors: Chen Guo, Tianjian Jiang, Xu Chen, Jie Song, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/vid2avatar/teaser2.gif
+image: https://files.ait.ethz.ch/projects/vid2avatar/teaser2.gif
 external_project_page: https://moygcc.github.io/vid2avatar/
 video: https://youtu.be/EGi47YeIeGQ
 talk: 

@@ -6,7 +6,7 @@ date: 2018-09-08
 venue: "European Conference on Computer Vision (ECCV)"
 image: /assets/projects/learn-to-score/teaser.jpg
 external_project_page: 
-video: /projects/2018/learn-to-score/downloads/learn-to-score.mp4
+video: https://files.ait.ethz.ch/projects/learn-to-score/learn-to-score.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/learn-to-score/learn-to-score.pdf
 poster: 

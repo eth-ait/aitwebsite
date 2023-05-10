@@ -6,7 +6,7 @@ date: 2018-12-04
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH ASIA)"
 image: /assets/projects/flycon/teaser.jpg
 external_project_page: 
-video: /projects/2018/flycon/downloads/flycon.mp4
+video: https://files.ait.ethz.ch/projects/flycon/flycon.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/flycon/flycon.pdf
 poster: 

@@ -4,7 +4,7 @@ title: "ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation"
 authors: Zicong Fan, Omid Taheri, Dimitrios Tzionas, Muhammed Kocabas, Manuel Kaufmann, Michael Black, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/arctic/teaser.gif
+image: https://files.ait.ethz.ch/projects/arctic/teaser.gif
 external_project_page: https://arctic.is.tue.mpg.de
 video: https://www.youtube.com/watch?v=bvMm8gfFbZ8
 talk: 

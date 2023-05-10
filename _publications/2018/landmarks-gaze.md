@@ -6,7 +6,7 @@ date: 2018-06-14
 venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA)"
 image: /assets/projects/landmarks-gaze/teaser.mp4
 external_project_page: 
-video: /projects/2018/landmarks-gaze/downloads/park2018etra.mp4
+video: https://files.ait.ethz.ch/projects/landmarks-gaze/park2018etra.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/landmarks-gaze/park2018etra.pdf
 poster: 

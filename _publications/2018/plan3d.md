@@ -6,7 +6,7 @@ date: 2018-01-01
 venue: "ACM Transactions on Graphics (TOG)"
 image: /assets/projects/plan3d/teaser.jpg
 external_project_page: 
-video: /projects/2018/plan3d/downloads/VideoPlan3d.mp4
+video: https://files.ait.ethz.ch/projects/plan3d/VideoPlan3d.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/plan3d/plan3d_arxiv.pdf
 poster: 

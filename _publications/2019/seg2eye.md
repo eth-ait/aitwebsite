@@ -149,6 +149,6 @@ This work was supported in part by the ERC Grant OPTINT (StG-2016-717054).
 
 <h3>Downloads</h3>
 <ul class="linklist">
-    <li class="a-pdf"><a class="a-text-ext" title="PDF" href="<?php ait_root_dir();?>projects/2019/seg2eye/downloads/buehler2019iccvw_supplementary.pdf">PDF (Supplementary)</a></li>
+    <li class="a-pdf"><a class="a-text-ext" title="PDF" href="https://files.ait.ethz.ch/projects/seg2eye/buehler2019iccvw_supplementary.pdf">PDF (Supplementary)</a></li>
     <!--<li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/downloads/park2018eccv.mp4">Video</a></li>-->
 </ul>

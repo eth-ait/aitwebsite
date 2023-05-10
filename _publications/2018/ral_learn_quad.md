@@ -6,7 +6,7 @@ date: 2018-10-01
 venue: "IEEE Robotics and Automation Letters (Volume: 3, Issue: 4)"
 image: /assets/projects/ral_learn_quad/ral_stefan.gif
 external_project_page: 
-video: /projects/2018/ral_learn_quad/downloads/ral_video_quadrotor_policies.mp4
+video: https://files.ait.ethz.ch/projects/ral_learn_quad/ral_video_quadrotor_policies.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/ral_learn_quad/stevsic2018ral.pdf
 poster: 

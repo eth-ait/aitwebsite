@@ -6,11 +6,11 @@ date: 2018-06-18
 venue: "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
 image: /assets/projects/vae_hands/teaser_small.gif
 external_project_page: 
-video: /projects/2018/vae_hands/spurr2018cvpr.mp4
+video: https://files.ait.ethz.ch/projects/vae_hands/spurr2018cvpr.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/vae_hands/spurr2018cvpr.pdf
 poster: 
-data: /projects/2018/vae_hands/downloads/models.zip
+data: https://files.ait.ethz.ch/projects/vae_hands/downloads/models.zip
 code: https://github.com/spurra/vae-hands-3d
 conference_url: http://cvpr2018.thecvf.com/
 equal_contributions: 

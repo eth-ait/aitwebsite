@@ -6,7 +6,7 @@ date: 2018-04-21
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/deepwriting/animated_title.gif
 external_project_page: 
-video: /projects/2018/deepwriting/downloads/deepwriting_chi18.mp4
+video: https://files.ait.ethz.ch/projects/deepwriting/deepwriting_chi18.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/deepwriting/deepwriting_chi18.pdf
 poster: 
