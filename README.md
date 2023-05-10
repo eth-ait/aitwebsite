@@ -2,33 +2,35 @@
 
 ## Notice
 
-All larger files, including pdfs of papers/slides, should be uploaded to the file server.
+All larger files, including pdfs of papers/slides, should be uploaded to the file server. The file server is a samba share:
 
 ```
-$ ssh AITFILESERVERGOESHERE
-[yourusername@fs1.inf.ethz.ch/www-data/hilliges-ait/html/site-ait-files]$ 
+smb://fs1.inf.ethz.ch/www-data/hilliges-ait/html/site-ait-files
 ```
-In most cases, you will upload you files to the `projects` directory. All files are then publicly available under the https://files.ait.inf.ethz.ch/ url. 
-For example, the paper for LipFlow is stored under `projects/projects/lip-flow` and is available at [https://files.ait.inf.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf](https://files.ait.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf)
 
-## Overview and important information
+In most cases, you will upload your files to the `projects` directory. All files are then publicly available under the https://files.ait.inf.ethz.ch/ URL. 
+For example, the paper for LipFlow is stored under `projects/lip-flow` and is available at [https://files.ait.inf.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf](https://files.ait.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf)
+
+## Overview and Important Information
 
 The site is built on [Jekyll](https://jekyllrb.com/), a static site generator. The templating language is [Liquid](https://shopify.github.io/liquid/). 
 
 To serve the webpage locally, run `jekyll serve`.
 You may need to run `bundle install` in case of errors like `Could not find gem`.
+On Windows the command `bundle exec jekyll serve` to serve the site might be required.
+Access the site by pointing your browser to `http://localhost:4000/`.
 
-Installation is not required when editing directly on GitHub. To setup on your local machine, follow the [Jekyll docs](https://jekyllrb.com/docs/)
+For more details on how to set it up on your local machine, follow the [Jekyll docs](https://jekyllrb.com/docs/). Installation is not required when editing directly on GitHub. 
 
-After a commit, GitHub should re-generate the site (usually in under a minute, but it may take up to 5 minutes). 
+After a commit, GitHub automatically re-generates the site (usually in under a minute, but it may take up to 5 minutes). 
 
-The main folder for storage is `/assets`. It contains stock icons, logos and images. Use this area to store *small* media-type assets, like images, small movies, or well-compressed pdfs. Do not store *anything* over 20Mb. The sub-folders in this area correspond to where they will be used:
+This GitHub repo contains a folder `/assets`. It contains stock icons, logos and images. Use this area to store *small* media-type assets, like images, small movies, or well-compressed pdfs. Do not store *anything* over 20Mb. Use the *file server* for all other types of resources, including publication pdfs, slides, teaching materials etc.
 
-*  `/people`: stores each lab member's individual profile photos, or you can create a folder with your name and put things here
-*  `/projects`: stores teasers, images, and other media related to projects
-*  `/teaching`: stores media (teaser image) related teaching. 
+The `/assets` folder contains assets in sub-folders corresponding to where they will be used:
 
-All other types of resources such as publication pdfs, slides, teaching materials should be uploaded on the *file server*. 
+*  `/assets/people`: stores each lab member's individual profile photos, or you can create a folder with your name and put things here
+*  `/assets/projects`: stores teasers, images, and other media related to projects
+*  `/assets/teaching`: stores media (teaser image) related teaching. 
 
 ## Add / Edit a Publication
 As a common example, lets first take a look at how to add or edit a publication. Please see the general editing tips if something isn't working.
