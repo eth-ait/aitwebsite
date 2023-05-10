@@ -122,7 +122,7 @@ cv: jimmy/cv.pdf
 ---
 ```
 
-If you want to automatically populate your publications by pulling from the existing lab publications, use this code (where your name is Jimmy):
+If you want to automatically populate your publications by pulling from the existing lab publications, use this code (where your name is Jie Song):
 
 ```
 {% include get-publications.html filter="person" key="Jie Song" full-width=true%}
@@ -143,6 +143,7 @@ You can include the information of a lab member on a particular page. Pull them 
 ```
 {% include get-person.html title="Jimmy Foo" %}
 ```
+Add this to `people.html` so that a preview of the profile appears on the people page.
 
 ### News
 - Where to edit: `/_newsposts`
