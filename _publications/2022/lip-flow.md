@@ -8,7 +8,7 @@ image: /assets/projects/lip-flow/lip-flow.gif
 external_project_page: https://emreaksan.github.io/lip-flow/
 video: https://youtu.be/whuBUXfzeKs
 talk: 
-paper: https://ait.ethz.ch/projects/2022/lip-flow/downloads/lipflow_eccv22.pdf
+paper: https://files.ait.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf
 poster: 
 data: 
 code: 

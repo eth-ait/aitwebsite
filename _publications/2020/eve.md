@@ -139,6 +139,8 @@ Estimating eye-gaze from images alone is a challenging task,in large parts due t
 </div>
 -->
 
+
+
 <h3>Acknowledgments</h3>
 <p align="justify">
 We thank the participants of our dataset for their contributions,
@@ -164,5 +166,6 @@ Please refer to the <a href="https://ait.ethz.ch/projects/2020/EVE/downloads/EVE
 <h3>Downloads</h3>
 <ul class="linklist">
     <li class="a-zip">The EVE Dataset is available on request. Please fill in <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZtMVpNbWV9yHX5toXVzVpDpOENy-SB7XfMIx5V6u7sITuNg/viewform?usp=sf_link" target="_blank">this Google Form</a> to gain access to the dataset.</li>
-    <li class="a-ext"><a title="Leaderboard"><a href="https://competitions.codalab.org/competitions/28954">Public Leaderboard</a>. Detailed instructions on how to produce predictions for the leaderboard is provided on our Codalab page. Paper authors should use this platform for reporting performance on the public portion of the EVE test set.</a></li>
+    <li class="a-ext"><a title="Leaderboard"><a href="https://codalab.lisn.upsaclay.fr/competitions/11397">Public Leaderboard</a>. Detailed instructions on how to produce predictions for the leaderboard is provided on our Codalab page. Paper authors should use this platform for reporting performance on the public portion of the EVE test set.</a></li>
+
 </ul>

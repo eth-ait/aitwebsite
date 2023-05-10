@@ -6,12 +6,12 @@ date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: /assets/projects/arctic/teaser.gif
 external_project_page: https://arctic.is.tue.mpg.de
-video: https://download.is.tue.mpg.de/arctic/static/videos/video.mp4
+video: https://www.youtube.com/watch?v=bvMm8gfFbZ8
 talk: 
-paper: 
+paper: https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf
 poster: 
 data: 
-code: https://github.com/zc-alexfan/arctic-toolkits
+code: https://github.com/zc-alexfan/arctic
 conference_url: 
 equal_contributions: 
 award: 

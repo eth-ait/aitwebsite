@@ -8,7 +8,7 @@ image: /assets/projects/gdna/teaser.gif
 external_project_page: https://xuchen-ethz.github.io/gdna/
 video: https://www.youtube.com/watch?v=uOyoH7OO16I&feature=youtu.be
 talk: 
-paper: https://ait.ethz.ch/projects/2022/gdna/downloads/main.pdf
+paper: https://files.ait.ethz.ch/projects/gdna/main.pdf
 poster: 
 data: 
 code: https://github.com/xuchen-ethz/gdna

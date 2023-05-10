@@ -8,7 +8,7 @@ image: /assets/projects/em-pose/thumbnail.gif
 external_project_page: 
 video: https://youtu.be/PqSL4fhIilM
 talk: 
-paper: https://ait.ethz.ch/projects/2021/em-pose/downloads/paper.pdf
+paper: https://files.ait.ethz.ch/projects/em-pose/paper.pdf
 poster: 
 data: 
 code: https://github.com/facebookresearch/em-pose
@@ -28,7 +28,7 @@ bibtex: "@inProceedings{kaufmann2021empose,
 
 <p align="justify">
     <span class="figurecap">
-Reconstructing the subject's full-body pose is important to create immersive experiences in AR/VR. While external cameras limit the capture space and head-worn cameras can suffer from heavy self-occlusions in top-down views (A), our method reconstructs the body pose from electromagnetic (EM) field-based sensing (B). We leverage a customized system consisting of up to 12 wireless sensors measuring their 6D pose relative to a body-worn source. We adopt learned gradient descent (<a target="_blank" href="https://ait.ethz.ch/projects/2020/learned-body-fitting/">LGD</a>) to estimate SMPL pose and shape from as little as 6 EM sensors (C) tested on a newly captured dataset.
+Reconstructing the subject's full-body pose is important to create immersive experiences in AR/VR. While external cameras limit the capture space and head-worn cameras can suffer from heavy self-occlusions in top-down views (A), our method reconstructs the body pose from electromagnetic (EM) field-based sensing (B). We leverage a customized system consisting of up to 12 wireless sensors measuring their 6D pose relative to a body-worn source. We adopt learned gradient descent (<a target="_blank" href="https://ait.ethz.ch//earned-body-fitting/">LGD</a>) to estimate SMPL pose and shape from as little as 6 EM sensors (C) tested on a newly captured dataset.
    </span>
 </p>
 <hr />

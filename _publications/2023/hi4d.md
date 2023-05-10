@@ -8,7 +8,7 @@ image: /assets/projects/hi4d/teaser.gif
 external_project_page: https://yifeiyin04.github.io/Hi4D/
 video: https://www.youtube.com/watch?v=DrvL2XkW7rw&ab_channel=AITETH
 talk: 
-paper: 
+paper: https://arxiv.org/abs/2303.15380
 poster: 
 data: 
 code: 
