@@ -4,13 +4,13 @@ title: "Deep Inertial Poser: Learning to Reconstruct Human Pose from Sparse Iner
 authors: Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael Black, Otmar Hilliges, Gerard Pons-Moll
 date: 2018-11-01
 venue: "ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)"
-image: /assets/projects/dip/thumbnail.jpg
-external_project_page: https://dip.is.tue.mpg.de/
+image: https://files.ait.ethz.ch/projects/dip/thumbnail.jpg
+external_project_page: 
 video: https://youtu.be/p1fmpOWA504
 talk: 
 paper: https://files.ait.ethz.ch/projects/dip/dip2018.pdf
 poster: 
-data: 
+data: https://dip.is.tue.mpg.de/
 code: https://github.com/eth-ait/dip18
 conference_url: https://sa2018.siggraph.org/en/
 equal_contributions: 0, 1
@@ -31,7 +31,7 @@ bibtex: "@article{DIP:SIGGRAPHAsia:2018,
 ---
 
 
-<img class="fullcol" src="<?php ait_root_dir();?>projects/2018/dip/teaser.png" alt="DIP Teaser" />
+<img class="fullcol" src="https://files.ait.ethz.ch/projects/dip/teaser.png" alt="DIP Teaser" />
 
 <p align="justify">
     <span class="figurecap">
@@ -58,9 +58,9 @@ We demonstrate a novel deep neural network capable of reconstructing human full 
 
 
 
-<h3>Downloads</h3>
+<h3>Additional Downloads</h3>
 <ul class="linklist">
-    <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2018/dip/downloads/dip18_errata.pdf">Errata</a></li>
+    <li class="a-pdf"><a target="_blank" title="PDF" href="https://files.ait.ethz.ch/projects/dip/dip18_errata.pdf">Errata</a></li>
     <li class="a-cod"> <a class="a-text-ext" href="https://youtu.be/SoJcZc6AvB4" title="Fast-Forward Video">Fast-Forward video</a></li>
 </ul>
 
