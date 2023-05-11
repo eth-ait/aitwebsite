@@ -53,6 +53,6 @@ The human hand moves in complex and high-dimensional ways, making estimation of 
 
 <h3>Downloads</h3>
 <ul class="linklist">
-    <li class="a-zip"><a target="_blank" href="<?php ait_root_dir();?>projects/2018/vae_hands/downloads/models.zip">Trained models</a></li>
-    <li class="a-cod"><a title="PCK" href="<?php ait_root_dir();?>projects/2018/vae_hands/pck_val.txt">PCK values</a></li>
+    <li class="a-zip"><a target="_blank" href="https://files.ait.ethz.ch/projects/vae_hands/models.zip">Trained models</a></li>
+    <li class="a-cod"><a title="PCK" href="/assets/projects/vae_hands/pck_val.txt">PCK values</a></li>
 </ul>

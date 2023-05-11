@@ -6,7 +6,7 @@ date: 2014-04-26
 venue: "Proceedings of the 32Nd Annual ACM Conference on Human Factors in Computing Systems"
 image: /assets/projects/type-hover-swipe/Teaser_Narrow.png
 external_project_page: 
-video: /projects/2014/96Bytes/downloads/MotionKeyboard_CHI_2014.mp4
+video: https://files.ait.ethz.ch/projects/96Bytes/MotionKeyboard_CHI_2014.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/type-hover-swipe/p1695-taylor(MotionKeyboard).pdf
 poster: 

@@ -6,7 +6,7 @@ date: 2015-09-28
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 image: /assets/projects/photometric-ekf/teaser.png
 external_project_page: 
-video: /projects/2015/PhotometricEKF/downloads/iros2015photometric.mp4
+video: https://files.ait.ethz.ch/projects/PhotometricEKF/iros2015photometric.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/photometric-ekf/iros2015photometric.pdf
 poster: 

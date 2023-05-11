@@ -6,7 +6,7 @@ date: 2015-04-18
 venue: "ACM Conference on Human Factors in Computing Systems (CHI)"
 image: /assets/projects/3d-from-2d/teaser.jpg
 external_project_page: 
-video: /projects/2015/3Dfrom2D/downloads/camera_ready_dubbed-compressed.mp4
+video: https://files.ait.ethz.ch/projects/3Dfrom2D/camera_ready_dubbed-compressed.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/3d-from-2d/pn2607-songA.pdf
 poster: 

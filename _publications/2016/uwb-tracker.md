@@ -6,7 +6,7 @@ date: 2016-10-09
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 image: /assets/projects/uwb-tracker/uwb-quad.jpg
 external_project_page: 
-video: /projects/2016/uwb-tracker/downloads/UWBTracker.mp4
+video: https://files.ait.ethz.ch/projects/uwb-tracker/UWBTracker.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/uwb-tracker/UWBTracker.pdf
 poster: 

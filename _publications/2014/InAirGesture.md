@@ -6,11 +6,11 @@ date: 2014-10-05
 venue: "ACM User Interface Software and Technology Symposium"
 image: /assets/projects/InAirGesture/Teaser.jpg
 external_project_page: 
-video: /projects/2014/InAirGesture/downloads/InairGesturesAroundUnmodifiedMobileDevice_UIST_2014_Song.mp4
+video: https://files.ait.ethz.ch/projects/InAirGesture/InairGesturesAroundUnmodifiedMobileDevice_UIST_2014_Song.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/InAirGesture/p319-song.pdf
 poster: 
-data: /projects/2014/InAirGesture/downloads/Half_Training.7z
+data: https://files.ait.ethz.ch/projects/InAirGesture/Half_Training.7z
 code: 
 conference_url: https://uist.acm.org/uist2014/
 equal_contributions: 
@@ -53,6 +53,6 @@ Upon popular request we released the training and test data used during this pro
 </ul>
 The data covers variations both of hand size and hand orientation and hence is quite challenging to recognize. There are two sets: one for training and one for testing.
 <ul>
-<li><b>Training</b>: <a class="a-zip" target="_blank" title="BibTex" href="/projects/2014/InAirGesture/downloads/Half_Training.7z">Train data as 7-Zip archive (163 MB)</a></li>
-<li><b>Testing</b>:  <a class="a-zip" target="_blank" title="BibTex" href="/projects/2014/InAirGesture/downloads/Half_Testing.7z">Test Data as 7-Zip archive (164 MB)</a></li>
+<li><b>Training</b>: <a class="a-zip" target="_blank" title="BibTex" href="https://files.ait.ethz.ch/projects/InAirGesture/Half_Training.7z">Train data as 7-Zip archive (163 MB)</a></li>
+<li><b>Testing</b>:  <a class="a-zip" target="_blank" title="BibTex" href="https://files.ait.ethz.ch/projects/InAirGesture/Half_Testing.7z">Test Data as 7-Zip archive (164 MB)</a></li>
 </ul>

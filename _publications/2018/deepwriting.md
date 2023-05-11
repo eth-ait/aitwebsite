@@ -75,7 +75,7 @@ If you use our data, we kindly ask you to cite our work, and also fill <a target
 
 <h3>License</h3>
 <p align="justify">
-This Dataset is under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a> with additional conditions and terms. Please refer to the <a title="license" href="<?php ait_root_dir();?>projects/2018/deepwriting/downloads/license.pdf">completed license file</a>.
+This Dataset is under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a> with additional conditions and terms. Please refer to the <a title="license" href="https://files.ait.ethz.ch/projects/deepwriting/license.pdf">completed license file</a>.
 </p>
 <hr />
 
@@ -83,7 +83,7 @@ This Dataset is under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0
 
 <h3>Downloads</h3>
 <ul class="linklist">
-    <li class="a-zip"><a target="_blank" title="Dataset" href="<?php ait_root_dir();?>projects/2018/deepwriting/downloads/deepwriting_dataset.zip">Dataset</a></li>
-    <li class="a-zip"><a target="_blank" title="Dataset with timestamps" href="<?php ait_root_dir();?>projects/2018/deepwriting/downloads/extended_dataset.zip">Dataset with timestamps</a></li>
-    <li class="a-zip"><a target="_blank" title="Model" href="<?php ait_root_dir();?>projects/2018/deepwriting/downloads/tf-1514981744-deepwriting_synthesis_model.tar.gz">Trained Model</a></li>
+    <li class="a-zip"><a target="_blank" title="Dataset" href="https://files.ait.ethz.ch/projects/deepwriting/deepwriting_dataset.zip">Dataset</a></li>
+    <li class="a-zip"><a target="_blank" title="Dataset with timestamps" href="https://files.ait.ethz.ch/projects/deepwriting/extended_dataset.zip">Dataset with timestamps</a></li>
+    <li class="a-zip"><a target="_blank" title="Model" href="https://files.ait.ethz.ch/projects/deepwriting/tf-1514981744-deepwriting_synthesis_model.tar.gz">Trained Model</a></li>
 </ul>

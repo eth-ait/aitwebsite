@@ -6,7 +6,7 @@ date: 2015-11-02
 venue: "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia) (Volume: 34, Issue: 6)"
 image: /assets/projects/robot-designer/RobotDesigner.png
 external_project_page: 
-video: /projects/2015/RobotDesigner/downloads/RobotDesignerShortVersion.mov
+video: https://files.ait.ethz.ch/projects/RobotDesigner/RobotDesignerShortVersion.mov
 talk: 
 paper: https://files.ait.ethz.ch/projects/robot-designer/RobotDesigner-Paper.pdf
 poster: 

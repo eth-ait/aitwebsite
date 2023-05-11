@@ -6,7 +6,7 @@ date: 2016-05-07
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/deformables/sheet_squared_teaser.png
 external_project_page: 
-video: /projects/2016/deformables/downloads/Deformables_final.mp4
+video: https://files.ait.ethz.ch/projects/deformables/Deformables_final.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/deformables/paper1575.pdf
 poster: 

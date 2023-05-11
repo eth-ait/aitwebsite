@@ -6,7 +6,7 @@ date: 2015-04-18
 venue: "ACM Conference on Human Factors in Computing Systems (CHI)"
 image: /assets/projects/interactive-debugger/teaser_right.jpg
 external_project_page: 
-video: /projects/2015/InteractiveDebugger/downloads/FluidEdt-Ou-CHI2015.mp4
+video: https://files.ait.ethz.ch/projects/InteractiveDebugger/FluidEdt-Ou-CHI2015.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/interactive-debugger/FluidEdt-Ou-CHI2015.pdf
 poster: 

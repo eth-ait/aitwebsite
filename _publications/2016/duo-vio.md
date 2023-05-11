@@ -6,11 +6,11 @@ date: 2016-10-09
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 image: /assets/projects/duo-vio/walking_loops.jpg
 external_project_page: 
-video: /projects/2016/duo-vio/downloads/vio.mp4
+video: https://files.ait.ethz.ch/projects/duo-vio/vio.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/duo-vio/vio.pdf
 poster: 
-data: /projects/2016/duo-vio/downloads/DUOVioData.zip
+data: https://files.ait.ethz.ch/projects/duo-vio/DUOVioData.zip
 code: https://github.com/ethz-ait/duo_vio
 conference_url: http://www.iros2016.org
 equal_contributions: 

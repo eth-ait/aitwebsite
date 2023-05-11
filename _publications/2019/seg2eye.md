@@ -71,9 +71,9 @@ injection of style and content information at multiple scales. Our implementatio
  <h3>Downloads</h3>
     To be released.
     <ul class="linklist">
-        <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2015/InteractiveDebugger/downloads/FluidEdt-Ou-CHI2015.pdf">PDF</a></li>
-        <li class="a-vid"><a target="_blank" href="<?php ait_root_dir();?>projects/2015/InteractiveDebugger/downloads/FluidEdt-Ou-CHI2015.mp4" title="Download Video">Video (26 MB)</a></li>
-        <li class="a-bib"><a target="_blank" title="BibTex" href="<?php ait_root_dir();?>projects/2015/InteractiveDebugger/downloads/FluidEdt-Ou-CHI2015.bib">BibTeX</a></li>
+        <li class="a-pdf"><a target="_blank" title="PDF" href="https://files.ait.ethz.ch/projects/InteractiveDebugger/FluidEdt-Ou-CHI2015.pdf">PDF</a></li>
+        <li class="a-vid"><a target="_blank" href="https://files.ait.ethz.chprojects/InteractiveDebugger/FluidEdt-Ou-CHI2015.mp4" title="Download Video">Video (26 MB)</a></li>
+        <li class="a-bib"><a target="_blank" title="BibTex" href="https://files.ait.ethz.ch/projects/InteractiveDebugger/FluidEdt-Ou-CHI2015.bib">BibTeX</a></li>
     </ul>
     <hr />
     <br/>
@@ -86,8 +86,8 @@ injection of style and content information at multiple scales. Our implementatio
 <div class="fullcol">
     <h3>additional results</h3>
     <br/>
-    <img class="halfcol" src="<?php ait_root_dir();?>projects/2016/deformables/bar_small.png" alt="Teaser-Picture" />
-    <img class="halfcol" src="<?php ait_root_dir();?>projects/2016/deformables/organ_stacked_small.png" alt="Teaser-Picture" />
+    <img class="halfcol" src="/assets/projects/deformables/bar_small.png" alt="Teaser-Picture" />
+    <img class="halfcol" src="/assets/projects/deformables/organ_stacked_small.png" alt="Teaser-Picture" />
     <div class="halfcol">
         <p align="justify">
             <span class="figurecap">
@@ -110,7 +110,7 @@ injection of style and content information at multiple scales. Our implementatio
 <!--
 <div class="fullcol">
     <br/><br/>
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/deformables/sheet_squared_small.png" alt="Teaser-Picture" />
+    <img class="fullcol" src="/assets/projects/deformables/sheet_squared_small.png" alt="Teaser-Picture" />
     <p align="justify">
         <span class="figurecap">
             Snapshots of the design process. Top Row: the user placed, refined,
@@ -150,5 +150,5 @@ This work was supported in part by the ERC Grant OPTINT (StG-2016-717054).
 <h3>Downloads</h3>
 <ul class="linklist">
     <li class="a-pdf"><a class="a-text-ext" title="PDF" href="https://files.ait.ethz.ch/projects/seg2eye/buehler2019iccvw_supplementary.pdf">PDF (Supplementary)</a></li>
-    <!--<li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2018/pictorial-gaze/downloads/park2018eccv.mp4">Video</a></li>-->
+    <!--<li class="a-vid"><a title="Video" href="https://files.ait.ethz.ch/projects/pictorial-gaze/park2018eccv.mp4">Video</a></li>-->
 </ul>

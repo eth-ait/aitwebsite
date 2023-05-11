@@ -6,7 +6,7 @@ date: 2016-07-24
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH)"
 image: /assets/projects/puppet/icon_teaser.png
 external_project_page: 
-video: /projects/2016/puppet/downloads/RigSpaceAnimation.mp4
+video: https://files.ait.ethz.ch/projects/puppet/RigSpaceAnimation.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/puppet/RigSpaceAnimation.pdf
 poster: 

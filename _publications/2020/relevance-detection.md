@@ -48,8 +48,8 @@ This paper proposes an approach to detect information relevance during decision-
 <div class="fullcol">
     <h3>additional results</h3>
     <br/>
-    <img class="halfcol" src="<?php ait_root_dir();?>projects/2016/deformables/bar_small.png" alt="Teaser-Picture" />
-    <img class="halfcol" src="<?php ait_root_dir();?>projects/2016/deformables/organ_stacked_small.png" alt="Teaser-Picture" />
+    <img class="halfcol" src="/assets/projects/deformables/bar_small.png" alt="Teaser-Picture" />
+    <img class="halfcol" src="/assets/projects/deformables/organ_stacked_small.png" alt="Teaser-Picture" />
     <div class="halfcol">
         <p align="justify">
             <span class="figurecap">
@@ -70,7 +70,7 @@ This paper proposes an approach to detect information relevance during decision-
 
 <!-- <div class="fullcol">
     <br/><br/>
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/deformables/sheet_squared_small.png" alt="Teaser-Picture" />
+    <img class="fullcol" src="/assets/projects/deformables/sheet_squared_small.png" alt="Teaser-Picture" />
     <p align="justify">
         <span class="figurecap">
             Snapshots of the design process. Top Row: the user placed, refined,

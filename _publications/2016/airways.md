@@ -6,7 +6,7 @@ date: 2016-05-07
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
 image: /assets/projects/airways/airways_icon.png
 external_project_page: 
-video: /projects/2016/airways/downloads/airways-final.mp4
+video: https://files.ait.ethz.ch/projects/airways/airways-final.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/airways/paper1570.pdf
 poster: 

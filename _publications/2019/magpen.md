@@ -51,8 +51,8 @@ bibtex: "@article{langerak2019magpen
 <div class="fullcol">
     <h3>additional results</h3>
     <br/>
-    <img class="halfcol" src="<?php ait_root_dir();?>projects/2016/deformables/bar_small.png" alt="Teaser-Picture" />
-    <img class="halfcol" src="<?php ait_root_dir();?>projects/2016/deformables/organ_stacked_small.png" alt="Teaser-Picture" />
+    <img class="halfcol" src="/assets/projects/deformables/bar_small.png" alt="Teaser-Picture" />
+    <img class="halfcol" src="/assets/projects/deformables/organ_stacked_small.png" alt="Teaser-Picture" />
     <div class="halfcol">
         <p align="justify">
             <span class="figurecap">

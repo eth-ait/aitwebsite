@@ -6,7 +6,7 @@ date: 2014-09-14
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems"
 image: /assets/projects/swarm/Teaser.jpg
 external_project_page: 
-video: /projects/2014/swarm/downloads/Swarm.mp4
+video: https://files.ait.ethz.ch/projects/swarm/Swarm.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/swarm/Swarm.pdf
 poster: 

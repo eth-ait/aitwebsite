@@ -6,7 +6,7 @@ date: 2016-10-16
 venue: "Proceedings of the 29th Annual Symposium on User Interface Software and Technology"
 image: /assets/projects/deep-soli/icon_teaser.jpg
 external_project_page: 
-video: /projects/2016/deep-soli/downloads/camera_ready_long.mp4
+video: https://files.ait.ethz.ch/projects/deep-soli/camera_ready_long.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/deep-soli/deep_soli.pdf
 poster: 
@@ -68,7 +68,7 @@ We explore interactive possibilities enabled by Google's project Soli (A), a sol
 
 <!-- <div class="fullcol">
     <h3>System overview</h3>
-    <img class="fullcol" src="<?php ait_root_dir();?>projects/2016/puppet/repesentative_img_final.png" alt="Sys-Overview-Picture" />
+    <img class="fullcol" src="/assets/projects/puppet/repesentative_img_final.png" alt="Sys-Overview-Picture" />
     <div class="fullcol">
         <p align="left">
             <span class="figurecap">
