@@ -212,4 +212,4 @@ By default the subfolders `/projects` and `/downloads` on the files server are a
 
 The `/teaching` folder is only accessible with a valid ETH user.
 
-Access is configured via `.htaccess` files. If you have a specific requirement, please ask an ITC.
+Access is configured via `.htaccess` files. If you have a specific requirement, please ask an ITC. Speficially, for publication of datasets that require access control (acceptance of licence agreement etc.), please check our Wiki and get in touch with an ITC.
