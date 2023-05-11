@@ -10,7 +10,7 @@ video: https://youtu.be/PqSL4fhIilM
 talk: 
 paper: https://files.ait.ethz.ch/projects/em-pose/paper.pdf
 poster: 
-data: 
+data: https://dataset.ait.ethz.ch/downloads/kL298kEiqA/data.zip
 code: https://github.com/facebookresearch/em-pose
 conference_url: http://iccv2021.thecvf.com/home
 equal_contributions: 
@@ -28,7 +28,7 @@ bibtex: "@inProceedings{kaufmann2021empose,
 
 <p align="justify">
     <span class="figurecap">
-Reconstructing the subject's full-body pose is important to create immersive experiences in AR/VR. While external cameras limit the capture space and head-worn cameras can suffer from heavy self-occlusions in top-down views (A), our method reconstructs the body pose from electromagnetic (EM) field-based sensing (B). We leverage a customized system consisting of up to 12 wireless sensors measuring their 6D pose relative to a body-worn source. We adopt learned gradient descent (<a target="_blank" href="https://ait.ethz.ch//earned-body-fitting/">LGD</a>) to estimate SMPL pose and shape from as little as 6 EM sensors (C) tested on a newly captured dataset.
+Reconstructing the subject's full-body pose is important to create immersive experiences in AR/VR. While external cameras limit the capture space and head-worn cameras can suffer from heavy self-occlusions in top-down views (A), our method reconstructs the body pose from electromagnetic (EM) field-based sensing (B). We leverage a customized system consisting of up to 12 wireless sensors measuring their 6D pose relative to a body-worn source. We adopt learned gradient descent (<a target="_blank" href="https://ait.ethz.ch/learned-body-fitting/">LGD</a>) to estimate SMPL pose and shape from as little as 6 EM sensors (C) tested on a newly captured dataset.
    </span>
 </p>
 <hr />
@@ -51,8 +51,8 @@ Fully immersive experiences in AR/VR depend on reconstructing the full body pose
 
 <h3>Downloads</h3>
 <ul class="linklist">
-     <li class="a-pdf"><a target="_blank" title="PDF" href="https://files.ait.ethz.ch/projects/em-pose/downloads/paper.pdf">Paper pre-print incl. supplementary</a></li>
-     <li class="a-pdf"><a target="_blank" title="PDF" href="https://files.ait.ethz.ch/projects/em-pose/downloads/errata.pdf">Errata</a></li>
+     <li class="a-pdf"><a target="_blank" title="PDF" href="https://files.ait.ethz.ch/projects/em-pose/paper.pdf">Paper pre-print incl. supplementary</a></li>
+     <li class="a-pdf"><a target="_blank" title="PDF" href="https://files.ait.ethz.ch/projects/em-pose/errata.pdf">Errata</a></li>
      <li class="a-cod"><a target="_blank" title="Blogpost" href="https://eth-ait.medium.com/em-pose-3d-human-pose-estimation-from-sparse-electromagnetic-trackers-f4ba1465e3a">Blogpost (Medium)</a></li>
 </ul>
 <hr/>
