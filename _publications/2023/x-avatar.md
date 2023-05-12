@@ -6,11 +6,11 @@ date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: /assets/projects/x-avatar/teaser3.gif
 external_project_page: https://skype-line.github.io/projects/X-Avatar/
-video: https://www.youtube.com/watch?v=aT8ql5hB3ZM&feature=youtu.be
+video: https://youtu.be/JniKF88aPcs
 talk: 
 paper: https://arxiv.org/abs/2303.04805
 poster: 
-data: 
+data: https://skype-line.github.io/projects/X-Avatar/
 code: https://github.com/Skype-line/X-Avatar
 conference_url: 
 equal_contributions: 0, 1
