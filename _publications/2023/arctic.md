@@ -16,7 +16,7 @@ conference_url:
 equal_contributions: 
 award: 
 bibtex: "@inproceedings{fan2023arctic,
-  title = {ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation},
+  title = {{ARCTIC}: A Dataset for Dexterous Bimanual Hand-Object Manipulation},
   author = {Fan, Zicong and Taheri, Omid and Tzionas, Dimitrios and Kocabas, Muhammed and Kaufmann, Manuel and Black, Michael J. and Hilliges, Otmar},
   booktitle = {Computer Vision and Pattern Recognition (CVPR)},
   year = {2023}
