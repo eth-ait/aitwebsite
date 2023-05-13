@@ -10,8 +10,8 @@ video: https://www.youtube.com/watch?v=DrvL2XkW7rw&ab_channel=AITETH
 talk: 
 paper: https://arxiv.org/abs/2303.15380
 poster: 
-data: 
-code: 
+data: https://yifeiyin04.github.io/Hi4D/#dataset
+code: https://github.com/yifeiyin04/Hi4D
 conference_url: https://cvpr2023.thecvf.com/
 equal_contributions: 
 award: 
