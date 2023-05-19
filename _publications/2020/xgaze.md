@@ -36,7 +36,7 @@ bibtex: "@inproceedings{Zhang2020ETHXGaze,
 
 <h3>Abstract</h3>
 <p align="justify">
-Gaze estimation is a fundamental task in many applications of computer vision, human computer interaction and robotics. Many state-of-the-art methods are trained and tested on custom datasets, making comparison across methods challenging. Furthermore, existing gaze estimation datasets have limited head pose and gaze variations, and the evaluations are conducted using different protocols and metrics. In this paper, we propose a new gaze estimation dataset called ETH-XGaze, consisting of over one million high-resolution images of varying gaze under extreme head poses. We collect this dataset from 110 participants with a custom hardware setup including 18 digital SLR cameras and adjustable illumination conditions, and a calibrated system to record ground truth gaze targets. We show that our dataset can significantly improve the robustness of gaze estimation methods across different head poses and gaze angles. Additionally, we define a standardized experimental protocol and evaluation metric on ETH-XGaze, to better unify gaze estimation research going forward. The dataset and benchmark website are available at <a href="https://ait.ethz.ch/ETH-XGaze">https://ait.ethz.ch/ETH-XGaze</a>
+Gaze estimation is a fundamental task in many applications of computer vision, human computer interaction and robotics. Many state-of-the-art methods are trained and tested on custom datasets, making comparison across methods challenging. Furthermore, existing gaze estimation datasets have limited head pose and gaze variations, and the evaluations are conducted using different protocols and metrics. In this paper, we propose a new gaze estimation dataset called ETH-XGaze, consisting of over one million high-resolution images of varying gaze under extreme head poses. We collect this dataset from 110 participants with a custom hardware setup including 18 digital SLR cameras and adjustable illumination conditions, and a calibrated system to record ground truth gaze targets. We show that our dataset can significantly improve the robustness of gaze estimation methods across different head poses and gaze angles. Additionally, we define a standardized experimental protocol and evaluation metric on ETH-XGaze, to better unify gaze estimation research going forward. 
 </p>
 <hr />
     
@@ -44,14 +44,14 @@ Gaze estimation is a fundamental task in many applications of computer vision, h
 
 <h3>Preview Video</h3>
 <div class="video" align="center">
-<video width="560" height="315" src="https://files.ait.ethz.ch/projects/ETH-XGaze/downloads/xgaze_preview_90s.mp4" frameborder="0" allowfullscreen controls></video>
+<video width="560" height="315" src="https://files.ait.ethz.ch/projects/xgaze/xgaze_preview_90s.mp4" frameborder="0" allowfullscreen controls></video>
 </div>
 <hr />
     
 
 <h3>Data Collection Demonstration</h3>
 <div class="video" align="center">
-<video width="672" height="378" src="https://files.ait.ethz.ch/projects/ETH-XGaze/downloads/eth_xgaze_data_collection.mp4" frameborder="0" allowfullscreen controls></video>
+<video width="672" height="378" src="https://files.ait.ethz.ch/projects/xgaze/eth_xgaze_data_collection.mp4" frameborder="0" allowfullscreen controls></video>
 </div>
 <hr />
 
