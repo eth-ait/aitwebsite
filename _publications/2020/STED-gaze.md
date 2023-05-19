@@ -9,7 +9,7 @@ external_project_page:
 video: 
 talk: 
 paper: https://arxiv.org/abs/2010.12307
-poster: https://files.ait.ethz.ch/projects/STED-gaze/downloads/STED-poster.pdf
+poster: https://files.ait.ethz.ch/projects/STED-gaze/STED-poster.pdf
 data: 
 code: https://github.com/zhengyuf/STED-gaze
 conference_url: https://nips.cc/
@@ -24,7 +24,7 @@ bibtex: "@inproceedings{Zheng2020NeurIPS,
 "
 ---
 
-<img width="741" height="295.5" src="https://files.ait.ethz.ch/projects/STED-gaze/downloads/overview.png" alt="overview_diagram" />
+<img width="741" height="295.5" src="https://files.ait.ethz.ch/projects/STED-gaze/overview.png" alt="overview_diagram" />
 
 <p align="justify">
     <span class="figurecap">
@@ -35,7 +35,7 @@ We propose the Self-Transforming Encoder-Decoder (ST-ED), which learns to discov
         
 
 
-<img class="fullcol" src="https://files.ait.ethz.ch/projects/STED-gaze/downloads/video.gif" alt="Teaser-Gif" />
+<img class="fullcol" src="https://files.ait.ethz.ch/projects/STED-gaze/video.gif" alt="Teaser-Gif" />
 
 <p align="justify">
     <span class="figurecap">
@@ -49,7 +49,7 @@ Given an input image, our method can separetely control the gaze direction and h
 <h3>Overview Video</h3>
 <br/>
 <div class="video" align="center">
-<video width="672" height="378" src="https://files.ait.ethz.ch/projects/STED-gaze/downloads/video.mp4" frameborder="0" allowfullscreen controls></video>
+<video width="672" height="378" src="https://files.ait.ethz.ch/projects/STED-gaze/video.mp4" frameborder="0" allowfullscreen controls></video>
 </div>
 <br/>
   
@@ -57,7 +57,7 @@ Given an input image, our method can separetely control the gaze direction and h
 <h3>Supplementary Video</h3>
 <br/>
 <div class="video" align="center">
-<video width="672" height="378" src="https://files.ait.ethz.ch/projects/STED-gaze/downloads/supplementary.mp4" frameborder="0" allowfullscreen controls></video>
+<video width="672" height="378" src="https://files.ait.ethz.ch/projects/STED-gaze/supplementary.mp4" frameborder="0" allowfullscreen controls></video>
 </div>
 <hr />
 
