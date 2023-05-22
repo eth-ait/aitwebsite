@@ -8,7 +8,7 @@
 	.person-img
 		width: 230px
 		min-height: 300px
-		margin-right: $spacing-unit*2
+		padding-right: $spacing-unit*2
 		display: block
 		text-align: center
 		overflow: hidden
@@ -25,9 +25,17 @@
 				width: 70px
 
 @include media-query($mobile-break)
-.person-profile
-
-	.person-img
-		width: 230px
-		max-height: 230px
+	.person-profile
+		display: block
+		.person-img
+			margin-bottom: $spacing-unit
+			width: 50%
+			min-height: 0px
+			text-align: left
+		.person-info
+			display: block
+			img
+				object-fit: contain
+				
+		
 
