@@ -5,7 +5,7 @@ image: assets/people/langerak.jpg
 email: thomas.langerak@inf.ethz.ch
 phone: 
 address: Stampfenbachstrasse 48, 8092 Zürich, Switzerland
-office: ETH Zurich, Department of Computer Science, <a class="a-text-ext" href="http://www.mapsearch.ethz.ch/map/mapSearchPre.do?farbcode=c010&amp;lang=EN&amp;raumMap=56&amp;gebaeudeMap=STD" target="_blank" title="Building Information">STD</a>, <a class="a-text-ext" href="http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=STD&amp;geschoss=H&amp;raumNr=29.1&amp;lang=EN" target="_blank" title="Room Information">H 29.1</a>
+office: ETH Zurich, Department of Computer Science, <a class="a-text-ext" href="http://www.mapsearch.ethz.ch/map/mapSearchPre.do?farbcode=c010&amp;lang=EN&amp;raumMap=56&amp;gebaeudeMap=STD" target="_blank" title="Building Information">STD</a>, G28
 website: 
 cv:
 
@@ -15,21 +15,23 @@ cv:
 <h2>About Me</h2> 
     <p>
       I am a PhD student in the <a class="a-text-ext" href="http://ait.inf.ethz.ch" target="_blank">Advanced Interactive Technologies lab</a> at ETH Zurich under the supervision of <a href="/people/hilliges/" title="Professor Otmar Hilliges" target="_blank" class="a-text-ext">Prof. Otmar Hilliges</a>. 
-      I have double-degree in Human-Computer Interaction & Design from Aalto University, Finland and the University of Twente, the Netherlands. During my master's I did an internship in the User Interfaces group led by Antti Oulasvirta at Aalto University. Before that I completed a B.Sc. in Industrial Design at the University of Technology Eindhoven, the Netherlands.
+      I have double-degree in Human-Computer Interaction & Design from Aalto University, Finland and the University of Twente, the Netherlands. During my master`s I did an internship in the User Interfaces group led by Antti Oulasvirta at Aalto University. Before that I completed a B.Sc. in Industrial Design at the University of Technology Eindhoven, the Netherlands.
     </p>
+    
     <h3>Research Interests</h3>
     <p>
     At the moment I an interested in modelling how humans interact with the digital world to optimize interfaces. My current research is at the intersection of Human-Computer Interaction, Optimization and Reinforcement Learing (RL). I focus on modelling user interactions with their environment via multi-agent RL. Prior to this I focused on haptic feedback systems. Specifically I built custom actuators and developed novel control strategies for haptic interactions in Virtual and Augmented Reality.
     </p>
+    
     <p>
         You can also find me on <a href="https://www.linkedin.com/in/thomas-langerak-0b441064/">Linkedin</a>, and <a href="https://scholar.google.com/citations?user=2e-5M5MAAAAJ&hl=en">Google scholar</a>.
     </p>
 
-<h2>Publications </h2>
+<h2>Publications</h2>
 
 {% include get-publications.html filter="person" key="Langerak" full-width=true %}
 
-<h2>Academic Activities</h3>
+<h2>Academic Activities</h2>
   <h3>Reviewing</h3>
       <dl>
         <dt>2023</dt><dd>DIS</dd>
@@ -42,7 +44,7 @@ cv:
   <h3> Community Service and Organizing Committee </h3>
         <dt>2022</dt>
           <ul class="bullets">
-             <li> <dd>Part of the organizing committee of UIST 2022 (Data co-chair)</li>
+             <li> Part of the organizing committee of UIST 2022 (Data co-chair)</li>
           </ul>
         <dt>2021</dt>
           <ul class="bullets">
