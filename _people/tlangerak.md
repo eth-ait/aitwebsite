@@ -15,7 +15,7 @@ cv:
 <h2>About Me</h2> 
     <p>
       I am a PhD student in the <a class="a-text-ext" href="http://ait.inf.ethz.ch" target="_blank">Advanced Interactive Technologies lab</a> at ETH Zurich under the supervision of <a href="/people/hilliges/" title="Professor Otmar Hilliges" target="_blank" class="a-text-ext">Prof. Otmar Hilliges</a>. 
-      I have double-degree in Human-Computer Interaction & Design from Aalto University, Finland and the University of Twente, the Netherlands. During my master`s I did an internship in the User Interfaces group led by Antti Oulasvirta at Aalto University. Before that I completed a B.Sc. in Industrial Design at the University of Technology Eindhoven, the Netherlands.
+      I have double-degree in Human-Computer Interaction & Design from Aalto University, Finland and the University of Twente, the Netherlands. During my master's I did an internship in the User Interfaces group led by Antti Oulasvirta at Aalto University. Before that I completed a B.Sc. in Industrial Design at the University of Technology Eindhoven, the Netherlands.
     </p>
     
     <h3>Research Interests</h3>
