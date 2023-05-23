@@ -24,18 +24,23 @@
 			label
 				width: 70px
 
+
 @include media-query($mobile-break)
 	.person-profile
+		margin-bottom: 0
 		display: block
 		.person-img
 			margin-bottom: $spacing-unit
-			width: 50%
 			min-height: 0px
+			width: auto
 			text-align: left
-		.person-info
-			display: block
+			overflow: visible
 			img
 				object-fit: contain
+				height: auto
+				max-height: 400px
+		.person-info
+			display: block
+			
 				
 		
-
