@@ -70,8 +70,6 @@ We describe Omni’s hardware implementation, the 3D reconstruction algorithm, a
      <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2020/omni/downloads/omni_10min.mp4">10-Minute Video</a></li>
 </ul>
 
-
- <h3>Hardware and Software coming soon.</h3>
 <!--     <ul class="linklist">
          <li class="a-vid"><a title="Video" href="<?php ait_root_dir();?>projects/2020/magnipulator/downloads/magnipulator.mp4">Video</a></li>
          <li class="a-pdf"><a target="_blank" title="PDF" href="<?php ait_root_dir();?>projects/2020/magnipulator/downloads/magnipulator.pdf">PDF</a></li>
