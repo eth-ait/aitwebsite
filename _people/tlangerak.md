@@ -11,17 +11,16 @@ cv:
 
 ---
 
+
 <h2>About Me</h2> 
     <p>
       I am a PhD student in the <a class="a-text-ext" href="http://ait.inf.ethz.ch" target="_blank">Advanced Interactive Technologies lab</a> at ETH Zurich under the supervision of <a href="/people/hilliges/" title="Professor Otmar Hilliges" target="_blank" class="a-text-ext">Prof. Otmar Hilliges</a>. 
       I have double-degree in Human-Computer Interaction & Design from Aalto University, Finland and the University of Twente, the Netherlands. During my master's I did an internship in the User Interfaces group led by Antti Oulasvirta at Aalto University. Before that I completed a B.Sc. in Industrial Design at the University of Technology Eindhoven, the Netherlands.
     </p>
-    
     <h3>Research Interests</h3>
     <p>
     At the moment I an interested in modelling how humans interact with the digital world to optimize interfaces. My current research is at the intersection of Human-Computer Interaction, Optimization and Reinforcement Learing (RL). I focus on modelling user interactions with their environment via multi-agent RL. Prior to this I focused on haptic feedback systems. Specifically I built custom actuators and developed novel control strategies for haptic interactions in Virtual and Augmented Reality.
     </p>
-    
     <p>
         You can also find me on <a href="https://www.linkedin.com/in/thomas-langerak-0b441064/">Linkedin</a>, and <a href="https://scholar.google.com/citations?user=2e-5M5MAAAAJ&hl=en">Google scholar</a>.
     </p>
@@ -34,8 +33,8 @@ cv:
   <h3>Reviewing</h3>
       <dl>
         <dt>2023</dt><dd>DIS</dd>
-        <dt>2022</dt><dd>CHI, UIST, NordCHI, IMWUT </dd>
-        <dt>2021</dt><dd>CHI, UIST, IEEE Sensors/dd>
+        <dt>2022</dt><dd>CHI, UIST, NordCHI, IMWUT</dd>
+        <dt>2021</dt><dd>CHI, UIST, IEEE Sensors</dd>
         <dt>2020</dt><dd>CHI, UIST</dd>
         <dt>2020</dt><dd>UIST</dd>
       </dl>
@@ -47,12 +46,12 @@ cv:
           </ul>
         <dt>2021</dt>
           <ul class="bullets">
-             <li> <dd>Part of the organizing committee of UIST 2021 (Data co-chair)</li>
+             <li>Part of the organizing committee of UIST 2021 (Data co-chair)</li>
           </ul>
        <dt>2020</dt>
           <ul class="bullets">
-             <li> <dd>Part of the organizing committee of UIST 2020 (Virtual Experiences and Operations co-chair)</li>
-             <li> <dd>Session Chair for UIST 2021</li>
+             <li> Part of the organizing committee of UIST 2020 (Virtual Experiences and Operations co-chair)</li>
+             <li> Session Chair for UIST 2021</li>
           </ul>
 	<h3>Thesis Supervision</h3>
       <ul class="bullets">
