@@ -2,13 +2,8 @@
 
 ## Notice
 
-All larger files, including pdfs of papers/slides, should be uploaded to the file server. The file server is a samba share:
-
-```
-smb://fs1.inf.ethz.ch/www-data/hilliges-ait/html/site-ait-files
-```
-
-In most cases, you will upload your files to the `projects` directory. All files are then publicly available under the https://files.ait.inf.ethz.ch/ URL. 
+All larger files, including pdfs of papers/slides, should be uploaded to the folder `ait-files` on our scratch. These files will be publicly available under https://files.ait.inf.ethz.ch/ 
+In most cases, you will upload your files to the `projects` directory. All files are then publicly available under the  URL. 
 For example, the paper for LipFlow is stored under `projects/lip-flow` and is available at [https://files.ait.inf.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf](https://files.ait.ethz.ch/projects/lip-flow/lipflow_eccv22.pdf)
 
 ## Overview and Important Information
