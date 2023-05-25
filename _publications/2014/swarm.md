@@ -1,7 +1,7 @@
 ---
 ref: swarm
 title: "Environment-independent Formation Flight for Micro Aerial Vehicles"
-authors: Jie Song, Gabor Soros, Fabrizio Pece, Sean Ryan Fanello, Shahram Izadi, Cem Keskin, Otmar Hilliges
+authors: Tobias Nägeli, Christian Conte, Alexander Domahidi, Manfred Morari, Otmar Hilliges
 date: 2014-09-14
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems"
 image: /assets/projects/swarm/Teaser.jpg
