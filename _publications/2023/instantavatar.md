@@ -11,7 +11,7 @@ talk:
 paper: https://arxiv.org/pdf/2212.10550.pdf
 poster: 
 data: 
-code: 
+code: https://github.com/tijiang13/InstantAvatar
 conference_url: https://cvpr2023.thecvf.com/
 equal_contributions: 0, 1
 award: 
