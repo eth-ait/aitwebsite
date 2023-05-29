@@ -4,7 +4,7 @@ title: "Learning Locally Editable Virtual Humans"
 authors: Hsuan-I Ho, Lixin Xue, Jie Song, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects//custom-humans/fitting.gif
+image: https://files.ait.ethz.ch/projects/custom-humans/teaser.gif
 external_project_page: https://custom-humans.github.io/
 video: https://www.youtube.com/watch?v=aT8ql5hB3ZM&feature=youtu.be
 talk: 
