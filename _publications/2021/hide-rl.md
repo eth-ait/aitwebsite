@@ -11,6 +11,7 @@ talk:
 paper: https://arxiv.org/abs/2002.05954
 poster: 
 data: 
+type: "full"
 code: https://github.com/christsa/hide-rl
 conference_url: https://www.ieee-ras.org/publications/ra-l
 equal_contributions: 0, 1
