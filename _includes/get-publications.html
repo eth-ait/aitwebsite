@@ -15,6 +15,11 @@
   {% assign filtered_publications = site.publications | where_exp:"item", query %}
 {% endif %}
 
+{% if include.filter == 'type' %}
+  {% capture query %} item.authors contains '{{ include.key }}'{% endcapture %}
+  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+{% endif %}
+
 
 {% assign sorted_publications = filtered_publications | reverse %}
 
