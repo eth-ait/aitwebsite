@@ -11,6 +11,7 @@ talk:
 paper: https://arxiv.org/abs/2112.03028
 poster: 
 data: 
+type: "full"
 code: https://github.com/christsa/dgrasp
 conference_url: https://cvpr2022.thecvf.com/
 equal_contributions: 
