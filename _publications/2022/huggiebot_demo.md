@@ -12,6 +12,7 @@ paper: https://files.ait.ethz.ch/projects/huggiebot_demo/huggiebot_demo.pdf
 poster: 
 data: 
 code: 
+type: "workshop"
 conference_url: https://www.eurohaptics2022.org/
 equal_contributions: 
 award: "Best Demo Award"
