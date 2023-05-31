@@ -12,6 +12,7 @@ paper: https://files.ait.ethz.ch/projects/huggiebot2.0/downloads/Block21-HRI-Com
 poster: 
 data: 
 code: 
+type: "full"
 conference_url: https://humanrobotinteraction.org/2021/
 equal_contributions: 
 award: 
