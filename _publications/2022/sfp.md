@@ -11,6 +11,7 @@ talk:
 paper: https://arxiv.org/abs/2205.13528
 poster: 
 data: 
+type: "full"
 code: https://github.com/eth-ait/sfp
 conference_url: https://jmlr.org/tmlr
 equal_contributions: 
