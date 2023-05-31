@@ -11,6 +11,7 @@ talk:
 paper: https://files.ait.ethz.ch/projects/template6d/template6d.pdf
 poster: 
 data: 
+type: "full"
 code: https://github.com/stevsics/assembly_6d_pose
 conference_url: https://www.ieee-ras.org/publications/ra-l
 equal_contributions: 
