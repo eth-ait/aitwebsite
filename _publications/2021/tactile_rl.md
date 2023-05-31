@@ -11,6 +11,7 @@ talk:
 paper: https://arxiv.org/abs/2102.11051
 poster: 
 data: 
+type: "full"
 code: https://github.com/nikolavulin/tactile_intrinsic_motivation
 conference_url: https://www.ieee-ras.org/publications/ra-l
 equal_contributions: 
