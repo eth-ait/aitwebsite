@@ -20,6 +20,12 @@
   {% assign filtered_publications = site.publications | where_exp:"item", query %}
 {% endif %}
 
+{% if include.filter_type == 'exclude_type' %}
+  {% unless include.type == '' %}
+    {% assign filtered_publications = filtered_publications | where_exp:"item", "item.type != include.type" %}
+  {% endunless %}
+{% endif %}
+
 
 {% assign sorted_publications = filtered_publications | reverse %}
 
