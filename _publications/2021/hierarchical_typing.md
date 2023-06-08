@@ -12,7 +12,7 @@ paper: https://files.ait.ethz.ch/projects/hierarchical_typing/rl_typist.pdf
 poster: 
 data: 
 code: 
-type: "workshop"
+type: workshop
 conference_url: https://sites.google.com/view/rl4hci/home
 equal_contributions: 
 award: 
