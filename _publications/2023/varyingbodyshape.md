@@ -1,6 +1,6 @@
 ---
 ref: handoversim2real
-title: "Learning Human-to-Robot Handovers from Point Clouds"
+title: "Generalizing Skill Embeddings Across Body Shapes for Physically Simulated Characters"
 authors: Sammy Christen, Nina Schmid, Otmar Hilliges
 date: 2023-06-18
 venue: "Embodied AI Workshop at Computer Vision and Pattern Recognition (EAI)"
