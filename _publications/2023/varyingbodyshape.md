@@ -8,7 +8,7 @@ image: /assets/projects/varyingbodyshape/teaser.png
 external_project_page: 
 video: 
 talk: 
-paper: 
+paper: https://files.ait.ethz.ch/projects/varyingbodyshape/christen_varyingbodyshape.pdf
 poster: 
 data: 
 code: 
