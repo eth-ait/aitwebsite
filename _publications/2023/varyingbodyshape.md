@@ -1,5 +1,5 @@
 ---
-ref: handoversim2real
+ref: varyingbodyshape
 title: "Generalizing Skill Embeddings Across Body Shapes for Physically Simulated Characters"
 authors: Sammy Christen, Nina Schmid, Otmar Hilliges
 date: 2023-06-18
