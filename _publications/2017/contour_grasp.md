@@ -12,7 +12,7 @@ paper: https://files.ait.ethz.ch/projects/contour_grasp/contour_based_grasping.p
 poster: 
 data: 
 code: 
-type: workshop
+format: workshop
 conference_url: 
 equal_contributions: 
 award: 
