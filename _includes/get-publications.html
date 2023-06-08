@@ -2,28 +2,26 @@
 
 {% if include.filter == 'person' %}
   {% capture query %} item.authors contains '{{ include.key }}'{% endcapture %}
-  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+  {% assign filtered_publications = filtered_publications | where_exp:"item", query %}
 {% endif %}
 
 {% if include.filter == 'project' %}
   {% capture query %} item.projects contains '{{ include.key }}'{% endcapture %}
-  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+  {% assign filtered_publications = filtered_publications | where_exp:"item", query %}
 {% endif %}
 
 {% if include.filter == 'id' %}
   {% capture query %} item.ref contains '{{ include.key }}'{% endcapture %}
-  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+  {% assign filtered_publications = filtered_publications | where_exp:"item", query %}
 {% endif %}
 
-{% if include.filter_type == 'type' %}
-  {% capture query %} item.type contains '{{ include.key_type }}'{% endcapture %}
-  {% assign filtered_publications = site.publications | where_exp:"item", query %}
+{% if include.format %}
+  {% capture query %} item.format contains '{{ include.format }}'{% endcapture %}
+{% else %}
+  {% capture query %} item.format contains 'full'{% endcapture %}
 {% endif %}
+{% assign filtered_publications = filtered_publications | where_exp:"item", query %}
 
-{% if include.filter_type == 'exclude_type' %}
-    {% capture query %} item.type == null or item.type != include.key_type {% endcapture %}
-    {% assign filtered_publications = site.publications | where_exp:"item", query %}
-{% endif %}
 
 
 {% assign sorted_publications = filtered_publications | reverse %}

@@ -12,7 +12,7 @@ paper:
 poster: 
 data: 
 code: 
-type: "workshop"
+format: workshop
 conference_url: https://embodied-ai.org/
 equal_contributions: 0, 1 
 award: 

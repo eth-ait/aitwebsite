@@ -53,6 +53,7 @@ defaults:
       type: publications
     values:
       layout: publication
+      format: full
   -
     scope:
       path: ""

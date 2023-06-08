@@ -12,7 +12,6 @@ paper: https://arxiv.org/abs/2303.17592
 poster: 
 data: 
 code: 
-type: "full"
 conference_url: https://cvpr2023.thecvf.com/
 equal_contributions: 
 award: Accepted as Highlight (Top 2.5%)
