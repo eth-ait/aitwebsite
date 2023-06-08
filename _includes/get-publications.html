@@ -21,7 +21,7 @@
 {% endif %}
 
 {% if include.filter_type == 'exclude_type' %}
-    {% assign filtered_publications = filtered_publications | where_exp:"item", "item.type != include.key_type" %}
+    {% assign filtered_publications = site.publications | where_exp:"item", "item.type != include.key_type" %}
 {% endif %}
 
 
