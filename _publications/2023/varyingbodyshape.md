@@ -14,7 +14,7 @@ data:
 code: 
 type: "workshop"
 conference_url: https://embodied-ai.org/
-equal_contributions: 0,1 
+equal_contributions: 0, 1 
 award: 
 bibtex: "@inproceedings{christen2023varyingbodyshape,
   title = {Generalizing Skill Embeddings Across Body Shapes for Physically Simulated Characters},
