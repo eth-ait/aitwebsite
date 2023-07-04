@@ -4,7 +4,7 @@ title: "HOOD: Hierarchical Graphs for Generalized Modelling of Clothing Dynamics
 authors: Artur Grigorev, Bernhard Thomaszewski, Michael Black, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/hood/teaser.png
+image: /assets/projects/hood/teaser.gif
 external_project_page: https://dolorousrtur.github.io/hood/
 video: https://www.youtube.com/watch?v=cBttMDPrUYY
 talk: 
