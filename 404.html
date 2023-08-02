@@ -8,6 +8,19 @@ layout: default
   }
 </script>
 
+<script>
+    window.onload = () => {
+        currentURL = window.location.href;
+        fixedURL = currentURL.toLowerCase().replace(/_/g, "-");
+        if (currentURL != fixedURL) {
+            location.replace(fixedURL);
+        }
+
+
+
+    };
+</script>
+
 <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
