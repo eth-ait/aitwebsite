@@ -1,5 +1,5 @@
 ---
-ref: x-avatar
+ref: X-Avatar
 title: "X-Avatar: Expressive Human Avatars"
 authors: Kaiyue Shen, Chen Guo, Manuel Kaufmann, Juan Zarate, Julien Valentin, Jie Song, Otmar Hilliges
 date: 2023-01-01
