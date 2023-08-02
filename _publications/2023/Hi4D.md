@@ -1,5 +1,5 @@
 ---
-ref: hi4d
+ref: Hi4D
 title: "Hi4D: 4D Instance Segmentation of Close Human Interaction"
 authors: Yifei Yin, Chen Guo, Manuel Kaufmann, Juan Zarate, Jie Song, Otmar Hilliges
 date: 2023-01-01
