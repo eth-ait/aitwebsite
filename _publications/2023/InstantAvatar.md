@@ -1,5 +1,5 @@
 ---
-ref: instantavatar
+ref: InstantAvatar
 title: "InstantAvatar: Learning Avatars from Monocular Video in 60 Seconds"
 authors: Tianjian Jiang, Xu Chen, Jie Song, Otmar Hilliges
 date: 2023-01-01
