@@ -6,7 +6,7 @@ date: 2023-07-10
 venue: "International Conference on Computer Vision (ICCV)"
 image: https://files.ait.ethz.ch/projects/emdb/teaser2.gif
 external_project_page: https://eth-ait.github.io/emdb/
-video: 
+video: https://youtu.be/H66-YE4GUHI?feature=shared
 talk: 
 paper: https://files.ait.ethz.ch/projects/emdb/main.pdf
 poster: 
