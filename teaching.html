@@ -21,15 +21,34 @@ permalink: /teaching/index.html
       <div class="column column-66">
 
         
-              <h2>Current <em>Courses</em></h2>
-      {% include get-course.html ref="sch2023" %}
-      {% include get-course.html ref="mp2023"%}
+      <h2>Current <em>Courses</em></h2>
+        {% include get-course.html ref="athccv2023" %}
+        {% include card.html
+          title="Human Computer Interaction"
+          external_url="https://teaching.siplab.org/human_computer_interaction/2023/"
+          description="Fall 2023"
+          type="wide"
+        %}
       
       <h2>Past <em>Courses</em></h2>
+        {% include get-course.html ref="sch2023" %}
+        {% include get-course.html ref="mp2023"%}
         {% include get-course.html ref="athccv2022" %}
+        {% include card.html
+          title="Human Computer Interaction"
+          external_url="https://teaching.siplab.org/human_computer_interaction/2022/"
+          description="Fall 2022"
+          type="wide"
+        %}
         {% include get-course.html ref="sch2022" %}
         {% include get-course.html ref="mp2022" %}
         {% include get-course.html ref="athccv2021" %}
+        {% include card.html
+          title="Human Computer Interaction"
+          external_url="https://teaching.siplab.org/human_computer_interaction/2021/"
+          description="Fall 2021"
+          type="wide"
+        %}
         {% include get-course.html ref="mp2021" %}
         {% include get-course.html ref="sch2021" %}
         {% include get-course.html ref="hci2020" %}
