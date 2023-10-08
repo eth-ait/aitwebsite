@@ -10,3 +10,4 @@ _site
 *.ppt
 *.pptx
 *.jekyll-cache
+.idea
