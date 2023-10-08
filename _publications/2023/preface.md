@@ -6,19 +6,19 @@ date: 2023-10-04
 venue: "International Conference on Computer Vision (ICCV)"
 image: https://files.ait.ethz.ch/projects/preface/web/static/videos/studio/0rV_rgb_crop.mp4
 external_project_page: https://syntec-research.github.io/Preface/
-video: 
+video: https://youtu.be/oSprm3QTeLc
 talk:
 paper: https://drive.google.com/file/d/1AZmkZNnmV2oN3mvonS0la9Yh1g5aj6uC/view?usp=sharing
-poster:
+poster: https://files.ait.ethz.ch/projects/preface/web/static/preface_poster.pdf
 data:
 code: 
-conference_url:
+conference_url: https://iccv2023.thecvf.com/
 equal_contributions:
 award:
-bibtex: "@inproceedings{buehler2023preface,
-title={Preface: A Data-driven Volumetric Prior for Few-shot Ultra High-resolution Face Synthesis},
-author={Marcel C. Buehler and Kripasindhu Sarkar and Tanmay Shah and Gengyan Li and Daoye Wang and Leonhard Helminger
-and Sergio Orts-Escolano and Dmitry Lagun and Otmar Hilliges and Thabo Beeler and Abhimitra Meka},
-booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-year={2023}}"
+bibtex: "@inproceedings{buhler2023preface,
+  title={Preface: A Data-driven Volumetric Prior for Few-shot Ultra High-resolution Face Synthesis},
+  author={B{\"u}hler, Marcel C and Sarkar, Kripasindhu and Shah, Tanmay and Li, Gengyan and Wang, Daoye and Helminger, Leonhard and Orts-Escolano, Sergio and Lagun, Dmitry and Hilliges, Otmar and Beeler, Thabo and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3402--3413},
+  year={2023}}"
 ---
