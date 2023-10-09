@@ -8,7 +8,7 @@ image: https://files.ait.ethz.ch/projects/preface/web/static/videos/studio/0rV_r
 external_project_page: https://syntec-research.github.io/Preface/
 video: https://youtu.be/oSprm3QTeLc
 talk:
-paper: http://arxiv.org/abs/2309.16859
+paper: https://arxiv.org/abs/2309.16859
 poster: https://files.ait.ethz.ch/projects/preface/web/static/preface_poster.pdf
 data:
 code: 
