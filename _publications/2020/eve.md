@@ -4,7 +4,7 @@ title: "Towards End-to-end Video-based Eye-Tracking"
 authors: Seonwook Park, Emre Aksan, Xucong Zhang, Otmar Hilliges
 date: 2020-08-23
 venue: "European Conference on Computer Vision (ECCV)"
-image: /assets/projects/eve/teaser.mp4
+image: /assets/projects/EVE/teaser.mp4
 external_project_page: 
 video: 
 talk: 
