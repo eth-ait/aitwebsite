@@ -8,7 +8,7 @@ image:
 external_project_page: 
 video: 
 talk: 
-paper: https://files.ait.ethz.ch/projects/code-viz/AsenovHilligesMueller16.pdf
+paper: https://pm.inf.ethz.ch/publications/AsenovHilligesMueller16.pdf
 poster: 
 data: 
 code: 
