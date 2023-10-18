@@ -1,7 +1,7 @@
 ---
 ref: DRL-handshake
 title: "Demonstration-Guided Deep Reinforcement Learning of Control Policies for Dexterous Human-Robot Interaction"
-authors: Sammy Christen, Stefan Stevsic, Otmar Hilliges
+authors: Sammy Christen, Stefan Stevšić, Otmar Hilliges
 date: 2019-05-20
 venue: "International Conference on Robotics and Automation (ICRA)"
 image: /assets/projects/DRL-handshake/teaser.png

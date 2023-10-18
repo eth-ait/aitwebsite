@@ -1,7 +1,7 @@
 ---
 ref: optimize-quad-cam-motion
 title: "Optimizing for Aesthetically Pleasing Quadrotor Camera Motion"
-authors: Christoph Gebhardt, Stefan Stevsic, Otmar Hilliges
+authors: Christoph Gebhardt, Stefan Stevšić, Otmar Hilliges
 date: 2018-08-01
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH) (Volume: 37, Issue: 4)"
 image: /assets/projects/optimize-quad-cam-motion/teaser.jpeg
