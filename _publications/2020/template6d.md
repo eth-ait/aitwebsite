@@ -10,7 +10,7 @@ video: https://youtu.be/hUyjFG7W5hM
 talk: 
 paper: https://files.ait.ethz.ch/projects/template6d/template6d.pdf
 poster: 
-data: 
+data: https://files.ait.ethz.ch/projects/template6d/template6d.zip
 type: "full"
 code: https://github.com/stevsics/assembly_6d_pose
 conference_url: https://www.ieee-ras.org/publications/ra-l
