@@ -2,7 +2,7 @@
 ref: artigrasp
 title: "ArtiGrasp: Physically Plausible Synthesis of Bi-Manual Dexterous Grasping and Articulation"
 authors: Hui Zhang, Sammy Christen, Zicong Fan, Luocheng Zheng, Jemin Hwangbo, Jie Song, Otmar Hilliges
-date: 2023-20-10
+date: 2023-12-10
 venue: "International Conference on 3D Vision 2024 (3DV)"
 image: /assets/projects/artigrasp/teaser.mp4
 external_project_page: https://eth-ait.github.io/artigrasp/
