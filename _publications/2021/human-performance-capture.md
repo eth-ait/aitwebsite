@@ -8,7 +8,7 @@ image: /assets/projects/human-performance-capture/teaser.gif
 external_project_page: 
 video: https://youtu.be/5M7Ytnxmhd4
 talk: 
-paper: https://files.ait.ethz.ch/projects/human-performance-capture/paper.pdf
+paper: https://arxiv.org/pdf/2111.14672.pdf
 poster: 
 data: 
 code: https://github.com/MoyGcc/hpcwild
