@@ -1,7 +1,7 @@
 ---
 ref: seg2eye
 title: "Content-Consistent Generation of Realistic Eyes with Style"
-authors: Marcel Buehler, Seonwook Park, Shalini Mello, Xucong Zhang, Otmar Hilliges
+authors: Marcel Buehler, Seonwook Park, Shalini De Mello, Xucong Zhang, Otmar Hilliges
 date: 2019-11-02
 venue: "International Conference on Computer Vision Workshops (ICCVW)"
 image: /assets/projects/seg2eye/teaser.mp4
