@@ -4,7 +4,7 @@ title: "Physically Plausible Full-Body Hand-Object Interaction Synthesis"
 authors: Jona Braun, Sammy Christen, Muhammed Kocabas, Emre Aksan, Otmar Hilliges
 date: 2023-12-12
 venue: "International Conference on 3D Vision 2024 (3DV)"
-image: /assets/projects/phys-fullbody/teaser.png
+image: https://files.ait.ethz.ch/projects/phys-fullbody-grasp/teaser.mp4
 external_project_page: https://eth-ait.github.io/phys-fullbody-grasp/
 video: https://youtu.be/um7p3WpD8zI?si=HBqN3i7MeoMQG3fv
 talk: 
