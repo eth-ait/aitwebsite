@@ -15,10 +15,12 @@ code: https://github.com/zhengyuf/pointavatar
 conference_url: 
 equal_contributions: 
 award: 
-bibtex: "@article{zheng2023pointavatar,
-author = {Zheng, Yufeng and Yifan, Wang and Wetzstein, Gordon and Black, Michael J. and Hilliges, Otmar}, 
-title = {PointAvatar: Deformable Point-based Head Avatars from Videos}, 
-journal = {Computer Vision and Pattern Recognition (CVPR)},
-year = {2023},
+bibtex: "@InProceedings{Zheng_2023_CVPR,
+    author    = {Zheng, Yufeng and Yifan, Wang and Wetzstein, Gordon and Black, Michael J. and Hilliges, Otmar},
+    title     = {PointAvatar: Deformable Point-Based Head Avatars From Videos},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {21057-21067}
 }"
 ---
