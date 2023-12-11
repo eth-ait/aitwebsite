@@ -2,7 +2,7 @@
 ref: SiTH
 title: "SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion"
 authors: Hsuan-I Ho, Jie Song, Otmar Hilliges
-date: 0000-00-00
+date: 2020-01-01
 venue: ""
 image: /assets/projects/SiTH/sith.gif
 external_project_page: https://sith-diffusion.github.io
