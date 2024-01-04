@@ -8,7 +8,7 @@ image: /assets/projects/flare/teaser_flare_timer.gif
 external_project_page: https://flare.is.tue.mpg.de/
 video: https://youtu.be/qc-eAmHoLKA?si=i_MMcpUJRkupJ6mL
 talk: 
-paper: https://drive.google.com/file/d/1iiON_x9d2E4erP2n-2A4JQ-piHr5kdQ3/view
+paper: https://dl.acm.org/doi/abs/10.1145/3618401
 poster: 
 data: 
 code: https://github.com/sbharadwajj/flare
