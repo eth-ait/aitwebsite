@@ -3,7 +3,7 @@ ref: dream-in-4D
 title: "Dream-in-4D: A Unified Approach for Text- and Image-guided 4D Scene Generation"
 authors: Yufeng Zheng, Xueting Li, Koki Nagano, Sifei Liu, Karsten Kreis, Otmar Hilliges, Shalini De Mello
 date: 2023-01-01
-venue: ""
+venue: "arXiv"
 image: /assets/projects/dream-in-4D/teaser_2x4.mp4
 external_project_page: https://research.nvidia.com/labs/nxp/dream-in-4d/
 video: 
