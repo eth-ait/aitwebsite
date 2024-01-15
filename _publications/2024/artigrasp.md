@@ -14,7 +14,7 @@ data:
 code: https://github.com/zdchan/artigrasp 
 conference_url: https://3dvconf.github.io/2024/
 equal_contributions: 0, 1
-award: "Accepted as Spotlight"
+award: "Accepted as Spotlight Presentation"
 bibtex: "@inproceedings{zhang2024artigrasp,
 title={{ArtiGrasp}: Physically Plausible Synthesis of Bi-Manual Dexterous Grasping and Articulation},
 author={Zhang, Hui and Christen, Sammy, and Fan, Zicong and Zheng, Luocheng and Hwangbo, Jemin and Song, Jie, and Hilliges, Otmar},
