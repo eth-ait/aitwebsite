@@ -10,16 +10,35 @@ cv:
 
 ---
 
-<span id="email-placeholder">Email me</span>
+<span id="email-placeholder" style="cursor: pointer;">Click to copy my email</span>
+<div id="feedback" style="color: green; display: none;">Email copied to clipboard!</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var user = 'zicong.fan';
-  var domain = 'inf.ethz.ch';
-  var email = user + '@' + domain;
-  var mailtoLink = 'mailto:' + email;
-  var emailPlaceholder = document.getElementById('email-placeholder');
-  emailPlaceholder.innerHTML = '<a href="' + mailtoLink + '">' + email + '</a>';
+    var user = 'zicong.fan';
+    var domain = 'inf.ethz.ch';
+    var email = user + '@' + domain;
+
+    var emailPlaceholder = document.getElementById('email-placeholder');
+    var feedbackMessage = document.getElementById('feedback');
+
+    emailPlaceholder.textContent = email; // Display the email address
+
+    emailPlaceholder.addEventListener('click', function() {
+        // Copy the email address to the clipboard
+        navigator.clipboard.writeText(email).then(function() {
+            // Show feedback message
+            feedbackMessage.style.display = 'block';
+
+            // Hide the feedback message after 2 seconds
+            setTimeout(function() {
+                feedbackMessage.style.display = 'none';
+            }, 2000);
+        }).catch(function(error) {
+            // Handle any errors (optional)
+            console.error('Error copying email to clipboard', error);
+        });
+    });
 });
 </script>
 
