@@ -10,7 +10,7 @@ cv:
 
 ---
 
-<span id="email-placeholder" style="cursor: pointer;">Click to copy my email</span>
+<div id="email-placeholder" style="cursor: pointer;">Click here to view my email</div>
 <div id="feedback" style="color: green; display: none;">Email copied to clipboard!</div>
 
 <script>
@@ -21,25 +21,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var emailPlaceholder = document.getElementById('email-placeholder');
     var feedbackMessage = document.getElementById('feedback');
-
-    emailPlaceholder.textContent = email; // Display the email address
+    var emailRevealed = false;
 
     emailPlaceholder.addEventListener('click', function() {
-        // Copy the email address to the clipboard
-        navigator.clipboard.writeText(email).then(function() {
-            // Show feedback message
-            feedbackMessage.style.display = 'block';
+        // Check if email is already revealed
+        if (!emailRevealed) {
+            // Replace placeholder text with the email address
+            emailPlaceholder.textContent = email;
+            emailRevealed = true;
 
-            // Hide the feedback message after 2 seconds
-            setTimeout(function() {
-                feedbackMessage.style.display = 'none';
-            }, 2000);
-        }).catch(function(error) {
-            // Handle any errors (optional)
-            console.error('Error copying email to clipboard', error);
-        });
+            // Copy the email address to the clipboard
+            navigator.clipboard.writeText(email).then(function() {
+                // Show feedback message
+                feedbackMessage.style.display = 'block';
+
+                // Hide the feedback message after 2 seconds
+                setTimeout(function() {
+                    feedbackMessage.style.display = 'none';
+                }, 2000);
+            }).catch(function(error) {
+                // Handle any errors
+                console.error('Error copying email to clipboard', error);
+            });
+        }
     });
 });
+
 </script>
 
 
