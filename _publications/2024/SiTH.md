@@ -15,7 +15,6 @@ code: https://github.com/SiTH-Diffusion/SiTH
 conference_url: 
 equal_contributions: 
 award: 
-bibtex:"@inproceedings{ho2024SiTH, title={SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion"
-authors: Hsuan-I Ho, Jie Song, Otmar Hilliges}, author={Ho, Hsuan-I and Song, Jie and Hilliges, Otmar}, booktitle={Computer Vision and Pattern Recognition (CVPR)}, year={2024} }
+bibtex:"@inproceedings{ho2024SiTH, title={SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion}, author={Ho, Hsuan-I and Song, Jie and Hilliges, Otmar}, booktitle={Computer Vision and Pattern Recognition (CVPR)}, year={2024} }
 "
 ---
