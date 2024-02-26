@@ -38,7 +38,7 @@ You may create files under `/_publications` for your own papers.
 
 To create a new publication:
 1. Create a reference name (e.g., jimmy2023ai). Use the same reference name in the html filename (e.g., jimmy2019ai.html), and for the 'ref' field in the front matter of the html file. 
-2. Add the md file to `/publications/year_of_publication/my_publication`
+2. Add the md file to `/_publications/year_of_publication/my_publication`
 3. Add any external files to the storage area, and teasers to the assets/projects folder.
 
 **Externally Hosted Project Pages**
@@ -141,7 +141,7 @@ You can include the information of a lab member on a particular page. Pull them 
 Add this to `people.html` so that a preview of the profile appears on the people page.
 
 ### News
-- Where to edit: `/_newsposts`
+- Where to edit: `/_news`
 - Asset area: `/assets/news`
 
 To add a news item, simply add it as a file in the `/_news` folder. Make sure to name the file to include the appropriate date, so that the item appears in the right spot on the news feed.
@@ -157,6 +157,10 @@ Courses are listed on the teaching.html page, and are pulled in one by one:
 {% include get-course.html ref="mp2023"  output="horizontal" %}
 ```
 To create a new course, assign it a reference name (e.g., mp2024) . Use the same reference name in the html filename (e.g., mp2024.html), in the front matter within the html file (`ref: mp2024`), and in the storage folder name in `\teaching`. 
+
+### Student Projects
+
+You can create student projects in [SiROP](https://sirop.org/app/) and they will be automatically pulled into the [thesis](https://ait.ethz.ch/thesis/) page in a few days. You can also increment the `cache-version` number in the [workflows](.github/workflows/website.yml) to force a pull from SiROP.
 
 ### General Editing Tips
 
