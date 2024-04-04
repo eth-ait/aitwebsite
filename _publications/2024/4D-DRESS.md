@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contributions: 
-award: 
+equal_contributions: 0, 1
+award: Accepted as Highlight (Top 11.9%)
 bibtex: ""
 ---
