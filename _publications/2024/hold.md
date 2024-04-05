@@ -14,7 +14,7 @@ data:
 code: https://github.com/zc-alexfan/hold
 conference_url: 
 equal_contributions: 
-award: 
+award: Accepted as Highlight (Top 11.9%)
 bibtex: "@inproceedings{fan2024hold,
   title={{HOLD}: Category-agnostic 3D Reconstruction of Interacting Hands and Objects from Video},
   author={Fan, Zicong and Parelli, Maria and Kadoglou, Maria Eleni and Kocabas, Muhammed and Chen, Xu and Black, Michael J and Hilliges, Otmar},
