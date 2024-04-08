@@ -4,7 +4,7 @@ title: "MultiPly: Reconstruction of Multiple People from Monocular Video in the 
 authors: Zeren Jiang, Chen Guo, Manuel Kaufmann, Tianjian Jiang, Julien Valentin, Otmar Hilliges, Jie Song
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/multiply/teaser_v2.png
+image: https://files.ait.ethz.ch/projects/multiply/teaser_v2_high.png
 external_project_page: https://jzr99.github.io/MultiPly/
 # video: https://youtu.be/EGi47YeIeGQ
 talk: 
