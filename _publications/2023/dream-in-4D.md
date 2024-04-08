@@ -15,11 +15,10 @@ code:
 conference_url: 
 equal_contributions: 
 award: 
-bibtex: "@article{zheng2024unified,
+bibtex: "@article{zheng2023unified,
   title={A Unified Approach for Text- and Image-guided 4D Scene Generation},
   author={Yufeng Zheng and Xueting Li and Koki Nagano and Sifei Liu and Karsten Kreis and Otmar Hilliges and Shalini De Mello},
-  booktitle={Computer Vision and Pattern Recognition (CVPR)}, 
-  year={2024}
-  }"
-
+  journal = {arXiv:2311.16854},
+  year={2023}
+}"
 ---
