@@ -1,7 +1,7 @@
 ---
 ref: 4D-DRESS
 title: "4D-DRESS: A 4D Dataset of Real-World Human Clothing With Semantic Annotations"
-authors: Wenbo Wang, Hsuan-I Ho, Chen Guo, Boxiang Rong, Artur Grigorev, Jie Song, Juan Jose Zarate, Otmar Hilliges
+authors: Wenbo Wang, Hsuan-I Ho, Chen Guo, Boxiang Rong, Artur Grigorev, Jie Song, Juan Zarate, Otmar Hilliges
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: https://files.ait.ethz.ch/projects/4d-dress/teaser.gif
