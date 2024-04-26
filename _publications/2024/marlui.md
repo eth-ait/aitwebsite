@@ -2,7 +2,7 @@
 ref: marlui
 title: "MARLUI: Multi-Agent Reinforcement Learning for Adaptive Point-and-Click UIs"
 authors: Thomas Langerak, Sammy Christen, Mert Albaba, Christoph Gebhardt, Christian Holz, Otmar Hilliges
-date: 2024-04-26
+date: 2024-06-26
 venue: "Proc. ACM Human-Computer Interaction 8, EICS"
 image: https://files.ait.ethz.ch/projects/marlui/teaser.jpg
 external_project_page: 
