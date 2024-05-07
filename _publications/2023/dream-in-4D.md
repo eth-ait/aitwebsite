@@ -11,8 +11,8 @@ talk:
 paper: https://arxiv.org/pdf/2311.16854.pdf
 poster: 
 data: 
-code: 
-conference_url: 
+code: https://github.com/NVlabs/dream-in-4d
+conference_url: https://cvpr.thecvf.com/
 equal_contributions: 
 award: 
 bibtex: "@article{zheng2023unified,
