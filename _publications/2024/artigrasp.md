@@ -6,7 +6,7 @@ date: 2024-03-18
 venue: "International Conference on 3D Vision 2024 (3DV)"
 image: https://files.ait.ethz.ch/projects/artigrasp/teaser.mp4
 external_project_page: https://eth-ait.github.io/artigrasp/
-video: https://youtu.be/IsjCdoIAA7s
+video: https://youtu.be/L9KJ57y2ThI
 talk: 
 paper: https://arxiv.org/abs/2303.17592
 poster: 
