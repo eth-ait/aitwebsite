@@ -9,7 +9,7 @@ external_project_page: https://zhengyuf.github.io/PointAvatar/
 video: https://youtu.be/wll_XtgpU7U
 talk: 
 paper: https://arxiv.org/pdf/2212.08377.pdf
-poster: 
+poster: https://drive.google.com/file/d/1SdoLeXJnF4UnqKmongRtxBwRdkhvt-wL/view?usp=sharing
 data: 
 code: https://github.com/zhengyuf/pointavatar
 conference_url: 
