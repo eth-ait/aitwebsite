@@ -9,7 +9,7 @@ external_project_page:
 video: https://youtu.be/915baJNX-IU
 talk: 
 paper: https://arxiv.org/abs/2112.07471
-poster: 
+poster: https://drive.google.com/file/d/1E_rz_U8tXdJHKXG2ywrCF_fml45FudK6/view?usp=sharing
 data: https://dataset.ait.ethz.ch/downloads/imaOsdfvRe/
 code: https://github.com/zhengyuf/IMavatar
 conference_url: https://cvpr2022.thecvf.com/
