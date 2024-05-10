@@ -5,7 +5,7 @@ authors:
 date: 2016-06-19
 venue:
 image:
-external_project_page: https://97b49434b9c102e8a3.gradio.live
+external_project_page: https://f8d592755aa725b6ab.gradio.live
 video: 
 talk: 
 paper: 
