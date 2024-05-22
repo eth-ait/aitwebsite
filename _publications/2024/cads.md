@@ -2,7 +2,7 @@
 ref: cads
 title: "CADS: Unleashing the Diversity of Diffusion Models through Condition-Annealed Sampling"
 authors: Seyedmorteza Sadat, Jakob Buhmann, Derek Bradley, Otmar Hilliges, Romann M. Weber
-date: 2024-06-20
+date: 2024-05-07
 venue: "International Conference on Learning Representations (ICLR)"
 image: /assets/projects/cads/cads.png
 external_project_page: 
