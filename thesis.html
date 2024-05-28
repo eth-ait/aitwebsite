@@ -30,6 +30,7 @@ permalink: /thesis/index.html
 
         {% for item in site.data.thesis_avail.opportunities %}
           {% capture extra %}
+
             Type: 
             {% for label in item.labels %}
                 {{label.title}}{% unless forloop.last == true %}, {% endunless %}
@@ -43,6 +44,7 @@ permalink: /thesis/index.html
           {% endcapture %}
           {% capture links %}
             <a class="card-site button" href="{{ item.url}}" target="_blank">Apply on SIROP</a>
+
           {% endcapture %}
           {% include card.html
             image=item.imageUrl
