@@ -6,7 +6,7 @@ date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: https://files.ait.ethz.ch/projects/multiply/teaser.gif
 external_project_page: https://eth-ait.github.io/MultiPly/
-# video: https://youtu.be/EGi47YeIeGQ
+video: https://youtu.be/r9giQPUp1Gw
 talk: 
 # paper: https://files.ait.ethz.ch/projects/multiply/CVPR2024_MultiPly.pdf
 poster: 
