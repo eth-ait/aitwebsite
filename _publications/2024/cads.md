@@ -5,10 +5,10 @@ authors: Seyedmorteza Sadat, Jakob Buhmann, Derek Bradley, Otmar Hilliges, Roman
 date: 2024-05-07
 venue: "International Conference on Learning Representations (ICLR)"
 image: /assets/projects/cads/cads.png
-external_project_page: 
+external_project_page: https://studios.disneyresearch.com/2024/05/08/cads-unleashing-the-diversity-of-diffusion-models-through-condition-annealed-sampling/
 video: 
 talk: 
-paper: https://openreview.net/pdf?id=zMoNrajk2X
+paper: https://studios.disneyresearch.com/app/uploads/2024/05/CADS-Unleashing-the-Diversity-of-Diffusion-Models-Through-Condition-Annealed-Sampling-Paper-1.pdf
 poster: 
 data: 
 code: 
