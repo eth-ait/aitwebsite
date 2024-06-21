@@ -5,7 +5,7 @@ authors: Mengfan Wu, Thomas Langerak, Otmar Hilliges, Juan Zarate
 date: 2024-06-26
 venue: "IEEE Transactions on Magnetics"
 image: https://files.ait.ethz.ch/projects/magtrack/teaser.jpg
-external_project_page: https://ieeexplore.ieee.org/document/10562347
+external_project_page: 
 video: https://files.ait.ethz.ch/projects/magtrack/video.mp4
 talk: 
 paper: https://files.ait.ethz.ch/projects/magtrack/paper.pdf
@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contributions: 1, 2 
+equal_contributions: 0, 1
 award: 
 bibtex: "@article{wu2024magtrack,
   author={Wu, Mengfan and Langerak, Thomas and Hilliges, Otmar and Zarate, Juan},
