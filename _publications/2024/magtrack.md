@@ -13,7 +13,7 @@ poster:
 data: 
 code: 
 conference_url: 
-equal_contributions: 
+equal_contributions: 1, 2 
 award: 
 bibtex: "@article{wu2024magtrack,
   author={Wu, Mengfan and Langerak, Thomas and Hilliges, Otmar and Zarate, Juan},
