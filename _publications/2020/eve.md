@@ -157,7 +157,7 @@ This project has received funding from the European Research Council (ERC) under
 <h3>License</h3>
 <p align="justify">
 This Dataset is released under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a> with additional conditions and terms. <br>
-Please refer to the <a href="https://ait.ethz.ch/projects/2020/EVE/downloads/EVE%20dataset%20Terms%20and%20Conditions.pdf" target="_blank">complete license file here</a>.
+Please refer to the <a href="https://files.ait.ethz.ch/projects/EVE/EVE%20dataset%20Terms%20and%20Conditions.pdf" target="_blank">complete license file here</a>.
 </p>
 <hr />
     
