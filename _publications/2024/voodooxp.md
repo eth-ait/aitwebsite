@@ -15,10 +15,10 @@ code:
 conference_url: https://asia.siggraph.org/2024/ 
 equal_contributions: 
 award: 
-bibtex: "@article{tran2023voodoo,
-  title={VOODOO 3D: Volumetric Portrait Disentanglement for One-Shot 3D Head Reenactment},
-  author={Tran, Phong and Zakharov, Egor and Ho, Long-Nhat and Tran, Anh Tuan and Hu, Liwen and Li, Hao},
-  journal={arXiv preprint arXiv:2312.04651},
-  year={2023}
+bibtex: "@article{tran2024voodoo,
+  title={VOODOO XP: Expressive One-Shot Head Reenactment for VR Telepresence},
+  author={Tran, Phong and Zakharov, Egor and Ho, Long-Nhat and Hu, Liwen and Karmanov, Adilbek and Agarwal, Aviral and Goldwhite, McLean and Venegas, Ariana Bermudez and Tran, Anh Tuan and Li, Hao},
+  journal={ACM Transactions on Graphics, Proceedings of the 17th ACM SIGGRAPH Conference and Exhibition in Asia 2024, (SIGGRAPH Asia 2024), 12/2024},
+  year={2024}
 }"
 ---
