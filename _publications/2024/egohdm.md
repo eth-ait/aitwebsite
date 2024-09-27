@@ -2,7 +2,7 @@
 ref: egohdm
 title: "EgoHDM: An Online Egocentric-Inertial Human Motion Capture, Localization, and Dense Mapping System"
 authors: Bonan Liu, Handi Yin, Manuel Kaufmann, Jinhao He, Sammy Christen, Jie Song, Pan Hui
-date: 2024-09-19
+date: 2024-12-03
 venue: "SIGGRAPH Asia 2024 (TOG)"
 image: https://files.ait.ethz.ch/projects/egohdm/teaser.gif
 external_project_page: https://handiyin.github.io/EgoHDM/
