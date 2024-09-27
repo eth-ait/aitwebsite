@@ -3,7 +3,7 @@ ref: gaussianhaircut
 title: "Human Hair Reconstruction with Strand-Aligned 3D Gaussians"
 authors: Egor Zakharov, Vanessa Sklyarova, Michael J. Black, Giljoo Nam, Justus Thies, Otmar Hilliges
 date: 2024-09-29
-venue: European Conference on Computer Vision (ECCV), 2024
+venue: European Conference on Computer Vision (ECCV)
 image: https://files.ait.ethz.ch/projects/gaussianhaircut/gaussianhaircut.mp4
 external_project_page: https://eth-ait.github.io/GaussianHaircut
 video: https://www.youtube.com/watch?v=ro_XeA75s5w
