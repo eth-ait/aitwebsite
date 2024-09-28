@@ -5,7 +5,7 @@ authors: Zicong Fan*, Takehiko Ohkawa*, Linlin Yang*, Nie Lin, Zhishan Zhou, Shi
 date: 2024-09-30
 venue: European Conference on Computer Vision (ECCV)
 image: /assets/projects/hands2023/teaser.png
-external_project_page: https://sites.google.com/view/hands2023/challenges?authuser=0
+external_project_page: https://arxiv.org/abs/2403.16428
 video: 
 talk: 
 paper: https://arxiv.org/abs/2403.16428
