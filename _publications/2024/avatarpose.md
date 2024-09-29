@@ -8,7 +8,7 @@ image: https://files.ait.ethz.ch/projects/avatarpose/demo.png
 external_project_page: https://eth-ait.github.io/AvatarPose/
 video: https://www.youtube.com/watch?v=y_T67l9j_TA
 talk: 
-paper: https://feichilu.github.io/AvatarPose/assets/paper.pdf
+paper: https://eth-ait.github.io/AvatarPose/assets/paper.pdf
 poster: 
 data: 
 code: https://github.com/eth-ait/AvatarPose
