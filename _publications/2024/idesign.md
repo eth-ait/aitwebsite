@@ -12,7 +12,7 @@ paper: https://arxiv.org/abs/2404.02838
 poster: 
 data: 
 code: https://github.com/atcelen/IDesign/
-conference_url: https://eccv2024.ecva.net/
+conference_url: https://sites.google.com/view/cv4metaverse-2024/
 equal_contributions:
 bibtex: "@misc{çelen2024idesign,
     title={I-Design: Personalized LLM Interior Designer}, 
