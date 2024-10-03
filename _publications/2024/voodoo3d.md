@@ -4,7 +4,7 @@ title: "VOODOO 3D: Volumetric Portrait Disentanglement for One-Shot 3D Head Reen
 authors: Phong Tran, Egor Zakharov, Long-Nhat Ho, Anh Tuan Tran, Liwen Hu, Hao Li
 date: 2024-06-19
 venue: Computer Vision and Pattern Recognition (CVPR)
-image: https://files.ait.ethz.ch/projects/voodoo3d/voodoo3d.gif
+image: https://files.ait.ethz.ch/projects/voodoo3d/voodoo3d.mp4
 external_project_page: https://p0lyfish.github.io/voodoo3d/
 video: https://www.youtube.com/watch?v=Gu3oPG0_BaE
 talk: 
