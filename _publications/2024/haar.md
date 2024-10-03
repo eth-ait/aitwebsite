@@ -4,7 +4,7 @@ title: "HAAR: Text-Conditioned Generative Model of 3D Strand-based Human Hairsty
 authors: Vanessa Sklyarova, Egor Zakharov, Otmar Hilliges, Michael J. Black, Justus Thies
 date: 2024-06-19
 venue: Computer Vision and Pattern Recognition (CVPR)
-image: https://files.ait.ethz.ch/projects/haar/haar.gif 
+image: https://files.ait.ethz.ch/projects/haar/haar.mp4 
 external_project_page: https://haar.is.tue.mpg.de/
 video: https://www.youtube.com/watch?v=mR96dqO2j88
 talk: 
