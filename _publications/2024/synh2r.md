@@ -4,7 +4,7 @@ title: "SynH2R: Synthesizing Hand-Object Motions for Learning Human-to-Robot Han
 authors: Sammy Christen, Lan Feng, Wei Yang, Yu-Wei Chao, Otmar Hilliges, Jie Song
 date: 2024-03-19
 venue: "International Conference on Robotics and Automation 2024 (ICRA)"
-image: /assets/projects/synh2r/synh2r_teaser.gif
+image: https://files.ait.ethz.ch/projects/synthetic-handovers/synh2r_teaser.mp4
 external_project_page: https://eth-ait.github.io/synthetic-handovers/
 video: https://youtu.be/deUlIRs72OI?si=SUeWnCBz3F_HHCBM
 talk: 
