@@ -4,7 +4,7 @@ title: "Learning Human-to-Robot Handovers from Point Clouds"
 authors: Sammy Christen, Wei Yang, Claudia Pérez-D'Arpino, Otmar Hilliges, Dieter Fox, Yu-Wei Chao
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/handoversim2real/teaser.gif
+image: https://files.ait.ethz.ch/projects/handoversim2real/teaser.mp4
 external_project_page: https://handover-sim2real.github.io
 video: https://youtu.be/IsjCdoIAA7s
 talk: 
