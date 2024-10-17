@@ -27,7 +27,6 @@ permalink: /people/index.html
           {% include get-person.html title="Monika Naegeli" %}
           {% include get-person.html title="Dr. Juan Zarate" %}
           <h3><span>Postdocs</span></h3>
-          {% include get-person.html title="Dr. Christoph Gebhardt" %}
           {% include get-person.html title="Dr. Egor Zakharov" %}
           {% include get-person.html title="Dr. Chengwei Zheng" %}
           {% include get-person.html title="Dr. Manuel Kaufmann" %}
@@ -50,10 +49,20 @@ permalink: /people/index.html
 	        {% include get-person.html title="Vanessa Sklyarova" %}
        </div>
 
+        <style>
+          .peoplelist-specific dt {
+            min-width: 150px; /* Adjust the width as needed */
+            display: inline-block; /* Ensure the width is respected */
+          }
+        </style>    
+
         <h2>Previous <em>Members</em></h2>
-        <dl class="peoplelist">
+        <dl class="peoplelist peoplelist-specific">
           <dt>2023 - 2024</dt><dd><a href="/people/ctsalico">Dr. Christina Tsalicoglou</a>
           <span class="status">Now at <a class="a-text-ext" target="_blank" href="https://about.google/intl/de_ch/google-in-switzerland/">Google</a></span></dd>
+
+          <dt>2015-2020, 2022-2024</dt><dd><a href="/people/cgebhard">Dr. Christoph Gebhardt</a>
+          <span class="status">Professor at <a class="a-text-ext" target="_blank" href="https://www.ost.ch/en/">FH Ost</a></span></dd>
 
           <dt>2018 - 2024</dt><dd><a href="/people/tlangerak">Dr. Thomas Langerak</a>
           <span class="status">Postdoc at <a class="a-text-ext" target="_blank" href="https://cbl.aalto.fi/">CBL in Aalto University</a></span></dd>
