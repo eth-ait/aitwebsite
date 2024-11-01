@@ -1,7 +1,7 @@
 ---
 ref: omnigrasp
 title: "Grasping Diverse Objects with Simulated Humanoids"
-authors: 
+authors: Zhengyi Luo, Jinkun Cao, Sammy Christen, Alexander Winkler, Kris Kitani, Weipeng Xu
 date: 2024-12-10
 venue: "Annual Conference on Neural Information Processing Systems (NeurIPS)"
 image: https://files.ait.ethz.ch/projects/omnigrasp/omnigrasp.mp4
