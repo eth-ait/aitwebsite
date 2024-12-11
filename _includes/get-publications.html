@@ -53,6 +53,7 @@
 
     {% capture pub-links %}
       {% if publication.video %}<a href="{{ publication.video | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/video.svg' | relative_url }}">Video</a>{% endif %}
+      {% if publication.talk %}<a href="{{ publication.talk | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/talk.svg' | relative_url }}">Talk</a>{% endif %}
       {% if publication.paper %}<a href="{{ publication.paper | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/paper.svg' | relative_url }}">Paper</a>{% endif %}
       {% if publication.data %}<a href="{{ publication.data | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/data.svg' | relative_url }}">Data</a>{% endif %}
       {% if publication.code %}<a href="{{ publication.code | relative_url }}" target="_blank"><img class="svg-icon" src="{{ '/assets/icons/code.svg' | relative_url }}">Code</a>{% endif %}
