@@ -6,8 +6,8 @@ date: 2024-12-03
 venue: "Conference paper at SIGGRAPH Asia"
 image: https://files.ait.ethz.ch/projects/cafca/web/static/videos/teaser_animated.mp4
 external_project_page: https://syntec-research.github.io/Cafca/
-video: https://youtu.be/soNSzodOUvs
-talk: https://files.ait.ethz.ch/projects/cafca/web/static/videos/Cafca_supp_video.mp4
+video: https://files.ait.ethz.ch/projects/cafca/web/static/videos/Cafca_supp_video.mp4
+talk: https://youtu.be/soNSzodOUvs
 paper: http://arxiv.org/abs/2410.00630
 poster: 
 data: https://github.com/syntec-research/Cafca/blob/main/Dataset.md
