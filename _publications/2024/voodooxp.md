@@ -11,7 +11,7 @@ talk:
 paper: https://arxiv.org/pdf/2405.16204
 poster: 
 data: 
-code: 
+code: https://github.com/mbzuai-metaverse/voodooxp-official 
 conference_url: https://asia.siggraph.org/2024/ 
 equal_contributions: 
 award: 

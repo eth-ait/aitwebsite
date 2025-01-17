@@ -6,12 +6,12 @@ date: 2024-09-29
 venue: European Conference on Computer Vision (ECCV)
 image: https://files.ait.ethz.ch/projects/worldpose/teaser.mp4
 external_project_page: https://eth-ait.github.io/WorldPoseDataset/
-video:
+video: https://www.youtube.com/watch?v=LM3VBvxl6ms
 talk:
 paper: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02927.pdf
 poster:
-data:
-code:
+data: https://eth-ait.github.io/WorldPoseDataset/#dataset
+code: 
 conference_url: https://eccv2024.ecva.net/
 equal_contributions:
 award:

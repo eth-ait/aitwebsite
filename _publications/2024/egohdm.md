@@ -11,7 +11,7 @@ talk:
 paper: https://arxiv.org/pdf/2409.00343
 poster: 
 data: 
-code: 
+code: https://github.com/liubonan123/EgoHDM 
 conference_url: https://asia.siggraph.org/2024/
 equal_contributions: 0, 1
 award: 

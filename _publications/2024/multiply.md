@@ -10,7 +10,7 @@ video: https://youtu.be/r9giQPUp1Gw
 talk: 
 paper: https://arxiv.org/pdf/2406.01595
 poster: 
-data: 
+data: https://multiply.ait.ethz.ch/ 
 code: https://github.com/eth-ait/MultiPly
 conference_url: https://cvpr2024.thecvf.com/
 equal_contributions: 0, 1

@@ -11,7 +11,7 @@ talk:
 paper: https://files.ait.ethz.ch/projects/hsr/hsr_paper_main.pdf
 poster: 
 data: 
-code: 
+code: https://github.com/lxxue/HSR 
 conference_url: https://eccv2024.ecva.net/
 equal_contributions: 
 award: 

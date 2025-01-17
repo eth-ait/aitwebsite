@@ -6,7 +6,7 @@ date: 2024-12-10
 venue: "Annual Conference on Neural Information Processing Systems (NeurIPS)"
 image: /assets/projects/litevae/litevae.png
 external_project_page: https://studios.disneyresearch.com/2024/12/10/litevae-lightweight-and-efficient-variational-autoencoders-for-latent-diffusion-models/
-video: 
+video: https://www.youtube.com/watch?v=GLqUYn_Q0Yg 
 talk: 
 paper: https://assets.studios.disneyresearch.com/wp-content/uploads/2024/12/LiteVAE-Lightweight-and-Efficient-Variational-Autoencoders-for-Latent-Diffusion-Models-Paper.pdf
 poster: 

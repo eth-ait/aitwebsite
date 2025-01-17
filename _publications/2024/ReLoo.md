@@ -11,7 +11,7 @@ talk:
 paper: https://arxiv.org/pdf/2409.15269
 poster: 
 data: 
-# code: https://github.com/eth-ait/MultiPly
+code: https://github.com/eth-ait/ReLoo
 conference_url: https://eccv2024.ecva.net/
 equal_contributions: 0, 1
 # award: Accepted as Oral Presentation (Top 3.3%)

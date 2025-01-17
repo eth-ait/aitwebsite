@@ -10,7 +10,7 @@ video: https://www.youtube.com/watch?v=z7axE9F7d6s
 talk: 
 paper: https://arxiv.org/pdf/2403.19649
 poster: 
-data: 
+data: https://github.com/zdchan/graspxl/ 
 code: https://github.com/zdchan/graspxl/
 conference_url: https://eccv.ecva.net/Conferences/2024
 equal_contributions: 

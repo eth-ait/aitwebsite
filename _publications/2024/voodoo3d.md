@@ -11,7 +11,7 @@ talk:
 paper: https://arxiv.org/pdf/2312.04651
 poster: 
 data: 
-code: 
+code: https://github.com/MBZUAI-Metaverse/VOODOO3D-official 
 conference_url: https://cvpr2024.thecvf.com/
 equal_contributions: 
 award: 
