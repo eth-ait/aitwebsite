@@ -160,7 +160,9 @@ To create a new course, assign it a reference name (e.g., mp2024) . Use the same
 
 ### Student Projects
 
-You can create student projects in [SiROP](https://sirop.org/app/) and they will be automatically pulled into the [thesis](https://ait.ethz.ch/thesis/) page in a few days. You can also increment the `cache-version` number in the [workflows](.github/workflows/website.yml) to force a pull from SiROP.
+You can create student projects in [SiROP](https://sirop.org/app/) and the [json feed](https://feeds.sirop.org/16/09/1609bbd1-fa78-45fc-93e5-ab1d9449b621/1609bbd1-fa78-45fc-93e5-ab1d9449b621.json) will be updated every 6 hours. Once your project appear in the feed, you can increment the `cache-version` number in the [workflows](.github/workflows/website.yml) to force a website update.
+
+If your project does not appear in the feed after 6 hours, you might have selected the option to exclude the project from any feed which is publicly accessible. If you want it to show up on the thesis page, you need to deactivate this option in the "Manage" section of your opportunity.
 
 ### General Editing Tips
 
