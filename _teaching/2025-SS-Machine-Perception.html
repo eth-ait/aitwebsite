@@ -1,0 +1,454 @@
+---
+title: Machine Perception
+ref: mp2025
+description: 
+semester: Spring 2025 
+number: <a href="https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=188863&semkez=2025S&ansicht=LEHRVERANSTALTUNGEN&lang=en">263-3710-00L</a>
+lecturer: Manuel Kaufmann, Xi Wang, Marcel Buehler, Otmar Hilliges
+head-ta: 
+ta: Zicong Fan (Head), Zijian Dong, Chen Guo, Hsuan-I Ho, Tianjian Jiang, Seyedmorteza Sadat, Lixin Xue, Yufeng Zheng
+assistants:
+edoz: 
+session-time-place: 
+lecture-time-place: Wed 13:15 - 14:00 (HG F 1)<br/> Thu 12:15 - 14:00 (HG F 1)
+exercise-time-place: Thu 14:15 - 16:00 (CAB G 11)<br/> Fri 14:15 - 16:00 (CAB G 11)
+image: 
+links: 
+credits: 8
+recordings: All recordings will be made available on the ETH Video Portal.
+contact: Please post all questions (regarding content, organization etc.) on Moddle (to be announced).
+---
+
+<h3>Overview</h3>
+<p>
+    Recent developments in neural networks have drastically advanced the performance of machine perception systems in a variety of areas including computer vision, robotics, and human shape modeling. This course is a deep dive into deep learning algorithms and architectures with applications to a variety of perceptual and generative tasks.
+</p>
+
+<hr/>
+
+<a class="anchor" id="announcements"></a>
+<h3>Announcements</h3>
+<dl class="definitionlist">
+    <dt>17.01.2025</dt><dd> Website live - More info coming soon! </dd>
+</dl>
+
+<hr/>
+
+<a class="anchor" id="objectives"></a>
+<h3>Learning Objectives</h3>
+<p> Students will learn about fundamental aspects of modern deep learning approaches for perception and generation. Students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in learning-based computer vision, robotics, and shape modeling. The optional final project assignment will involve training a complex neural network architecture and applying it to a real-world dataset.
+</p>
+<p>The core competency acquired through this course is a solid foundation in deep-learning algorithms to process and interpret human-centric signals. In particular, students should be able to develop systems that deal with the problem of recognizing people in images, detecting and describing body parts, inferring their spatial configuration, performing action/gesture recognition from still images or image sequences, also considering multi-modal data, among others.
+</p>
+<p>The courses focuses on teaching how to set up the problem of machine perception and the associated learning algorithms, neural network architectures, and advanced deep learning concepts.
+<br/>
+The course covers the following main areas:<br/>
+I) Foundations of Deep Learning: Multilayer perceptrons, backpropagation, time-series modeling, convolutional neural networks.
+<br/>
+II) Advanced topics: latent variable models, generative adversarial networks, auto-regressive models, invertible neural networks, normalizing flows, diffusion models, neural implicit surface representations, neural radiance fields.
+<br/>
+III) Applications in machine perception and human-centric computer vision: general understanding of human activities, 3D reconstruction of human performance using different input modalities (monocular or multi-view images, body-worn sensors) and representations (explicit triangulated meshes, parametric body models, implicit surfaces, neural radiance fields, 3D Gaussian Splatting-based).
+</p>
+<hr/>
+
+<a class="anchor" id="note"></a>
+<h3>Lecture Notes</h3>
+<p>You can download the lecture notes <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lecture_notes/mp_course_notes_2024.pdf">here</a> (you will need to log in with your ETH LDAP).
+</p>
+<p> These lecture notes are provided as a draft version for educational purposes only. The content presented herein is subject to change and may contain inaccuracies or errors. Grading for the course will be based on slides and the lecture materials.
+</p>
+<hr/>
+
+
+<a class="anchor" id="schedule"></a>
+<h3>Schedule</h3>
+
+<p>Subject to change. Materials only available from within ETH network.</p>
+
+
+<table>
+
+    <tr>
+        <th>Wk.</th><th>Date</th> <th>Content</th><th>Material</th> <th>Exercise Session</th>
+    </tr>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td> 19.02 </td>
+        <td>
+            <h5>Deep Learning Introduction</h5><p>Class content &amp; admin</p>
+        </td>
+        <td>
+        </td>
+        <td>
+         </td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td> 20.02 </td>
+        <td>
+            <h5>-- No Class --</h5>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <!--
+    <tr>
+        <td>2</td>
+        <td>28.02 <br> 29.02</td>
+        <td>
+            <h5>Training Neural Networks</h5><p>Backpropagation <br> Feedforward Networks, <br>  Representation Learning</p>
+        </td>
+
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l02a-Intro-NN.pdf">slides pt. I</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l02b-Function_Approximation_Backpropagation.pdf">slides pt. II</a><br/>
+            <br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1bycbm85pTwnL7Izw5WHpdvkA63rdedE6?usp=sharing">Perceptron Visualization Notebook</a><br/> 
+        </td>
+        <td>
+            <p><b>Tutorial</b> Implement your own MLP</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/implement_your_own_mlp.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://drive.google.com/file/d/1J2nhaQvmG_AFGLB6VI8jwE6bIXwbgfRR/view?usp=sharing" target="_blank">XOR Notebook</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1DtaWl0nMqi0fA8aK7PImV7fZCfpKK2A6?usp=sharing" target="_blank">XOR Solutions</a><br/> 
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1f8HgYeHR7r9JhtgmCeOc5xWAlcgIAjkK?usp=sharing" target="_blank">Eye-Gaze Notebook</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1wV_n8MtrL4IzQt-dbJx2F4XKTYP39bSt?usp=sharing" target="_blank">Eye-Gaze Solutions</a><br/>
+            <p><b>Tutorial</b> Linear Regr.</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/linear_regression.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/113onB8fGx7Apto2OIA4YRKthYp29nSkE?usp=sharing">Linear Regression Notebook</a><br/>
+            <p><b>Pen &amp; Paper</b> Backprop.</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex2_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex2_solutions.pdf">exercise solution</a><br/> 
+
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>3</td>
+        <td>06.03. <br> 07.03.</td>
+        <td>
+            <h5>Convolutional Neural Networks</h5>
+        </td>
+        <td>
+            <p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l03a-CNN.pdf">slides pt. I</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l03b-CNN.pdf">slides pt. II</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l04-Fully-CNN.pdf">slides pt. III</a>
+            </p>
+            <p>Additional material:
+            <br/>
+            <a class="a-text-ext" href="https://files.ait.ethz.ch/teaching/courses/2021-SS-Machine-Perception/downloads/reading_materials/RSVP.mp4">RSVP</a>
+            <br/>
+            <a class="a-text-ext" href="https://files.ait.ethz.ch/teaching/courses/2021-SS-Machine-Perception/downloads/reading_materials/Cortical-Neuron.mp4">Cortical Neuron</a>
+            </p>
+
+        </td>
+        <td>
+            <p><b>Tutorial</b> CNNs in Pytorch</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/cnn.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1lXfwxA6wlQ3na9pXeqUVbi_EEtWAIegW">CNN Notebook</a><br/><br/>
+
+            <p><b>Pen &amp; Paper</b> CNN</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex3_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex3_solutions.pdf">exercise solution</a><br/> 
+        </td> 
+
+    </tr>
+
+
+     <tr>
+        <td>4</td>
+        <td>14.03.</td>
+        <td>
+            <h5>Recurrent Neural Networks</h5><p>LSTM, GRU, Backpropagation through time</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l05-RNN.pdf">slides</a><br/>
+        </td>
+
+        <td>
+            <p><b>Tutorial</b> RNNs in Pytorch</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/rnn.pdf">slides</a><br/>
+            <a class="a-text-ext" href="https://colab.research.google.com/drive/1cUbVzcXMCquf5xhfTOPnxIrqgxA1Lr8k">RNN Notebook</a><br/>
+            <br/>
+            <p><b>Pen &amp; Paper</b> RNN</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex4_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex4_solutions.pdf">exercise solution</a><br/>
+        </td> 
+
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>20.03. <br> 21.03 </td>
+        <td>
+            <h5>Generative Models Pt. I: Latent Variable Models </h5><p>Variational Autoencoders, etc.</p>
+        </td>
+        <td>
+        <p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l06a-VAE.pdf">slides pt. I</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l06b-VAE.pdf">slides pt. II</a>
+        </p>
+        </td>
+        
+        <td>
+         
+            <p><b>Class</b> Tips for Training I</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/6_Regularization_tutorial.pdf">slides</a><br/>
+            <br/>
+            <p><b>Pen &amp; Paper</b> VAE</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex5_vae_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex5_vae_solutions.pdf">exercise solution</a><br/> 
+        </td> 
+
+
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td>27.03. <br> 28.03 </td>
+        <td>
+            <h5>Generative Models Pt. II: Autoregressive Models </h5><p>Nade, Made, PixelCNN, PixelRNN, WaveNet</p>
+        </td>
+        <td>
+        <p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l07a-AR.pdf">slides pt. I</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l07b-AR.pdf">slides pt. II</a>
+        </p>
+        </td>
+        
+        <td>         
+            <p><b>Pen &amp; Paper</b> AR</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex6_ar_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex6_ar_solutions.pdf">exercise solution</a><br/> 
+        </td> 
+
+
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>03.04. <br> 04.04.</td>
+        <td>
+            <h5>-- No Class or tutorials (Easter) --</h5>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td>10.04. <br> 11.04.</td>
+        <td>
+            <h5>Generative Models Pt. III: Normalizing Flows and Invertible Neural Networks </h5><p> </p>
+        </td>
+        <td>
+            <p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l08a-NF.pdf">slides NF Pt. I</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l08b-NF.pdf">slides NF Pt. II</a><br/>
+            </p>
+        </td>
+        <td>
+            <p><b>Class</b> Tips for Training II</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/7_Optimization_tutorial.pdf">slides</a><br/>
+            <br/>
+            <p><b>Pen &amp; Paper</b> NF</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex7_nf_instructions.pdf">exercise</a><br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex7_nf_solutions.pdf">exercise solution</a><br/>
+        </td> 
+    </tr>
+            
+    <tr>
+        <td>9</td>
+        <td>17.04. <br> 18.04.</td>
+        <td>
+          <h5>Generative Models Pt. IV: Implicit Models </h5><p>Generative Adversarial Networks &amp; Co</p>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l09a-GAN.pdf">slides GAN Pt. I</a>
+            <br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l09b-GAN.pdf">slides GAN Pt. II</a>
+            <br/>
+        </td>
+        <td>
+        <p><b>Tutorial</b> Exercise Discussion and Cluster</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/MP2024_backprop_CNN.pdf">slides Backprop&CNN</a>
+            <br/> 
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/MP2024_student_cluster.pdf">slides cluster</a>
+            <br/> 
+        <p><b>Pen &amp; Paper</b> GAN</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex8_gan_instructions.pdf">exercise</a>
+            <br/> 
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex8_gan_solutions.pdf">exercise solution</a>
+            <br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td>24.04. <br> 25.04.</td>
+        <td>
+            <h5>Generative Models Pt. V: GAN Applications and Diffusion Models</h5>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l09c-GAN.pdf">slides GAN Pt. III</a>
+            <br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l10a-DiffusionModels.pdf">slides Diffusion Models</a>
+            <br/>
+        </td>
+        <td>
+            <p><b>Tutorial</b> RNN&VAE</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/9_RNN_VAE_tutorial.pdf">slides RNN&VAE</a>
+            <br/> 
+            <p><b>Pen &amp; Paper class</b> Diffusion Models</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex9_diff_instructions.pdf">exercise</a>
+            <br/> 
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex9_diff_solutions.pdf">exercise solution</a>
+            <br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>11</td>
+        <td>02.05.</td>
+        <td>
+          <h5>Reinforcement Learning</h5>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l11a-RL.pdf">slides RL pt. I</a><br/>
+        </td>
+        <td>
+            <p><b>Tutorial</b> AR&NF</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/MP2024_AR_NF.pdf">slides AR&NF</a>
+            <br/> 
+            <p><b>Pen &amp; Paper</b> RL</p>
+                <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex10_rl_instructions.pdf">exercise</a><br/>
+                <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex10_rl_solutions.pdf">exercise solutions</a><br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>08.05.</td>
+        <td>
+            <h5>Reinforcement Learning</h5>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l11b-RL.pdf">slides RL pt. II</a>
+        </td>
+        <td></td> 
+     </tr>
+
+    <tr>
+        <td>13</td>
+        <td>15.05. <br> 16.05. </td>
+        <td>
+          <h5>Implicit Surfaces and Neural Radiance Fields</h5>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l12a-NIR.pdf">slides NIR Pt.I</a>
+            <br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-l12b-NIR.pdf">slides NIR Pt.II</a>
+            <br/>  
+        </td>
+        <td>
+            <p><b>Tutorial</b> GAN&Diffusion</p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/11_GAN_Diffusion_tutorial.pdf">slides GAN&Diffusion</a>
+            <br/> 
+            <p><b>Pen &amp; Paper</b> Implicit Surfaces</p>
+                <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex11_NIR_instructions.pdf">exercise</a><br/>
+                <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex11_NIR_solutions.pdf">exercise solutions</a><br/>
+        </td>
+     </tr>
+
+    <tr>
+        <td>14</td>
+        <td>22.05. <br> 23.05.</td>
+        <td>
+            <h5> Parametric Human Body Models and Applications </h5><p> </p>
+        </td>
+        <td>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/lectures/2024-MP-I13-PBM.pdf">slides PBM </a>
+            <br/>
+        </td>
+        <td>
+            <p><b>Tutorial</b> Advanced 3D representations </p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/exercises/Tutorial_NIR.pdf">slides</a><br/> 
+            <p><b>Pen &amp; Paper</b> PBM </p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex12_pbm_instructions.pdf">exercise</a>
+            <br/>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/pp/ex12_pbm_solutions.pdf">exercise solutions</a>
+            <br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>30.05.</td>
+        <td>
+          <h5>AIT Open House 1 hour 30min: 12:15 - 13:45 (there is a tutorial later; HEA -> CAB)</h5>
+        </td>
+        <td> </td>
+        <td> 
+            <p><b>Tutorial</b> RL & PBM </p>
+            <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/tutorials/13_RL_PBM_tutorial.pdf">slides</a><br/> 
+        </td>
+    </tr>
+
+    -->
+
+
+
+        
+</tbody></table> 
+
+
+<hr/>
+
+<a class="anchor" id="exercises"></a>
+
+<h3>Exercise Sessions</h3>
+     <p>
+        Please refer to the <a href="#schedule">above schedule once available </a> for an overview of the planned exercise slots. We will have three different types of activities in the exercise sessions:
+        <ol>
+            <li><b>Tutorial:</b> Interactive programming tutorial in Python taught by a TA. Code will be made available.</li>
+            <li><b>Class:</b> Lecture-style class taught by a TA to give you some tips on how to train your neural network in practice.</li>
+            <li><b>Pen &amp; Paper</b>: Pen &amp; paper exercises that are not graded but are helpful to prepare for the written exam. Solutions will be published on the website a week after the release and discussed in the exercise session if desired.</li>
+        </ol>
+    </p>
+    <!--<p>
+        The tutorials and classes cover the same content on Thursday and Friday. You can decide which day you want to attend.
+        The Thursday session is in person (CAG G 11) and has 190 seats.
+        The Friday session is on zoom and has no limit on the number of students.
+    </p>
+    <p>
+    Please find the zoom link for the exercises sessions on <a href="https://ait.ethz.ch/teaching/courses/2022-SS-Machine-Perception/downloads/lectures/2022-MP-l01-Intro.pdf" title="Slides" target="_blank">slide 39</a> of the first week's slide deck.
+    </p> -->
+
+    <!-- <p>The exercises are meant to help you understand the course's content more in-depth and to prepare you for the <a href="#projects">graded multi-week project</a>. Exercise sessions are primarily scheduled until week 8 so that you have time to work on the project after week 8.</p>
+
+-->
+<hr/>
+<a class="anchor" id="projects"></a>
+<h3>Project</h3>
+<h4>Overview</h4>
+<p>
+    There will be a multi-week project that gives you the opportunity to have some hands-on experience with training a neural network for a concrete application. The project is optional and to be completed within groups of 3-4 students. You will be able to select from three projects. Passing a pre-determined baseline will award you with a 0.25 grade bonus. There will be a leaderboard giving you the opportunity to compete against other groups. However, your rank in the leaderboard has no influence on the grade bonus (apart from passing the baseline). Project descriptions and more information will follow during the semester.
+</p>
+
+<!--
+<p>
+Check out the project descriptions <a class="a-pdf" href="https://files.ait.ethz.ch/teaching/courses/2024-SS-Machine-Perception/downloads/projects/mp_project.pdf">here</a> (you will need to log in with your ETH LDAP).
+</p>
+-->
+
+
+<hr>
+<a class="anchor" id="exams"></a>
+<h3>Exam</h3>
+<p>
+To give you a rough idea what to expect from the exam, we will release a mock exam here in due time.
+</p>
