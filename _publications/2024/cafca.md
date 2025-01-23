@@ -1,7 +1,7 @@
 ---
 ref: cafca
 title: "Cafca: High-quality Novel View Synthesis of Expressive Faces from Casual Few-shot Captures"
-authors: Marcel C. Buehler, Gengyan Li, Erroll Wood, Leonhard Helminger, Xu Chen, Tanmay Shah, Daoye Wang, Stephan Garbin, Sergio Orts-Escolano, Otmar Hilliges, Dmitry Lagun, Jérémy Riviere, Paulo Gotardo, Thabo Beeler, Abhimitra Meka, Kripasindhu Sarkar
+authors: Marcel Buehler, Gengyan Li, Erroll Wood, Leonhard Helminger, Xu Chen, Tanmay Shah, Daoye Wang, Stephan Garbin, Sergio Orts-Escolano, Otmar Hilliges, Dmitry Lagun, Jérémy Riviere, Paulo Gotardo, Thabo Beeler, Abhimitra Meka, Kripasindhu Sarkar
 date: 2024-12-03
 venue: "Conference paper at SIGGRAPH Asia"
 image: https://files.ait.ethz.ch/projects/cafca/web/static/videos/fast_forward_v1.mp4
