@@ -1,7 +1,7 @@
 ---
 ref: preface
 title: "Preface: A Data-driven Volumetric Prior for Few-shot Ultra High-resolution Face Synthesis"
-authors: Marcel Buehler, Kripasindhu Sarkar, Tanmay Shah, Gengyan Li, Daoye Wang, Leonhard Helminger, Sergio Orts-Escolano, Dmitry Lagun, Otmar Hilliges, Thabo Beeler, Abhimitra Meka
+authors: Marcel C. Buehler, Kripasindhu Sarkar, Tanmay Shah, Gengyan Li, Daoye Wang, Leonhard Helminger, Sergio Orts-Escolano, Dmitry Lagun, Otmar Hilliges, Thabo Beeler, Abhimitra Meka
 date: 2023-10-04
 venue: "International Conference on Computer Vision (ICCV)"
 image: https://files.ait.ethz.ch/projects/preface/web/static/videos/studio/0rV_rgb_crop.mp4

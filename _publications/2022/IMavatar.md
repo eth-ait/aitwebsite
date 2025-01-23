@@ -1,7 +1,7 @@
 ---
 ref: IMavatar
 title: "IM Avatar: Implicit Morphable Head Avatars from Videos"
-authors: Yufeng Zheng, Victoria Abrevaya, Marcel Buehler, Xu Chen, Michael Black, Otmar Hilliges
+authors: Yufeng Zheng, Victoria Abrevaya, Marcel C. Buehler, Xu Chen, Michael Black, Otmar Hilliges
 date: 2022-06-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: /assets/projects/IMavatar/teaser.gif

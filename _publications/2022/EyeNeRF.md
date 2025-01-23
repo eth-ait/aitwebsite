@@ -1,7 +1,7 @@
 ---
 ref: EyeNeRF
 title: "EyeNeRF: A Hybrid Representation for Photorealistic Synthesis, Animation and Relighting of Human Eyes"
-authors: Gengyan Li, Abhimitra Meka, Franziska Mueller, Marcel Buehler, Otmar Hilliges, Thabo Beeler
+authors: Gengyan Li, Abhimitra Meka, Franziska Mueller, Marcel C. Buehler, Otmar Hilliges, Thabo Beeler
 date: 2022-07-01
 venue: "ACM Trans. Graph. (Volume: 41, Issue: 4)"
 image: /assets/projects/EyeNeRF/teaser.png
