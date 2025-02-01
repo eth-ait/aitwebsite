@@ -1,7 +1,7 @@
 ---
 ref: shellnerf
 title: "ShellNeRF: Learning a Controllable High-resolution Model of the Eye and Periocular Region"
-authors:  Gengyan Li Kripasindhu Sarkar, Abhimitra Meka, Marcel C. Bühler, Franziska Müller, Paulo Gotardo, Otmar Hilliges, Thabo Beeler
+authors:  Gengyan Li, Kripasindhu Sarkar, Abhimitra Meka, Marcel C. Buehler, Franziska Mueller, Paulo Gotardo, Otmar Hilliges, Thabo Beeler
 date: 2024-04-24
 venue: "Computer Graphics Forum (Eurographics)"
 image: /assets/projects/shellnerf/image.png
