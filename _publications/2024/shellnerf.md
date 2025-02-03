@@ -5,7 +5,7 @@ authors:  Gengyan Li, Kripasindhu Sarkar, Abhimitra Meka, Marcel C. Buehler, Fra
 date: 2024-04-24
 venue: "Computer Graphics Forum (Eurographics)"
 image: /assets/projects/shellnerf/image.png
-external_project_page: (https://syntec-research.github.io/ShellNeRF/)
+external_project_page: https://syntec-research.github.io/ShellNeRF/
 video: 
 talk: 
 paper: https://onlinelibrary.wiley.com/doi/10.1111/cgf.15041
