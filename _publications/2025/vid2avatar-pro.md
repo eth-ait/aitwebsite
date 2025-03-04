@@ -4,7 +4,7 @@ title: "Vid2Avatar-Pro: Authentic Avatar from Videos in the Wild via Universal P
 authors: Chen Guo, Junxuan Li, Yash Kant, Yaser Sheikh, Shunsuke Saito, Chen Cao
 date: 2025-06-11
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/vid2avatar-pro/assets/ait_teaser.mp4
+image: https://files.ait.ethz.ch/projects/vid2avatar-pro/assets/ait_teaser_cropped.mp4
 external_project_page: https://moygcc.github.io/vid2avatar-pro/
 video: https://youtu.be/rVte3Kddh20
 talk: 
