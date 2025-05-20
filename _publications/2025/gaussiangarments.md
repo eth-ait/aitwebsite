@@ -1,7 +1,7 @@
 ---
 ref: gaussiangarments
 title: "Gaussian Garments: Reconstructing Simulation-ready Clothing with Photorealistic Appearance from Multi-view Video"
-authors: Boxiang Rong, Artur Grigorev, Wenbo Wang, Michael J. Black, Bernhard Thomaszewski, Christina Tsalicoglou, Otmar Hilliges
+authors: Boxiang Rong*, Artur Grigorev*, Wenbo Wang, Michael J. Black, Bernhard Thomaszewski, Christina Tsalicoglou, Otmar Hilliges
 date: 2025-03-25
 venue: "International Conference on 3D Vision 2025"
 image: https://files.ait.ethz.ch/projects/gaussiangarments/gaga_teaser.gif
