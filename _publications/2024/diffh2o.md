@@ -11,7 +11,7 @@ talk:
 paper: https://arxiv.org/abs/2403.17827
 poster: 
 data: 
-code: 
+code: https://github.com/facebookresearch/diffh2o
 conference_url: https://asia.siggraph.org/2024/
 equal_contributions:
 award:
