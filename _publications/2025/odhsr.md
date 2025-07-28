@@ -6,7 +6,7 @@ date: 2025-06-11
 venue: "Computer Vision and Pattern Recognition (CVPR)"
 image: https://files.ait.ethz.ch/projects/odhsr/teaser.mp4
 external_project_page: https://eth-ait.github.io/ODHSR/
-video: 
+video: https://youtu.be/nK9GNEqufS8
 talk: 
 paper: 
 poster:
