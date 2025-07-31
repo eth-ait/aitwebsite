@@ -13,7 +13,7 @@ poster:
 data: 
 code: https://github.com/eth-ait/AvatarPose
 conference_url: https://eccv.ecva.net/Conferences/2024
-equal_contributions: 0,1
+equal_contributions: 0, 1
 award: 
 bibtex: "@inproceedings{lu2024avatarpose,
       title={AvatarPose: Avatar-guided 3D Pose Estimation of Close Human Interaction from Sparse Multi-view Videos},
