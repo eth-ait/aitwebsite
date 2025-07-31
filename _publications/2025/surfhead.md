@@ -1,9 +1,9 @@
 ---
 ref: surfhead
 title: "SurFhead: Affine Rig Blending for Geometrically Accurate 2D Gaussian Surfel-based Head Avatars"
-authors: Jaeseong Lee, Taewoong Kang, Marcel C Buehler, Minjung Kim, Sungwon Hwang, Junha Hyung, Hyojin Jang, Jaegul Choo
+authors: Jaeseong Lee, Taewoong Kang, Marcel C. Buehler, Minjung Kim, Sungwon Hwang, Junha Hyung, Hyojin Jang, Jaegul Choo
 date: 2025-04-24
-venue: "ICLR 2025"
+venue: "International Conference on Learning Representations"
 image: https://summertight.github.io/SurFhead/static/videos/cross_surf.mp4
 external_project_page: https://summertight.github.io/SurFhead/
 video:
