@@ -16,7 +16,7 @@ conference_url:
 equal_contributions:
 award:
 bibtex: "@inproceedings{10.1007/978-3-031-72848-8_11,
-author = {Comas-Massagu\'{e}, Armand and Qiu, Di and Chai, Menglei and B\"{u}hler, Marcel and Raj, Amit and Gao, Ruiqi and Xu, Qiangeng and Matthews, Mark and Gotardo, Paulo and Orts-Escolano, Sergio and Beeler, Thabo},
+author = {Comas-Massagu\'{e}, Armand and Qiu, Di and Chai, Menglei and Buehler, Marcel C. and Raj, Amit and Gao, Ruiqi and Xu, Qiangeng and Matthews, Mark and Gotardo, Paulo and Orts-Escolano, Sergio and Beeler, Thabo},
 title = {MagicMirror: Fast and High-Quality Avatar Generation with a Constrained Search Space},
 year = {2024},
 isbn = {978-3-031-72847-1},

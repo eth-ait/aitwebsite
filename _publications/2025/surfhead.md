@@ -18,7 +18,7 @@ award:
 bibtex: "@inproceedings{
 	lee2025surfhead,
 	title={SurFhead: Affine Rig Blending for Geometrically Accurate 2D Gaussian Surfel Head Avatars},
-	author={Jaeseong Lee and Taewoong Kang and Marcel Buehler and Min-Jung Kim and Sungwon Hwang and Junha Hyung and Hyojin Jang and Jaegul Choo},
+	author={Jaeseong Lee and Taewoong Kang and Marcel C. Buehler and Min-Jung Kim and Sungwon Hwang and Junha Hyung and Hyojin Jang and Jaegul Choo},
 	booktitle={The Thirteenth International Conference on Learning Representations},
 	year={2025},
 	url={https://openreview.net/forum?id=1x1gGg49jr}
