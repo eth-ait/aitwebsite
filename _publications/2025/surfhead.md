@@ -22,6 +22,5 @@ bibtex: "@inproceedings{
 	booktitle={The Thirteenth International Conference on Learning Representations},
 	year={2025},
 	url={https://openreview.net/forum?id=1x1gGg49jr}
-	}
 }"
 ---
