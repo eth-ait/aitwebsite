@@ -4,7 +4,7 @@ title: "ReMu: Reconstructing Multi-layer 3D Clothed Human from Images"
 authors: Onat Vuran, Hsuan-I Ho
 date: 2025-11-24
 venue: "British Machine Vision Conference (BMVC)"
-image: https://files.ait.ethz.ch/projects/ReMu/teaser.jpg
+image: https://files.ait.ethz.ch/projects/ReMu/teaser.gif
 external_project_page: https://eth-ait.github.io/ReMu
 video: 
 talk: 
