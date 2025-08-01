@@ -13,7 +13,7 @@ poster:
 data:
 conference_url: https://iccv.thecvf.com/
 equal_contributions: 7, 8
-bibtex: "@inproceedings{guo2025vid2avatarpro,
+bibtex: "@inproceedings{ho2025phd,
 author = {Ho, Hsuan-I and Guo, Chen and Wu, Po-Chen and Shugurov, Ivan and Tang, Chengcheng and Mittal, Abhay and An, Sizhe and Kaufmann, Manuel and Zhang, Linguang}, 
 title = {PHD: Personalized 3D Human Body Fitting with Point Diffusion},
 booktitle = {International Conference on Computer Vision (ICCV)},
