@@ -8,7 +8,7 @@ image: https://files.ait.ethz.ch/projects/ReMu/teaser.gif
 external_project_page: https://eth-ait.github.io/ReMu
 video: 
 talk: 
-paper: 
+paper: http://arxiv.org/abs/2508.01381
 poster:
 data:
 conference_url: https://bmvc2025.bmva.org/
@@ -16,6 +16,6 @@ bibtex: "@inproceedings{vuran2025remu,
 author = {Vuran, Onat and Ho, Hsuan-I}, 
 title = {ReMu: Reconstructing Multi-layer 3D Clothed Human from Images},
 booktitle = {British Machine Vision Conference (BMVC)},
-year = {2025},
+year = {2025}
 }"
 ---
