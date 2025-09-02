@@ -6,9 +6,9 @@ date: 2025-10-19
 venue: "International Conference on Computer Vision (ICCV)"
 image: https://files.ait.ethz.ch/projects/PHD/bike.gif
 external_project_page: https://PHD-Pose.github.io
-video: 
+video: https://youtu.be/Ujd7pOn8YtM
 talk: 
-paper: 
+paper: http://arxiv.org/abs/2508.21257
 poster:
 data:
 conference_url: https://iccv.thecvf.com/
@@ -17,6 +17,6 @@ bibtex: "@inproceedings{ho2025phd,
 author = {Ho, Hsuan-I and Guo, Chen and Wu, Po-Chen and Shugurov, Ivan and Tang, Chengcheng and Mittal, Abhay and An, Sizhe and Kaufmann, Manuel and Zhang, Linguang}, 
 title = {PHD: Personalized 3D Human Body Fitting with Point Diffusion},
 booktitle = {International Conference on Computer Vision (ICCV)},
-year = {2025},
+year = {2025}
 }"
 ---
