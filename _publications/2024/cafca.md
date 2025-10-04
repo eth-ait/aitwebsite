@@ -10,7 +10,7 @@ video: https://files.ait.ethz.ch/projects/cafca/web/static/videos/Cafca_supp_vid
 talk: https://youtu.be/soNSzodOUvs
 paper: http://arxiv.org/abs/2410.00630
 poster: 
-data: https://github.com/syntec-research/Cafca/blob/main/Dataset.md
+data: https://syntec-research.github.io/Cafca/cafca_dataset.html
 code: 
 conference_url: https://asia.siggraph.org/2024/
 equal_contributions:
