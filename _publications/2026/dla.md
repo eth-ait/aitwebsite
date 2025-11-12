@@ -3,7 +3,7 @@ ref: dla
 title: "Dream, Lift, Animate: From Single Images to Animatable Gaussian Avatars"
 authors: Marcel C. Buehler, Ye Yuan, Xueting Li, Yangyi Huang, Koki Nagano, Umar Iqbal
 date: 2025-07-21
-venue: "arxiv"
+venue: "International Conference on 3D Vision (3DV)"
 image: https://files.ait.ethz.ch/projects/dla/web/teaser_video.mp4
 external_project_page: https://research.nvidia.com/labs/dair/dream-lift-animate/
 video: 
@@ -12,16 +12,13 @@ paper: https://arxiv.org/abs/2507.15979
 poster: 
 data: 
 code: 
-conference_url: 
+conference_url: https://3dvconf.github.io/2026/
 equal_contributions:
 award:
-bibtex: "@misc{buhler2025dreamliftanimatesingle,
+bibtex: "@inproceedings{buhler2025dreamliftanimatesingle,
   title={Dream, Lift, Animate: From Single Images to Animatable Gaussian Avatars},
   author={Marcel C. Buehler and Ye Yuan and Xueting Li and Yangyi Huang and Koki Nagano and Umar Iqbal},
-  year={2025},
-  eprint={2507.15979},
-  archivePrefix={arXiv},
-  primaryClass={cs.GR},
-  url={https://arxiv.org/abs/2507.15979},
+    booktitle={Proceedings of the International Conference on 3D Vision (3DV)},
+    year={2026}
 }"
 ---
