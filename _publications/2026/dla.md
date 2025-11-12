@@ -2,7 +2,7 @@
 ref: dla
 title: "Dream, Lift, Animate: From Single Images to Animatable Gaussian Avatars"
 authors: Marcel C. Buehler, Ye Yuan, Xueting Li, Yangyi Huang, Koki Nagano, Umar Iqbal
-date: 2025-07-21
+date: 2026-03-20
 venue: "International Conference on 3D Vision (3DV)"
 image: https://files.ait.ethz.ch/projects/dla/web/teaser_video.mp4
 external_project_page: https://research.nvidia.com/labs/dair/dream-lift-animate/
