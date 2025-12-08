@@ -4,5 +4,5 @@ category: news
 image: people/zhengyuf.jpg
 ---
 
-[Yufeng Zheng](/people/zhengyuf) passed the doctoral exam. Congratulations!
+[Yufeng Zheng](https://zhengyuf.github.io/) passed the doctoral exam. Congratulations!
 
