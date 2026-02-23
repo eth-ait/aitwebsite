@@ -16,7 +16,7 @@ conference_url:
 equal_contributions:
 award:
 bibtex: "@inproceedings{Serifi2025HyperGaussians,
-  author={Gent Serifi and Marcel C. Bühler},
+  author={Gent Serifi and Marcel C. Buehler},
   title={HyperGaussians: High-Dimensional Gaussian Splatting for High-Fidelity Animatable Face Avatars},
   booktitle = {Computer Vision and Pattern Recognition (CVPR)},
   year={2026}
