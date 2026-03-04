@@ -5,13 +5,13 @@ authors: Zhiyi Chen, Hsuan-I Ho, Tianjian Jiang, Jie Song, Manuel Kaufmann, Chen
 date: 2026-03-20
 venue: "International Conference on 3D Vision (3DV)"
 image: https://files.ait.ethz.ch/people/hohs/gawa.gif
-external_project_page:
+external_project_page: https://eth-ait.github.io/GaussianWardrobe/
 video:
 talk: 
 paper:
 poster: 
 data: 
-code: 
+code: https://github.com/eth-ait/GaussianWardrobe
 conference_url: 
 equal_contributions: 0, 1
 award: 
