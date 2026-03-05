@@ -6,13 +6,13 @@ date: 2026-03-20
 venue: "International Conference on 3D Vision (3DV)"
 image: https://files.ait.ethz.ch/people/hohs/gawa.gif
 external_project_page: https://eth-ait.github.io/GaussianWardrobe/
-video:
+video: https://www.youtube.com/watch?v=AZ-OzDKw4QU
 talk: 
-paper:
+paper: https://arxiv.org/abs/2603.04290
 poster: 
 data: 
 code: https://github.com/eth-ait/GaussianWardrobe
-conference_url: 
+conference_url: https://3dvconf.github.io/2026/
 equal_contributions: 0, 1
 award: 
 bibtex: "
