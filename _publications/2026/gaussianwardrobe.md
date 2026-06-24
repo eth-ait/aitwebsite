@@ -7,7 +7,7 @@ venue: "International Conference on 3D Vision (3DV)"
 image: https://files.ait.ethz.ch/people/hohs/gawa.gif
 external_project_page: https://eth-ait.github.io/GaussianWardrobe/
 video: https://www.youtube.com/watch?v=AZ-OzDKw4QU
-talk: 
+talk: https://youtu.be/ommdSQwztPk
 paper: https://arxiv.org/abs/2603.04290
 poster: 
 data: 
