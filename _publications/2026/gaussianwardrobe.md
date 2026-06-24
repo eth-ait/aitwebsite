@@ -14,7 +14,7 @@ data:
 code: https://github.com/eth-ait/GaussianWardrobe
 conference_url: https://3dvconf.github.io/2026/
 equal_contributions: 0, 1
-award: 
+award: Invited by Voxel 51 Best of 3DV 2026 
 bibtex: "
     @inproceedings{chen2026gaussianwardrobe,
     title={Gaussian Wardrobe: Compositional 3D Gaussian Avatars for Free-Form Virtual Try-on},
