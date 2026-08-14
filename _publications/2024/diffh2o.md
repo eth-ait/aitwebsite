@@ -4,7 +4,7 @@ title: "DiffH2O: Diffusion-Based Synthesis of Hand-Object Interactions from Text
 authors: Sammy Christen, Shreyas Hampali, Fadime Sener, Edoardo Remelli, Tomas Hodan, Eric Sauser, Shugao Ma, Bugra Tekin
 date: 2024-12-03
 venue: "Conference paper at SIGGRAPH Asia"
-image: https://files.ait.ethz.ch/projects/diffh2o/diffh2o_teaser.gif
+image: https://files.ait.ethz.ch/projects/diffh2o/card.mp4
 external_project_page: https://diffh2o.github.io/
 video: https://www.youtube.com/watch?v=ed38EqN6EhU
 talk:

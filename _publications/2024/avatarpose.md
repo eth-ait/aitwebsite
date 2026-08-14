@@ -4,7 +4,7 @@ title: "AvatarPose: Avatar-guided 3D Pose Estimation of Close Human Interaction 
 authors: Feichi Lu, Zijian Dong, Jie Song, Otmar Hilliges
 date: 2024-09-29
 venue: European Conference on Computer Vision (ECCV)
-image: https://files.ait.ethz.ch/projects/avatarpose/demo.png
+image: https://files.ait.ethz.ch/projects/avatarpose/card.webp
 external_project_page: https://eth-ait.github.io/AvatarPose/
 video: https://www.youtube.com/watch?v=y_T67l9j_TA
 talk: 

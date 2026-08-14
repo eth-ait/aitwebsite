@@ -4,7 +4,7 @@ title: "Eliminating Oversaturation and Artifacts of High Guidance Scales in Diff
 authors: Seyedmorteza Sadat, Otmar Hilliges, Romann M. Weber
 date: 2025-04-24
 venue: "International Conference on Learning Representations (ICLR)"
-image: /assets/projects/apg/apg.png
+image: https://files.ait.ethz.ch/projects/apg/card.webp
 external_project_page:
 video: 
 talk: 

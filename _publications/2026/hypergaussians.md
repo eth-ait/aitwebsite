@@ -4,7 +4,7 @@ title: "HyperGaussians: High-Dimensional Gaussian Splatting for High-Fidelity An
 authors: Gent Serifi, Marcel C. Buehler
 date: 2026-06-03
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/hypergaussians/teaser.mp4
+image: https://files.ait.ethz.ch/projects/hypergaussians/card.mp4
 external_project_page: https://gserifi.github.io/HyperGaussians/
 video: 
 talk: 

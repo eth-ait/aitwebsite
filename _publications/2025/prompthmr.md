@@ -4,7 +4,7 @@ title: "PromptHMR: Promptable Human Mesh Recovery"
 authors: Yufu Wang, Yu Sun, Priyanka Patel, Kostas Daniilidis, Michael J. Black, Muhammed Kocabas
 date: 2025-06-01
 venue: "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"
-image: https://is.mpg.de/uploads/publication/image/28639/thumb_xxl_phmrteaser.jpg
+image: https://files.ait.ethz.ch/projects/prompthmr/card.webp
 external_project_page: https://yufu-wang.github.io/phmr-page/
 video: https://www.youtube.com/watch?v=tZ0M5Ta_Rgg
 talk: 

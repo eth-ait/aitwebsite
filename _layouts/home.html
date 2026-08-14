@@ -13,7 +13,7 @@ layout: default
         <div class="column column-60 ">
           <h2>Research <em>Overview</em></h2>
           <!-- <h1 class="landing-title">{{ site.title | escape }}</h1> -->
-    			<img src="assets/images/ait_group_2022.jpg">
+    			<img src="assets/images/ait_group_2022.jpg" fetchpriority="high" alt="AIT Lab group photo">
           <div class="landing-about">
             <p>The AIT lab conducts research at the fore-front of human-centric computer vision. 
             Our core research interests are algorithms and methods for the spatio-temporal understanding of how humans move within and interact with the physical world. 
@@ -41,7 +41,7 @@ layout: default
                 {% if newspost.link %}  
                   <a href="{{ newspost.link }}" target="_blank">
                   {% endif %}
-                    <img src="{{ newspost.image | prepend: '/assets/' | relative_url}}"/>
+                    <img src="{{ newspost.image | prepend: '/assets/' | relative_url}}" loading="lazy" decoding="async"/>
                   {% if newspost.link %}  
                   </a>
                 {% endif %}

@@ -4,7 +4,7 @@ title: "ODHSR: Online Dense 3D Reconstruction of Humans and Scenes from Monocula
 authors: Zetong Zhang, Manuel Kaufmann, Lixin Xue, Jie Song, Martin Oswald
 date: 2025-06-11
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/odhsr/teaser.mp4
+image: https://files.ait.ethz.ch/projects/odhsr/card.mp4
 external_project_page: https://eth-ait.github.io/ODHSR/
 video: https://youtu.be/nK9GNEqufS8
 talk: 

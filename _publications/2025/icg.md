@@ -4,7 +4,7 @@ title: "No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusi
 authors: Seyedmorteza Sadat, Manuel Kansy, Otmar Hilliges, Romann M. Weber
 date: 2025-04-24
 venue: "International Conference on Learning Representations (ICLR)"
-image: /assets/projects/icg/icg.png
+image: https://files.ait.ethz.ch/projects/icg/card.webp
 external_project_page:
 video: 
 talk: 

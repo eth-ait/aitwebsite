@@ -4,7 +4,7 @@ title: "WorldPose: A World Cup Dataset for Global 3D Human Pose Estimation"
 authors: Tianjian Jiang, Johsan Billingham, Sebastian Müksch, Juan Zarate, Nicolas Evans, Martin Oswald, Marc Pollefeys, Otmar Hilliges, Manuel Kaufmann, Jie Song
 date: 2024-09-29
 venue: European Conference on Computer Vision (ECCV)
-image: https://files.ait.ethz.ch/projects/worldpose/teaser.mp4
+image: https://files.ait.ethz.ch/projects/worldpose/card.mp4
 external_project_page: https://eth-ait.github.io/WorldPoseDataset/
 video: https://www.youtube.com/watch?v=LM3VBvxl6ms
 talk:

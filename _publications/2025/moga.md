@@ -4,7 +4,7 @@ title: "MoGA: 3D Generative Avatar Prior for Monocular Gaussian Avatar Reconstru
 authors: Zijian Dong, Longteng Duan, Jie Song, Michael J Black, Andreas Geiger
 date: 2025-07-31
 venue: "International Conference on Computer Vision (ICCV)"
-image: https://files.ait.ethz.ch/projects/moga/teaser.gif
+image: /assets/projects/moga/card.mp4
 external_project_page: https://zj-dong.github.io/MoGA/
 video: https://youtu.be/J6C8j77oiLM
 talk: 
