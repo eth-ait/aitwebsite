@@ -4,7 +4,7 @@ title: "SiTH: Single-view Textured Human Reconstruction with Image-Conditioned D
 authors: Hsuan-I Ho, Jie Song, Otmar Hilliges
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/SiTH/sith.gif
+image: https://files.ait.ethz.ch/projects/SiTH/SiTH_card.mp4
 external_project_page: https://sith-diffusion.github.io
 video: https://www.youtube.com/watch?v=gixakzI9UcM
 talk: 

@@ -4,7 +4,7 @@ title: "HMP: Hand Motion Priors for Pose and Shape Estimation from Video "
 authors: Enes Duran, Muhammed Kocabas, Vasileios Choutas, Zicong Fan, Michael J. Black
 date: 2024-01-01
 venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
-image: https://is.mpg.de/uploads/publication/image/27859/teaser_website.png
+image: https://files.ait.ethz.ch/projects/hmp/hmp_card.webp
 external_project_page: https://hmp.is.tue.mpg.de/
 video: https://www.youtube.com/watch?v=MCmXutpg88o
 talk: 

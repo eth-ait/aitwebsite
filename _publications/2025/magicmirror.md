@@ -4,7 +4,7 @@ title: "MagicMirror: Fast and High-Quality Avatar Generation with a Constrained 
 authors: Armand Comas, Di Qiu, Menglei Chai, Marcel C. Buehler, Amit Raj, Ruiqi Gao, Qiangeng Xu, Mark Matthews, Paulo Gotardo, Sergio Orts-Escolano, Thabo Beeler
 date: 2024-08-10
 venue: "European Conference on Computer Vision"
-image: https://syntec-research.github.io/MagicMirror/assets/who-is-Albert-Einstein_portrait-of-a-man_CG3_CGLo1_LR0.0001_LRLo0.0002_740iter_viz.mp4
+image: https://files.ait.ethz.ch/projects/magicmirror/magicmirror_card.mp4
 external_project_page: https://syntec-research.github.io/MagicMirror/
 video:
 talk:

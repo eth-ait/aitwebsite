@@ -4,7 +4,7 @@ title: "Capturing Subjective First-Person View Shots with Drones for Automated C
 authors: Amirsaman Ashtari, Stefan Stevšić, Tobias Nägeli, Jean-Charles Bazin, Otmar Hilliges
 date: 2020-08-17
 venue: "ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH) (Volume: 39, Issue: 5)"
-image: /assets/projects/fpv_drone/teaser_figure.png
+image: https://files.ait.ethz.ch/projects/fpv_drone/fpv_drone_card.webp
 external_project_page: 
 video: https://youtu.be/jxzXPpGHIlI
 talk: 

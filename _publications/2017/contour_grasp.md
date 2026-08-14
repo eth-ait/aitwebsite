@@ -4,7 +4,7 @@ title: "Contour Based Grasp Synthesis of Unknown Objects with a Humanoid Hand"
 authors: Sammy Christen, Martin Wermelinger, Dario Bellicoso, Marco Hutter
 date: 2017-01-01
 venue: "Semester Project"
-image: /assets/projects/contour_grasp/contour_grasp.gif
+image: https://files.ait.ethz.ch/projects/contour_grasp/contour_grasp_card.mp4
 external_project_page: 
 video: 
 talk: 

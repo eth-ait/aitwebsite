@@ -4,7 +4,7 @@ title: "CADS: Unleashing the Diversity of Diffusion Models through Condition-Ann
 authors: Seyedmorteza Sadat, Jakob Buhmann, Derek Bradley, Otmar Hilliges, Romann M. Weber
 date: 2024-05-07
 venue: "International Conference on Learning Representations (ICLR)"
-image: /assets/projects/cads/cads.png
+image: https://files.ait.ethz.ch/projects/cads/cads_card.webp
 external_project_page: https://studios.disneyresearch.com/2024/05/08/cads-unleashing-the-diversity-of-diffusion-models-through-condition-annealed-sampling/
 video: 
 talk: 

@@ -4,7 +4,7 @@ title: "Utilizing Synthetic Data in Supervised Learning for Robust 5-DoF Magneti
 authors: Mengfan Wu, Thomas Langerak, Otmar Hilliges, Juan Zarate
 date: 2024-06-26
 venue: "IEEE Transactions on Magnetics"
-image: https://files.ait.ethz.ch/projects/magtrack/teaser.jpg
+image: https://files.ait.ethz.ch/projects/magtrack/magtrack_card.webp
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/magtrack/video.mp4
 talk: 

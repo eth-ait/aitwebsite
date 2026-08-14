@@ -4,7 +4,7 @@ title: "ContourCraft: Learning to Resolve Intersections in Neural Multi-Garment 
 authors: Artur Grigorev, Giorgio Becherini, Michael Black, Otmar Hilliges, Bernhard Thomaszewski
 date: 2024-07-28
 venue: "ACM SIGGRAPH"
-image: https://files.ait.ethz.ch/projects/contourcraft/ccraft_teaser.gif
+image: https://files.ait.ethz.ch/projects/contourcraft/contourcraft_card.mp4
 external_project_page: https://dolorousrtur.github.io/contourcraft/
 video: https://www.youtube.com/watch?v=5i9DXhPMEow
 talk: 

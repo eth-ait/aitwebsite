@@ -4,7 +4,7 @@ title: "WANDR: Intention-guided Human Motion Generation"
 authors: Markos Diomataris, Nikos Athanasiou, Omid Taheri, Xi Wang, Otmar Hilliges, Michael J. Black
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/wandr/branching_motion.gif
+image: https://files.ait.ethz.ch/projects/wandr/wandr_card.mp4
 external_project_page: https://wandr.is.tue.mpg.de/
 video: https://youtu.be/9szizM-XUCg?si=B836zQoWTI4I9s61
 talk: 

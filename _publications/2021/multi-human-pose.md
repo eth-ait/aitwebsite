@@ -4,7 +4,7 @@ title: "Shape-aware Multi-Person Pose Estimation from Multi-view Images"
 authors: Zijian Dong, Jie Song, Xu Chen, Chen Guo, Otmar Hilliges
 date: 2021-10-11
 venue: "International Conference on Computer Vision (ICCV)"
-image: /assets/projects/multi-human-pose/teaser.gif
+image: https://files.ait.ethz.ch/projects/multi-human-pose/multi-human-pose_card.mp4
 external_project_page: 
 video: https://youtu.be/KE5Jpnyqmh4
 talk: 

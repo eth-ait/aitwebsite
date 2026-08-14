@@ -4,7 +4,7 @@ title: " VIBE: Video Inference for Human Body Pose and Shape Estimation "
 authors: Muhammed Kocabas, Nikos Athanasiou, Michael J. Black
 date: 2020-06-01
 venue: "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"
-image: https://is.mpg.de/uploads/publication/image/22866/vibe.png
+image: https://files.ait.ethz.ch/projects/vibe/vibe_card.mp4
 external_project_page: https://is.mpg.de/ps/publications/vibe-cvpr-2020
 video: https://www.youtube.com/watch?v=rIr-nX63dUA
 talk: https://www.youtube.com/watch?v=XNzgUhxKC38

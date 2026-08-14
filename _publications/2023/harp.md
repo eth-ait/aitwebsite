@@ -4,7 +4,7 @@ title: "HARP: Personalized Hand Reconstruction from a Monocular RGB Video"
 authors: Korrawe Karunratanakul, Sergey Prokudin and Otmar Hilliges, Siyu Tang
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/harp/teaser.gif
+image: https://files.ait.ethz.ch/projects/harp/harp_card.mp4
 external_project_page: https://korrawe.github.io/harp-project/
 video: https://www.youtube.com/watch?v=zdjBWTVrb84
 talk: 

@@ -4,7 +4,7 @@ title: "PointAvatar: Deformable Point-based Head Avatars from Videos"
 authors: Yufeng Zheng, Wang Yifan, Gordon Wetzstein, Michael Black, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/pointavatar/teaser.gif
+image: https://files.ait.ethz.ch/projects/pointavatar/pointavatar_card.mp4
 external_project_page: https://zhengyuf.github.io/PointAvatar/
 video: https://youtu.be/wll_XtgpU7U
 talk: 

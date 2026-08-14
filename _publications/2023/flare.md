@@ -4,7 +4,7 @@ title: "FLARE: Fast Learning of Animatable and Relightable Mesh Avatars"
 authors: Shrisha Bharadwaj, Yufeng Zheng, Otmar Hilliges, Michael J. Black, Victoria Fernandez-Abrevaya
 date: 2023-12-01
 venue: "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)"
-image: /assets/projects/flare/teaser_flare_timer.gif
+image: https://files.ait.ethz.ch/projects/flare/flare_card.mp4
 external_project_page: https://flare.is.tue.mpg.de/
 video: https://youtu.be/qc-eAmHoLKA?si=i_MMcpUJRkupJ6mL
 talk: 

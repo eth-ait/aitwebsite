@@ -4,7 +4,7 @@ title: "Category Level Object Pose Estimation via Neural Analysis-by-Synthesis"
 authors: Xu Chen, Zijian Dong, Jie Song, Andreas Geiger, Otmar Hilliges
 date: 2020-08-23
 venue: "European Conference on Computer Vision (ECCV)"
-image: /assets/projects/neural-object-fitting/teaser.gif
+image: https://files.ait.ethz.ch/projects/neural-object-fitting/neural-object-fitting_card.mp4
 external_project_page: 
 video: https://youtu.be/J1GY7S3DUn0
 talk: 

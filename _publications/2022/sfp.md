@@ -4,7 +4,7 @@ title: "SFP: State-free Priors for Exploration in Off-Policy Reinforcement Learn
 authors: Marco Bagatella, Sammy Christen, Otmar Hilliges
 date: 2022-08-01
 venue: "Transactions on Machine Learning Research"
-image: /assets/projects/sfp/thumbnail.gif
+image: https://files.ait.ethz.ch/projects/sfp/sfp_card.mp4
 external_project_page: https://eth-ait.github.io/sfp
 video: 
 talk: 

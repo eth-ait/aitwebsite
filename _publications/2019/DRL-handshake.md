@@ -4,7 +4,7 @@ title: "Demonstration-Guided Deep Reinforcement Learning of Control Policies for
 authors: Sammy Christen, Stefan Stevšić, Otmar Hilliges
 date: 2019-05-20
 venue: "International Conference on Robotics and Automation (ICRA)"
-image: /assets/projects/DRL-handshake/teaser.png
+image: https://files.ait.ethz.ch/projects/DRL-handshake/DRL-handshake_card.webp
 external_project_page: 
 video: https://youtu.be/ZSgEqyltaN4
 talk: 

@@ -4,7 +4,7 @@ title: "EMDB: The Electromagnetic Database of Global 3D Human Pose and Shape in 
 authors: Manuel Kaufmann, Jie Song, Chen Guo, Kaiyue Shen, Tianjian Jiang, Chengcheng Tang, Juan Zarate, Otmar Hilliges
 date: 2023-07-10
 venue: "International Conference on Computer Vision (ICCV)"
-image: https://files.ait.ethz.ch/projects/emdb/teaser2.gif
+image: https://files.ait.ethz.ch/projects/emdb/emdb_card.mp4
 external_project_page: https://eth-ait.github.io/emdb/
 video: https://youtu.be/H66-YE4GUHI?feature=shared
 talk: 

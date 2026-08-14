@@ -4,7 +4,7 @@ title: "Cross-modal deep variational hand pose estimation"
 authors: Adrian Spurr, Jie Song, Seonwook Park, Otmar Hilliges
 date: 2018-06-18
 venue: "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/vae_hands/teaser_small.gif
+image: https://files.ait.ethz.ch/projects/vae_hands/vae_hands_card.mp4
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/vae_hands/spurr2018cvpr.mp4
 talk: 

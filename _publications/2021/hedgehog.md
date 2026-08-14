@@ -4,7 +4,7 @@ title: "Hedgehog: Handheld Spherical Pin Array based on a CentralElectromagnetic
 authors: Ablerm Aline, Juan Zarate, Thomas Langerak, Velko Vechev, Otmar Hilliges
 date: 2021-07-06
 venue: "World Haptics Conference"
-image: /assets/projects/hedgehog/teaser_figure.png
+image: https://files.ait.ethz.ch/projects/hedgehog/hedgehog_card.webp
 external_project_page: 
 video: https://www.youtube.com/watch?v=W1FG8rRVQro
 talk: 

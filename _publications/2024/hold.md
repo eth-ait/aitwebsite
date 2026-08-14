@@ -4,7 +4,7 @@ title: "HOLD: Category-agnostic 3D Reconstruction of Interacting Hands and Objec
 authors: Zicong Fan, Maria Parelli, Maria Eleni Kadoglou, Muhammed Kocabas, Xu Chen, Michael J. Black, Otmar Hilliges
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/hold/rubik_normal.mp4
+image: https://files.ait.ethz.ch/projects/hold/hold_card.mp4
 external_project_page: https://zc-alexfan.github.io/hold
 video: https://download.is.tue.mpg.de/hold/video.mp4
 talk: 

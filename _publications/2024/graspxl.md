@@ -4,7 +4,7 @@ title: "GraspXL: Generating Grasping Motions for Diverse Objects at Scale"
 authors: Hui Zhang, Sammy Christen, Zicong Fan, Otmar Hilliges, Jie Song
 date: 2024-09-29
 venue: European Conference on Computer Vision (ECCV)
-image: https://files.ait.ethz.ch/projects/graspxl/graspxl.mp4
+image: https://files.ait.ethz.ch/projects/graspxl/graspxl_card.mp4
 external_project_page: https://eth-ait.github.io/graspxl/
 video: https://www.youtube.com/watch?v=z7axE9F7d6s
 talk: 

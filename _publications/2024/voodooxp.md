@@ -4,7 +4,7 @@ title: "VOODOO XP: Expressive One-Shot Head Reenactment for VR Telepresence"
 authors: Phong Tran, Egor Zakharov, Long-Nhat Ho, Liwen Hu, Adilbek Karmanov, Aviral Agarwal, McLean Goldwhite, Ariana Bermudez Venegas, Anh Tuan Tran, Hao Li
 date: 2024-12-03
 venue: "SIGGRAPH Asia 2024 (TOG)"
-image: https://files.ait.ethz.ch/projects/voodooxp/card.mp4
+image: https://files.ait.ethz.ch/projects/voodooxp/voodooxp_card.mp4
 external_project_page: https://mbzuai-metaverse.github.io/voodooxp/
 video: https://www.youtube.com/watch?v=CNXctCA5RXM
 talk: 

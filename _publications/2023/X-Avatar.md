@@ -4,7 +4,7 @@ title: "X-Avatar: Expressive Human Avatars"
 authors: Kaiyue Shen, Chen Guo, Manuel Kaufmann, Juan Zarate, Julien Valentin, Jie Song, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/x-avatar/teaser3.gif
+image: https://files.ait.ethz.ch/projects/x-avatar/x-avatar_card.mp4
 external_project_page: https://skype-line.github.io/projects/X-Avatar/
 video: https://youtu.be/JniKF88aPcs
 talk: 

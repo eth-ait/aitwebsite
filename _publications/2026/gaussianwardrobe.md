@@ -4,7 +4,7 @@ title: "Gaussian Wardrobe: Compositional 3D Gaussian Avatars for Free-Form Virtu
 authors: Zhiyi Chen, Hsuan-I Ho, Tianjian Jiang, Jie Song, Manuel Kaufmann, Chen Guo
 date: 2026-03-20
 venue: "International Conference on 3D Vision (3DV)"
-image: https://files.ait.ethz.ch/projects/gaussianwardrobe/card.mp4
+image: https://files.ait.ethz.ch/projects/gaussianwardrobe/gaussianwardrobe_card.mp4
 external_project_page: https://eth-ait.github.io/GaussianWardrobe/
 video: https://www.youtube.com/watch?v=AZ-OzDKw4QU
 talk: https://youtu.be/ommdSQwztPk

@@ -4,7 +4,7 @@ title: "Optimization-based User Support for Cinematographic Quadrotor Camera Tar
 authors: Christoph Gebhardt, Otmar Hilliges
 date: 2021-05-08
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
-image: /assets/projects/optimize-quad-cam-framing/teaser.mp4
+image: https://files.ait.ethz.ch/projects/optimize-quad-cam-framing/optimize-quad-cam-framing_card.mp4
 external_project_page: 
 video: https://youtu.be/OP9aYLxqRBQ
 talk: 

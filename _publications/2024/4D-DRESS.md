@@ -4,7 +4,7 @@ title: "4D-DRESS: A 4D Dataset of Real-World Human Clothing With Semantic Annota
 authors: Wenbo Wang, Hsuan-I Ho, Chen Guo, Boxiang Rong, Artur Grigorev, Jie Song, Juan Zarate, Otmar Hilliges
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/4d-dress/teaser.gif
+image: https://files.ait.ethz.ch/projects/4d-dress/4d-dress_card.mp4
 external_project_page: https://eth-ait.github.io/4d-dress/
 video: https://youtu.be/dEQ4dvO8BsE?si=6tDzXRG-x3MF34v5
 talk: 

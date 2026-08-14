@@ -4,7 +4,7 @@ title: "Weakly Supervised 3D Hand Pose Estimation via Biomechanical Constraints"
 authors: Adrian Spurr, Umar Iqbal, Pavlo Molchanov, Otmar Hilliges, Jan Kautz
 date: 2020-08-23
 venue: "European Conference on Computer Vision (ECCV)"
-image: /assets/projects/bmc_hand_pose/teaser_small.gif
+image: https://files.ait.ethz.ch/projects/bmc_hand_pose/bmc_hand_pose_card.mp4
 external_project_page: 
 video: 
 talk: 

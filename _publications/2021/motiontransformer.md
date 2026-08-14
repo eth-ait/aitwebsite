@@ -4,7 +4,7 @@ title: "A Spatio-temporal Transformer for 3D Human Motion Prediction"
 authors: Emre Aksan, Manuel Kaufmann, Peng Cao, Otmar Hilliges
 date: 2021-12-01
 venue: "International Conference on 3D Vision (3DV)"
-image: /assets/projects/motiontransformer/teaser.gif
+image: https://files.ait.ethz.ch/projects/motiontransformer/motiontransformer_card.mp4
 external_project_page: 
 video: https://youtu.be/w9DMhGMrpx4
 talk: 

@@ -4,7 +4,7 @@ title: "Monocular Neural Image Based Rendering with Continuous View Control"
 authors: Xu Chen, Jie Song, Otmar Hilliges
 date: 2019-10-27
 venue: "International Conference on Computer Vision (ICCV)"
-image: /assets/projects/cont-view-synth/teaser.gif
+image: https://files.ait.ethz.ch/projects/cont-view-synth/cont-view-synth_card.mp4
 external_project_page: 
 video: 
 talk: 

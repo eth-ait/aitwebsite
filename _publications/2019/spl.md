@@ -4,7 +4,7 @@ title: "Structured Prediction Helps 3D Human Motion Modelling"
 authors: Emre Aksan, Manuel Kaufmann, Otmar Hilliges
 date: 2019-10-27
 venue: "The IEEE International Conference on Computer Vision (ICCV)"
-image: /assets/projects/spl/thumbnail.gif
+image: https://files.ait.ethz.ch/projects/spl/spl_card.mp4
 external_project_page: 
 video: https://youtu.be/Y7SFBHmBjBk
 talk: 

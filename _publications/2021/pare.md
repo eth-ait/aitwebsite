@@ -4,7 +4,7 @@ title: "PARE: Part Attention Regressor for 3D Human Body Estimation"
 authors: Muhammed Kocabas, Chun-Hao Huang, Otmar Hilliges, Michael Black
 date: 2021-10-01
 venue: "Proceedings of the International Conference on Computer Vision 2021"
-image: https://is.mpg.de/uploads/publication/image/24865/website_teaser_v3.png
+image: https://files.ait.ethz.ch/projects/pare/pare_card.webp
 external_project_page: https://pare.is.tue.mpg.de/
 video: https://www.youtube.com/watch?v=3C9hdFajO3k
 talk: 

@@ -4,7 +4,7 @@ title: "ShellNeRF: Learning a Controllable High-resolution Model of the Eye and 
 authors:  Gengyan Li, Kripasindhu Sarkar, Abhimitra Meka, Marcel C. Buehler, Franziska Mueller, Paulo Gotardo, Otmar Hilliges, Thabo Beeler
 date: 2024-04-24
 venue: "Computer Graphics Forum (Eurographics)"
-image: /assets/projects/shellnerf/image.png
+image: https://files.ait.ethz.ch/projects/shellnerf/shellnerf_card.webp
 external_project_page: https://syntec-research.github.io/ShellNeRF/
 video: 
 talk: 

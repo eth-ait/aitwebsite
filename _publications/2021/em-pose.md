@@ -4,7 +4,7 @@ title: "EM-POSE: 3D Human Pose Estimation from Sparse Electromagnetic Trackers"
 authors: Manuel Kaufmann, Yi Zhao, Chengcheng Tang, Lingling Tao, Christopher Twigg, Jie Song, Robert Wang, Otmar Hilliges
 date: 2021-10-11
 venue: "International Conference on Computer Vision (ICCV)"
-image: https://files.ait.ethz.ch/projects/em-pose/thumbnail.gif
+image: https://files.ait.ethz.ch/projects/em-pose/em-pose_card.mp4
 external_project_page: 
 video: https://youtu.be/PqSL4fhIilM
 talk: 

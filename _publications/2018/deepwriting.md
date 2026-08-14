@@ -4,7 +4,7 @@ title: "DeepWriting: Making Digital Ink Editable via Deep Generative Modeling"
 authors: Emre Aksan, Fabrizio Pece, Otmar Hilliges
 date: 2018-04-21
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
-image: /assets/projects/deepwriting/animated_title.gif
+image: https://files.ait.ethz.ch/projects/deepwriting/deepwriting_card.mp4
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/deepwriting/deepwriting_chi18.mp4
 talk: 

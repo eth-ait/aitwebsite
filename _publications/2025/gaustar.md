@@ -4,7 +4,7 @@ title: "GauSTAR: Gaussian Surface Tracking and Reconstruction"
 authors: Chengwei Zheng, Lixin Xue, Juan Zarate, Jie Song
 date: 2025-06-11
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/gaustar/card.mp4
+image: https://files.ait.ethz.ch/projects/gaustar/gaustar_card.mp4
 external_project_page: https://eth-ait.github.io/GauSTAR/ 
 video: https://www.youtube.com/watch?v=NQALobcY6vk
 talk: 

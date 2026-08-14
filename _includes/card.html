@@ -10,7 +10,7 @@
       <div class="card-img">
       <a href="{{url}}" alt="{{ include.title }}" {% if include.external_url != "" %} target="_blank"{%endif%}>
         {% if include.image contains ".mp4" %}
-          <video preload="metadata" loop muted playsinline data-lazy-autoplay>
+          <video preload="none" loop muted playsinline data-lazy-autoplay>
             <source src="{{ include.image | relative_url }}" type="video/mp4">
           </video>
         {% else %}
@@ -39,7 +39,7 @@
         <div class="card-icon"><a href="{{url}}" {% if include.external_url != "" %} target="_blank"{%endif%}><img class="icon" src="{{ include.image | relative_url }}"/></a></div>
       {% elsif include.image contains ".mp4"  %}
         <div class="card-img">
-          <video preload="metadata" loop muted playsinline data-lazy-autoplay>
+          <video preload="none" loop muted playsinline data-lazy-autoplay>
             <source src="{{ include.image | relative_url }}" type="video/mp4">
           </video>
         </div>

@@ -4,7 +4,7 @@ title: "PINA: Learning a Personalized Implicit Neural Avatar from a Single RGB-D
 authors: Zijian Dong, Chen Guo, Jie Song, Xu Chen, Andreas Geiger, Otmar Hilliges
 date: 2022-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/pina/teaser.gif
+image: https://files.ait.ethz.ch/projects/pina/pina_card.mp4
 external_project_page: https://zj-dong.github.io/pina/
 video: https://www.youtube.com/watch?v=oGpKUuD54Qk&t=4s&ab_channel=ZijianDong
 talk: 

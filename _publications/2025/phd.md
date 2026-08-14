@@ -4,7 +4,7 @@ title: "PHD: Personalized 3D Human Body Fitting with Point Diffusion"
 authors: Hsuan-I Ho, Chen Guo, Po-Chen Wu, Ivan Shugurov, Chengcheng Tang, Abhay Mittal, Sizhe An, Manuel Kaufmann, Linguang Zhang
 date: 2025-10-19
 venue: "International Conference on Computer Vision (ICCV)"
-image: https://files.ait.ethz.ch/projects/PHD/card.mp4
+image: https://files.ait.ethz.ch/projects/PHD/PHD_card.mp4
 external_project_page: https://PHD-Pose.github.io
 video: https://youtu.be/Ujd7pOn8YtM
 talk: 

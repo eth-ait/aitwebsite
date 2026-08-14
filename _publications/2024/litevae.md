@@ -4,7 +4,7 @@ title: "LiteVAE: Lightweight and Efficient Variational Autoencoders for Latent D
 authors: Seyedmorteza Sadat, Jakob Buhmann, Derek Bradley, Otmar Hilliges, Romann M. Weber
 date: 2024-12-10
 venue: "Annual Conference on Neural Information Processing Systems (NeurIPS)"
-image: https://files.ait.ethz.ch/projects/litevae/card.webp
+image: https://files.ait.ethz.ch/projects/litevae/litevae_card.webp
 external_project_page: https://studios.disneyresearch.com/2024/12/10/litevae-lightweight-and-efficient-variational-autoencoders-for-latent-diffusion-models/
 video: https://www.youtube.com/watch?v=GLqUYn_Q0Yg 
 talk: 

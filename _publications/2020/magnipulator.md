@@ -4,7 +4,7 @@ title: "Contact-free Nonplanar Haptics with a Spherical Electromagnet"
 authors: Juan Zarate, Thomas Langerak, Bernhard Thomaszewski, Otmar Hilliges
 date: 2020-03-28
 venue: "2020 IEEE Haptics Symposium (HAPTICS)"
-image: /assets/projects/magnipulator/teaser_figure.png
+image: https://files.ait.ethz.ch/projects/magnipulator/magnipulator_card.webp
 external_project_page: 
 video: https://www.youtube.com/watch?v=Ha3paj6jwaQ
 talk: 

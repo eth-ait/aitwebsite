@@ -4,7 +4,7 @@ title: "Gaussian Garments: Reconstructing Simulation-ready Clothing with Photore
 authors: Boxiang Rong*, Artur Grigorev*, Wenbo Wang, Michael J. Black, Bernhard Thomaszewski, Christina Tsalicoglou, Otmar Hilliges
 date: 2025-03-25
 venue: "International Conference on 3D Vision 2025"
-image: https://files.ait.ethz.ch/projects/gaussiangarments/card.mp4
+image: https://files.ait.ethz.ch/projects/gaussiangarments/gaussiangarments_card.mp4
 external_project_page: https://eth-ait.github.io/Gaussian-Garments/
 video: https://www.youtube.com/watch?v=hi-SHdvRkVY
 talk: 

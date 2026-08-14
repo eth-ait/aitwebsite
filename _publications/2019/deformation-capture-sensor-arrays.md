@@ -4,7 +4,7 @@ title: "Deformation Capture via Self-Sensing Capacitive Arrays"
 authors: Oliver Glauser, Daniele Panozzo, Otmar Hilliges, Olga Sorkine-Hornung
 date: 2019-04-01
 venue: "ACM Transactions on Graphics (TOG) (Volume: 38, Issue: 2)"
-image: https://igl.ethz.ch/publications/2019-deformation-capture-sensor-arrays-thumb.jpg
+image: https://files.ait.ethz.ch/projects/deformation-capture-sensor-arrays/deformation-capture-sensor-arrays_card.webp
 external_project_page: https://igl.ethz.ch/projects/deformation-capture-sensor-arrays/
 video: https://igl.ethz.ch/projects/deformation-capture-sensor-arrays/Deformation-Capture-Sensor-Arrays-2019.mp4
 talk: 

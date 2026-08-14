@@ -4,7 +4,7 @@ title: "Human-Aware Object Placement for Visual Environment Reconstruction"
 authors: Hongwei Yi, Chun-Hao Paul Huang, Dimitrios Tzionas, Muhammed Kocabas, Mohamed Hassan, Siyu Tang, Justus Thies, Michael J. Black
 date: 2022-06-01
 venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)"
-image: https://is.mpg.de/uploads/publication/image/26938/teaser.png
+image: https://files.ait.ethz.ch/projects/mover/mover_card.webp
 external_project_page: https://mover.is.tue.mpg.de/
 video: https://www.youtube.com/watch?v=dY5Vul1EGfA
 talk: 

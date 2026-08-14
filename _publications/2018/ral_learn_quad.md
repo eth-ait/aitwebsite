@@ -4,7 +4,7 @@ title: "Sample Efficient Learning of Path Following and Obstacle Avoidance Behav
 authors: Stefan Stevšić, Tobias Nägeli, Javier Alonso-Mora, Otmar Hilliges
 date: 2018-10-01
 venue: "IEEE Robotics and Automation Letters (Volume: 3, Issue: 4)"
-image: /assets/projects/ral_learn_quad/ral_stefan.gif
+image: https://files.ait.ethz.ch/projects/ral_learn_quad/ral_learn_quad_card.mp4
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/ral_learn_quad/ral_video_quadrotor_policies.mp4
 talk: 

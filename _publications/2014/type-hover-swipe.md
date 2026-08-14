@@ -4,7 +4,7 @@ title: "Type--Hover--Swipe in 96 Bytes: A Motion Sensing Mechanical Keyboard"
 authors: Stuart Taylor, Cem Keskin, Otmar Hilliges, Shahram Izadi, John Helmes
 date: 2014-04-26
 venue: "Proceedings of the 32Nd Annual ACM Conference on Human Factors in Computing Systems"
-image: /assets/projects/type-hover-swipe/Teaser_Narrow.png
+image: https://files.ait.ethz.ch/projects/type-hover-swipe/type-hover-swipe_card.webp
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/96Bytes/MotionKeyboard_CHI_2014.mp4
 talk: 

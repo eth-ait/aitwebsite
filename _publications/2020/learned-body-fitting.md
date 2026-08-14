@@ -4,7 +4,7 @@ title: "Human Body Model Fitting by Learned Gradient Descent"
 authors: Jie Song, Xu Chen, Otmar Hilliges
 date: 2020-08-23
 venue: "European Conference on Computer Vision (ECCV)"
-image: /assets/projects/learned-body-fitting/teaser.gif
+image: https://files.ait.ethz.ch/projects/learned-body-fitting/learned-body-fitting_card.mp4
 external_project_page: 
 video: https://youtu.be/vv3X7Sh-DVw
 talk: 

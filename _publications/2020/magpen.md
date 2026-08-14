@@ -4,7 +4,7 @@ title: "Optimal Control for Electromagnetic Haptic Guidance Systems"
 authors: Thomas Langerak, Juan Zarate, Velko Vechev, David Lindlbauer, Daniele Panozzo, Otmar Hilliges
 date: 2020-10-20
 venue: "Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology"
-image: /assets/projects/magpen/teaser_figure.png
+image: https://files.ait.ethz.ch/projects/magpen/magpen_card.webp
 external_project_page: 
 video: https://www.youtube.com/watch?v=kWug-YdLwwc
 talk: 

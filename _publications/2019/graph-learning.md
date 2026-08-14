@@ -4,7 +4,7 @@ title: "End-to-end Learning for Graph Decomposition"
 authors: Jie Song, Bjoern Andres, Michael Black, Otmar Hilliges, Siyu Tang
 date: 2019-10-27
 venue: "International Conference on Computer Vision (ICCV)"
-image: /assets/projects/graph-learning/PF_com.png
+image: https://files.ait.ethz.ch/projects/graph-learning/graph-learning_card.webp
 external_project_page: 
 video: 
 talk: 

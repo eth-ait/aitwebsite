@@ -4,7 +4,7 @@ title: "Computational Design of Kinesthetic Garments"
 authors: Velko Vechev, Juan Zarate, Bernhard Thomaszewski, Otmar Hilliges
 date: 2022-04-25
 venue: "Computer Graphics Forum"
-image: /assets/projects/cdkg/teaser.gif
+image: https://files.ait.ethz.ch/projects/cdkg/cdkg_card.mp4
 external_project_page: 
 video: https://www.youtube.com/watch?v=yGkmTuoKAlU
 talk: 

@@ -4,7 +4,7 @@ title: "HUGS: Human Gaussian Splats"
 authors: Muhammed Kocabas, Rick Chang, James Gabriel, Oncel Tuzel, Anurag Ranjan
 date: 2024-06-01
 venue: "IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"
-image: https://is.mpg.de/uploads/publication/image/28043/thumb_xxl_Screenshot_2025-09-08_at_11.16.17_AM.png
+image: https://files.ait.ethz.ch/projects/hugs/hugs_card.mp4
 external_project_page: https://machinelearning.apple.com/research/hugs
 video: https://www.youtube.com/watch?v=7KSi6hRIvlQ
 talk: 

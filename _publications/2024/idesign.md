@@ -4,7 +4,7 @@ title: "I-Design: Personalized LLM Interior Designer"
 authors: Ata Çelen, Guo Han, Konrad Schindler, Luc Van Gool, Iro Armeni, Anton Obukhov, Xi Wang
 date: 2024-09-27
 venue: "European Conference on Computer Vision Workshops (ECCVW)"
-image: https://files.ait.ethz.ch/projects/idesign/idesign_teaser.png
+image: https://files.ait.ethz.ch/projects/idesign/idesign_card.webp
 external_project_page: https://atcelen.github.io/I-Design/
 video: https://www.youtube.com/watch?v=Qx2Z3rPb5k0
 talk: 

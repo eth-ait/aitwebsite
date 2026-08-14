@@ -4,7 +4,7 @@ title: "Learning to Assemble: Estimating 6D Poses for Robotic Object-Object Mani
 authors: Stefan Stevšić, Sammy Christen, Otmar Hilliges
 date: 2020-04-01
 venue: "IEEE Robotics and Automation Letters (Volume: 5, Issue: 2)"
-image: /assets/projects/template6d/teaser_figure.png
+image: https://files.ait.ethz.ch/projects/template6d/template6d_card.webp
 external_project_page: 
 video: https://youtu.be/hUyjFG7W5hM
 talk: 

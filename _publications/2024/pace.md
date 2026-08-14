@@ -4,7 +4,7 @@ title: ""
 authors: Muhammed Kocabas, Ye Yuan, Pavlo Molchanov, Yunrong Guo, Michael J. Black, Otmar Hilliges, Jan Kautz, Umar Iqbal 
 date: 2024-03-01
 venue: "International Conference on 3D Vision (3DV 2024)"
-image: https://is.mpg.de/uploads/publication/image/28044/Screenshot_2024-06-09_at_11.38.33_AM.png
+image: https://files.ait.ethz.ch/projects/pace/pace_card.webp
 external_project_page: https://nvlabs.github.io/PACE/
 video: https://www.youtube.com/watch?v=TmU3uttNTF4
 talk: 

@@ -4,7 +4,7 @@ title: "Dream-in-4D: A Unified Approach for Text- and Image-guided 4D Scene Gene
 authors: Yufeng Zheng, Xueting Li, Koki Nagano, Sifei Liu, Karsten Kreis, Otmar Hilliges, Shalini De Mello
 date: 2024-06-19
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/dream-in-4D/teaser_2x4.mp4
+image: https://files.ait.ethz.ch/projects/dream-in-4D/dream-in-4D_card.mp4
 external_project_page: https://research.nvidia.com/labs/nxp/dream-in-4d/
 video: 
 talk: 

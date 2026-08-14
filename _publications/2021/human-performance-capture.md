@@ -4,7 +4,7 @@ title: "Human Performance Capture from Monocular Video in the Wild"
 authors: Chen Guo, Xu Chen, Jie Song, Otmar Hilliges
 date: 2021-12-01
 venue: "2021 International Conference on 3D Vision (3DV)"
-image: /assets/projects/human-performance-capture/teaser.gif
+image: https://files.ait.ethz.ch/projects/human-performance-capture/human-performance-capture_card.mp4
 external_project_page: 
 video: https://youtu.be/5M7Ytnxmhd4
 talk: 

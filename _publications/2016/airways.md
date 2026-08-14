@@ -4,7 +4,7 @@ title: "Airways: Optimization-based Planning of Quadrotor Trajectories according
 authors: Christoph Gebhardt, Benjamin Hepp, Tobias Nägeli, Stefan Stevšić, Otmar Hilliges
 date: 2016-05-07
 venue: "SIGCHI Conference on Human Factors in Computing Systems"
-image: /assets/projects/airways/airways_icon.png
+image: https://files.ait.ethz.ch/projects/airways/airways_card.webp
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/airways/airways-final.mp4
 talk: 

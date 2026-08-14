@@ -4,7 +4,7 @@ title: "An Interactive System for Data Structure Development"
 authors: Jibin Ou, Martin Vechev, Otmar Hilliges
 date: 2015-04-18
 venue: "ACM Conference on Human Factors in Computing Systems (CHI)"
-image: /assets/projects/interactive-debugger/teaser_right.jpg
+image: https://files.ait.ethz.ch/projects/interactive-debugger/interactive-debugger_card.webp
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/InteractiveDebugger/FluidEdt-Ou-CHI2015.mp4
 talk: 

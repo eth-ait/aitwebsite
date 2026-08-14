@@ -4,7 +4,7 @@ title: "ChatGarment: Garment Estimation, Generation and Editing via Large Langua
 authors: Siyuan Bian, Chenghao Xu, Yuliang Xiu, Artur Grigorev, Zhen Liu, Cewu Lu, Michael J. Black, Yao Feng
 date: 2025-06-11
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: https://files.ait.ethz.ch/projects/chatgarment/card.webp
+image: https://files.ait.ethz.ch/projects/chatgarment/chatgarment_card.webp
 external_project_page: https://chatgarment.github.io/
 video: https://www.youtube.com/watch?v=-Fj4mN3jeNo
 talk: 

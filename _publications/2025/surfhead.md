@@ -4,7 +4,7 @@ title: "SurFhead: Affine Rig Blending for Geometrically Accurate 2D Gaussian Sur
 authors: Jaeseong Lee, Taewoong Kang, Marcel C. Buehler, Minjung Kim, Sungwon Hwang, Junha Hyung, Hyojin Jang, Jaegul Choo
 date: 2025-04-24
 venue: "International Conference on Learning Representations"
-image: https://files.ait.ethz.ch/projects/surfhead/card.mp4
+image: https://files.ait.ethz.ch/projects/surfhead/surfhead_card.mp4
 external_project_page: https://summertight.github.io/SurFhead/
 video:
 talk:

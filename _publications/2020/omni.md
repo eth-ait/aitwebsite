@@ -4,7 +4,7 @@ title: "Omni: Volumetric Sensing and Actuation of Passive Magnetic Tools for Dyn
 authors: Thomas Langerak, Juan Zarate, David Lindlbauer, Christian Holz, Otmar Hilliges
 date: 2020-10-20
 venue: "Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology"
-image: /assets/projects/omni/teaser_figure_projectpage.png
+image: https://files.ait.ethz.ch/projects/omni/omni_card.webp
 external_project_page: 
 video: https://www.youtube.com/watch?v=N9RPUSfnBac
 talk: 

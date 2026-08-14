@@ -4,7 +4,7 @@ title: "Interactive Design of 3D-printable Robotic Creatures"
 authors: Vittorio Megaro, Bernhard Thomaszewski, Maurizio Nitti, Otmar Hilliges, Markus Gross, Stelian Coros
 date: 2015-11-02
 venue: "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia) (Volume: 34, Issue: 6)"
-image: /assets/projects/robot-designer/RobotDesigner.png
+image: https://files.ait.ethz.ch/projects/robot-designer/robot-designer_card.webp
 external_project_page: 
 video: https://files.ait.ethz.ch/projects/RobotDesigner/RobotDesignerShortVersion.mov
 talk: 

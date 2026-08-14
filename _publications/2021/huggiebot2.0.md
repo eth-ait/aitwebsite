@@ -4,7 +4,7 @@ title: "The Six Hug Commandments: Design and Evaluation of a Human-Sized Hugging
 authors: Alexis Block, Sammy Christen, Roger Gassert, Otmar Hilliges, Katherine Kuchenbecker
 date: 2021-03-09
 venue: "ACM/IEEE International Conference on Human-Robot Interaction"
-image: /assets/projects/huggiebot2.0/teaser.mp4
+image: https://files.ait.ethz.ch/projects/huggiebot2.0/huggiebot2.0_card.mp4
 external_project_page: https://hi.is.mpg.de/research_projects/huggiebot-2-0-a-more-huggable-robot
 video: 
 talk: 

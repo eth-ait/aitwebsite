@@ -4,7 +4,7 @@ title: "GazeNeRF: 3D-Aware Gaze Redirection with Neural Radiance Fields"
 authors: Alessandro Ruzzi1, Xiangwei Shi, Xi Wang, Gengyan Li, Shalini De Mello, Hyung Jin Chang, Xucong Zhang, Otmar Hilliges
 date: 2023-01-01
 venue: "Computer Vision and Pattern Recognition (CVPR)"
-image: /assets/projects/gaze-nerf/demo.mp4
+image: https://files.ait.ethz.ch/projects/gaze-nerf/gaze-nerf_card.mp4
 external_project_page: https://x-shi.github.io/GazeNeRF.github.io/
 video: https://www.youtube.com/watch?v=JwqKbmUR3DE&ab_channel=ComputerVisionLabTU-Delft
 talk: 

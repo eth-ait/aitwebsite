@@ -4,7 +4,7 @@ title: "Softness, Warmth, and Responsiveness Improve Robot Hugs"
 authors: Alexis Block, Katherine Kuchenbecker
 date: 2018-10-01
 venue: "International Journal of Social Robotics"
-image: /assets/projects/HuggieBot/thumbnail.jpg
+image: https://files.ait.ethz.ch/projects/HuggieBot/HuggieBot_card.webp
 external_project_page: https://hi.is.mpg.de/research_projects/huggiebot-how-should-robots-hug
 video: https://youtu.be/-xIPeUA3axg
 talk: 
